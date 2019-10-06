@@ -1,0 +1,1 @@
+{"name":"Paralyze","rarity":"Common","type":"Action","subtypes":[],"cost":0,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Shackle an enemy creature.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/paralyze.png","code":"lX"}

@@ -1,0 +1,1 @@
+{"name":"Cauterize","rarity":"Common","type":"Action","subtypes":[],"cost":0,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Deal 2 damage to a Wounded creature.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/cauterize.png","code":"sG"}

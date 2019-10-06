@@ -1,0 +1,1 @@
+{"name":"Dren Bodyguard","rarity":"Common","type":"Creature","subtypes":["Dark Elf"],"cost":5,"power":5,"health":5,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Guard","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/dren_bodyguard.png","code":"eV"}

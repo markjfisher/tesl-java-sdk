@@ -1,0 +1,1 @@
+{"name":"Sunhold Medic","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":1,"power":1,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Give a creature +0/+2.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/sunhold_medic.png","code":"pQ"}

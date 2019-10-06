@@ -1,0 +1,1 @@
+{"name":"Valenwood Huntsman","rarity":"Common","type":"Creature","subtypes":["Wood Elf"],"cost":3,"power":3,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Deal 1 damage.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/valenwood_huntsman.png","code":"rl"}

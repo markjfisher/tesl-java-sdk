@@ -1,0 +1,1 @@
+{"name":"Hive Defender","rarity":"Rare","type":"Creature","subtypes":["Kwama"],"cost":4,"power":3,"health":6,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/hive_defender.png","code":"im"}

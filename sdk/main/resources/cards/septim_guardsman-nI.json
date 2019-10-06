@@ -1,0 +1,1 @@
+{"name":"Septim Guardsman","rarity":"Rare","type":"Creature","subtypes":["Imperial"],"cost":0,"power":1,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/septim_guardsman.png","code":"nI"}
