@@ -30,5 +30,11 @@ class CardCache {
             return cache.values.find { it.code == code }
         }
 
+        @JvmStatic
+        fun all(): List<Card> {
+            if (cache.isEmpty()) load()
+            return cache.values.toList()
+        }
+
     }
 }

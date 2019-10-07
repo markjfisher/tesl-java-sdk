@@ -5,8 +5,13 @@ import org.junit.jupiter.api.Test
 
 class CardCacheTest {
     @Test
-    fun `can load cards into cache`() {
+    fun `can find cards via cache`() {
         val card = CardCache.findByCode("xd")
         assertThat(card?.name).isEqualTo("Prankster Mage")
+    }
+
+    @Test
+    fun `return all cards`() {
+        assertThat(CardCache.all()).hasSize(1213)
     }
 }
