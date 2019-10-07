@@ -79,7 +79,7 @@ open class Decoder(
         val items = mutableListOf<Card>()
         repeat(0.until(count).count()) {
             val code = seq.take(2)
-            val card = CardCache.findByCode(code)
+            val card = ExtractorCardCache.findByCode(code)
             val x = MutableList(of) { card }.mapNotNull { it }
             items.addAll(x)
         }

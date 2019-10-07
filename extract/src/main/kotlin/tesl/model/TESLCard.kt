@@ -3,6 +3,7 @@ package tesl.model
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import tesl.idgenerator.IdGenerator
 import java.io.File
 
 data class TESLCard(
@@ -22,7 +23,7 @@ data class TESLCard(
     val keywords: List<String> = emptyList(),
     val unique: Boolean = true,
     val imageUrl: String = "",
-    // val id: String = "",
+    var id: String = "",
     var code: String = ""
 ) {
 
@@ -32,6 +33,7 @@ data class TESLCard(
 
     fun write(rootPath: String) {
         val sanitizedName = sanitize(name)
+        id = IdGenerator.generateCardUUID("$sanitizedName-$code")
         mapper.writeValue(File("$rootPath/$sanitizedName-$code.json"), this)
     }
 
@@ -120,7 +122,8 @@ data class TESLCard(
             keywords: List<String> = card.keywords,
             unique: Boolean = card.unique,
             imageUrl: String = card.imageUrl,
-            id: String = card.id
+            id: String = card.id,
+            code: String = card.code
         ): Card {
             return Card(
                 name = name,
@@ -139,7 +142,8 @@ data class TESLCard(
                 keywords = keywords,
                 unique = unique,
                 imageUrl = imageUrl,
-                id = id
+                id = id,
+                code = code
             )
         }
     }

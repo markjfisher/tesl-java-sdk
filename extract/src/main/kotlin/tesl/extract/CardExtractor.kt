@@ -1,6 +1,9 @@
 package tesl.extract
 
-import tesl.model.*
+import tesl.model.Card
+import tesl.model.ExtractorCardCache
+import tesl.model.Decoder
+import tesl.model.TESLCard
 
 object CardExtractor {
     private const val rootPath = "/tmp/cards"
@@ -8,7 +11,7 @@ object CardExtractor {
     @JvmStatic
     fun main(args: Array<String>) {
         println("Loading cache")
-        CardCache.load()
+        ExtractorCardCache.load()
 
         println("Copying cards")
         copyExistingCards()
@@ -35,7 +38,6 @@ object CardExtractor {
             keywords = listOf("Ward", "Guard"),
             unique = false,
             imageUrl = "https://www.legends-decks.com/img_cards/prankstermage.png",
-            // id = "mf-xd",
             code = "xd"
         )
         pranksterMage.write(rootPath)

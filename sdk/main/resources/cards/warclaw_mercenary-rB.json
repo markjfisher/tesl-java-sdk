@@ -1,1 +1,0 @@
-{"name":"Warclaw Mercenary","rarity":"Common","type":"Creature","subtypes":["Khajiit"],"cost":2,"power":2,"health":2,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Rally","attributes":["Willpower"],"keywords":["Rally"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/warclaw_mercenary.png","code":"rB"}
