@@ -23,7 +23,4 @@ allprojects {
         maven(url = "https://kotlin.bintray.com/kotlinx")
     }
 
-    group = "net.markjfisher"
-    version = "1.0.0"
-
 }
