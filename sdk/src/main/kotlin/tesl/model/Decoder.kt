@@ -21,14 +21,14 @@ open class Decoder(
         val codeSeq = SeqOfString(code)
         codeSeq.take(2)
 
-        unknowns.addAll(findUnknownCodes(1, codeSeq))
-        unknowns.addAll(findUnknownCodes(2, codeSeq))
-        unknowns.addAll(findUnknownCodes(3, codeSeq))
+        unknowns.addAll(findUnknownCodes(codeSeq)) // of 1
+        unknowns.addAll(findUnknownCodes(codeSeq)) // of 2
+        unknowns.addAll(findUnknownCodes(codeSeq)) // of 3
 
         return Pair(true, unknowns)
     }
 
-    private fun findUnknownCodes(of: Int, seq: SeqOfString): List<String> {
+    private fun findUnknownCodes(seq: SeqOfString): List<String> {
         val count = decodeCountMarker(seq.take(2))
         val items = mutableListOf<String>()
         repeat(0.until(count).count()) {

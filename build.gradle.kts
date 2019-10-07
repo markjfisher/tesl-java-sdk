@@ -10,6 +10,10 @@ tasks {
     }
 }
 
+defaultTasks(
+    ":sdk:clean", ":sdk:build"
+)
+
 allprojects {
     repositories {
         mavenLocal()
