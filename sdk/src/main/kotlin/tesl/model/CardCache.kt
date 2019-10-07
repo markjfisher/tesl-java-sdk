@@ -4,7 +4,8 @@ import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import tesl.resources.resourceFiles
+import io.github.classgraph.ClassGraph
+import io.github.classgraph.Resource
 
 class CardCache {
     companion object {
@@ -17,8 +18,9 @@ class CardCache {
         @JvmStatic
         fun load() {
             cache.clear()
-            resourceFiles("/cards").forEach { json ->
-                val card = mapper.readValue<Card>(json)
+            val result = ClassGraph().whitelistPathsNonRecursive("cards").scan()
+            result.getResourcesWithExtension("json").forEachByteArray { _: Resource, content: ByteArray ->
+                val card = mapper.readValue<Card>(content)
                 cache[card.id] = card
             }
         }

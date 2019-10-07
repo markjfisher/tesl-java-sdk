@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.1"
+version = "1.0.2"
 val teslArchiveBaseName = "tesl-java-sdk"
 
 val sonatypeUsername: String by project
@@ -17,6 +17,7 @@ val sonatypePassword: String by project
 val uuidGeneratorVersion: String by project
 val jacksonVersion: String by project
 val konfigVersion: String by project
+val classgraphVersion: String by project
 
 val kotlinLoggingVersion: String by project
 val logbackClassicVersion: String by project
@@ -38,6 +39,7 @@ dependencies {
     implementation("io.github.microutils:kotlin-logging:$kotlinLoggingVersion")
     implementation("com.fasterxml.uuid:java-uuid-generator:$uuidGeneratorVersion")
     implementation("com.natpryce:konfig:$konfigVersion")
+    implementation("io.github.classgraph:classgraph:$classgraphVersion")
 
     implementation("ch.qos.logback:logback-classic:$logbackClassicVersion")
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
