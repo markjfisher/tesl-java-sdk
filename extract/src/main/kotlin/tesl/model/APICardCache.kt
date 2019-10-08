@@ -1,6 +1,6 @@
 package tesl.model
 
-class ExtractorCardCache {
+class APICardCache {
     companion object {
         private val cache = mutableMapOf<String, Card>()
 

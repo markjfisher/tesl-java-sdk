@@ -14,6 +14,8 @@ val jacksonVersion: String by project
 val unirestJavaVersion: String by project
 val konfigVersion: String by project
 val cacheVersion: String by project
+val jsoupVersion: String by project
+val kranglVersion: String by project
 
 val kotlinLoggingVersion: String by project
 val logbackClassicVersion: String by project
@@ -35,6 +37,11 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:$jacksonVersion")
 
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.apache.httpcomponents:httpclient-cache:$cacheVersion")
+    implementation("com.konghq:unirest-java:$unirestJavaVersion") {
+        exclude(group = "org.apache.httpcomponents", module = "httpclient-cache")
+    }
+    implementation("org.jsoup:jsoup:$jsoupVersion")
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
@@ -45,6 +52,7 @@ dependencies {
         exclude(group = "org.apache.httpcomponents", module = "httpclient-cache")
     }
     implementation("org.apache.httpcomponents:httpclient-cache:$cacheVersion")
+    implementation("de.mpicbg.scicomp:krangl:$kranglVersion")
 
     implementation("ch.qos.logback:logback-classic:$logbackClassicVersion")
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
@@ -58,9 +66,6 @@ dependencies {
 }
 
 tasks {
-//    named<ShadowJar>("shadowJar") {
-//        mergeServiceFiles()
-//    }
 
     named<KotlinCompile>("compileKotlin") {
         kotlinOptions {

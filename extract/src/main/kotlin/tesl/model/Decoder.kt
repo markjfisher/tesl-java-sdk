@@ -1,9 +1,9 @@
 package tesl.model
 
-import org.json.JSONArray
+import kong.unirest.json.JSONArray
 
 open class Decoder(
-    val type: DecoderType,
+    private val type: DecoderType,
     val idMapper: (cardId: String) -> String = { idToCodeMap.getOrDefault(it, "__") }
 ) {
 
@@ -79,7 +79,7 @@ open class Decoder(
         val items = mutableListOf<Card>()
         repeat(0.until(count).count()) {
             val code = seq.take(2)
-            val card = ExtractorCardCache.findByCode(code)
+            val card = APICardCache.findByCode(code)
             val x = MutableList(of) { card }.mapNotNull { it }
             items.addAll(x)
         }

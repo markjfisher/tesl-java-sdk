@@ -1,17 +1,17 @@
 package tesl.extract
 
 import tesl.model.Card
-import tesl.model.ExtractorCardCache
+import tesl.model.APICardCache
 import tesl.model.Decoder
 import tesl.model.TESLCard
 
-object CardExtractor {
+object APICardExtractor {
     private const val rootPath = "/tmp/cards"
 
     @JvmStatic
     fun main(args: Array<String>) {
         println("Loading cache")
-        ExtractorCardCache.load()
+        APICardCache.load()
 
         println("Copying cards")
         copyExistingCards()
