@@ -17,11 +17,10 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Archein Venomtongue,Archein Venomtongue,aM,Normal,Rare
 0_Core,Arenthia Swindler,Arenthia Swindler,aO,Normal,Epic
 0_Core,Arrow in the Knee,Arrow in the Knee,aQ,Normal,Common
-0_Core,Arrow Storm,Arrow Storm_Alt,zN,Exclusive,Rare
+Skyrim,Alduin,Alduin_NewLifeFestival,ap,Exclusive,Legendary
 0_Core,Arrow Storm,Arrow Storm,aR,Normal,Rare
 0_Core,Artaeum Savant,Artaeum Savant,aS,Normal,Epic
 0_Core,Ash Servant,Ash Servant,aX,Normal,Rare
-0_Core,Ash Servant,Ash Servant_Starter,aY,Exclusive,Rare
 0_Core,Assassin's Bow,Assassin's Bow,be,Normal,Rare
 0_Core,Auridon Paladin,Auridon Paladin,bm,Normal,Common
 0_Core,Auroran Sentry,Auroran Sentry,bn,Normal,Legendary
@@ -32,14 +31,12 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Barded Guar,Barded Guar,bA,Normal,Common
 0_Core,Baron of Tear,Baron of Tear,bC,Normal,Rare
 0_Core,Battlerage Orc,Battlerage Orc,bH,Normal,Common
-0_Core,Battlerage Orc,Battlerage Orc_alt,zH,Exclusive,Common
+0_Core,Ash Servant,Ash Servant_Starter,aY,Exclusive,Rare
 0_Core,Belligerent Giant,Belligerent Giant,bK,Normal,Epic
-0_Core,Belligerent Giant,Belligerent Giant_Alt,zE,Exclusive,Epic
 0_Core,Black Marsh Warden,Black Marsh Warden,bP,Normal,Legendary
 0_Core,Black Worm Necromancer,Black Worm Necromancer,bQ,Normal,Rare
 0_Core,Blackmail,Blackmail,bR,Normal,Epic
 0_Core,Blackrose Herbalist,Blackrose Herbalist,bT,Normal,Epic
-0_Core,Blacksap Protector,Blacksap Protector_Starter,bV,Exclusive,Rare
 0_Core,Blacksap Protector,Blacksap Protector,bU,Normal,Rare
 0_Core,Blighted Alit,Blighted Ajit,ca,Normal,Epic
 0_Core,Blood Dragon,Blood Dragon,cc,Normal,Legendary
@@ -50,11 +47,8 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Breton Conjurer,Breton Conjurer,cr,Normal,Epic
 0_Core,Brilliant Experiment,Brilliant Experiment,cs,Normal,Epic
 0_Core,Bruma Armorer,Bruma Armorer,cw,Normal,Rare
-0_Core,Bruma Armorer,Bruma Armorer_Alt,zJ,Exclusive,Rare
-0_Core,Bruma Profiteer,Bruma Profiteer_2.7AltArt,sq,Exclusive,Rare
 0_Core,Bruma Profiteer,Bruma Profiteer,cx,Normal,Rare
 0_Core,Brutal Ashlander,Brutal Ashlander,cy,Normal,Common
-0_Core,Brutal Ashlander,Brutal Ashlander_Alt,zm,Exclusive,Common
 0_Core,Burn and Pillage,Burn and Pillage,cA,Normal,Epic
 0_Core,Calm,Calm,cG,Normal,Common
 0_Core,Camlorn Adventurer,Camlorn Adventurer,cH,Novice,Common
@@ -72,13 +66,11 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Cloudrest Illusionist,Cloudrest Illusionist,dr,Normal,Epic
 0_Core,Covenant Marauder,Covenant Marauder,dD,Normal,Rare
 0_Core,Craglorn Scavenger,Craglorn Scavenger,dF,Normal,Rare
-0_Core,Crown Quartermaster,Crown Quartermaster_Alt,Ag,Exclusive,Common
+0_Core,Blacksap Protector,Blacksap Protector_Starter,bV,Exclusive,Rare
 0_Core,Crown Quartermaster,Crown Quartermaster,dI,Normal,Common
 0_Core,Cruel Firebloom,Cruel Firebloom,dK,Normal,Rare
-0_Core,Crushing Blow,Crushing Blow_MadPrince,dN,Exclusive,Common
 0_Core,Crushing Blow,Crushing Blow,dM,Normal,Common
 0_Core,Crystal Tower Crafter,Crystal Tower Crafter,dO,Normal,Common
-0_Core,Cunning Ally,Cunning Ally_Alt,zS,Exclusive,Common
 0_Core,Cunning Ally,Cunning Ally,dP,Normal,Common
 0_Core,Curse,Curse,dQ,Normal,Rare
 0_Core,Cursed Spectre,Cursed Spectre,dR,Normal,Common
@@ -86,14 +78,12 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Daggerfall Mage,Daggerfall Mage,dV,Normal,Legendary
 0_Core,Dagi-raht Mystic,Dagi-raht Mystic,dX,Normal,Epic
 0_Core,Daring Cutpurse,Daring Cutpurse,eb,Normal,Common
-0_Core,Dark Harvester,Dark Harvester_2.7AltArt,sr,Exclusive,Common
 0_Core,Dark Harvester,Dark Harvester,ee,Normal,Common
 0_Core,Dark Rift,Dark Rift,eg,Normal,Epic
 0_Core,Dawn's Wrath,Dawn's Wrath,ei,Normal,Legendary
 0_Core,Dawnbreaker,Dawnbreaker,ej,Normal,Legendary
 0_Core,Dawnstar Healer,Dawnstar Healer,el,Normal,Epic
 0_Core,Deadly Draugr,Deadly Draugr,em,Normal,Common
-0_Core,Deadly Draugr,Deadly Draugr_Alt,zh,Exclusive,Common
 0_Core,Deathless Draugr,Deathless Draugr,eo,Normal,Common
 0_Core,Descendant of Alkosh,Descendant of Alkosh,er,Normal,Legendary
 0_Core,Deshaan Avenger,Deshaan Avenger,es,Normal,Rare
@@ -103,7 +93,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Disciple of Namira,Disciple of Namira,ey,Normal,Epic
 0_Core,Divayth Fyr,Divayth Fyr,eA,Normal,Legendary
 0_Core,Divine Conviction,Divine Conviction,eC,Novice,Epic
-0_Core,Divine Fervor,Divine Fervor_Alt,yZ,Exclusive,Epic
 0_Core,Divine Fervor,Divine Fervor,eD,Normal,Epic
 0_Core,Dominion Seneschal,Dominion Seneschal,,Normal,Common
 0_Core,Doomcrag Vampire,Doomcrag Vampire,eE,Normal,Legendary
@@ -126,7 +115,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Dwarven Spider,Dwarven Spider,fs,Normal,Common
 0_Core,Earthbone Spinner,Earthbone Spinner,fv,Normal,Epic
 0_Core,Eastmarch Crusader,Eastmarch Crusader,fx,Normal,Rare
-0_Core,Eastmarch Crusader,Eastmarch Crusader_Alt,zI,Exclusive,Rare
 0_Core,Edict of Azura,Edict of Azura,fB,Normal,Epic
 0_Core,Elder Centaur,Elder Centaur,fC,Normal,Epic
 0_Core,Elixir of Conflict,Elixir of Conflict,fE,Normal,Rare
@@ -134,13 +122,12 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Elixir of Light Feet,Elixir of Light Feet,fG,Normal,Rare
 0_Core,Elixir of the Defender,Elixir of the Defender,fH,Normal,Rare
 0_Core,Elixir of Vigor,Elixir of Vigor,fI,Normal,Rare
-0_Core,Elusive Schemer,Elusive Schemer_Alt,zL,Exclusive,Rare
+0_Core,Crushing Blow,Crushing Blow_MadPrince,dN,Exclusive,Common
 0_Core,Elusive Schemer,Elusive Schemer,fL,Normal,Rare
 0_Core,Enchanted Plate,Enchanted Plate,fR,Normal,Common
 0_Core,Enraged Mudcrab,Enraged Mudcrab,fT,Normal,Common
 0_Core,Evermore Steward,Evermore Steward,fU,Normal,Rare
 0_Core,Execute,Execute,fW,Normal,Common
-0_Core,Execute,Execute_Alt,zg,Exclusive,Common
 0_Core,Expert Atromancer,Expert Atromancer,fX,Novice,Legendary
 0_Core,Falinesti Reaver,Falinesti Reaver,fZ,Normal,Epic
 0_Core,Farsight Nereid,Farsight Nereid,gd,Normal,Common
@@ -152,21 +139,17 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Fharun Defender,Fharun Defender,gn,Normal,Common
 0_Core,Fiery Imp,Fiery Imp,go,Normal,Rare
 0_Core,Fifth Legion Trainer,Fifth Legion Trainer,gp,Normal,Rare
-0_Core,Fighters Guild Recruit,Fighters Guild Recruit_AltEventReward,xf,Exclusive,Common
 0_Core,Fighters Guild Recruit,Fighters Guild Recruit,gs,Normal,Common
 0_Core,Finish Off,Finish Off,gu,Normal,Common
-0_Core,Finish Off,Finish Off_Alt,zd,Exclusive,Common
 0_Core,Fire Storm,Fire Storm,gw,Normal,Rare
 0_Core,Fireball,Fireball,gx,Normal,Rare
 0_Core,Firebolt,Firebolt,gy,Normal,Common
-0_Core,Firebolt,Firebolt_Alt,zT,Exclusive,Common
 0_Core,Flesh Atronach,Flesh Atronach,gB,Normal,Epic
 0_Core,Forsworn Guide,Forsworn Guide,gF,Normal,Rare
 0_Core,Fortress Watchman,Fortress Watchman,gI,Normal,Common
 0_Core,Frenzied Witchman,Frenzied Witchman,gJ,Normal,Common
 0_Core,Frostbite Spider,Frostbite Spider,gM,Normal,Rare
 0_Core,General Tullius,General Tullius,gV,Normal,Legendary
-0_Core,Giant Bat,Giant Bat_Alt,zz,Exclusive,Common
 0_Core,Giant Bat,Giant Bat,hb,Normal,Common
 0_Core,Giant Snake,Giant Snake,hd,Normal,Epic
 0_Core,Gladiator Arena,Gladiator Arena,he,Normal,Epic
@@ -174,11 +157,9 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Gloom Wraith,Gloom Wraith,hi,Normal,Rare
 0_Core,Goblin Skulk,Goblin Skulk,hl,Normal,Rare
 0_Core,Goldbrand,Goldbrand,hm,Normal,Legendary
-0_Core,Golden Saint,Golden Saint_FestivalOfMadness,hp,Exclusive,Rare
 0_Core,Golden Saint,Golden Saint,ho,Normal,Rare
 0_Core,Gortwog gro-Nagorm,Gortwog gro-Nagorm,hq,Normal,Legendary
 0_Core,Grahtwood Ambusher,Grahtwood Ambusher,hr,Normal,Epic
-0_Core,Graystone Ravager,Graystone Ravager_Alt,Aa,Exclusive,Common
 0_Core,Graystone Ravager,Graystone Ravager,hw,Normal,Common
 0_Core,Green Pact Stalker,Green Pact Stalker,hz,Normal,Rare
 0_Core,Green-Touched Spriggan,Green-Touched Spriggan,hA,Normal,Epic
@@ -186,10 +167,8 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Grim Champion,Grim Champion,hD,Normal,Epic
 0_Core,Guild Recruit,Guild Recruit,hK,Novice,Common
 0_Core,Haafingar Marauder,Haafingar Marauder,hL,Normal,Legendary
-0_Core,Haafingar Marauder,Haafingar Marauder_Alt,zX,Exclusive,Legendary
 0_Core,Hackwing Feather,Hackwing Feather,hM,Normal,Epic
 0_Core,Halls of the Dwemer,Halls of the Dwemer,hO,Normal,Epic
-0_Core,Haunting Spirit,Haunting Spirit_Alt,zj,Exclusive,Rare
 0_Core,Haunting Spirit,Haunting Spirit,hU,Normal,Rare
 0_Core,Healing Hands,Healing Hands,hV,Normal,Common
 0_Core,Healing Potion,Healing Potion,hW,Normal,Common
@@ -204,7 +183,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Highland Lurcher,Highland Lurcher,ii,Normal,Common
 0_Core,Hist Speaker,Hist Speaker,ik,Normal,Common
 0_Core,Hive Defender,Hive Defender,im,Normal,Rare
-0_Core,Hive Defender,Hive Defender_MadPrince,in,Exclusive,Rare
 0_Core,Hive Warrior,Hive Warrior,io,Normal,Rare
 0_Core,Hive Worker,Hive Worker,ip,Novice,Rare
 0_Core,House Kinsman,House Kinsman,it,Normal,Epic
@@ -212,12 +190,10 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Ice Storm,Ice Storm,iy,Normal,Epic
 0_Core,Ice Wraith,Ice Wraith,iz,Normal,Epic
 0_Core,Iliac Sorceror,Iliac Sorceror,iC,Normal,Epic
-0_Core,Immolating Blast,Immolating Blast_Alt,Ac,Exclusive,Epic
 0_Core,Immolating Blast,Immolating Blast,iF,Normal,Epic
 0_Core,Imperial Armor,Imperial Armor,iG,Normal,Common
 0_Core,Imperial Legionnaire,Imperial Legionnaire,iI,Normal,Common
 0_Core,Imperial Might,Imperial Might,iJ,Normal,Epic
-0_Core,Imperial Reinforcements,Imperial Reinforcements_Alt,zW,Exclusive,Rare
 0_Core,Imperial Reinforcements,Imperial Reinforcements,iK,Normal,Rare
 0_Core,Imperial Siege Engine,Imperial Siege Engine,iL,Normal,Rare
 0_Core,Imprison,Imprison,iN,Normal,Rare
@@ -230,19 +206,15 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Jerall Forager,Jerall Forager,je,Basic,Common
 0_Core,Keeper of Whispers,Keeper of Whispers,jl,Normal,Epic
 0_Core,Kvatch Soldier,Kvatch Soldier,jr,Normal,Common
-0_Core,Leaflurker,Leaflurker_NewLifeFestival,jz,Exclusive,Epic
 0_Core,Leaflurker,Leaflurker,jy,Normal,Epic
 0_Core,Leafwater Blessing,Leafwater Blessing,jA,Normal,Epic
 0_Core,Legion Praefect,Legion Praefect,jC,Normal,Common
 0_Core,Legion Shield,Legion Shield,jD,Normal,Rare
-0_Core,Lesser Ward,Lesser Ward_Alt,zK,Exclusive,Common
 0_Core,Lesser Ward,Lesser Ward,jE,Normal,Common
-0_Core,Lightning Bolt,Lightning Bolt_Gauntlet,jI,Exclusive,Common
 0_Core,Lightning Bolt,Lightning Bolt,jH,Normal,Common
 0_Core,Lillandril Hexmage,Lillandril Hexmage,jJ,Normal,Common
 0_Core,Lion Guard Strategist,Lion Guard Strategist,jK,Normal,Epic
 0_Core,Lowland Troll,Lowland Troll,jO,Normal,Rare
-0_Core,Loyal Housecarl,Loyal Housecarl_Alt,Aj,Exclusive,Epic
 0_Core,Loyal Housecarl,Loyal Housecarl,jP,Normal,Epic
 0_Core,Lucien Lachance,Lucien Lachance,jQ,Normal,Legendary
 0_Core,Lumbering Ogrim,Lumbering Ogrim,jR,Normal,Epic
@@ -253,10 +225,9 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Mages Guild Retreat,Mages Guild Retreat,kd,Normal,Epic
 0_Core,Malefic Wreath,Malefic Wreath,ke,Normal,Rare
 0_Core,Mantikora,Mantikora,kh,Normal,Epic
-0_Core,Maple Shield,Maple Shield_Alt,zZ,Exclusive,Common
+0_Core,Golden Saint,Golden Saint_FestivalOfMadness,hp,Exclusive,Rare
 0_Core,Maple Shield,Maple Shield,ki,Normal,Common
 0_Core,Markarth Bannerman,Markarth Bannerman,kj,Normal,Epic
-0_Core,Master of Arms,Master of Arms_NewLifeFestival,km,Exclusive,Epic
 0_Core,Master of Arms,Master of Arms,kl,Normal,Epic
 0_Core,Master of Thieves,Master of Thieves,kn,Normal,Epic
 0_Core,Mentor's Ring,Mentor's Ring,ku,Normal,Legendary
@@ -268,7 +239,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Moment of Clarity,Moment of Clarity,kF,Normal,Epic
 0_Core,Moonlight Werebat,Moonlight Werebat,kI,Normal,Epic
 0_Core,Morkul Gatekeeper,Morkul Gatekeeper,kN,Normal,Common
-0_Core,Morkul Gatekeeper,Morkul Gatekeeper_Event,kO,Exclusive,Common
 0_Core,Morthal Executioner,Morthal Executioner,kQ,Normal,Rare
 0_Core,Morthal Watchman,Morthal Watchman,kR,Basic,Common
 0_Core,Mountain Tyrant,Mountain Tyrant,kS,Normal,Rare
@@ -280,10 +250,9 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Murkwater Goblin,Murkwater Goblin,lc,Normal,Common
 0_Core,Murkwater Savage,Murkwater Savage,le,Normal,Rare
 0_Core,Murkwater Shaman,Murkwater Shaman,lf,Normal,Epic
-0_Core,Murkwater Shaman,Murkwater Shaman_Alt,zn,Exclusive,Epic
 0_Core,Murkwater Skirmisher,Murkwater Skirmisher,lg,Normal,Epic
 0_Core,Murkwater Witch,Murkwater Witch,lh,Normal,Rare
-0_Core,Murkwater Witch,Murkwater Witch_Alt,zo,Exclusive,Rare
+Skyrim,Grisly Gourmet,Grisly Gourmet_HeartsDay,hG,Exclusive,Rare
 0_Core,Nahagliiv,Nahagliiv,lk,Normal,Legendary
 0_Core,"Nahkriin, Dragon Priest","Nahkriin, Dragon Priest",ll,Normal,Legendary
 0_Core,Necrom Mastermind,Necrom Mastermind,lo,Normal,Legendary
@@ -295,7 +264,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Night Shadow,Night Shadow,lw,Normal,Epic
 0_Core,Night Talon Lord,Night Talon Lord,lx,Normal,Legendary
 0_Core,Nimble Ally,Nimble Ally,lz,Normal,Common
-0_Core,Nord Firebrand,Nord Firebrand_CoreClassic2,su,Exclusive,Common
 0_Core,Nord Firebrand,Nord Firebrand,lD,Normal,Common
 0_Core,Northpoint Captain,Northpoint Captain,lE,Normal,Rare
 0_Core,Northpoint Lieutenant,Northpoint Lieutenant,lF,Novice,Rare
@@ -309,7 +277,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Orcish Warhammer,Orcish Warhammer,lO,Normal,Rare
 0_Core,Pack Wolf,Pack Wolf,lT,Normal,Common
 0_Core,Pahmar-raht Renegade,Pahmar-raht Renegade,lU,Normal,Epic
-0_Core,Piercing Javelin,Piercing Javelin_GrandMelee,mb,Exclusive,Common
 0_Core,Piercing Javelin,Peircing Javelin,lY,Normal,Common
 0_Core,Pillaging Tribune,Pillaging Tribune,md,Normal,Epic
 0_Core,Pit Lion,Pit Lion,me,Normal,Epic
@@ -321,12 +288,12 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Queen Barenziah,Queen Barenziah,mx,Normal,Legendary
 0_Core,Quin'rawl Burglar,Quin'rawl Burglar,mz,Normal,Legendary
 0_Core,Quin'rawl Skulker,Quin-rawl Skulker,mA,Novice,Legendary
-0_Core,Raiding Party,Raiding Party_CoreClassic2,st,Exclusive,Rare
+0_Core,Hive Defender,Hive Defender_MadPrince,in,Exclusive,Rare
 0_Core,Raiding Party,Raiding Party,mC,Normal,Rare
 0_Core,Rajhini Highwayman,Rajhini Highwayman,mD,Normal,Common
 0_Core,Rampaging Minotaur,Rampaging Minotaur,mE,Normal,Rare
 0_Core,Ransack,Ransack,mF,Normal,Rare
-0_Core,Rapid Shot,Rapid Shot_Alt,ze,Exclusive,Common
+Monthlies,Horse Armor,Horse Armor,yV,Exclusive,Legendary
 0_Core,Rapid Shot,Rapid Shot,mG,Normal,Common
 0_Core,Ravenous Crocodile,Ravenous Crocodile,mI,Normal,Common
 0_Core,Ravenous Hunger,Ravenous Hunger,mJ,Normal,Epic
@@ -342,13 +309,11 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Rift Thane,Rift Thane,ne,Normal,Epic
 0_Core,Riften Pillager,Riften Pillager,nh,Normal,Common
 0_Core,Rihad Battlemage,Rihad Battlemage,ni,Normal,Common
-0_Core,Rihad Battlemage,Rihad Battlemage_Alt,zV,Exclusive,Common
 0_Core,Rihad Horseman,Rihad Horseman,nj,Normal,Common
 0_Core,Rihad Nomad,Rihad Nomad,nk,Novice,Common
 0_Core,Rising Legate,Rising Legate,nn,Novice,Legendary
 0_Core,Riverhold Escort,Riverhold Escort,np,Normal,Rare
 0_Core,Rotting Draugr,Rotting Draugr,nq,Novice,Common
-0_Core,Royal Sage,Royal Sage_Alt,zF,Exclusive,Rare
 0_Core,Royal Sage,Royal Sage,nr,Normal,Rare
 0_Core,Sadras Agent,Sadras Agent,nu,Normal,Epic
 0_Core,Savage Ogre,Savage Ogre,nz,Normal,Common
@@ -358,15 +323,14 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Sentinel Battlemace,Sentinel Battlemace,nH,Normal,Epic
 0_Core,Septim Guardsman,Septim Guardsman,nI,Normal,Rare
 0_Core,Shadow Shift,Shadow Shift,nM,Normal,Common
-0_Core,Shadow Shift,Shadow Shift_Alt,zc,Exclusive,Common
-0_Core,Shadowfen Priest,Shadowfen Priest_Alt,za,Exclusive,Epic
+Clockwork_City,Laaneth,Laaneth_CWCTripleBundle,ju,Exclusive,Legendary
+0_Core,Leaflurker,Leaflurker_NewLifeFestival,jz,Exclusive,Epic
 0_Core,Shadowfen Priest,Shadowfen Priest,nN,Normal,Epic
 0_Core,Sharpshooter Scout,Sharpshooter Scout,nV,Normal,Common
-0_Core,Sharpshooter Scout,Sharpshooter Scout_MadPrince,nW,Exclusive,Common
 0_Core,Shimmerene Peddler,Shimmerene Peddler,nZ,Normal,Epic
 0_Core,Shocking Wamasu,Shocking Wamasu,oc,Normal,Common
 0_Core,Shornhelm Champion,Shornhelm Champion,od,Normal,Epic
-0_Core,Shrieking Harpy,Shrieking Harpy_2.7AltArt,ss,Exclusive,Rare
+0_Core,Lightning Bolt,Lightning Bolt_Gauntlet,jI,Exclusive,Common
 0_Core,Shrieking Harpy,Shrieking Harpy,oe,Normal,Rare
 0_Core,Siege Catapult,Siege Catapult,og,Normal,Epic
 0_Core,Silvenar Tracker,Silvenar Tracker,ol,Normal,Rare
@@ -398,7 +362,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Steel Sword,Steel Sword,ps,Normal,Common
 0_Core,Stone Throw,Stone Throw,pw,Normal,Common
 0_Core,Stonetooth Scrapper,Stonetooth Scrpaper,pz,Normal,Common
-0_Core,Stonetooth Scrapper,Stonetooth Scrpaper_Starter,pA,Exclusive,Common
 0_Core,Stormhold Henchman,Stormhold Henchman,pE,Normal,Common
 0_Core,Stronghold Eradicator,Stronghold Eradicator,pG,Normal,Epic
 0_Core,Stronghold Incubator,STronghold Incubator,pH,Normal,Epic
@@ -408,18 +371,16 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Summerset Orrery,Summerset Orrery,pN,Normal,Epic
 0_Core,Summerset Shieldmage,Summerset Shieldmage,pO,Normal,Common
 0_Core,Sunhold Medic,Sunhold Medic,pQ,Normal,Common
-0_Core,Suppress,Suppress_Alt,zf,Exclusive,Rare
 0_Core,Suppress,Suppress,pR,Normal,Rare
 0_Core,Supreme Atromancer,Supreme Atromancer,pS,Normal,Legendary
 0_Core,Swamp Leviathan,Swamp Leviathan,pU,Normal,Common
-0_Core,Swift Strike,Swift Strike_Alt,zl,Exclusive,Rare
+0_Core,Master of Arms,Master of Arms_NewLifeFestival,km,Exclusive,Epic
 0_Core,Swift Strike,Swift Strike,pV,Normal,Rare
 0_Core,Tazkad the Packmaster,Tazkad the Packmaster,qc,Normal,Legendary
 0_Core,Telvanni Arcanist,Telvani Arcanist,qe,Normal,Rare
 0_Core,Tenmar Swiftclaw,Tenmar Swiftclaw,qj,Normal,Epic
 0_Core,Territorial Viper,Territorial Viper,qk,Normal,Rare
 0_Core,Thievery,Thievery,qw,Normal,Common
-0_Core,Thieves Guild Recruit,Thieves Guild Recruit_Alt,zi,Exclusive,Common
 0_Core,Thieves Guild Recruit,Thieves Guild Recruit,qy,Normal,Common
 0_Core,Thieves' Den,Thieves' Den,qA,Normal,Legendary
 0_Core,Thorn Histmage,Thorn Histmage,qB,Normal,Epic
@@ -428,8 +389,7 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Tower Alchemist,Tower Alchemist,qI,Normal,Epic
 0_Core,Trebuchet,Trebuchet,qM,Normal,Epic
 0_Core,Tree Minder,Tree Minder,qN,Normal,Common
-0_Core,Tree Minder,Tree Minder_Alt,zb,Exclusive,Common
-0_Core,Triumphant Jarl,Triumphant Jarl_Alt,zM,Exclusive,Rare
+0_Core,Morkul Gatekeeper,Morkul Gatekeeper_Event,kO,Exclusive,Common
 0_Core,Triumphant Jarl,Triumphant Jarl,qR,Normal,Rare
 0_Core,Tusked Bristleback,Tusked Bristleback,qU,Normal,Common
 0_Core,Twilight Werebat,Twilight Werebat,qV,Novice,Epic
@@ -439,7 +399,6 @@ collection,name,type_name,export_code,card_source,rarity
 0_Core,Valenwood Huntsman,Valenwood Huntsman,rl,Normal,Common
 0_Core,Valenwood Trapper,Valenwood Trapper,rm,Novice,Common
 0_Core,Varanis Courier,Varanis Courier,rn,Normal,Common
-0_Core,Varanis Courier,Varanis Courier_Alt,zQ,Exclusive,Common
 0_Core,Vicious Dreugh,Vicious Dreugh,rp,Normal,Rare
 0_Core,Vigilant Giant,Vigilant Giant,rr,Normal,Legendary
 0_Core,Volendrung,Volendrung,rw,Normal,Legendary
@@ -473,7 +432,6 @@ Alliance_War,Assassin Beetle,Invocation of Fortune,tv,Normal,Rare
 Alliance_War,"Ayrenn, Dominion Queen","Ayrenn, Dominion Queen",sx,Normal,Legendary
 Alliance_War,Ayrenn's Chosen,EmpoweredRecruitment,tb,Normal,Epic
 Alliance_War,Baandari Opportunist,Khajiit Breeder,sA,Normal,Epic
-Alliance_War,Baandari Opportunist,Khajiit Breeder_Alt,zp,Exclusive,Epic
 Alliance_War,Back-Alley Footpad,Empire Thief,ta,Normal,Common
 Alliance_War,Battle of Chalman Keep,Battle of Chalman Keep,sB,Normal,Legendary
 Alliance_War,Bewildering Speed,Clivia's Orders,sJ,Normal,Rare
@@ -554,7 +512,6 @@ Alliance_War,Soulburst,Soulburst,ui,Normal,Legendary
 Alliance_War,Sound the Alarm,Revealing Light,ue,Normal,Common
 Alliance_War,Sparksmith,Sparksmith,uj,Normal,Rare
 Alliance_War,Spiny Haj Mota,Giant Avenger,uk,Normal,Epic
-Alliance_War,Spoils of War,Daring Power_alt,zy,Exclusive,Common
 Alliance_War,Spoils of War,Daring Power,um,Normal,Common
 Alliance_War,Staff of Ice,Mobilize Crossbow,uo,Normal,Rare
 Alliance_War,Steel-Eyed Visionary,Hrothgar Veteran,tp,Normal,Legendary
@@ -603,7 +560,7 @@ Clockwork_City,Hulking Fabricant,Hulking Fabricant,iu,Promotional,Common
 Clockwork_City,Hunter-Killers,Hunter-Killers,iw,Promotional,Epic
 Clockwork_City,Kagouti Fabricant,Kagouti Fabricant,ji,Promotional,Common
 Clockwork_City,Laaneth,Laaneth,jt,Promotional,Legendary
-Clockwork_City,Laaneth,Laaneth_CWCTripleBundle,ju,Exclusive,Legendary
+0_Core,Nord Firebrand,Nord Firebrand_CoreClassic2,su,Exclusive,Common
 Clockwork_City,Mecinar,Mecinar,kq,Promotional,Legendary
 Clockwork_City,Mecinar's Will,Mecinar's Will,kr,Promotional,Rare
 Clockwork_City,Memory Wraith,Memory Wraith,ks,Promotional,Epic
@@ -628,7 +585,6 @@ Clockwork_City,The Mechanical Heart,The Mechanical Heart,qp,Promotional,Legendar
 Clockwork_City,Thornwell Terror,Thornwell Terror,qC,Promotional,Common
 Clockwork_City,Throne Aligned,Throne Aligned,qD,Promotional,Rare
 Clockwork_City,Treasure Map,Treasure Map,qL,Promotional,Rare
-Clockwork_City,Treasure Map,Treasure Map_Alt,Ah,Exclusive,Rare
 Clockwork_City,Trial of Flame,Trial of Flame,qP,Promotional,Rare
 Clockwork_City,Verminous Fabricant,Verminous Fabricant,ro,Promotional,Common
 Clockwork_City,Weakness,Weakness,rG,Promotional,Common
@@ -637,7 +593,7 @@ Crisis,Arenthia Guerrilla,Blackwood Company Dirty Fighter,xk,Normal,Common
 Crisis,Attuned Dremora,KeywordDaedra,yD,Normal,Rare
 Crisis,Bedlam,Daedra Party,xx,Normal,Common
 Crisis,Bitterfish Witch,Cursed Goblin,xI,Normal,Common
-Crisis,Black Soul Gem,Black Soul Gem 2_Alt,Am,Exclusive,Epic
+0_Core,Piercing Javelin,Piercing Javelin_GrandMelee,mb,Exclusive,Common
 Crisis,Black Soul Gem,Black Soul Gem 2,yk,Normal,Epic
 Crisis,Blackwood Alchemist,Blackwood Alchemist,yu,Normal,Common
 Crisis,Blades Defender,Blades Protector,yf,Normal,Common
@@ -718,7 +674,7 @@ Crisis,Xivilai Warlord,Daedra Charger,xv,Normal,Common
 Dark_Brotherhood,Astrid,Astrid,bk,Promotional,Legendary
 Dark_Brotherhood,Blood Pact Messenger,Blood Pact Messenger,ce,Promotional,Rare
 Dark_Brotherhood,Blood Sorceress,Blood Sorceress,cg,Promotional,Epic
-Dark_Brotherhood,Brotherhood Sanctuary,Brotherhood Sanctuary_Alt,zu,Exclusive,Rare
+0_Core,Raiding Party,Raiding Party_CoreClassic2,st,Exclusive,Rare
 Dark_Brotherhood,Brotherhood Sanctuary,Brotherhood Sanctuary,cu,Promotional,Rare
 Dark_Brotherhood,Brotherhood Slayer,Brotherhood Slayer,cv,Promotional,Common
 Dark_Brotherhood,Chanter of Akatosh,Chanter of Akatosh,cU,Promotional,Rare
@@ -726,14 +682,12 @@ Dark_Brotherhood,Cicero the Betrayer,Cicero the Betrayer,dd,Promotional,Legendar
 Dark_Brotherhood,Corsair Ship,Corsair Ship,dB,Promotional,Rare
 Dark_Brotherhood,Daggers in the Dark,Daggers in the Dark,dW,Promotional,Common
 Dark_Brotherhood,Dark Guardian,Dark Guardian,ed,Promotional,Common
-Dark_Brotherhood,Eclipse Baroness,Eclipse Baroness_alt,zU,Exclusive,Epic
 Dark_Brotherhood,Eclipse Baroness,Eclipse Baroness,fA,Promotional,Epic
 Dark_Brotherhood,Falkreath Defiler,Falkreath Defiler,ga,Promotional,Rare
 Dark_Brotherhood,Fell the Mighty,Fell the Mighty,gj,Promotional,Common
 Dark_Brotherhood,Flesh Sculpture,Flesh Sculpture,gC,Promotional,Epic
 Dark_Brotherhood,"Garnag, Dark Adherent","Garnag, Dark Adherent",gR,Promotional,Legendary
 Dark_Brotherhood,Grand Ball,Grand Ball,hs,Promotional,Rare
-Dark_Brotherhood,Gravesinger,Gravesinger_Alt,zY,Exclusive,Epic
 Dark_Brotherhood,Gravesinger,Gravesinger,hv,Promotional,Epic
 Dark_Brotherhood,Gristlehide Dreugh,Gristlehide Dreugh,hH,Promotional,Common
 Dark_Brotherhood,Knife to the Throat,Knife to the Throat,jn,Promotional,Common
@@ -744,7 +698,6 @@ Dark_Brotherhood,Palace Conspirator,Palace Conspirator,lV,Promotional,Common
 Dark_Brotherhood,Penitus Oculatus Agent,Penitus Oculatus Agent,lZ,Promotional,Rare
 Dark_Brotherhood,Protector of the Innocent,Protector of the Innocent,mt,Promotional,Common
 Dark_Brotherhood,Quicksilver Crossbow,Quicksilver Crossbow,my,Promotional,Common
-Dark_Brotherhood,Sanctuary Pet,Sanctuary Pet_Alt,zv,Exclusive,Common
 Dark_Brotherhood,Sanctuary Pet,Sanctuary Pet,nw,Promotional,Common
 Dark_Brotherhood,Sanctuary Raid,Sanctuary Raid,nx,Promotional,Common
 Dark_Brotherhood,Shadowmere,Shadowmere,nR,Promotional,Legendary
@@ -754,11 +707,9 @@ Dark_Brotherhood,Speaker Terenus,Speaker Terenus,oU,Promotional,Legendary
 Dark_Brotherhood,Spear of Embers,Spear of Embers,oV,Promotional,Rare
 Dark_Brotherhood,Stalking Shadowscale,Stalking Shadowscale,ph,Promotional,Common
 Dark_Brotherhood,Stealer of Secrets,Stealer of Secrets,pp,Promotional,Common
-Dark_Brotherhood,The Black Dragon,The Black Dragon_Alt,zq,Exclusive,Legendary
 Dark_Brotherhood,The Black Dragon,The Black Dragon,qn,Promotional,Legendary
 Dark_Brotherhood,The Night Mother,The Night Mother,qq,Promotional,Legendary
 Dark_Brotherhood,Underworld Vigilante,Underworld Vigilante,re,Promotional,Rare
-Dark_Brotherhood,Unstoppable Rage,Unstoppable Rage_Alt,zs,Exclusive,Epic
 Dark_Brotherhood,Unstoppable Rage,Unstoppable Rage,rk,Promotional,Epic
 Dark_Brotherhood,Wrath of Sithis,Wrath of Sithis,sd,Promotional,Rare
 Festival_Of_Madness,Cheesemancer,Cheesemancer,cY,Normal,Epic
@@ -767,7 +718,6 @@ Forgotten_Hero,Bleakcoast Troll,Bleakcoast Troll,bY,Promotional,Rare
 Forgotten_Hero,Cast Into Time,Cast Into Time,cO,Promotional,Rare
 Forgotten_Hero,Cradlecrush Giant,Cradlecrush Giant,dE,Promotional,Rare
 Forgotten_Hero,Doppelganger,Doppelganger,eG,Promotional,Rare
-Forgotten_Hero,Doppelganger,Doppelganger_Alt,Af,Exclusive,Rare
 Forgotten_Hero,"Morokei, the Deathless","Morokei, the Deathless",kP,Promotional,Legendary
 Forgotten_Hero,Namira's Shrine,Namira's Shrine,lm,Promotional,Rare
 Forgotten_Hero,Seht's Masterwork,Seht's Masterwork,nF,Promotional,Legendary
@@ -797,7 +747,6 @@ Isles_Of_Madness,Crucible Blacksmith,Crucible Blacksmith,dJ,Promotional,Common
 Isles_Of_Madness,Cyriel,Cyriel,dS,Promotional,Legendary
 Isles_Of_Madness,Dark Seducer,Dark Seducer,eh,Promotional,Epic
 Isles_Of_Madness,Dawnfang,Dawnfang,ek,Promotional,Legendary
-Isles_Of_Madness,Doomfang Ally,Doomfang Ally_Alt,Ak,Exclusive,Rare
 Isles_Of_Madness,Doomfang Ally,Doomfang Ally,eF,Promotional,Rare
 Isles_Of_Madness,Drive Mad,Drive Mad,fb,Promotional,Common
 Isles_Of_Madness,Eager Torturer,Eager Torturer,fu,Promotional,Common
@@ -833,7 +782,6 @@ Isles_Of_Madness,Seething Flesh Golem,Spiteful Hagraven,pd,Promotional,Epic
 Isles_Of_Madness,Shining Saint,Shining Saint,oa,Promotional,Common
 Isles_Of_Madness,Skinned Hound,Skinned Hound,ov,Promotional,Common
 Isles_Of_Madness,Spawn Mother/Baliwog,Spawn Mother/Baliwog,oT,Promotional,Common
-Isles_Of_Madness,Squish the Wimpy,Squish the Wimpy_Alt,zt,Exclusive,Rare
 Isles_Of_Madness,Squish the Wimpy,Squish the Wimpy,pe,Promotional,Rare
 Isles_Of_Madness,"Syl, Duchess of Dementia",Duchess of Dementia,fc,Promotional,Legendary
 Isles_Of_Madness,"Thadon, Duke of Mania",Duke of Mania,fe,Promotional,Legendary
@@ -854,7 +802,7 @@ Madhouse_Collection,Ring of Imaginary Might,Ring of Imaginary Might,nl,Promotion
 Madhouse_Collection,Shivering Apothecary,Shivering Apothecary,ob,Promotional,Rare
 Madhouse_Collection,Stoneshard Orc,Stoneshard Orc,py,Promotional,Rare
 Madhouse_Collection,Swindler's Market,Swindler's Market,pZ,Promotional,Rare
-Madhouse_Collection,Swindler's Market,Swindler's Market_Alt,An,Exclusive,Rare
+0_Core,Sharpshooter Scout,Sharpshooter Scout_MadPrince,nW,Exclusive,Common
 Monthlies,Altmer Dragonknight,Altmer Dragonknight,ax,Monthly,Epic
 Monthlies,Apprentice Necromancer,Apprentice Necromancer,xb,Monthly,Epic
 Monthlies,Ashlander Punisher,Ashlander Punisher,aZ,Monthly,Epic
@@ -878,6 +826,7 @@ Monthlies,Old Salty's Assault,OldSaltyOnslaught,xe,Monthly,Epic
 Monthlies,Pack Leader,Pack Leader,lS,Monthly,Epic
 Monthlies,Prankster Mage,JSkar,xd,Monthly,Epic
 Monthlies,Prophet of Bones,Prophet of Bones,ms,Monthly,Epic
+0_Core,Shrieking Harpy,Shrieking Harpy_2.7AltArt,ss,Exclusive,Rare
 Monthlies,Protector of the Mane,Protector of the Mane,mu,Monthly,Epic
 Monthlies,Pure-Blood Elder,Pure-Blood Elder,mv,Monthly,Epic
 Monthlies,Renegade Magister,Renegade Spelltwinner,sn,Monthly,Epic
@@ -990,7 +939,6 @@ Morrowind,Mushroom Tower,Mushroom Tower,li,Normal,Epic
 Morrowind,Naryu Virian,Naryu Virian,ln,Normal,Legendary
 Morrowind,Nix-Hound,Nix-Hound,lA,Normal,Common
 Morrowind,Nix-Ox,Nix-Ox,lC,Normal,Common
-Morrowind,Odirniran Necromancer,Odirniran Necromancer_Alt,zG,Exclusive,Legendary
 Morrowind,Odirniran Necromancer,Odirniran Necromancer,lI,Normal,Legendary
 Morrowind,Ornery Kagouti,Ornery Kagouti,lP,Normal,Common
 Morrowind,Orvas' Bargain,Orvas' Bargain,lQ,Normal,Rare
@@ -1000,7 +948,6 @@ Morrowind,Prison Ship,Prison Ship,mq,Normal,Rare
 Morrowind,Quarra Clan Bloodkin,Quarra Clan Bloodkin,mw,Normal,Common
 Morrowind,Redoran Battlespear,Redoran Battlespear,mP,Normal,Rare
 Morrowind,Redoran Forerunner,Redoran Forerunner,mR,Normal,Rare
-Morrowind,Redoran Forerunner,Redoran Forerunner_Alt,Ad,Exclusive,Rare
 Morrowind,Redoran Oathman,Redoran Oathman,mS,Normal,Common
 Morrowind,Rising of Bones,Rising of Bones,no,Normal,Common
 Morrowind,Sarethi Scion,Sarethi Scion,ny,Normal,Common
@@ -1092,7 +1039,7 @@ Sage,Moon Gate,NeuWaxWaneBuildaround,wo,Normal,Common
 Sage,Moonphase Suthay,AgiMoonCommonDrainDraw,wH,Normal,Common
 Sage,Moontouched Guardian,EndMoonRareDagi,wE,Normal,Rare
 Sage,Mulaamnir,MulaamnirBattle,wJ,Normal,Legendary
-Sage,Mulaamnir,Mulaamnir,Ab,Exclusive,Legendary
+0_Core,Stonetooth Scrapper,Stonetooth Scrpaper_Starter,pA,Exclusive,Common
 Sage,Nibenese Mercenary,EndConsumeCom,wg,Normal,Common
 Sage,Pouncing Senche,StrMoonRare,wn,Normal,Rare
 Sage,Prowl Smuggler,StrPilferCom,vB,Normal,Common
@@ -1125,7 +1072,6 @@ Skyrim,A Night to Remember,A Night to Remember,ab,Normal,Rare
 Skyrim,Aela the Huntress,Aela the Huntress,af,Normal,Legendary
 Skyrim,Aela's Huntmate,Aela's Huntmate,ag,Normal,Rare
 Skyrim,Alduin,Alduin,ao,Normal,Legendary
-Skyrim,Alduin,Alduin_NewLifeFestival,ap,Exclusive,Legendary
 Skyrim,Ancano,Ancano,aA,Normal,Legendary
 Skyrim,Ancestor's Battleaxe,Ancestor's Battleaxe,aB,Normal,Epic
 Skyrim,Ancient Lookout,Ancient Lookout,aD,Normal,Common
@@ -1136,7 +1082,6 @@ Skyrim,Assassin's Ritual,Assassin's Ritual,bf,Normal,Rare
 Skyrim,Bandit Ringleader,Bandit Ringleader,bx,Normal,Epic
 Skyrim,Barbas,Barbas,bz,Normal,Legendary
 Skyrim,Barter,Barter,bE,Normal,Epic
-Skyrim,Barter,Barter_Alt,Ai,Exclusive,Epic
 Skyrim,Battlefield Scrounger,Battlefield Scrounger,bF,Normal,Rare
 Skyrim,Battlemage's Onslaught,Battlemage's Onslaught,bG,Normal,Rare
 Skyrim,Berserker of the Pale,Berserker of the Pale,bM,Normal,Common
@@ -1158,9 +1103,8 @@ Skyrim,Companion Harbinger,Companion Harbinger,du,Normal,Rare
 Skyrim,Conjuration Scholar,Conjuration Scholar,dv,Normal,Common
 Skyrim,Corrupted Shade,Corrupted Shade,dA,Normal,Epic
 Skyrim,Court Wizard,Court Wizard,dC,Normal,Common
-Skyrim,Crusader's Assault,Crusader's Assault_Alt,zr,Exclusive,Rare
+Skyrim,Swims-at-Night,Swims-at-Night_CWCMaster,pY,Exclusive,Legendary
 Skyrim,Crusader's Assault,Crusader's Assault,dL,Normal,Rare
-Skyrim,Dark Rebirth,Dark Rebirth_Alt,zR,Exclusive,Common
 Skyrim,Dark Rebirth,Dark Rebirth,ef,Normal,Common
 Skyrim,Deepwood Trapper,Deepwood Trapper,ep,Normal,Epic
 Skyrim,Devour,Devour,ex,Normal,Rare
@@ -1170,7 +1114,6 @@ Skyrim,Dragon Mound,Dragon Mound,eL,Normal,Legendary
 Skyrim,Dragon Priest Mask,Dragon Priest Mask,eM,Normal,Epic
 Skyrim,Dragon's Fury,Dragon's Fury,eN,Normal,Common
 Skyrim,Dragonplate Armor,Dragonplate Armor,eO,Normal,Common
-Skyrim,Drain Vitality,Drain Vitality_Alt,Ae,Exclusive,Common
 Skyrim,Drain Vitality,Drain Vitality,eS,Normal,Common
 Skyrim,Duel Atop the World,Duel Atop the World,fd,Normal,Epic
 Skyrim,Dwarven Dynamo,Dwarven Dynamo,fq,Normal,Rare
@@ -1189,10 +1132,8 @@ Skyrim,Frost Troll,Frost Troll,gL,Normal,Epic
 Skyrim,Ghost Sea Lookout,Ghost Sea Lookout,gZ,Normal,Common
 Skyrim,Glass Helm of Remedy,Glass Helm of Remedy,hg,Normal,Common
 Skyrim,Gloomlurker,Gloomlurker,hj,Normal,Common
-Skyrim,Greybeard Mentor,Greybeard Mentor_Alt,zx,Exclusive,Common
 Skyrim,Greybeard Mentor,Greybeard Mentor,hC,Normal,Common
 Skyrim,Grim Shield-Brother,Grim Shield-Brother,hE,Normal,Common
-Skyrim,Grisly Gourmet,Grisly Gourmet_HeartsDay,hG,Exclusive,Rare
 Skyrim,Grisly Gourmet,Grisly Gourmet,hF,Normal,Rare
 Skyrim,High Hrothgar,High Hrothgar,if,Normal,Legendary
 Skyrim,Hit and Run,Hit and Run,il,Normal,Epic
@@ -1215,13 +1156,11 @@ Skyrim,Lydia,Lydia,jW,Normal,Legendary
 Skyrim,Mage's Trick,Mage's Trick,kb,Normal,Rare
 Skyrim,Master Swordsmith,Master Swordsmith,ko,Normal,Rare
 Skyrim,Mentor of the Watch,Mentor of the Watch,kt,Normal,Common
-Skyrim,Midnight Snack,Midnight Snack_Alt,zO,Exclusive,Common
 Skyrim,Midnight Snack,Midnight Snack,kx,Normal,Common
 Skyrim,Mistveil Enchanter,Mistveil Enchanter,kD,Normal,Common
 Skyrim,Monk's Strike,Monk's Strike,kG,Normal,Rare
 Skyrim,Move in Shadows,Move in Shadows,kW,Normal,Rare
 Skyrim,Mudcrab Anklesnapper,Mudcrab Anklesnapper,kX,Normal,Common
-Skyrim,Mudcrab Anklesnapper,Mudcrab Anklesnapper_Alt,zw,Exclusive,Common
 Skyrim,Mystic Dragon,Mystic Dragon,lj,Normal,Common
 Skyrim,Nightprowler,Nightprowler,ly,Normal,Rare
 Skyrim,Paarthurnax,Paarthurnax,lR,Normal,Legendary
@@ -1232,7 +1171,6 @@ Skyrim,Priest of the Eight,Priest of the Eight,mo,Normal,Common
 Skyrim,Prized Chicken,Prized Chicken,mr,Normal,Epic
 Skyrim,Raging Horker,Raging Horker,mB,Normal,Rare
 Skyrim,Restoration Tutor,Restoration Tutor,na,Normal,Common
-Skyrim,Revealing the Unseen,Revealing the Unseen_Alt,Al,Exclusive,Rare
 Skyrim,Revealing the Unseen,Revealing the Unseen,nb,Normal,Rare
 Skyrim,Revered Guardian,Revered Guardian,nd,Normal,Common
 Skyrim,Riften Pickpocket,Riften Pickpocket,ng,Normal,Rare
@@ -1263,7 +1201,6 @@ Skyrim,Stoutheart Giant,Stoutheart Giant,pF,Normal,Common
 Skyrim,Stronghold Patrol,Stronghold Patrol,pI,Normal,Common
 Skyrim,Studious Greybeard,Studious Greybeard,pL,Normal,Rare
 Skyrim,Swiftwing Dragon,Swiftwing Dragon,pW,Normal,Common
-Skyrim,Swims-at-Night,Swims-at-Night_CWCMaster,pY,Exclusive,Legendary
 Skyrim,Swims-at-Night,Swims-at-Night,pX,Normal,Legendary
 Skyrim,Thalmor Embassy,Thalmor Embassy,ql,Normal,Epic
 Skyrim,Thalmor Justiciar,Thalmor Justiciar,qm,Normal,Common
