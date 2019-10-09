@@ -12,6 +12,6 @@ class CardCacheTest {
 
     @Test
     fun `return all cards`() {
-        assertThat(CardCache.all()).hasSize(1296)
+        assertThat(CardCache.all()).hasSize(1297)
     }
 }

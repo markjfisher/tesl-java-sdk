@@ -17,6 +17,8 @@ To publish to maven
 
     ./gradlew -Plive :sdk:publishMavenJavaPublicationToMavenRepository
 
+    ./gradlew -Dorg.gradle.internal.http.socketTimeout=240000 -Dorg.gradle.internal.http.connectionTimeout=240000 -Plive :sdk:clean :sdk:build :sdk:publishMavenJavaPublicationToMavenRepository
+
 You must have settings as follows on your path (typically ~/.gradle/gradle.properties):
 
     signing.keyId=<GPG SHORT 8 BYTE KEY ID - SEE BELOW>
