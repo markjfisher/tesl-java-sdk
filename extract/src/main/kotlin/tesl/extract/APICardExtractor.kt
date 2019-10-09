@@ -29,7 +29,7 @@ object APICardExtractor {
             cost = 5,
             power = 5,
             health = 3,
-            set = mapOf("name" to "Monthly Rewards", "id" to "mr"),
+            set = TESLCard.CardSet(name= "Monthly Rewards", id = "mr"),
             collectible = true,
             soulSummon = 400,
             soulTrap = 100,

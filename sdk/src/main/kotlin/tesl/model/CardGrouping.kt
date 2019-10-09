@@ -9,7 +9,7 @@ open class CardGrouping(val cards: List<Card>) {
         .map { it.key to it.value.map { p -> p.second }.sortedBy { card -> card.name } }      // List<Pair<count, List<Card (sorted by name)>>
         .toMap()                                               // Map<count, List<Card>>
 
-    // A map of cardId to DeckCard
+    // A map of cardId to CardCount
     private val deckCardMap = cards
         .groupBy { it.id }
         .map { it.value.first().id to CardCount(card = it.value.first(), count = it.value.size) }

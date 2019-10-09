@@ -5,6 +5,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import tesl.idgenerator.IdGenerator
 import java.io.File
+import tesl.model.CardSet as OldCardSet
 
 data class TESLCard(
     val name: String,
@@ -14,7 +15,7 @@ data class TESLCard(
     val cost: Int = -1,
     val power: Int = -1,
     val health: Int = -1,
-    val set: Map<String, String> = emptyMap(),
+    val set: CardSet = CardSet(id = "", name = ""),
     val collectible: Boolean = false,
     val soulSummon: Int = -1,
     val soulTrap: Int = -1,
@@ -37,11 +38,20 @@ data class TESLCard(
         mapper.writeValue(File("$rootPath/$sanitizedName-$code.json"), this)
     }
 
-    private fun sanitize(s: String) = s
-        .replace("/", "_")
-        .replace(" ", "_")
-        .replace("'", "_")
-        .toLowerCase()
+    fun sanitize(s: String): String {
+        var x = s
+            .replace("/", "_")
+            .replace(" ", "_")
+            .replace("'", "_")
+            .replace("?", "")
+            .toLowerCase()
+        var xLen = 0
+        while (x.length != xLen) {
+            xLen = x.length
+            x = x.replace("__", "_")
+        }
+        return x
+    }
 
 
     companion object {
@@ -57,7 +67,7 @@ data class TESLCard(
                 cost = fixedCard.cost,
                 power = fixedCard.power,
                 health = fixedCard.health,
-                set = mapOf("name" to fixedCard.set.name, "id" to fixedCard.set.id),
+                set = CardSet(name = fixedCard.set.name, id = fixedCard.set.id),
                 collectible = fixedCard.collectible,
                 soulSummon = fixedCard.soulSummon.toIntOrNull() ?: -1,
                 soulTrap = fixedCard.soulTrap.toIntOrNull() ?: -1,
@@ -66,14 +76,13 @@ data class TESLCard(
                 keywords = fixedCard.keywords,
                 unique = fixedCard.unique,
                 imageUrl = fixedCard.imageUrl,
-                // id = fixedCard.id,
                 code = fixedCard.code
             )
 
         }
 
         private fun fixCard(card: Card): Card {
-            return when(card.name) {
+            return when (card.name) {
                 "Moon Bishop" -> copyCard(card, subtypes = listOf("Khajiit"))
                 "Seeker of the Black Arts" -> copyCard(card, subtypes = listOf("Khajiit"))
                 "Rebellion General" -> copyCard(card, subtypes = listOf("Khajiit"))
@@ -97,7 +106,10 @@ data class TESLCard(
 
                 "Duskfang" -> copyCard(card, type = "Item")
 
-                "Bedeviling Scamp" -> copyCard(card, imageUrl = "https://www.legends-decks.com/img_cards/bedevilingscamp.png")
+                "Bedeviling Scamp" -> copyCard(
+                    card,
+                    imageUrl = "https://www.legends-decks.com/img_cards/bedevilingscamp.png"
+                )
                 "Draugr Sentry" -> copyCard(card, imageUrl = "https://www.legends-decks.com/img_cards/draugrsentry.png")
 
                 else -> card
@@ -113,7 +125,7 @@ data class TESLCard(
             cost: Int = card.cost,
             power: Int = card.power,
             health: Int = card.health,
-            set: CardSet = card.set,
+            set: OldCardSet = card.set,
             collectible: Boolean = card.collectible,
             soulSummon: String = card.soulSummon,
             soulTrap: String = card.soulTrap,
@@ -148,4 +160,9 @@ data class TESLCard(
         }
     }
 
+    data class CardSet(
+        val name: String = "",
+        val id: String = ""
+    )
 }
+

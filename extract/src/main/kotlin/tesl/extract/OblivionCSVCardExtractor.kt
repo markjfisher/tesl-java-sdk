@@ -181,7 +181,7 @@ class OblivionCSVCardExtractor {
             val magickaCost = data.getOrDefault("Magicka Cost", "UNKNOWN").toIntOrNull() ?: 0
             val attack = data.getOrDefault("Attack", "UNKNOWN").toIntOrNull() ?: 0
             val health = data.getOrDefault("Health", "UNKNOWN").toIntOrNull() ?: 0
-            val set = mapOf("id" to "joo", "name" to "Jaws of Oblivion")
+            val set = TESLCard.CardSet(id = "joo", name = "Jaws of Oblivion")
             val soulSummon = data.getOrDefault("Soul Summon", "UNKNOWN").toIntOrNull() ?: 0
             val soulTrap = data.getOrDefault("Soul Trap", "UNKNOWN").toIntOrNull() ?: 0
             val text = data.getOrDefault("Text", "UNKNOWN")
