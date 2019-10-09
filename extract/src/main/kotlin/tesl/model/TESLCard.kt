@@ -38,23 +38,22 @@ data class TESLCard(
         mapper.writeValue(File("$rootPath/$sanitizedName-$code.json"), this)
     }
 
-    fun sanitize(s: String): String {
-        var x = s
-            .replace("/", "_")
-            .replace(" ", "_")
-            .replace("'", "_")
-            .replace("?", "")
-            .toLowerCase()
-        var xLen = 0
-        while (x.length != xLen) {
-            xLen = x.length
-            x = x.replace("__", "_")
-        }
-        return x
-    }
-
-
     companion object {
+        fun sanitize(s: String): String {
+            var x = s
+                .replace("/", "_")
+                .replace(" ", "_")
+                .replace("'", "_")
+                .replace("?", "")
+                .toLowerCase()
+            var xLen = 0
+            while (x.length != xLen) {
+                xLen = x.length
+                x = x.replace("__", "_")
+            }
+            return x
+        }
+
         @JvmStatic
         fun copy(card: Card): TESLCard {
             val fixedCard = fixCard(card)
