@@ -4,6 +4,7 @@ import tesl.model.Card
 import tesl.model.APICardCache
 import tesl.model.Decoder
 import tesl.model.TESLCard
+import java.io.File
 
 object APICardExtractor {
     private const val rootPath = "/tmp/cards"
@@ -40,7 +41,7 @@ object APICardExtractor {
             imageUrl = "https://www.legends-decks.com/img_cards/prankstermage.png",
             code = "xd"
         )
-        pranksterMage.write(rootPath)
+        pranksterMage.write(File("$rootPath/prankstermage-xd.json"))
     }
 
     private fun copyExistingCards() {
@@ -48,7 +49,8 @@ object APICardExtractor {
         cards.forEach { card ->
             card.code = Decoder.idToCodeMap[card.id] ?: "__"
             val teslCard = TESLCard.copy(card)
-            teslCard.write(rootPath)
+            val name = TESLCard.sanitize(card.name)
+            teslCard.write(File("$rootPath/$name-${card.code}"))
         }
     }
 

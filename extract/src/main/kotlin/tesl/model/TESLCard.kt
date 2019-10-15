@@ -32,10 +32,10 @@ data class TESLCard(
         .registerModule(JavaTimeModule())
         .apply { setSerializationInclusion(JsonInclude.Include.NON_NULL) }
 
-    fun write(rootPath: String) {
+    fun write(file: File) {
         val sanitizedName = sanitize(name)
         id = IdGenerator.generateCardUUID("$sanitizedName-$code")
-        mapper.writeValue(File("$rootPath/$sanitizedName-$code.json"), this)
+        mapper.writeValue(file, this)
     }
 
     companion object {
