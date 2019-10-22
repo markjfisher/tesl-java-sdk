@@ -1,7 +1,8 @@
 package tesl.model
 
 class QueryBuilder : Config() {
-    private val unirestClient = UnirestClient(uriPath = "${config[legendsAPIUri]}/${config[legendsAPIVersion]}")
+    private val unirestClient =
+        UnirestClient(uriPath = "${config[legendsAPIUri]}/${config[legendsAPIVersion]}")
 
     fun <T> find(resource: String, id: String, cls: Class<T>, queryParams: Map<String, String> = emptyMap()): T? {
         return unirestClient.find(resource, id, cls, queryParams)

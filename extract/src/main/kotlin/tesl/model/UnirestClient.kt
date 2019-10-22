@@ -62,12 +62,12 @@ object UnirestInitializer : Config() {
     }
 
     fun init() {
-        if (!::objectMapper.isInitialized) {
+        if (!UnirestInitializer::objectMapper.isInitialized) {
             objectMapper = createObjectMapper()
             Unirest.config().objectMapper = objectMapper
         }
 
-        if (!::configuredClient.isInitialized) {
+        if (!UnirestInitializer::configuredClient.isInitialized) {
             Unirest.config().httpClient(createCachingClient())
             configuredClient = Unirest.config().client
         }

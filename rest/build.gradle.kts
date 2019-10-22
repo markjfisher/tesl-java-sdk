@@ -1,15 +1,28 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    application
     kotlin("jvm")
+    kotlin("kapt")
+    kotlin("plugin.allopen")
+    id("com.github.johnrengelman.shadow")
+    id("io.spring.dependency-management")
     `java-library`
     `maven-publish`
     signing
 }
 
 group = "net.markjfisher"
-version = "1.0.8"
-val teslArchiveBaseName = "tesl-java-sdk"
+version = "1.0.0"
+val teslArchiveBaseName = "tesl-java-rest"
+
+val micronautBoMVersion: String by project
+
+dependencyManagement {
+    imports {
+        mavenBom("io.micronaut:micronaut-bom:$micronautBoMVersion")
+    }
+}
 
 val sonatypeUsername: String by project
 val sonatypePassword: String by project
@@ -32,6 +45,24 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonVersion")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$jacksonVersion")
 
+    implementation("io.micronaut:micronaut-http-client")
+    implementation("io.micronaut:micronaut-discovery-client")
+    implementation("io.micronaut:micronaut-http-server-netty")
+    implementation("io.micronaut.configuration:micronaut-micrometer-core")
+    implementation("io.micronaut.configuration:micronaut-micrometer-registry-prometheus")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("io.micronaut:micronaut-runtime")
+    implementation("io.micronaut:micronaut-management")
+    implementation("io.micronaut:micronaut-security")
+    implementation("io.micronaut.configuration:micronaut-hibernate-validator")
+    implementation("com.fasterxml.uuid:java-uuid-generator:$uuidGeneratorVersion")
+
+    kapt("io.micronaut:micronaut-inject-java")
+    kapt("io.micronaut:micronaut-validation")
+
+    kaptTest("io.micronaut:micronaut-inject-java")
+
     implementation(kotlin("stdlib-jdk8"))
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
@@ -50,6 +81,7 @@ dependencies {
     testImplementation("org.assertj:assertj-core:$assertJVersion")
     testImplementation("io.mockk:mockk:$mockkVersion")
 
+    implementation(project(":sdk"))
 }
 
 tasks {
@@ -113,8 +145,8 @@ publishing {
                 }
             }
             pom {
-                name.set("TESL (Legends) Standalone SDK - Java")
-                description.set("A stand-alone library for working with TESL Cards, Decks and Collections")
+                name.set("TESL (Legends) REST API - Java")
+                description.set("A REST interface to TESL Java SDK and Deck/Collection Decoding")
                 url.set("https://github.com/markjfisher/tesl-java-sdk")
                 licenses {
                     license {
@@ -159,4 +191,12 @@ publishing {
 
 signing {
     sign(publishing.publications["mavenJava"])
+}
+
+application {
+    mainClassName = "tesl.Application"
+}
+
+allOpen {
+    annotation("io.micronaut.aop.Around")
 }

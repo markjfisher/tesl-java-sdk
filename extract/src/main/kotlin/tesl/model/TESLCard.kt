@@ -45,6 +45,7 @@ data class TESLCard(
                 .replace(" ", "_")
                 .replace("'", "_")
                 .replace("?", "")
+                .replace(",", "_")
                 .toLowerCase()
             var xLen = 0
             while (x.length != xLen) {
@@ -89,7 +90,11 @@ data class TESLCard(
                 "Pouncing Senche" -> copyCard(card, subtypes = listOf("Khajiit"))
                 "Queen's Captain" -> copyCard(card, subtypes = listOf("Khajiit"))
 
-                "Gravesinger" -> copyCard(card, subtypes = listOf("Imperial"), keywords = emptyList())
+                "Gravesinger" -> copyCard(
+                    card,
+                    subtypes = listOf("Imperial"),
+                    keywords = emptyList()
+                )
                 "Cauldron Keeper" -> copyCard(card, subtypes = listOf("Imperial"))
 
                 "Brotherhood Assassin" -> copyCard(card, subtypes = listOf("Dark Elf"))
@@ -99,7 +104,12 @@ data class TESLCard(
 
                 "Vigilant of Stendarr" -> copyCard(card, subtypes = listOf("Breton"))
 
-                "Gavel of the Ordinator" -> copyCard(card, rarity = "Rare", soulSummon = "100", soulTrap = "20")
+                "Gavel of the Ordinator" -> copyCard(
+                    card,
+                    rarity = "Rare",
+                    soulSummon = "100",
+                    soulTrap = "20"
+                )
 
                 "Transmogrify" -> copyCard(card, type = "Action")
 
@@ -109,7 +119,10 @@ data class TESLCard(
                     card,
                     imageUrl = "https://www.legends-decks.com/img_cards/bedevilingscamp.png"
                 )
-                "Draugr Sentry" -> copyCard(card, imageUrl = "https://www.legends-decks.com/img_cards/draugrsentry.png")
+                "Draugr Sentry" -> copyCard(
+                    card,
+                    imageUrl = "https://www.legends-decks.com/img_cards/draugrsentry.png"
+                )
 
                 else -> card
             }

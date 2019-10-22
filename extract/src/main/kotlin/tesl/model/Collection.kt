@@ -10,6 +10,7 @@ class Collection(
 
     companion object {
         @JvmStatic
-        fun importCode(code: String) = Collection(Decoder(DecoderType.COLLECTION).createListFromCode(code))
+        fun importCode(code: String) =
+            Collection(Decoder(DecoderType.COLLECTION).createListFromCode(code))
     }
 }

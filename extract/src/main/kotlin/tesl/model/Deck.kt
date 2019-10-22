@@ -10,6 +10,7 @@ class Deck(
 
     companion object {
         @JvmStatic
-        fun importCode(code: String) = Deck(Decoder(DecoderType.DECK).createListFromCode(code))
+        fun importCode(code: String) =
+            Deck(Decoder(DecoderType.DECK).createListFromCode(code))
     }
 }

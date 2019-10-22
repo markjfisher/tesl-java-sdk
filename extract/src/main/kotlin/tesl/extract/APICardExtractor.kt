@@ -30,7 +30,7 @@ object APICardExtractor {
             cost = 5,
             power = 5,
             health = 3,
-            set = TESLCard.CardSet(name= "Monthly Rewards", id = "mr"),
+            set = TESLCard.CardSet(name = "Monthly Rewards", id = "mr"),
             collectible = true,
             soulSummon = 400,
             soulTrap = 100,

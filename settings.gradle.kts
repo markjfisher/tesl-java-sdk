@@ -2,11 +2,13 @@ rootProject.name = "tesl-java-sdk"
 
 include(
     "extract",
-    "sdk"
+    "sdk",
+    "rest"
 )
 
 val kotlinVersion: String by settings
 val kotlinXSerialisationVersion: String by settings
+val springDependencyManagementVersion: String by settings
 val gradleVersionsVersion: String by settings
 val shadowVersion: String by settings
 
@@ -18,6 +20,7 @@ pluginManagement {
                 "com.github.ben-manes.versions" -> useVersion(gradleVersionsVersion)
                 "org.jetbrains.kotlin.kapt" -> useVersion(kotlinVersion)
                 "org.jetbrains.kotlin.plugin.allopen" -> useVersion(kotlinVersion)
+                "io.spring.dependency-management" -> useVersion(springDependencyManagementVersion)
                 "com.github.johnrengelman.shadow" -> useVersion(shadowVersion)
 //                "kotlinx-serialization" -> {
 //                    useModule("org.jetbrains.kotlin:kotlin-serialization:${requested.version}")
