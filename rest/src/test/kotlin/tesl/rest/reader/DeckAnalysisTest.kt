@@ -8,53 +8,81 @@ import tesl.rest.DeckClass
 
 class DeckAnalysisTest {
     private val redDeck = Deck.importCode("SPAEcCiPhypuAEsGdzkawiAElDdDmgmV")
-    private val redDeckAnalysis = DeckAnalysis(redDeck)
+
+    private val aldmeriDominionDeck = Deck.importCode("SPAJxMhfdJgTixwucfdMujADfDkgumAUdIsUxznMswnLoewdpTrCcIvKsyfxlZimjHydnrdh")
+    private val daggerfallCovenantDeck = Deck.importCode("SPBHpRzBakrUdVeffVgOkZnboPxGxgmUnHxtyDodqoqtdddwgBigxLctjgrPuCbdsZeUpSAHjExioMjHoRxTehALxqgyxmybxlrCxpxrcrmcxN")
+    private val ebonheartPactDeck = Deck.importCode("SPAHrgtQbkxhtwddqcAEgkmypVdpAUmGnAbDgshyoEpeqaaNdynwaMbYmnqkoRqBlIrklx")
+    private val empireOfCyrodiilDeck = Deck.importCode("SPAEgToayoeFAKwUcxdfovwVwwwGuqyhbQARxzkknMtsgppTwcfxfDhUlZsmsQimyddhma")
+    private val guildswornDeck = Deck.importCode("SPAEgyhahFkrAKfWtmlZuFgjhSjHyhtlnEARmGcxdftioerCsHdLvKhnoocMimydmalYdE")
+    private val houseDagothDeck = Deck.importCode("SPADwsguaTAGdqsHhlldoogjAUlDdldImGnMlLvBoeotpTrCvKmCnipZcMdBujbFdh")
+    private val houseHlaaluDeck = Deck.importCode("SPANmGrgdSejekajczdXffwWmuyBasABumAUsAerlWbvceebguneaNdLechnuAiqaZhTknlYfAyn")
+    private val houseRedoranDeck = Deck.importCode("SPACgOjgAFfWlqrBdLqTAVysjkakcxyFgplLmRovrQxbxEyiytfBwEeDyzlYlIml")
+    private val houseTelvanniDeck = Deck.importCode("SPAKdKmxrpnNqtgByxeBjtliAEhNnXeeuCATxqnAybgsxlxioeqyxpqfqNkvmcxNsSqBlIrbeh")
+    private val tribunalTempleDeck = Deck.importCode("SPAPjVaJqnbqqouGigfeyHlkaAwboNtDkCAJfWovqhsHdVhFnNkArPAOcxoeoMrCvKuAsmdrfBfPydmalYvD")
+    private val singletonDeck = Deck.importCode("SPCXaJbqwbigutkPnFrPohlacdtDvUlxlkuCqovZgOkCdcwOeibnqpferfrtjWfyhLejuxqnereAkAaAjtuGqtdVkudtijmmaMbNpaiyiFlifBnbkrcUcOaPpewDtqpRkZkboMgDxcfmgTkojXbDlwehmdAAAA")
 
     @Test
-    fun `rarity count test`() {
-        assertThat(redDeckAnalysis.commonCount).isEqualTo(6)
-        assertThat(redDeckAnalysis.rareCount).isEqualTo(6)
-        assertThat(redDeckAnalysis.epicCount).isEqualTo(6)
-        assertThat(redDeckAnalysis.legendaryCount).isEqualTo(6)
+    fun `red deck tests`() {
+        val a = DeckAnalysis(redDeck)
+        assertThat(a.commonCount).isEqualTo(6)
+        assertThat(a.rareCount).isEqualTo(6)
+        assertThat(a.epicCount).isEqualTo(6)
+        assertThat(a.legendaryCount).isEqualTo(6)
+
+        assertThat(a.soulgemCost).isEqualTo(10500)
+        assertThat(a.prophecyCount).isEqualTo(1)
+        assertThat(a.creatureCount).isEqualTo(12)
+        assertThat(a.itemCount).isEqualTo(2)
+        assertThat(a.actionCount).isEqualTo(8)
+        assertThat(a.supportCount).isEqualTo(2)
+        assertThat(a.totalCards).isEqualTo(24)
+        assertThat(a.totalUnique).isEqualTo(12)
+        assertThat(a.className).isEqualTo("Strength")
+        assertThat(a.attributesCount).containsExactlyEntriesOf(mapOf("Strength" to 24))
     }
 
     @Test
-    fun `soulgem count`() {
-        assertThat(redDeckAnalysis.soulgemCost).isEqualTo(10500)
+    fun `aldmeri dominion deck test`() {
+        val a = DeckAnalysis(aldmeriDominionDeck)
+        assertThat(a.commonCount).isEqualTo(36)
+        assertThat(a.rareCount).isEqualTo(39)
+        assertThat(a.epicCount).isEqualTo(0)
+        assertThat(a.legendaryCount).isEqualTo(0)
+
+        assertThat(a.soulgemCost).isEqualTo(5700)
+        assertThat(a.prophecyCount).isEqualTo(6)
+        assertThat(a.creatureCount).isEqualTo(60)
+        assertThat(a.itemCount).isEqualTo(4)
+        assertThat(a.actionCount).isEqualTo(11)
+        assertThat(a.supportCount).isEqualTo(0)
+        assertThat(a.totalCards).isEqualTo(75)
+        assertThat(a.totalUnique).isEqualTo(32)
+        assertThat(a.className).isEqualTo("Aldmeri Dominion")
+        assertThat(a.attributesCount).containsAllEntriesOf(mapOf("Intelligence" to 37, "Willpower" to 16, "Agility" to 27, "Neutral" to 1))
     }
 
     @Test
-    fun `prophecy count`() {
-        assertThat(redDeckAnalysis.prophecyCount).isEqualTo(1)
+    fun `daggerfall covenant deck test`() {
+        val a = DeckAnalysis(daggerfallCovenantDeck)
+        assertThat(a.commonCount).isEqualTo(32)
+        assertThat(a.rareCount).isEqualTo(13)
+        assertThat(a.epicCount).isEqualTo(18)
+        assertThat(a.legendaryCount).isEqualTo(17)
+
+        assertThat(a.soulgemCost).isEqualTo(30500)
+        assertThat(a.prophecyCount).isEqualTo(7)
+        assertThat(a.creatureCount).isEqualTo(52)
+        assertThat(a.itemCount).isEqualTo(1)
+        assertThat(a.actionCount).isEqualTo(26)
+        assertThat(a.supportCount).isEqualTo(1)
+        assertThat(a.totalCards).isEqualTo(80)
+        assertThat(a.totalUnique).isEqualTo(51)
+        assertThat(a.className).isEqualTo("Daggerfall Covenant")
+        assertThat(a.attributesCount).containsAllEntriesOf(mapOf("Intelligence" to 49, "Strength" to 17, "Endurance" to 18, "Neutral" to 6))
     }
 
     @Test
-    fun `creature count`() {
-        assertThat(redDeckAnalysis.creatureCount).isEqualTo(12)
-    }
-
-    @Test
-    fun `item count`() {
-        assertThat(redDeckAnalysis.itemCount).isEqualTo(2)
-    }
-
-    @Test
-    fun `action count`() {
-        assertThat(redDeckAnalysis.actionCount).isEqualTo(8)
-    }
-
-    @Test
-    fun `support count`() {
-        assertThat(redDeckAnalysis.supportCount).isEqualTo(2)
-    }
-
-    @Test
-    fun `class test`() {
-        assertThat(redDeckAnalysis.className).isEqualTo("Strength")
-    }
-
-    @Test
-    fun `deck class tests`() {
+    fun `DeckClass tests`() {
         val cRed = TestCard(name = "red", attributes = listOf("Strength")).createCard()
         val cBlue = TestCard(name = "blue", attributes = listOf("Intelligence")).createCard()
         val cYellow = TestCard(name = "yellow", attributes = listOf("Willpower")).createCard()
@@ -99,7 +127,6 @@ class DeckAnalysisTest {
         // multiple copies
         assertThat(DeckAnalysis(Deck(cards = listOf(cRed, cGreen, cGray, cRed))).deckClass).isEqualTo(DeckClass.ARCHER)
         assertThat(DeckAnalysis(Deck(cards = listOf(cBlue, cRed, cBlue, cGray, cYellow))).deckClass).isEqualTo(DeckClass.GUILDSWORN)
-
     }
 
 }

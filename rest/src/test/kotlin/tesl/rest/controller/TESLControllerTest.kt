@@ -7,8 +7,10 @@ import org.junit.jupiter.api.Test
 import tesl.createDeckInfo
 import tesl.rest.model.DeckInfo
 import tesl.rest.reader.DeckInfoCreator
+import tesl.rest.reader.ImageCreator
 
 class TESLControllerTest {
+    private val imageCreator = mockk<ImageCreator>()
     @Test
     fun `should return a deck info from deck reader`() {
         val reader = mockk<DeckInfoCreator>()
@@ -16,7 +18,7 @@ class TESLControllerTest {
         every { reader.parse("abc") } returns deckInfo
 
         // When
-        val d = TESLController(reader).info("abc").blockingGet()
+        val d = TESLController(reader, imageCreator).info("abc").blockingGet()
 
         // Then
         assertThat(d?.code).isEqualTo("abc")
@@ -28,7 +30,7 @@ class TESLControllerTest {
         every { reader.parse("abc") } returns null
 
         // When
-        val d = TESLController(reader).info("abc").blockingGet()
+        val d = TESLController(reader, imageCreator).info("abc").blockingGet()
 
         // Then
         assertThat(d).isNull()

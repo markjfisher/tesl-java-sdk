@@ -1,10 +1,14 @@
 package tesl.rest.reader
 
 import tesl.model.Card
-import tesl.model.CardCount
 import tesl.model.Deck
 import tesl.rest.ClassAbility
 import tesl.rest.DeckClass
+
+data class CardCount(
+    val count: Int,
+    val card: Card
+)
 
 data class DeckAnalysis(
     private val deck: Deck
@@ -19,14 +23,17 @@ data class DeckAnalysis(
     val itemCount: Int
     val actionCount: Int
     val supportCount: Int
-
+    val totalUnique: Int
+    val totalCards: Int
     val deckClass: DeckClass
     val className: String
+    val attributesCount: Map<String, Int>
+    val manaCurve: Map<Int, Int>
+    val cardCountSorted: List<CardCount>
 
     private val creaturesMap: Map<String, CardCount>
     private val itemsMap: Map<String, CardCount>
     private val actionsMap: Map<String, CardCount>
-
     private val supportsMap: Map<String, CardCount>
 
     init {
@@ -48,6 +55,56 @@ data class DeckAnalysis(
 
         deckClass = calculateDeckClass()
         className = calculateClassName()
+
+        attributesCount = groupAndCount { it.attributes }
+
+        val c1 = deck.of(1).size
+        val c2 = deck.of(2).size
+        val c3 = deck.of(3).size
+
+        totalUnique = c1 + c2 + c3
+        totalCards = c1 + c2 * 2 + c3 * 3
+
+        manaCurve = calculateManaCurve()
+
+        cardCountSorted = createSortedCardCount()
+
+    }
+
+    private fun createSortedCardCount(): List<CardCount> {
+        // Sorts all the cards by cost, then name, and then groups the same card into a count to give List<CardCount>
+        // so that each card is represented only once in the list, but its count is still captured in the ordering
+        return deck.cards
+            .sortedWith(compareBy<Card> { it.cost }.thenBy { it.name })
+            .groupBy { Pair(it.cost, it.name) }
+            .map {
+                CardCount(count = it.value.size, card = it.value.first())
+            }
+
+    }
+
+    private fun calculateManaCurve(): Map<Int, Int> {
+        val costToCountMap = deck.cards
+            .groupBy { it.cost }
+            .toSortedMap()
+            .map { entry ->
+                val cost = entry.key
+                val count = entry.value
+                    .groupBy { card -> card.name }
+                    .map { it.value.size }
+                    .sum()
+                (cost to count)
+            }
+            .toMap()
+
+        return (0..50).fold(mutableMapOf(), { acc, cost ->
+            val x = if (cost < 8) cost else 7
+            val y = costToCountMap[cost] ?: 0
+            val sevenPlus = acc.getOrDefault(7, 0)
+            acc[x] = sevenPlus + y
+            acc
+        })
+
     }
 
     private fun calculateDeckClass(): DeckClass {
@@ -105,4 +162,13 @@ data class DeckAnalysis(
             }
             .toMap()
     }
+
+    private fun groupAndCount(mapper: (card: Card) -> List<String>): Map<String, Int> {
+        return deck.cards
+            .flatMap { mapper(it) }
+            .groupBy { it }
+            .map { (k, v) -> k to v.size }
+            .toMap()
+    }
+
 }
