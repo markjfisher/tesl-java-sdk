@@ -56,7 +56,7 @@ class ImageCreator {
         // deck class
         val deckWidth = 472 // max(deckClassIconsImage.width, deckClassNameImage.width)
         g.drawImage(deckClassNameImage, (deckWidth - deckClassNameImage.width) / 2, 5, null)
-        g.drawImage(deckClassIconsImage, (deckWidth - deckClassIconsImage.width) / 2, deckClassNameImage.height + 10, null)
+        g.drawImage(deckClassIconsImage, (deckWidth - deckClassIconsImage.width) / 2, deckClassNameImage.height + 20, null)
 
         // mana curve
         val manaCurveCentreOffset = (fullWidth - manaCurveImage.width) / 2
@@ -67,7 +67,7 @@ class ImageCreator {
         g.drawImage(classGraphic, classGraphicOffset, 20, null)
 
         // stats
-        g.drawImage(statsImage, 0, deckClassIconsImage.height + deckClassNameImage.height + 50, null)
+        g.drawImage(statsImage, 0, deckClassIconsImage.height + deckClassNameImage.height + 40, null)
 
         // cards
         g.drawImage(cardsImage, 0, manaCurveImage.height + 10, null)

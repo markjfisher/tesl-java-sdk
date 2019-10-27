@@ -1,3 +1,4 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -7,6 +8,7 @@ plugins {
     kotlin("plugin.allopen")
     id("com.github.johnrengelman.shadow")
     id("io.spring.dependency-management")
+    id("com.google.cloud.tools.jib")
     `java-library`
     `maven-publish`
     signing
@@ -127,6 +129,14 @@ tasks {
         }
     }
 
+    named<ShadowJar>("shadowJar") {
+        mergeServiceFiles()
+    }
+
+    named<JavaExec>("run") {
+        jvmArgs(listOf("-noverify", "-XX:TieredStopAtLevel=1"))
+    }
+
 }
 
 publishing {
@@ -199,4 +209,17 @@ application {
 
 allOpen {
     annotation("io.micronaut.aop.Around")
+}
+
+jib {
+    from {
+        image = "registry://adoptopenjdk/openjdk11"
+    }
+    container {
+        jvmFlags = listOf("-Xms512m")
+        mainClass = "tesl.Application"
+        args = listOf("")
+        ports = listOf("8080")
+        creationTime = "USE_CURRENT_TIMESTAMP"
+    }
 }

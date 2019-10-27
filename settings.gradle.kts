@@ -11,6 +11,7 @@ val kotlinXSerialisationVersion: String by settings
 val springDependencyManagementVersion: String by settings
 val gradleVersionsVersion: String by settings
 val shadowVersion: String by settings
+val jibVersion: String by settings
 
 pluginManagement {
     resolutionStrategy {
@@ -22,6 +23,7 @@ pluginManagement {
                 "org.jetbrains.kotlin.plugin.allopen" -> useVersion(kotlinVersion)
                 "io.spring.dependency-management" -> useVersion(springDependencyManagementVersion)
                 "com.github.johnrengelman.shadow" -> useVersion(shadowVersion)
+                "com.google.cloud.tools.jib" -> useVersion(jibVersion)
 //                "kotlinx-serialization" -> {
 //                    useModule("org.jetbrains.kotlin:kotlin-serialization:${requested.version}")
 //                }
