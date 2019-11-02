@@ -15,7 +15,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.1"
+version = "1.0.3"
 val teslArchiveBaseName = "tesl-java-rest"
 
 val micronautBoMVersion: String by project
@@ -216,10 +216,10 @@ jib {
         image = "registry://adoptopenjdk/openjdk11"
     }
     container {
-        jvmFlags = listOf("-Xms64m")
+        jvmFlags = listOf("-Xms400m", "-Xmx400m")
         mainClass = "tesl.Application"
         args = listOf("")
-        ports = listOf("8080")
+        ports = listOf("80")
         creationTime = "USE_CURRENT_TIMESTAMP"
     }
     // GITHUB (works, but can't download images in cloudjiffy)

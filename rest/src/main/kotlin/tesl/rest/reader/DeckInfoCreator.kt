@@ -1,8 +1,11 @@
 package tesl.rest.reader
 
-import tesl.model.*
-import tesl.rest.model.*
+import tesl.model.Deck
+import tesl.model.Decoder
+import tesl.model.DecoderType
+import tesl.rest.model.CardInfo
 import tesl.rest.model.CardInfoCount
+import tesl.rest.model.DeckInfo
 import javax.inject.Singleton
 
 @Singleton
