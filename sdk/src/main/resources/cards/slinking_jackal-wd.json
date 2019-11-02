@@ -1,1 +1,27 @@
-{"name":"Slinking Jackal","rarity":"Common","type":"Creature","subtypes":["Beast"],"cost":2,"power":4,"health":2,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/slinking_jackal.png","id":"7da62e5d-75da-5ddc-a074-a770c65e9688","code":"wd"}
+{
+ "name": "Slinking Jackal",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Beast"
+ ],
+ "cost": 2,
+ "power": 4,
+ "health": 2,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/slinking_jackal.png",
+ "id": "7da62e5d-75da-5ddc-a074-a770c65e9688",
+ "code": "wd"
+}

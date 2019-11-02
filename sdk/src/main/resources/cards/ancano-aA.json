@@ -1,1 +1,29 @@
-{"name":"Ancano","rarity":"Legendary","type":"Creature","subtypes":["High Elf"],"cost":8,"power":5,"health":5,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Breakthrough| Summon: Deal 5 damage. Your actions have Breakthrough.","attributes":["Intelligence"],"keywords":["Breakthrough"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/hos/ancano.png","id":"c2772b28-f0e0-5ff6-8d54-5d0b0ea5bf23","code":"aA"}
+{
+ "name": "Ancano",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 8,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Breakthrough| Summon: Deal 5 damage. Your actions have Breakthrough.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/ancano.png",
+ "id": "c2772b28-f0e0-5ff6-8d54-5d0b0ea5bf23",
+ "code": "aA"
+}

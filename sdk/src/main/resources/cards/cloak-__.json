@@ -1,1 +1,25 @@
-{"name":"Cloak","rarity":"Common","type":"Item","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Isle of Madness","id":"iom"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"+0/+2","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/iom/cloak.png","id":"a2f21fd6-c0a4-5322-b5f0-2b61040f4ce5","code":"__"}
+{
+ "name": "Cloak",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "+0/+2",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/cloak.png",
+ "id": "a2f21fd6-c0a4-5322-b5f0-2b61040f4ce5",
+ "code": "__"
+}

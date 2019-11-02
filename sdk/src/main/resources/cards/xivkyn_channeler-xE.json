@@ -1,0 +1,29 @@
+{
+ "name": "Xivkyn Channeler",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Prophecy. Summon: You gain health equal to Xivkyn Channeler's power plus health.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/dremorachanneler.png",
+ "id": "97d0aa50-6e8c-5c66-96bc-0b5b8b495d63",
+ "code": "xE"
+}

@@ -1,1 +1,27 @@
-{"name":"Hush","rarity":"Rare","type":"Action","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Prophecy. Silence a creature.","attributes":["Endurance"],"keywords":["Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/hush.png","id":"6cc720ad-1285-57c4-90d8-b45200d71be8","code":"tq"}
+{
+ "name": "Hush",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Prophecy. Silence a creature.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/hush.png",
+ "id": "6cc720ad-1285-57c4-90d8-b45200d71be8",
+ "code": "tq"
+}

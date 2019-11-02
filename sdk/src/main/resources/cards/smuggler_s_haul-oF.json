@@ -1,1 +1,25 @@
-{"name":"Smuggler's Haul","rarity":"Epic","type":"Action","subtypes":[],"cost":6,"power":-1,"health":-1,"set":{"name":"Monthly Rewards","id":"mr"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Draw four random 0-cost cards.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mr/smugglers_haul.png","id":"c88817ad-556e-5cc0-a0e1-1ca6969fcda0","code":"oF"}
+{
+ "name": "Smuggler's Haul",
+ "rarity": "Epic",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 6,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Monthly Rewards",
+  "id": "mr"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Draw four random 0-cost cards.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mr/smugglers_haul.png",
+ "id": "c88817ad-556e-5cc0-a0e1-1ca6969fcda0",
+ "code": "oF"
+}

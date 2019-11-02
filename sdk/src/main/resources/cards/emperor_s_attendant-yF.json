@@ -1,1 +1,27 @@
-{"name":"Emperor's Attendant","rarity":"Rare","type":"Creature","subtypes":["Redguard"],"cost":2,"power":1,"health":1,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: Give a creature in your hand power and health equal to Emperor's Attendant's power.","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/emperorsattendant.png","id":"f1325749-f6ea-508b-8ccc-f97935f39b4a","code":"yF"}
+{
+ "name": "Emperor's Attendant",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 2,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: Give a creature in your hand power and health equal to Emperor's Attendant's power.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/emperorsattendant.png",
+ "id": "f1325749-f6ea-508b-8ccc-f97935f39b4a",
+ "code": "yF"
+}

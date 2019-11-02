@@ -1,1 +1,25 @@
-{"name":"Chieftain's Banner","rarity":"Rare","type":"Support","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Friendly Orcs have +0/+2.","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/chieftains_banner.png","id":"2046db3c-2ab3-5280-a2f9-e9c5c91af357","code":"da"}
+{
+ "name": "Chieftain's Banner",
+ "rarity": "Rare",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Friendly Orcs have +0/+2.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/chieftains_banner.png",
+ "id": "2046db3c-2ab3-5280-a2f9-e9c5c91af357",
+ "code": "da"
+}

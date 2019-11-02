@@ -1,1 +1,27 @@
-{"name":"Wandering Skeleton","rarity":"Common","type":"Creature","subtypes":["Skeleton"],"cost":2,"power":2,"health":2,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Last Gasp: Summon a 1/1 Skeleton.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/wandering_skeleton.png","id":"1c5336a1-fb86-5cc4-90fd-5ae1d81e3d11","code":"vJ"}
+{
+ "name": "Wandering Skeleton",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Skeleton"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Last Gasp: Summon a 1/1 Skeleton.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/wandering_skeleton.png",
+ "id": "1c5336a1-fb86-5cc4-90fd-5ae1d81e3d11",
+ "code": "vJ"
+}

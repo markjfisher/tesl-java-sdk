@@ -1,1 +1,27 @@
-{"name":"Battle of Chalman Keep","rarity":"Legendary","type":"Action","subtypes":[],"cost":5,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Each player fills both lanes with 1/1 Recruits. Give all creatures Guard.","attributes":["Neutral"],"keywords":["Guard"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/aw/battle_of_chalman_keep.png","id":"b8168396-940f-5e2c-9e77-ec8fe7664d4e","code":"sB"}
+{
+ "name": "Battle of Chalman Keep",
+ "rarity": "Legendary",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 5,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Each player fills both lanes with 1/1 Recruits. Give all creatures Guard.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/battle_of_chalman_keep.png",
+ "id": "b8168396-940f-5e2c-9e77-ec8fe7664d4e",
+ "code": "sB"
+}

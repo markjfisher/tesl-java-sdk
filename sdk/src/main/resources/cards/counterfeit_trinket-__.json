@@ -1,1 +1,25 @@
-{"name":"Counterfeit Trinket","rarity":"Common","type":"Action","subtypes":[],"cost":0,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Draw a card and Counterfeit Trinket deals 1 damage to you.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/counterfeit_trinket.png","id":"8e0b82e9-71bf-524d-8c12-5da5f7f50e48","code":"__"}
+{
+ "name": "Counterfeit Trinket",
+ "rarity": "Common",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 0,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Draw a card and Counterfeit Trinket deals 1 damage to you.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/counterfeit_trinket.png",
+ "id": "8e0b82e9-71bf-524d-8c12-5da5f7f50e48",
+ "code": "__"
+}

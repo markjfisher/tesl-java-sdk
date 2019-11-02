@@ -1,1 +1,28 @@
-{"name":"Barbas","rarity":"Legendary","type":"Creature","subtypes":["Daedra","Beast"],"cost":5,"power":3,"health":3,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Choose one: -Stay: Gains +1/+1 and Guard. Fetch: Put a random Daedra into your hand. Roll Over: Gains Charge.","attributes":["Neutral"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/hos/barbas.png","id":"749c7d4f-55f4-5392-a677-e0923c6ea688","code":"bz"}
+{
+ "name": "Barbas",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra",
+  "Beast"
+ ],
+ "cost": 5,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Choose one: -Stay: Gains +1/+1 and Guard. Fetch: Put a random Daedra into your hand. Roll Over: Gains Charge.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/barbas.png",
+ "id": "749c7d4f-55f4-5392-a677-e0923c6ea688",
+ "code": "bz"
+}

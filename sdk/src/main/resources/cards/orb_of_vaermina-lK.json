@@ -1,1 +1,25 @@
-{"name":"Orb of Vaermina","rarity":"Legendary","type":"Support","subtypes":[],"cost":6,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Uses: 3. Activate: Put a copy of a random card from your opponent's deck into your hand.","attributes":["Neutral"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/cs/orb_of_vaermina.png","id":"92584638-b829-53a9-9aec-3e61e6ebbdbc","code":"lK"}
+{
+ "name": "Orb of Vaermina",
+ "rarity": "Legendary",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 6,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Uses: 3. Activate: Put a copy of a random card from your opponent's deck into your hand.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/orb_of_vaermina.png",
+ "id": "92584638-b829-53a9-9aec-3e61e6ebbdbc",
+ "code": "lK"
+}

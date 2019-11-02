@@ -1,1 +1,27 @@
-{"name":"Cadwell the Betrayer","rarity":"Legendary","type":"Creature","subtypes":["Imperial"],"cost":4,"power":3,"health":5,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Cadwell the Betrayer can attack you.","attributes":["Neutral"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/moe/cadwell_the_betrayer.png","id":"9b6da7f6-c9ce-5860-af1c-ab2d672bc095","code":"__"}
+{
+ "name": "Cadwell the Betrayer",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 5,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Cadwell the Betrayer can attack you.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/cadwell_the_betrayer.png",
+ "id": "9b6da7f6-c9ce-5860-af1c-ab2d672bc095",
+ "code": "__"
+}

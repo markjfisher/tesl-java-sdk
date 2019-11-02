@@ -1,1 +1,29 @@
-{"name":"Kvatch Soldier","rarity":"Common","type":"Creature","subtypes":["Imperial"],"cost":2,"power":2,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Guard","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/kvatch_soldier.png","id":"1e03ae3a-2283-5526-8800-9d44fd01938d","code":"jr"}
+{
+ "name": "Kvatch Soldier",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Guard",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/kvatch_soldier.png",
+ "id": "1e03ae3a-2283-5526-8800-9d44fd01938d",
+ "code": "jr"
+}

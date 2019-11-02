@@ -1,1 +1,27 @@
-{"name":"Mehrunes Dagon's Flayer","rarity":"Rare","type":"Creature","subtypes":["Daedra"],"cost":3,"power":2,"health":5,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"At the start of your turn, deal 1 damage to another friendly creature and give it +2/+0.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/mehrunesdagonsflayer.png","id":"5219406c-0569-5a61-a71b-85057ed4f48e","code":"xZ"}
+{
+ "name": "Mehrunes Dagon's Flayer",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 5,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "At the start of your turn, deal 1 damage to another friendly creature and give it +2/+0.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/mehrunesdagonsflayer.png",
+ "id": "5219406c-0569-5a61-a71b-85057ed4f48e",
+ "code": "xZ"
+}

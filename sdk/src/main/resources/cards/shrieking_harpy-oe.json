@@ -1,1 +1,29 @@
-{"name":"Shrieking Harpy","rarity":"Rare","type":"Creature","subtypes":["Harpy"],"cost":2,"power":2,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Prophecy. Summon: Shackle an enemy creature.","attributes":["Intelligence"],"keywords":["Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/shrieking_harpy.png","id":"e4725a9a-b450-595c-97d7-4763268363f8","code":"oe"}
+{
+ "name": "Shrieking Harpy",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Harpy"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Prophecy. Summon: Shackle an enemy creature.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/shrieking_harpy.png",
+ "id": "e4725a9a-b450-595c-97d7-4763268363f8",
+ "code": "oe"
+}

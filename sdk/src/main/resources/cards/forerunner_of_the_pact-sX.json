@@ -1,1 +1,31 @@
-{"name":"Forerunner of the Pact","rarity":"Rare","type":"Creature","subtypes":["Dark Elf"],"cost":3,"power":4,"health":3,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Veteran: Draw a Forerunner of the Pact from your deck.","attributes":["Strength","Agility","Endurance"],"keywords":["Veteran"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/forerunner_of_the_pact.png","id":"90309dfc-7c6c-5c1e-afe4-f34b5e3a0054","code":"sX"}
+{
+ "name": "Forerunner of the Pact",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 3,
+ "power": 4,
+ "health": 3,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Veteran: Draw a Forerunner of the Pact from your deck.",
+ "attributes": [
+  "Strength",
+  "Agility",
+  "Endurance"
+ ],
+ "keywords": [
+  "Veteran"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/forerunner_of_the_pact.png",
+ "id": "90309dfc-7c6c-5c1e-afe4-f34b5e3a0054",
+ "code": "sX"
+}

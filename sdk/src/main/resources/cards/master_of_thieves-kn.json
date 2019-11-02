@@ -1,1 +1,30 @@
-{"name":"Master of Thieves","rarity":"Epic","type":"Creature","subtypes":["Khajiit"],"cost":4,"power":3,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Friendly creatures with Pilfer can attack an additional time each turn.","attributes":["Willpower","Agility"],"keywords":["Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/master_of_thieves.png","id":"1b365f7c-74df-57e6-a93a-5938faa712dd","code":"kn"}
+{
+ "name": "Master of Thieves",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Friendly creatures with Pilfer can attack an additional time each turn.",
+ "attributes": [
+  "Willpower",
+  "Agility"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/master_of_thieves.png",
+ "id": "1b365f7c-74df-57e6-a93a-5938faa712dd",
+ "code": "kn"
+}

@@ -1,1 +1,29 @@
-{"name":"Descendant of Alkosh","rarity":"Legendary","type":"Creature","subtypes":["Khajiit"],"cost":1,"power":1,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Pilfer: Descendant of Alkosh gains +1/+1 and a random keyword.","attributes":["Willpower"],"keywords":["Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/descendant_of_alkosh.png","id":"8940d01e-c463-554a-b33c-97487d16749d","code":"er"}
+{
+ "name": "Descendant of Alkosh",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Pilfer: Descendant of Alkosh gains +1/+1 and a random keyword.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/descendant_of_alkosh.png",
+ "id": "8940d01e-c463-554a-b33c-97487d16749d",
+ "code": "er"
+}

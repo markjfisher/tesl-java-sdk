@@ -1,1 +1,25 @@
-{"name":"Steel Scimitar","rarity":"Common","type":"Item","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"+2/+2","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/steel_scimitar.png","id":"5d45641b-146e-5cbb-b9f1-ea2796226ae2","code":"pr"}
+{
+ "name": "Steel Scimitar",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "+2/+2",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/steel_scimitar.png",
+ "id": "5d45641b-146e-5cbb-b9f1-ea2796226ae2",
+ "code": "pr"
+}

@@ -1,1 +1,29 @@
-{"name":"Modryn Oreyn","rarity":"Legendary","type":"Creature","subtypes":["Dark Elf"],"cost":4,"power":4,"health":4,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Breakthrough. Summon: Your opponent summons a Blackwood Hoodlum in each lane.","attributes":["Strength"],"keywords":["Breakthrough"],"unique":true,"imageUrl":"https://www.legends-decks.com/img_cards/modrynoreyn.png","id":"495e428b-731e-501c-9ab5-877fe95d5410","code":"yc"}
+{
+ "name": "Modryn Oreyn",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Breakthrough. Summon: Your opponent summons a Blackwood Hoodlum in each lane.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": true,
+ "imageUrl": "https://www.legends-decks.com/img_cards/modrynoreyn.png",
+ "id": "495e428b-731e-501c-9ab5-877fe95d5410",
+ "code": "yc"
+}

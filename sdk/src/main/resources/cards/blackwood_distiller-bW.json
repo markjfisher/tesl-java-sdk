@@ -1,1 +1,31 @@
-{"name":"Blackwood Distiller","rarity":"Epic","type":"Creature","subtypes":["Argonian"],"cost":4,"power":3,"health":4,"set":{"name":"Monthly Rewards","id":"mr"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Pilfer: Gain 3 magicka this turn. Slay: Gain +1 max magicka.","attributes":["Agility","Endurance"],"keywords":["Pilfer","Slay"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mr/blackwood_distiller.png","id":"ed7bd544-93f5-578a-9264-d319345f59ff","code":"bW"}
+{
+ "name": "Blackwood Distiller",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Argonian"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 4,
+ "set": {
+  "name": "Monthly Rewards",
+  "id": "mr"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Pilfer: Gain 3 magicka this turn. Slay: Gain +1 max magicka.",
+ "attributes": [
+  "Agility",
+  "Endurance"
+ ],
+ "keywords": [
+  "Pilfer",
+  "Slay"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mr/blackwood_distiller.png",
+ "id": "ed7bd544-93f5-578a-9264-d319345f59ff",
+ "code": "bW"
+}

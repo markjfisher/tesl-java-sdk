@@ -1,1 +1,30 @@
-{"name":"Skinned Hound","rarity":"Common","type":"Creature","subtypes":["Skeleton","Beast"],"cost":2,"power":2,"health":1,"set":{"name":"Isle of Madness","id":"iom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Give a creature +0/+2 and Guard.","attributes":["Endurance"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/iom/skinned_hound.png","id":"931a43db-1926-5e1d-bbc4-17df0246e6a4","code":"ov"}
+{
+ "name": "Skinned Hound",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Skeleton",
+  "Beast"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Give a creature +0/+2 and Guard.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/skinned_hound.png",
+ "id": "931a43db-1926-5e1d-bbc4-17df0246e6a4",
+ "code": "ov"
+}

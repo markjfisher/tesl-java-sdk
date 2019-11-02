@@ -1,1 +1,25 @@
-{"name":"Immolating Blast","rarity":"Epic","type":"Action","subtypes":[],"cost":6,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Randomly destroy all but one creature on both sides of each lane.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/immolating_blast.png","id":"743811a3-d64d-5958-9289-a3a071e2c048","code":"iF"}
+{
+ "name": "Immolating Blast",
+ "rarity": "Epic",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 6,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Randomly destroy all but one creature on both sides of each lane.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/immolating_blast.png",
+ "id": "743811a3-d64d-5958-9289-a3a071e2c048",
+ "code": "iF"
+}

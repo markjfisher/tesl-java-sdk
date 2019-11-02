@@ -1,1 +1,29 @@
-{"name":"Blind Moth Priest","rarity":"Epic","type":"Creature","subtypes":["Imperial"],"cost":2,"power":2,"health":3,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"On your turn, Blind Moth Priest glows while your opponent has a Prophecy on top of their deck.","attributes":["Willpower"],"keywords":["Prophecy"],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/blindmothpriest.png","id":"c04db4cc-b7cc-513c-a97b-0f1c0e072880","code":"xU"}
+{
+ "name": "Blind Moth Priest",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "On your turn, Blind Moth Priest glows while your opponent has a Prophecy on top of their deck.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/blindmothpriest.png",
+ "id": "c04db4cc-b7cc-513c-a97b-0f1c0e072880",
+ "code": "xU"
+}

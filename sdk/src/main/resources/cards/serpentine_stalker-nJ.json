@@ -1,1 +1,29 @@
-{"name":"Serpentine Stalker","rarity":"Legendary","type":"Creature","subtypes":["Dragon"],"cost":4,"power":4,"health":4,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Slay: +2/+0. May move to attack creatures in the other lane.","attributes":["Agility"],"keywords":["Slay"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/serpentine_stalker.png","id":"63bb3933-de57-50f3-bd8d-5f72704800d3","code":"nJ"}
+{
+ "name": "Serpentine Stalker",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dragon"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Slay: +2/+0. May move to attack creatures in the other lane.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Slay"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/serpentine_stalker.png",
+ "id": "63bb3933-de57-50f3-bd8d-5f72704800d3",
+ "code": "nJ"
+}

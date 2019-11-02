@@ -1,1 +1,27 @@
-{"name":"Royal Sage","rarity":"Rare","type":"Creature","subtypes":["High Elf"],"cost":4,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: If you have more health than your opponent, give all friendly creatures a random keyword.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/royal_sage.png","id":"8d6de803-8937-55ef-a313-0e6ba12310b9","code":"nr"}
+{
+ "name": "Royal Sage",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: If you have more health than your opponent, give all friendly creatures a random keyword.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/royal_sage.png",
+ "id": "8d6de803-8937-55ef-a313-0e6ba12310b9",
+ "code": "nr"
+}

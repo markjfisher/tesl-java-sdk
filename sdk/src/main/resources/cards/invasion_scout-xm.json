@@ -1,1 +1,29 @@
-{"name":"Invasion Scout","rarity":"Common","type":"Creature","subtypes":["Daedra"],"cost":1,"power":1,"health":1,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Invade.","attributes":["Strength"],"keywords":["Invade"],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/invasionscout.png","id":"49ef3307-e9ab-5e14-9098-839632bfaa08","code":"xm"}
+{
+ "name": "Invasion Scout",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Invade.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Invade"
+ ],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/invasionscout.png",
+ "id": "49ef3307-e9ab-5e14-9098-839632bfaa08",
+ "code": "xm"
+}

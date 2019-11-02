@@ -1,1 +1,25 @@
-{"name":"Imperial Might","rarity":"Epic","type":"Support","subtypes":[],"cost":5,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"At the end of your turn, summon a 1/1 Imperial Grunt in a random lane.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/imperial_might.png","id":"a031eae8-b6ad-5985-9fae-61c3bf164e12","code":"iJ"}
+{
+ "name": "Imperial Might",
+ "rarity": "Epic",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 5,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "At the end of your turn, summon a 1/1 Imperial Grunt in a random lane.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/imperial_might.png",
+ "id": "a031eae8-b6ad-5985-9fae-61c3bf164e12",
+ "code": "iJ"
+}

@@ -1,1 +1,25 @@
-{"name":"Divine Conviction","rarity":"Epic","type":"Support","subtypes":[],"cost":4,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Friendly creatures have +0/+1.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/divine_conviction.png","id":"24f11067-724f-5d45-bf3c-cd91b5fe7118","code":"eC"}
+{
+ "name": "Divine Conviction",
+ "rarity": "Epic",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 4,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Friendly creatures have +0/+1.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/divine_conviction.png",
+ "id": "24f11067-724f-5d45-bf3c-cd91b5fe7118",
+ "code": "eC"
+}

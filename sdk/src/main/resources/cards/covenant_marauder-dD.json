@@ -1,1 +1,27 @@
-{"name":"Covenant Marauder","rarity":"Rare","type":"Creature","subtypes":["Orc"],"cost":1,"power":2,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"+2/+0 while you have no cards in hand.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/covenant_marauder.png","id":"d0ea778f-9af6-5f98-b877-9b3bcd880c31","code":"dD"}
+{
+ "name": "Covenant Marauder",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Orc"
+ ],
+ "cost": 1,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "+2/+0 while you have no cards in hand.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/covenant_marauder.png",
+ "id": "d0ea778f-9af6-5f98-b877-9b3bcd880c31",
+ "code": "dD"
+}

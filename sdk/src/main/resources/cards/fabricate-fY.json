@@ -1,1 +1,25 @@
-{"name":"Fabricate","rarity":"Rare","type":"Action","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Build a custom creature and put it into your hand.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/rcc/fabricate.png","id":"76d0fdb2-e037-5ad4-8cbb-828371e7e691","code":"fY"}
+{
+ "name": "Fabricate",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Build a custom creature and put it into your hand.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/fabricate.png",
+ "id": "76d0fdb2-e037-5ad4-8cbb-828371e7e691",
+ "code": "fY"
+}

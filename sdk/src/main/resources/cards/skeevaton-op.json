@@ -1,1 +1,27 @@
-{"name":"Skeevaton","rarity":"Rare","type":"Creature","subtypes":["Skeever"],"cost":3,"power":2,"health":2,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: +1/+1 for each other Skeever you've summoned this game.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/rcc/skeevaton.png","id":"1bd6143b-3f4a-596e-966e-558ea7b9b80c","code":"op"}
+{
+ "name": "Skeevaton",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Skeever"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: +1/+1 for each other Skeever you've summoned this game.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/skeevaton.png",
+ "id": "1bd6143b-3f4a-596e-966e-558ea7b9b80c",
+ "code": "op"
+}

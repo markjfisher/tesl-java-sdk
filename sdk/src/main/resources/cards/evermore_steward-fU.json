@@ -1,1 +1,30 @@
-{"name":"Evermore Steward","rarity":"Rare","type":"Creature","subtypes":["Breton"],"cost":2,"power":1,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard, Ward","attributes":["Intelligence"],"keywords":["Guard","Ward"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/evermore_steward.png","id":"5e14d64d-a970-5db2-a2d6-7165cfa78110","code":"fU"}
+{
+ "name": "Evermore Steward",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 2,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Guard, Ward",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Guard",
+  "Ward"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/evermore_steward.png",
+ "id": "5e14d64d-a970-5db2-a2d6-7165cfa78110",
+ "code": "fU"
+}

@@ -1,1 +1,30 @@
-{"name":"Oldgate Warden","rarity":"Common","type":"Creature","subtypes":["Breton"],"cost":2,"power":0,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Guard, Regenerate","attributes":["Endurance"],"keywords":["Guard","Regenerate"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/oldgate_warden.png","id":"19265633-a636-59ec-acc7-b6e9bef03fad","code":"lJ"}
+{
+ "name": "Oldgate Warden",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 2,
+ "power": 0,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Guard, Regenerate",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Guard",
+  "Regenerate"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/oldgate_warden.png",
+ "id": "19265633-a636-59ec-acc7-b6e9bef03fad",
+ "code": "lJ"
+}

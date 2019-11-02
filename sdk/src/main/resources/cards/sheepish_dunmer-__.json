@@ -1,1 +1,27 @@
-{"name":"Sheepish Dunmer","rarity":"Common","type":"Creature","subtypes":["Dark Elf"],"cost":0,"power":0,"health":1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Summon: Give Sheepish Dunmer Cover. While Sheepish Dunmer is pantsless, he does not lose Cover at the start of your turn.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/sheepish_dunmer.png","id":"b6709f90-2335-5690-bf59-c84e1db1b68b","code":"__"}
+{
+ "name": "Sheepish Dunmer",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 0,
+ "power": 0,
+ "health": 1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Summon: Give Sheepish Dunmer Cover. While Sheepish Dunmer is pantsless, he does not lose Cover at the start of your turn.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/sheepish_dunmer.png",
+ "id": "b6709f90-2335-5690-bf59-c84e1db1b68b",
+ "code": "__"
+}

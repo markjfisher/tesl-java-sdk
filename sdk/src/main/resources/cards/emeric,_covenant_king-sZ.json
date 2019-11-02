@@ -1,1 +1,31 @@
-{"name":"Emeric, Covenant King","rarity":"Legendary","type":"Creature","subtypes":["Breton"],"cost":9,"power":7,"health":7,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"At the end of your turn, Emeric gains a Ward. Summon: Battle an enemy creature.","attributes":["Strength","Intelligence","Endurance"],"keywords":["Ward"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/aw/emeric_covenant_king.png","id":"9d21ad32-fc53-5e6c-a7ef-b04eeb80cda0","code":"sZ"}
+{
+ "name": "Emeric, Covenant King",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 9,
+ "power": 7,
+ "health": 7,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "At the end of your turn, Emeric gains a Ward. Summon: Battle an enemy creature.",
+ "attributes": [
+  "Strength",
+  "Intelligence",
+  "Endurance"
+ ],
+ "keywords": [
+  "Ward"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/emeric_covenant_king.png",
+ "id": "9d21ad32-fc53-5e6c-a7ef-b04eeb80cda0",
+ "code": "sZ"
+}

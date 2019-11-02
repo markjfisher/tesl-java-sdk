@@ -1,1 +1,27 @@
-{"name":"The Gray Fox","rarity":"Legendary","type":"Creature","subtypes":[],"cost":5,"power":4,"health":4,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Draw a card from your opponent's discard pile. Pilfer: Reveal a random unrevealed card from your opponent's hand.","attributes":["Agility"],"keywords":["Pilfer"],"unique":true,"imageUrl":"https://www.legends-decks.com/img_cards/thegrayfox.png","id":"dbe289a6-73a1-5fc5-8d56-4e9b0c65d03e","code":"yB"}
+{
+ "name": "The Gray Fox",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [],
+ "cost": 5,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Draw a card from your opponent's discard pile. Pilfer: Reveal a random unrevealed card from your opponent's hand.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": true,
+ "imageUrl": "https://www.legends-decks.com/img_cards/thegrayfox.png",
+ "id": "dbe289a6-73a1-5fc5-8d56-4e9b0c65d03e",
+ "code": "yB"
+}

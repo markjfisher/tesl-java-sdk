@@ -1,1 +1,27 @@
-{"name":"Giant Snake","rarity":"Epic","type":"Creature","subtypes":["Reptile"],"cost":5,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon: Shackle all enemy creatures in this lane.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/giant_snake.png","id":"b7249f1e-bcf4-5bd7-9ade-0063926f08c2","code":"hd"}
+{
+ "name": "Giant Snake",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Reptile"
+ ],
+ "cost": 5,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon: Shackle all enemy creatures in this lane.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/giant_snake.png",
+ "id": "b7249f1e-bcf4-5bd7-9ade-0063926f08c2",
+ "code": "hd"
+}

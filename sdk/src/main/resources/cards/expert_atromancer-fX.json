@@ -1,1 +1,29 @@
-{"name":"Expert Atromancer","rarity":"Legendary","type":"Creature","subtypes":["Breton"],"cost":10,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Summon a 5/3 Flame Atronach with Breakthrough in each lane.","attributes":["Intelligence"],"keywords":["Breakthrough"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/expert_atromancer.png","id":"bc1694b9-1e34-5583-95f1-53135fabcf41","code":"fX"}
+{
+ "name": "Expert Atromancer",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 10,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Summon a 5/3 Flame Atronach with Breakthrough in each lane.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/expert_atromancer.png",
+ "id": "bc1694b9-1e34-5583-95f1-53135fabcf41",
+ "code": "fX"
+}

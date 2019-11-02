@@ -1,1 +1,29 @@
-{"name":"Night Patrol","rarity":"Epic","type":"Creature","subtypes":["Breton"],"cost":6,"power":5,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Breakthrough","attributes":["Endurance"],"keywords":["Breakthrough"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/night_patrol.png","id":"945cbbb8-f527-512e-a9cc-f11edf60b161","code":"lu"}
+{
+ "name": "Night Patrol",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 6,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Breakthrough",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/night_patrol.png",
+ "id": "945cbbb8-f527-512e-a9cc-f11edf60b161",
+ "code": "lu"
+}

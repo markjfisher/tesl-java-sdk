@@ -16,7 +16,7 @@ class Application {
 
     @EventListener
     fun onStartup(e: ServerStartupEvent) {
-        logger.info { "starting collator service for url: ${e.source.url}" }
+        logger.info { "starting TESL RESR service for url: ${e.source.url}" }
     }
 
 }

@@ -1,1 +1,30 @@
-{"name":"Vigilant Giant","rarity":"Legendary","type":"Creature","subtypes":["Giant"],"cost":8,"power":8,"health":8,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Breakthrough, Guard. Summon: Draw a card.","attributes":["Strength"],"keywords":["Breakthrough","Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/vigilant_giant.png","id":"edd79f5e-8cf0-50a6-af0c-bed05c7642e5","code":"rr"}
+{
+ "name": "Vigilant Giant",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Giant"
+ ],
+ "cost": 8,
+ "power": 8,
+ "health": 8,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Breakthrough, Guard. Summon: Draw a card.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Breakthrough",
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/vigilant_giant.png",
+ "id": "edd79f5e-8cf0-50a6-af0c-bed05c7642e5",
+ "code": "rr"
+}

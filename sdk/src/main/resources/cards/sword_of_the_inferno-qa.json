@@ -1,1 +1,25 @@
-{"name":"Sword of the Inferno","rarity":"Rare","type":"Item","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"FrostSpark Collection","id":"fsc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"+2/+0. Summon: The wielder deals 2 damage to itself and another creature.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fsc/sword_of_the_inferno.png","id":"1934872e-595f-5d48-9322-9dba263bd4c7","code":"qa"}
+{
+ "name": "Sword of the Inferno",
+ "rarity": "Rare",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "FrostSpark Collection",
+  "id": "fsc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "+2/+0. Summon: The wielder deals 2 damage to itself and another creature.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fsc/sword_of_the_inferno.png",
+ "id": "1934872e-595f-5d48-9322-9dba263bd4c7",
+ "code": "qa"
+}

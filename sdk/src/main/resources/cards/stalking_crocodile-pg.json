@@ -1,1 +1,27 @@
-{"name":"Stalking Crocodile","rarity":"Common","type":"Creature","subtypes":["Reptile"],"cost":2,"power":3,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/stalking_crocodile.png","id":"958149d2-88ac-5d5b-87e9-093fc14ceb88","code":"pg"}
+{
+ "name": "Stalking Crocodile",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Reptile"
+ ],
+ "cost": 2,
+ "power": 3,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/stalking_crocodile.png",
+ "id": "958149d2-88ac-5d5b-87e9-093fc14ceb88",
+ "code": "pg"
+}

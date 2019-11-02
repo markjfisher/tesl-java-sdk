@@ -1,1 +1,27 @@
-{"name":"Lame Corprus","rarity":"Common","type":"Creature","subtypes":["Ash Creature"],"cost":6,"power":5,"health":6,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/lame_corprus.png","id":"bad953ec-d0c4-5182-a0b0-fc297c30d3e0","code":"jw"}
+{
+ "name": "Lame Corprus",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Ash Creature"
+ ],
+ "cost": 6,
+ "power": 5,
+ "health": 6,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/lame_corprus.png",
+ "id": "bad953ec-d0c4-5182-a0b0-fc297c30d3e0",
+ "code": "jw"
+}

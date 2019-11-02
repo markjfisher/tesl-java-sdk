@@ -1,1 +1,27 @@
-{"name":"Brotherhood Sanctuary","rarity":"Rare","type":"Support","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Ongoing. When a friendly creature Slays, it receives its reward an extra time.","attributes":["Agility"],"keywords":["Slay"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/brotherhood_sanctuary.png","id":"9a8b44c3-4a73-58b0-89e3-13fe772647a1","code":"cu"}
+{
+ "name": "Brotherhood Sanctuary",
+ "rarity": "Rare",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Ongoing. When a friendly creature Slays, it receives its reward an extra time.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Slay"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/brotherhood_sanctuary.png",
+ "id": "9a8b44c3-4a73-58b0-89e3-13fe772647a1",
+ "code": "cu"
+}

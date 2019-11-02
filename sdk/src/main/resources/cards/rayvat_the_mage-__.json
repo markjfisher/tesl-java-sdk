@@ -1,1 +1,29 @@
-{"name":"Rayvat the Mage","rarity":"Legendary","type":"Creature","subtypes":["High Elf"],"cost":4,"power":2,"health":2,"set":{"name":"Isle of Madness","id":"iom"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Ward. Summon: You gain a Ward.","attributes":["Intelligence"],"keywords":["Ward"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/iom/rayvat_the_mage.png","id":"5838ae23-2f91-5396-bd71-944c9c9d0212","code":"__"}
+{
+ "name": "Rayvat the Mage",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 4,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Ward. Summon: You gain a Ward.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Ward"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/rayvat_the_mage.png",
+ "id": "5838ae23-2f91-5396-bd71-944c9c9d0212",
+ "code": "__"
+}

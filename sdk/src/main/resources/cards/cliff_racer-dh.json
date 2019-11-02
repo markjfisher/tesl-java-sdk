@@ -1,1 +1,29 @@
-{"name":"Cliff Racer","rarity":"Rare","type":"Creature","subtypes":["Reptile"],"cost":5,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Charge","attributes":["Agility"],"keywords":["Charge"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/cliff_racer.png","id":"b89b7303-4404-53f7-9e79-bcc5b8eeab20","code":"dh"}
+{
+ "name": "Cliff Racer",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Reptile"
+ ],
+ "cost": 5,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Charge",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Charge"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/cliff_racer.png",
+ "id": "b89b7303-4404-53f7-9e79-bcc5b8eeab20",
+ "code": "dh"
+}

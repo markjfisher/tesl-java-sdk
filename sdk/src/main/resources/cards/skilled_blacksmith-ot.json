@@ -1,1 +1,27 @@
-{"name":"Skilled Blacksmith","rarity":"Rare","type":"Creature","subtypes":["Redguard"],"cost":2,"power":2,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Your items cost 1 less","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/skilled_blacksmith.png","id":"ce20836d-e7a0-58d5-a220-8084b27d8967","code":"ot"}
+{
+ "name": "Skilled Blacksmith",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Your items cost 1 less",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/skilled_blacksmith.png",
+ "id": "ce20836d-e7a0-58d5-a220-8084b27d8967",
+ "code": "ot"
+}

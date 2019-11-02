@@ -1,1 +1,27 @@
-{"name":"An-Xileel Invader","rarity":"Common","type":"Creature","subtypes":["Argonian"],"cost":4,"power":5,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/an-xileel_invader.png","id":"42edd784-386f-58ba-85bd-459320474f0b","code":"az"}
+{
+ "name": "An-Xileel Invader",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Argonian"
+ ],
+ "cost": 4,
+ "power": 5,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/an-xileel_invader.png",
+ "id": "42edd784-386f-58ba-85bd-459320474f0b",
+ "code": "az"
+}

@@ -1,1 +1,29 @@
-{"name":"Divayth's Experiments","rarity":"Epic","type":"Action","subtypes":[],"cost":9,"power":-1,"health":-1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Betray. Summon a copy of a friendly creature.","attributes":["Intelligence","Agility","Endurance"],"keywords":["Betray"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/divayths_experiments.png","id":"77f16e6e-df78-5195-8aba-2db10489f730","code":"eB"}
+{
+ "name": "Divayth's Experiments",
+ "rarity": "Epic",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 9,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Betray. Summon a copy of a friendly creature.",
+ "attributes": [
+  "Intelligence",
+  "Agility",
+  "Endurance"
+ ],
+ "keywords": [
+  "Betray"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/divayths_experiments.png",
+ "id": "77f16e6e-df78-5195-8aba-2db10489f730",
+ "code": "eB"
+}

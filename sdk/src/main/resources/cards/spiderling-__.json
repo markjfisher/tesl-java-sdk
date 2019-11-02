@@ -1,1 +1,27 @@
-{"name":"Spiderling","rarity":"Common","type":"Creature","subtypes":["Daedra"],"cost":2,"power":2,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/spiderling.png","id":"f949a238-57a8-581f-b63f-ac94eafbb618","code":"__"}
+{
+ "name": "Spiderling",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/spiderling.png",
+ "id": "f949a238-57a8-581f-b63f-ac94eafbb618",
+ "code": "__"
+}

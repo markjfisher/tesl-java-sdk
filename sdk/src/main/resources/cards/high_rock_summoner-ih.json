@@ -1,1 +1,27 @@
-{"name":"High Rock Summoner","rarity":"Rare","type":"Creature","subtypes":["Breton"],"cost":2,"power":1,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: Put a random Atronach into your hand.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/high_rock_summoner.png","id":"4a5e7dd4-a636-5c3b-8b94-9ba18e1d2d72","code":"ih"}
+{
+ "name": "High Rock Summoner",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 2,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: Put a random Atronach into your hand.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/high_rock_summoner.png",
+ "id": "4a5e7dd4-a636-5c3b-8b94-9ba18e1d2d72",
+ "code": "ih"
+}

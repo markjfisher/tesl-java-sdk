@@ -1,1 +1,28 @@
-{"name":"Ahnassi","rarity":"Legendary","type":"Creature","subtypes":["Khajiit"],"cost":5,"power":5,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Ahnassi steals all keywords from enemy creatures.","attributes":["Willpower","Agility"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/cs/ahnassi.png","id":"78395ce7-0bb5-5532-bbdf-ccbceef94838","code":"aj"}
+{
+ "name": "Ahnassi",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 5,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Ahnassi steals all keywords from enemy creatures.",
+ "attributes": [
+  "Willpower",
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/ahnassi.png",
+ "id": "78395ce7-0bb5-5532-bbdf-ccbceef94838",
+ "code": "aj"
+}

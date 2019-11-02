@@ -1,1 +1,27 @@
-{"name":"Mythic Dawn Acolyte","rarity":"Common","type":"Creature","subtypes":["Breton"],"cost":5,"power":5,"health":4,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"At the end of each turn, if you Invaded, deal 2 damage.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/mythicdawnacolyte.png","id":"1c8bbc90-12a5-5c9e-b812-cce790935e15","code":"zC"}
+{
+ "name": "Mythic Dawn Acolyte",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 5,
+ "power": 5,
+ "health": 4,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "At the end of each turn, if you Invaded, deal 2 damage.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/mythicdawnacolyte.png",
+ "id": "1c8bbc90-12a5-5c9e-b812-cce790935e15",
+ "code": "zC"
+}

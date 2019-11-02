@@ -1,1 +1,27 @@
-{"name":"Ferocious Dreugh","rarity":"Common","type":"Creature","subtypes":["Dreugh"],"cost":4,"power":3,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/ferocious_dreugh.png","id":"a84b4879-90e4-5ffd-a246-9c3866c964c5","code":"gl"}
+{
+ "name": "Ferocious Dreugh",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Dreugh"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/ferocious_dreugh.png",
+ "id": "a84b4879-90e4-5ffd-a246-9c3866c964c5",
+ "code": "gl"
+}

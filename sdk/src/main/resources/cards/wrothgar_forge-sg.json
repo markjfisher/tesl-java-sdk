@@ -1,1 +1,25 @@
-{"name":"Wrothgar Forge","rarity":"Epic","type":"Support","subtypes":[],"cost":7,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"The first time you summon a creature each turn, equip it with a random item.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/wrothgar_forge.png","id":"b06702e9-33ab-5b63-8833-f4eb99b2df98","code":"sg"}
+{
+ "name": "Wrothgar Forge",
+ "rarity": "Epic",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 7,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "The first time you summon a creature each turn, equip it with a random item.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/wrothgar_forge.png",
+ "id": "b06702e9-33ab-5b63-8833-f4eb99b2df98",
+ "code": "sg"
+}

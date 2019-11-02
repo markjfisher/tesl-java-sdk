@@ -1,1 +1,25 @@
-{"name":"Lute","rarity":"Rare","type":"Item","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"+1/+2. The wielder is immune to Silence.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/lute.png","id":"3e2b4acf-d395-552c-8b70-566a50bf7e86","code":"jU"}
+{
+ "name": "Lute",
+ "rarity": "Rare",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "+1/+2. The wielder is immune to Silence.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/lute.png",
+ "id": "3e2b4acf-d395-552c-8b70-566a50bf7e86",
+ "code": "jU"
+}

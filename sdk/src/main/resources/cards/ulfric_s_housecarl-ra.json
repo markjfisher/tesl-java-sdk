@@ -1,1 +1,28 @@
-{"name":"Ulfric's Housecarl","rarity":"Epic","type":"Creature","subtypes":["Nord"],"cost":4,"power":3,"health":3,"set":{"name":"Monthly Rewards","id":"mr"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"When an enemy rune is destroyed, draw a card.","attributes":["Strength","Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mr/ulfrics_housecarl.png","id":"b534a3fb-a955-50e2-a7c3-5e2d4fff413d","code":"ra"}
+{
+ "name": "Ulfric's Housecarl",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Nord"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Monthly Rewards",
+  "id": "mr"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "When an enemy rune is destroyed, draw a card.",
+ "attributes": [
+  "Strength",
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mr/ulfrics_housecarl.png",
+ "id": "b534a3fb-a955-50e2-a7c3-5e2d4fff413d",
+ "code": "ra"
+}

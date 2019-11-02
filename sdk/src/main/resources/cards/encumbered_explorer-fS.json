@@ -1,1 +1,27 @@
-{"name":"Encumbered Explorer","rarity":"Rare","type":"Creature","subtypes":["Imperial"],"cost":1,"power":2,"health":3,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Shackle Encumbered Explorer after he attacks.","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/encumbered_explorer.png","id":"bb3293a2-c82f-5acc-ab16-cf2c55858f90","code":"fS"}
+{
+ "name": "Encumbered Explorer",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 1,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Shackle Encumbered Explorer after he attacks.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/encumbered_explorer.png",
+ "id": "bb3293a2-c82f-5acc-ab16-cf2c55858f90",
+ "code": "fS"
+}

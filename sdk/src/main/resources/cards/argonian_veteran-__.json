@@ -1,1 +1,27 @@
-{"name":"Argonian Veteran","rarity":"Common","type":"Creature","subtypes":["Argonian"],"cost":3,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/argonian_veteran.png","id":"99a46540-8ec8-5139-a09b-2f75e9c507c8","code":"__"}
+{
+ "name": "Argonian Veteran",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Argonian"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/argonian_veteran.png",
+ "id": "99a46540-8ec8-5139-a09b-2f75e9c507c8",
+ "code": "__"
+}

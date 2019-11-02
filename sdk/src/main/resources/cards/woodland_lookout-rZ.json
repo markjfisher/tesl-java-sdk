@@ -1,1 +1,27 @@
-{"name":"Woodland Lookout","rarity":"Common","type":"Creature","subtypes":["Wood Elf"],"cost":3,"power":3,"health":4,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"When you summon a Dragon, gain 4 health.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/woodland_lookout.png","id":"b4c1c305-f5ac-543d-a1a5-98f5a0ded6ac","code":"rZ"}
+{
+ "name": "Woodland Lookout",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Wood Elf"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 4,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "When you summon a Dragon, gain 4 health.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/woodland_lookout.png",
+ "id": "b4c1c305-f5ac-543d-a1a5-98f5a0ded6ac",
+ "code": "rZ"
+}

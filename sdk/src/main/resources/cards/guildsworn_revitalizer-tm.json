@@ -1,1 +1,29 @@
-{"name":"Guildsworn Revitalizer","rarity":"Common","type":"Creature","subtypes":["Imperial"],"cost":2,"power":1,"health":5,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Expertise: You gain 2 health.","attributes":["Willpower"],"keywords":["Expertise"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/guildsworn_revitalizer.png","id":"ab68d62d-84cd-522d-babe-c1090bab46b9","code":"tm"}
+{
+ "name": "Guildsworn Revitalizer",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 2,
+ "power": 1,
+ "health": 5,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Expertise: You gain 2 health.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Expertise"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/guildsworn_revitalizer.png",
+ "id": "ab68d62d-84cd-522d-babe-c1090bab46b9",
+ "code": "tm"
+}

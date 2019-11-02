@@ -1,1 +1,25 @@
-{"name":"Crushing Blow","rarity":"Common","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Deal 3 damage.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/crushing_blow.png","id":"af35c328-6bbd-5cf4-a506-b84cb81fd6b1","code":"dM"}
+{
+ "name": "Crushing Blow",
+ "rarity": "Common",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Deal 3 damage.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/crushing_blow.png",
+ "id": "af35c328-6bbd-5cf4-a506-b84cb81fd6b1",
+ "code": "dM"
+}

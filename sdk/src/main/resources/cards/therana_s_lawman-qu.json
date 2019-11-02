@@ -1,1 +1,30 @@
-{"name":"Therana's Lawman","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":8,"power":5,"health":5,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Guard, Ward.","attributes":["Intelligence"],"keywords":["Guard","Ward"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/theranas_lawman.png","id":"4146598c-a156-5d84-9f40-94397e3b6989","code":"qu"}
+{
+ "name": "Therana's Lawman",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 8,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Guard, Ward.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Guard",
+  "Ward"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/theranas_lawman.png",
+ "id": "4146598c-a156-5d84-9f40-94397e3b6989",
+ "code": "qu"
+}

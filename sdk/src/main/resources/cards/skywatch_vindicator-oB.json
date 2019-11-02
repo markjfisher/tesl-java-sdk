@@ -1,1 +1,28 @@
-{"name":"Skywatch Vindicator","rarity":"Epic","type":"Creature","subtypes":["High Elf"],"cost":6,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon: Deal 2 damage to an enemy creature or give a friendly creature +2/+2.","attributes":["Intelligence","Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/skywatch_vindicator.png","id":"588bf876-983f-5f76-bc9d-9dffd332545f","code":"oB"}
+{
+ "name": "Skywatch Vindicator",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 6,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon: Deal 2 damage to an enemy creature or give a friendly creature +2/+2.",
+ "attributes": [
+  "Intelligence",
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/skywatch_vindicator.png",
+ "id": "588bf876-983f-5f76-bc9d-9dffd332545f",
+ "code": "oB"
+}

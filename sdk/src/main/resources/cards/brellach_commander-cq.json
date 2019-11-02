@@ -1,1 +1,29 @@
-{"name":"Brellach Commander","rarity":"Epic","type":"Creature","subtypes":["Daedra"],"cost":8,"power":7,"health":8,"set":{"name":"Isle of Madness","id":"iom"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon and Pilfer: Summon a random creature with cost 3 or less.","attributes":["Willpower"],"keywords":["Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/iom/brellach_commander.png","id":"bddf8d6b-6306-5490-acfc-8771f6f2f4e8","code":"cq"}
+{
+ "name": "Brellach Commander",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 8,
+ "power": 7,
+ "health": 8,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon and Pilfer: Summon a random creature with cost 3 or less.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/brellach_commander.png",
+ "id": "bddf8d6b-6306-5490-acfc-8771f6f2f4e8",
+ "code": "cq"
+}

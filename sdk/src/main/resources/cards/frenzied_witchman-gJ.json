@@ -1,1 +1,27 @@
-{"name":"Frenzied Witchman","rarity":"Common","type":"Creature","subtypes":["Reachman"],"cost":3,"power":2,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Give a creature +2/+1.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/frenzied_witchman.png","id":"1d30b682-504a-51b2-a0ba-b65a8dfa5f12","code":"gJ"}
+{
+ "name": "Frenzied Witchman",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Reachman"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Give a creature +2/+1.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/frenzied_witchman.png",
+ "id": "1d30b682-504a-51b2-a0ba-b65a8dfa5f12",
+ "code": "gJ"
+}

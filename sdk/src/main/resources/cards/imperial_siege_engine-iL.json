@@ -1,1 +1,27 @@
-{"name":"Imperial Siege Engine","rarity":"Rare","type":"Creature","subtypes":["Imperial"],"cost":5,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: +1/+1 for each other friendly creature.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/imperial_siege_engine.png","id":"0abf67b8-e5a0-5bfd-8413-a0544753e5f5","code":"iL"}
+{
+ "name": "Imperial Siege Engine",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 5,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: +1/+1 for each other friendly creature.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/imperial_siege_engine.png",
+ "id": "0abf67b8-e5a0-5bfd-8413-a0544753e5f5",
+ "code": "iL"
+}

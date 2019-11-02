@@ -1,1 +1,26 @@
-{"name":"Spellsword's Summoning","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon a random 1-cost creature in each lane.","attributes":["Willpower","Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/spellswords_summoning.png","id":"c2c59b7d-5bb4-58ad-9e19-e5948be463f9","code":"oW"}
+{
+ "name": "Spellsword's Summoning",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon a random 1-cost creature in each lane.",
+ "attributes": [
+  "Willpower",
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/spellswords_summoning.png",
+ "id": "c2c59b7d-5bb4-58ad-9e19-e5948be463f9",
+ "code": "oW"
+}

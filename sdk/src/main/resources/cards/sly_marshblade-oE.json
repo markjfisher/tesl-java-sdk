@@ -1,1 +1,29 @@
-{"name":"Sly Marshblade","rarity":"Rare","type":"Creature","subtypes":["Argonian"],"cost":2,"power":3,"health":2,"set":{"name":"Forgotten Hero Collection","id":"fhc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Last Gasp: Draw a card if you have 7 or more max magicka.","attributes":["Agility"],"keywords":["Last Gasp"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fhc/sly_marshblade.png","id":"6dd58785-1a70-5b07-86b2-337f3eac0fc9","code":"oE"}
+{
+ "name": "Sly Marshblade",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Argonian"
+ ],
+ "cost": 2,
+ "power": 3,
+ "health": 2,
+ "set": {
+  "name": "Forgotten Hero Collection",
+  "id": "fhc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Last Gasp: Draw a card if you have 7 or more max magicka.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Last Gasp"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fhc/sly_marshblade.png",
+ "id": "6dd58785-1a70-5b07-86b2-337f3eac0fc9",
+ "code": "oE"
+}

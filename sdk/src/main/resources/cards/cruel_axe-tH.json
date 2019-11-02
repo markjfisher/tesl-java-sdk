@@ -1,1 +1,27 @@
-{"name":"Cruel Axe","rarity":"Rare","type":"Item","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Mobilize. Summon: +1/+1 for each enemy creature in this lane.","attributes":["Endurance"],"keywords":["Mobilize"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/cruel_axe.png","id":"f2105ae2-9ebd-5f62-b506-50d49ac10ffb","code":"tH"}
+{
+ "name": "Cruel Axe",
+ "rarity": "Rare",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Mobilize. Summon: +1/+1 for each enemy creature in this lane.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Mobilize"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/cruel_axe.png",
+ "id": "f2105ae2-9ebd-5f62-b506-50d49ac10ffb",
+ "code": "tH"
+}

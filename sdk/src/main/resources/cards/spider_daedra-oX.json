@@ -1,1 +1,29 @@
-{"name":"Spider Daedra","rarity":"Legendary","type":"Creature","subtypes":["Daedra"],"cost":8,"power":4,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Fill your lanes with 2/1 Spiderlings. Last Gasp: Destroy all friendly Spiderlings.","attributes":["Agility"],"keywords":["Last Gasp"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/spider_daedra.png","id":"c2e2f8b6-6e66-5e20-9082-dc62ddbf6a10","code":"oX"}
+{
+ "name": "Spider Daedra",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 8,
+ "power": 4,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Fill your lanes with 2/1 Spiderlings. Last Gasp: Destroy all friendly Spiderlings.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Last Gasp"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/spider_daedra.png",
+ "id": "c2e2f8b6-6e66-5e20-9082-dc62ddbf6a10",
+ "code": "oX"
+}

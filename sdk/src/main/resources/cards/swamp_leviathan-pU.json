@@ -1,1 +1,27 @@
-{"name":"Swamp Leviathan","rarity":"Common","type":"Creature","subtypes":["Reptile"],"cost":7,"power":8,"health":8,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/swamp_leviathan.png","id":"0b9fdcce-b032-5c46-a5e2-cffadd3cf50a","code":"pU"}
+{
+ "name": "Swamp Leviathan",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Reptile"
+ ],
+ "cost": 7,
+ "power": 8,
+ "health": 8,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/swamp_leviathan.png",
+ "id": "0b9fdcce-b032-5c46-a5e2-cffadd3cf50a",
+ "code": "pU"
+}

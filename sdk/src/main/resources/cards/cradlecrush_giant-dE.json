@@ -1,1 +1,27 @@
-{"name":"Cradlecrush Giant","rarity":"Rare","type":"Creature","subtypes":["Giant"],"cost":6,"power":6,"health":4,"set":{"name":"Forgotten Hero Collection","id":"fhc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Summon: Deal 2 damage to all other creatures in this lane.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fhc/cradlecrush_giant.png","id":"408fbb47-9f02-5d59-bab2-501682ab2e9f","code":"dE"}
+{
+ "name": "Cradlecrush Giant",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Giant"
+ ],
+ "cost": 6,
+ "power": 6,
+ "health": 4,
+ "set": {
+  "name": "Forgotten Hero Collection",
+  "id": "fhc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Summon: Deal 2 damage to all other creatures in this lane.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fhc/cradlecrush_giant.png",
+ "id": "408fbb47-9f02-5d59-bab2-501682ab2e9f",
+ "code": "dE"
+}

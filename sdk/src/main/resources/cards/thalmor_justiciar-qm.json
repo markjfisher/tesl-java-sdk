@@ -1,1 +1,27 @@
-{"name":"Thalmor Justiciar","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":3,"power":1,"health":3,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"After you play an action, summon a 1/1 Thalmor Soldier.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/thalmor_justiciar.png","id":"821ce5f0-5a1a-5299-affb-ba4f4ef075b3","code":"qm"}
+{
+ "name": "Thalmor Justiciar",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 3,
+ "power": 1,
+ "health": 3,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "After you play an action, summon a 1/1 Thalmor Soldier.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/thalmor_justiciar.png",
+ "id": "821ce5f0-5a1a-5299-affb-ba4f4ef075b3",
+ "code": "qm"
+}

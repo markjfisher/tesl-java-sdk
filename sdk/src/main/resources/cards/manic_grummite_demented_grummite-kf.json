@@ -1,1 +1,27 @@
-{"name":"Manic Grummite/Demented Grummite","rarity":"Common","type":"Creature","subtypes":["Grummite"],"cost":3,"power":2,"health":3,"set":{"name":"Isle of Madness","id":"iom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/iom/manic_grummitedemented_grummite.png","id":"a6022144-a5d0-581a-bf3c-3ec39e189d4d","code":"kf"}
+{
+ "name": "Manic Grummite/Demented Grummite",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Grummite"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/manic_grummitedemented_grummite.png",
+ "id": "a6022144-a5d0-581a-bf3c-3ec39e189d4d",
+ "code": "kf"
+}

@@ -1,1 +1,29 @@
-{"name":"Grand Inquisitor","rarity":"Rare","type":"Creature","subtypes":["Dark Elf"],"cost":4,"power":2,"health":3,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Exalt 4: +3/+3. Summon: Destroy a creature with less power than Grand Inquisitor","attributes":["Willpower"],"keywords":["Exalt"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/grand_inquisitor.png","id":"b81e0be0-7e1c-5b6b-8c96-d59be516675a","code":"ht"}
+{
+ "name": "Grand Inquisitor",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 4,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Exalt 4: +3/+3. Summon: Destroy a creature with less power than Grand Inquisitor",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Exalt"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/grand_inquisitor.png",
+ "id": "b81e0be0-7e1c-5b6b-8c96-d59be516675a",
+ "code": "ht"
+}

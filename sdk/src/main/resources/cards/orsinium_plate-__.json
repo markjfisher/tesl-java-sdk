@@ -1,1 +1,25 @@
-{"name":"Orsinium Plate","rarity":"Legendary","type":"Item","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"+1/+1.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/orsinium_plate.png","id":"268d5db4-ef59-527e-81f7-cdef9024ccc5","code":"__"}
+{
+ "name": "Orsinium Plate",
+ "rarity": "Legendary",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "+1/+1.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/orsinium_plate.png",
+ "id": "268d5db4-ef59-527e-81f7-cdef9024ccc5",
+ "code": "__"
+}

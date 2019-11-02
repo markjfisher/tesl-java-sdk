@@ -1,1 +1,27 @@
-{"name":"Stoneshard Orc","rarity":"Rare","type":"Creature","subtypes":["Orc"],"cost":3,"power":2,"health":1,"set":{"name":"Madhouse Collection","id":"mc"},"collectible":true,"soulSummon":-1,"soulTrap":-1,"text":"Summon: Deal 1 damage to an enemy creature for each friendly Orc.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mc/stoneshard_orc.png","id":"68b54b8b-20d7-5a41-b55d-59afe2fbc8ee","code":"py"}
+{
+ "name": "Stoneshard Orc",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Orc"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Madhouse Collection",
+  "id": "mc"
+ },
+ "collectible": true,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Summon: Deal 1 damage to an enemy creature for each friendly Orc.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mc/stoneshard_orc.png",
+ "id": "68b54b8b-20d7-5a41-b55d-59afe2fbc8ee",
+ "code": "py"
+}

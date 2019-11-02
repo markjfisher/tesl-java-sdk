@@ -1,1 +1,27 @@
-{"name":"Cliffside Lookout","rarity":"Common","type":"Creature","subtypes":["Nord"],"cost":3,"power":2,"health":5,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"When you summon a Dragon, Cliffside Lookout gains +1/+1.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/cliffside_lookout.png","id":"9e1aefe8-331b-5809-a205-72b346fe847a","code":"dk"}
+{
+ "name": "Cliffside Lookout",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Nord"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 5,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "When you summon a Dragon, Cliffside Lookout gains +1/+1.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/cliffside_lookout.png",
+ "id": "9e1aefe8-331b-5809-a205-72b346fe847a",
+ "code": "dk"
+}

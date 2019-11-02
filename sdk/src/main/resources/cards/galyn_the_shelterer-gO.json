@@ -1,1 +1,27 @@
-{"name":"Galyn the Shelterer","rarity":"Legendary","type":"Creature","subtypes":["Dark Elf"],"cost":3,"power":3,"health":3,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Choose a creature or item in your hand. Shuffle three copies of it with +3/+3 into your deck.","attributes":["Endurance"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/rcc/galyn_the_shelterer.png","id":"f57a8af8-dc1a-5e93-938f-ebcdac6f5355","code":"gO"}
+{
+ "name": "Galyn the Shelterer",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Choose a creature or item in your hand. Shuffle three copies of it with +3/+3 into your deck.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/galyn_the_shelterer.png",
+ "id": "f57a8af8-dc1a-5e93-938f-ebcdac6f5355",
+ "code": "gO"
+}

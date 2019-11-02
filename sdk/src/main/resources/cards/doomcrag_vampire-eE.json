@@ -1,1 +1,29 @@
-{"name":"Doomcrag Vampire","rarity":"Legendary","type":"Creature","subtypes":["Vampire"],"cost":6,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Friendly creatures in this lane have Lethal.","attributes":["Endurance"],"keywords":["Lethal"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/doomcrag_vampire.png","id":"31dd78ad-bd7d-56ff-bd27-16c209936f4e","code":"eE"}
+{
+ "name": "Doomcrag Vampire",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Vampire"
+ ],
+ "cost": 6,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Friendly creatures in this lane have Lethal.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Lethal"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/doomcrag_vampire.png",
+ "id": "31dd78ad-bd7d-56ff-bd27-16c209936f4e",
+ "code": "eE"
+}

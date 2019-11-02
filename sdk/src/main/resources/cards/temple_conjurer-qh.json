@@ -1,1 +1,29 @@
-{"name":"Temple Conjurer","rarity":"Rare","type":"Creature","subtypes":["Dark Elf"],"cost":2,"power":2,"health":2,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Exalt 3: Summon a 5/3 Flame Atronach with Breakthrough.","attributes":["Intelligence"],"keywords":["Exalt"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/temple_conjurer.png","id":"534abd0e-359f-5ea1-ba5b-411287bae527","code":"qh"}
+{
+ "name": "Temple Conjurer",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Exalt 3: Summon a 5/3 Flame Atronach with Breakthrough.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Exalt"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/temple_conjurer.png",
+ "id": "534abd0e-359f-5ea1-ba5b-411287bae527",
+ "code": "qh"
+}

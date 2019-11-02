@@ -1,1 +1,27 @@
-{"name":"Withered Hand Cultist","rarity":"Epic","type":"Creature","subtypes":["Redguard"],"cost":3,"power":3,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"All actions cost 2 more.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/withered_hand_cultist.png","id":"a12c60d2-0bd2-53bd-bc89-e94563a8815d","code":"rW"}
+{
+ "name": "Withered Hand Cultist",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "All actions cost 2 more.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/withered_hand_cultist.png",
+ "id": "a12c60d2-0bd2-53bd-bc89-e94563a8815d",
+ "code": "rW"
+}

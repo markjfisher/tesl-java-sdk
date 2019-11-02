@@ -1,1 +1,27 @@
-{"name":"Lillandril Hexmage","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":5,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"After you play an action, deal 2 damage to your opponent.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/lillandril_hexmage.png","id":"bb75310f-1e82-59e6-8b7e-ae4276680e58","code":"jJ"}
+{
+ "name": "Lillandril Hexmage",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 5,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "After you play an action, deal 2 damage to your opponent.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/lillandril_hexmage.png",
+ "id": "bb75310f-1e82-59e6-8b7e-ae4276680e58",
+ "code": "jJ"
+}

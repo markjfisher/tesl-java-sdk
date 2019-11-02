@@ -1,1 +1,29 @@
-{"name":"Ageless Vampire","rarity":"Rare","type":"Creature","subtypes":["Vampire"],"cost":5,"power":5,"health":5,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Drain","attributes":["Endurance"],"keywords":["Drain"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/ageless_vampire.png","id":"d70a9a7b-e8e7-54d6-af17-32f5ac0e1e3e","code":"__"}
+{
+ "name": "Ageless Vampire",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Vampire"
+ ],
+ "cost": 5,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Drain",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Drain"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/ageless_vampire.png",
+ "id": "d70a9a7b-e8e7-54d6-af17-32f5ac0e1e3e",
+ "code": "__"
+}

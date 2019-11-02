@@ -1,1 +1,25 @@
-{"name":"War Cry","rarity":"Rare","type":"Action","subtypes":[],"cost":4,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Give friendly creatures in one lane +2/+0 this turn.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/war_cry.png","id":"64f87e7d-0101-54fb-b37a-775b7328c910","code":"rA"}
+{
+ "name": "War Cry",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 4,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Give friendly creatures in one lane +2/+0 this turn.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/war_cry.png",
+ "id": "64f87e7d-0101-54fb-b37a-775b7328c910",
+ "code": "rA"
+}

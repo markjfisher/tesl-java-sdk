@@ -1,1 +1,29 @@
-{"name":"Blades Guardian","rarity":"Rare","type":"Creature","subtypes":["Redguard"],"cost":5,"power":4,"health":5,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard. Summon: Give a creature in the other lane +1/+1 and Guard.","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/bladesguardian.png","id":"4e39721b-ce3a-59a5-a3b2-b65154ff5fd9","code":"yh"}
+{
+ "name": "Blades Guardian",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 5,
+ "power": 4,
+ "health": 5,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Guard. Summon: Give a creature in the other lane +1/+1 and Guard.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/bladesguardian.png",
+ "id": "4e39721b-ce3a-59a5-a3b2-b65154ff5fd9",
+ "code": "yh"
+}

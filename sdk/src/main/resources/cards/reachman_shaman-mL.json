@@ -1,1 +1,27 @@
-{"name":"Reachman Shaman","rarity":"Common","type":"Creature","subtypes":["Reachman"],"cost":2,"power":2,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"At the start of your turn, give another random friendly creature +1/+1.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/reachman_shaman.png","id":"8fcc6a79-aacd-5c67-a591-8bbfd2dbfa01","code":"mL"}
+{
+ "name": "Reachman Shaman",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Reachman"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "At the start of your turn, give another random friendly creature +1/+1.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/reachman_shaman.png",
+ "id": "8fcc6a79-aacd-5c67-a591-8bbfd2dbfa01",
+ "code": "mL"
+}

@@ -1,1 +1,27 @@
-{"name":"Raiding Party","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Put two 1/1 Nord Firebrands with Charge into your hand.","attributes":["Strength"],"keywords":["Charge"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/raiding_party.png","id":"f6334f16-25cc-5a95-bfd8-efbf72826748","code":"mC"}
+{
+ "name": "Raiding Party",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Put two 1/1 Nord Firebrands with Charge into your hand.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Charge"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/raiding_party.png",
+ "id": "f6334f16-25cc-5a95-bfd8-efbf72826748",
+ "code": "mC"
+}

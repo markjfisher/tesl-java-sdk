@@ -1,1 +1,27 @@
-{"name":"Summerset Shieldmage","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":2,"power":2,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Other friendly creatures in this lane have +0/+1.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/summerset_shieldmage.png","id":"b9f501b6-051a-55e8-b83d-a784af16ed91","code":"pO"}
+{
+ "name": "Summerset Shieldmage",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Other friendly creatures in this lane have +0/+1.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/summerset_shieldmage.png",
+ "id": "b9f501b6-051a-55e8-b83d-a784af16ed91",
+ "code": "pO"
+}

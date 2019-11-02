@@ -1,1 +1,25 @@
-{"name":"Rimmen Siege Weapons","rarity":"Legendary","type":"Support","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Ongoing. At the start of your turn, each friendly creature deals 1 damage to your opponent.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/rimmen_siege_weapons.png","id":"a215d39b-31f4-5968-b447-0036822b6fb2","code":"wi"}
+{
+ "name": "Rimmen Siege Weapons",
+ "rarity": "Legendary",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Ongoing. At the start of your turn, each friendly creature deals 1 damage to your opponent.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/rimmen_siege_weapons.png",
+ "id": "a215d39b-31f4-5968-b447-0036822b6fb2",
+ "code": "wi"
+}

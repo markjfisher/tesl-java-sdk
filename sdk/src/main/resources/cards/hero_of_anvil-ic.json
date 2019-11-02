@@ -1,1 +1,27 @@
-{"name":"Hero of Anvil","rarity":"Epic","type":"Creature","subtypes":["Imperial"],"cost":5,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Hero of Anvil costs 1 less for each creature summoned this turn.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/hero_of_anvil.png","id":"5b22d171-d080-54f6-9f0c-e89c2e35dcac","code":"ic"}
+{
+ "name": "Hero of Anvil",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 5,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Hero of Anvil costs 1 less for each creature summoned this turn.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/hero_of_anvil.png",
+ "id": "5b22d171-d080-54f6-9f0c-e89c2e35dcac",
+ "code": "ic"
+}

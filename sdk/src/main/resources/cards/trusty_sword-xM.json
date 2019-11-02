@@ -1,1 +1,25 @@
-{"name":"Trusty Sword","rarity":"Common","type":"Item","subtypes":[],"cost":0,"power":0,"health":0,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"+2/+0","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/trustysword.png","id":"9954b08a-e43f-5b44-9a3a-948577ab3303","code":"xM"}
+{
+ "name": "Trusty Sword",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 0,
+ "power": 0,
+ "health": 0,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "+2/+0",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/trustysword.png",
+ "id": "9954b08a-e43f-5b44-9a3a-948577ab3303",
+ "code": "xM"
+}

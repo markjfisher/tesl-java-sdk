@@ -1,1 +1,25 @@
-{"name":"Drain Life","rarity":"Legendary","type":"Action","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Deal 5 damage to your opponent and gain 5 health.","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/drain_life.png","id":"69062cb8-2587-501e-8f6a-9f25ca5b949f","code":"__"}
+{
+ "name": "Drain Life",
+ "rarity": "Legendary",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Deal 5 damage to your opponent and gain 5 health.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/drain_life.png",
+ "id": "69062cb8-2587-501e-8f6a-9f25ca5b949f",
+ "code": "__"
+}

@@ -1,1 +1,29 @@
-{"name":"Goblin Skulk","rarity":"Rare","type":"Creature","subtypes":["Goblin"],"cost":3,"power":2,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Pilfer: Draw a random card from your deck that costs 0.","attributes":["Agility"],"keywords":["Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/goblin_skulk.png","id":"5ec70721-46ec-50a2-9a82-8701e52a27bf","code":"hl"}
+{
+ "name": "Goblin Skulk",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Goblin"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Pilfer: Draw a random card from your deck that costs 0.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/goblin_skulk.png",
+ "id": "5ec70721-46ec-50a2-9a82-8701e52a27bf",
+ "code": "hl"
+}

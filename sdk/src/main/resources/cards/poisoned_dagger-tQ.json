@@ -1,1 +1,28 @@
-{"name":"Poisoned Dagger","rarity":"Common","type":"Item","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Mobilize, Lethal, +1/+0.","attributes":["Endurance"],"keywords":["Mobilize","Lethal"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/poisoned_dagger.png","id":"913cbfc6-da36-56d3-b360-2edddb2416ac","code":"tQ"}
+{
+ "name": "Poisoned Dagger",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Mobilize, Lethal, +1/+0.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Mobilize",
+  "Lethal"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/poisoned_dagger.png",
+ "id": "913cbfc6-da36-56d3-b360-2edddb2416ac",
+ "code": "tQ"
+}

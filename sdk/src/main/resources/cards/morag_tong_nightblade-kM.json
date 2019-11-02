@@ -1,1 +1,30 @@
-{"name":"Morag Tong Nightblade","rarity":"Epic","type":"Creature","subtypes":["Dark Elf"],"cost":4,"power":3,"health":4,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon: Summon a 0/1 Target with Guard for your opponent. Slay: Draw a card. If it's an action, reduce its cost to 0.","attributes":["Willpower"],"keywords":["Guard","Slay"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/morag_tong_nightblade.png","id":"a435c548-386c-52f3-9e05-0e41b0406343","code":"kM"}
+{
+ "name": "Morag Tong Nightblade",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 4,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon: Summon a 0/1 Target with Guard for your opponent. Slay: Draw a card. If it's an action, reduce its cost to 0.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Guard",
+  "Slay"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/morag_tong_nightblade.png",
+ "id": "a435c548-386c-52f3-9e05-0e41b0406343",
+ "code": "kM"
+}

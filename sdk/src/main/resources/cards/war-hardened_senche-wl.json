@@ -1,1 +1,30 @@
-{"name":"War-Hardened Senche","rarity":"Common","type":"Creature","subtypes":["Khajiit"],"cost":4,"power":4,"health":3,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Wax: +1/+1. Wane: Battle an enemy creature.","attributes":["Strength"],"keywords":["Wax","Wane"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/war-hardened_senche.png","id":"9456e61d-3ce6-55c4-98b1-2996a9f2ef84","code":"wl"}
+{
+ "name": "War-Hardened Senche",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 3,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Wax: +1/+1. Wane: Battle an enemy creature.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Wax",
+  "Wane"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/war-hardened_senche.png",
+ "id": "9456e61d-3ce6-55c4-98b1-2996a9f2ef84",
+ "code": "wl"
+}

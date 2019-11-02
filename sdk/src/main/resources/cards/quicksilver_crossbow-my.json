@@ -1,1 +1,25 @@
-{"name":"Quicksilver Crossbow","rarity":"Common","type":"Item","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"+1/+1. Summon: The wielder deals 1 damage.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/quicksilver_crossbow.png","id":"7d0a56bb-3b22-5e94-97d1-bc4359d4a40c","code":"my"}
+{
+ "name": "Quicksilver Crossbow",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "+1/+1. Summon: The wielder deals 1 damage.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/quicksilver_crossbow.png",
+ "id": "7d0a56bb-3b22-5e94-97d1-bc4359d4a40c",
+ "code": "my"
+}

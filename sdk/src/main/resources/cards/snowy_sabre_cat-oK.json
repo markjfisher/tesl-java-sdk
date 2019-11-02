@@ -1,1 +1,27 @@
-{"name":"Snowy Sabre Cat","rarity":"Epic","type":"Creature","subtypes":["Beast"],"cost":5,"power":3,"health":7,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Can attack an additional time on each turn.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/snowy_sabre_cat.png","id":"4f2032a0-0b0f-54fe-90f1-43e844165b99","code":"oK"}
+{
+ "name": "Snowy Sabre Cat",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Beast"
+ ],
+ "cost": 5,
+ "power": 3,
+ "health": 7,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Can attack an additional time on each turn.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/snowy_sabre_cat.png",
+ "id": "4f2032a0-0b0f-54fe-90f1-43e844165b99",
+ "code": "oK"
+}

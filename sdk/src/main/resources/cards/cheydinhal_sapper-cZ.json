@@ -1,1 +1,29 @@
-{"name":"Cheydinhal Sapper","rarity":"Common","type":"Creature","subtypes":["Imperial"],"cost":1,"power":1,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Drain","attributes":["Willpower"],"keywords":["Drain"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/cheydinhal_sapper.png","id":"0204c26c-062b-5ac6-bb00-064e23a15773","code":"cZ"}
+{
+ "name": "Cheydinhal Sapper",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Drain",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Drain"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/cheydinhal_sapper.png",
+ "id": "0204c26c-062b-5ac6-bb00-064e23a15773",
+ "code": "cZ"
+}

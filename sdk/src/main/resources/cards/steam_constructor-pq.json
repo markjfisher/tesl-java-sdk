@@ -1,1 +1,27 @@
-{"name":"Steam Constructor","rarity":"Epic","type":"Creature","subtypes":["Dwemer"],"cost":2,"power":2,"health":2,"set":{"name":"Monthly Rewards","id":"mr"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon: If you have a (neutral) card in your hand, summon a 1/1 Reconstructed Spider.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mr/steam_constructor.png","id":"14f16420-21b5-57de-a489-3ae9c552d7dd","code":"pq"}
+{
+ "name": "Steam Constructor",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Dwemer"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Monthly Rewards",
+  "id": "mr"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon: If you have a (neutral) card in your hand, summon a 1/1 Reconstructed Spider.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mr/steam_constructor.png",
+ "id": "14f16420-21b5-57de-a489-3ae9c552d7dd",
+ "code": "pq"
+}

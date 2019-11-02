@@ -1,1 +1,25 @@
-{"name":"Move in Shadows","rarity":"Rare","type":"Action","subtypes":[],"cost":0,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Move a friendly creature. It moves again at the end of the turn.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/move_in_shadows.png","id":"11d60b55-5cdb-5b65-8d23-95b0df184680","code":"kW"}
+{
+ "name": "Move in Shadows",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 0,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Move a friendly creature. It moves again at the end of the turn.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/move_in_shadows.png",
+ "id": "11d60b55-5cdb-5b65-8d23-95b0df184680",
+ "code": "kW"
+}

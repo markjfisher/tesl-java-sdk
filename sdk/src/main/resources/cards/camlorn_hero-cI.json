@@ -1,1 +1,27 @@
-{"name":"Camlorn Hero","rarity":"Common","type":"Creature","subtypes":["Breton"],"cost":3,"power":4,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Deal 2 damage to your opponent.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/camlorn_hero.png","id":"05c9c164-a8bf-5239-b666-f797c629686a","code":"cI"}
+{
+ "name": "Camlorn Hero",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 3,
+ "power": 4,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Deal 2 damage to your opponent.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/camlorn_hero.png",
+ "id": "05c9c164-a8bf-5239-b666-f797c629686a",
+ "code": "cI"
+}

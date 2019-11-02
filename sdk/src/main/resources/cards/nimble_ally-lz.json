@@ -1,1 +1,29 @@
-{"name":"Nimble Ally","rarity":"Common","type":"Creature","subtypes":["Wood Elf"],"cost":3,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: +1/+1 and Lethal if the top card of your deck is (Agility).","attributes":["Agility"],"keywords":["Lethal"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/nimble_ally.png","id":"1943a0fa-1b73-52d8-b88c-ee4a5c6e658b","code":"lz"}
+{
+ "name": "Nimble Ally",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Wood Elf"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: +1/+1 and Lethal if the top card of your deck is (Agility).",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Lethal"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/nimble_ally.png",
+ "id": "1943a0fa-1b73-52d8-b88c-ee4a5c6e658b",
+ "code": "lz"
+}

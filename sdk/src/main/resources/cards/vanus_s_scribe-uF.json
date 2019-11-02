@@ -1,1 +1,29 @@
-{"name":"Vanus's Scribe","rarity":"Rare","type":"Creature","subtypes":["High Elf"],"cost":3,"power":4,"health":3,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Expertise: Reduce the cost of a random action in your hand by 1.","attributes":["Intelligence"],"keywords":["Expertise"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/vanuss_scribe.png","id":"93d2a8f7-7399-5515-a867-dff62413f4fc","code":"uF"}
+{
+ "name": "Vanus's Scribe",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 3,
+ "power": 4,
+ "health": 3,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Expertise: Reduce the cost of a random action in your hand by 1.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Expertise"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/vanuss_scribe.png",
+ "id": "93d2a8f7-7399-5515-a867-dff62413f4fc",
+ "code": "uF"
+}

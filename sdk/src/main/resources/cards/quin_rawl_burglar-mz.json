@@ -1,1 +1,30 @@
-{"name":"Quin'rawl Burglar","rarity":"Legendary","type":"Creature","subtypes":["Khajiit"],"cost":6,"power":4,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Drain. Pilfer: +4/+4","attributes":["Agility"],"keywords":["Drain","Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/quinrawl_burglar.png","id":"83d1caef-4561-5e8a-845e-1f10b67a0ddc","code":"mz"}
+{
+ "name": "Quin'rawl Burglar",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 6,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Drain. Pilfer: +4/+4",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Drain",
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/quinrawl_burglar.png",
+ "id": "83d1caef-4561-5e8a-845e-1f10b67a0ddc",
+ "code": "mz"
+}

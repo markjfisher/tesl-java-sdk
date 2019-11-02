@@ -1,1 +1,29 @@
-{"name":"Dres Guard","rarity":"Rare","type":"Creature","subtypes":["Dark Elf"],"cost":4,"power":3,"health":4,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard","attributes":["Intelligence"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/dres_guard.png","id":"7462d3b1-0818-5993-bbfc-9a7f1d8fae69","code":"eW"}
+{
+ "name": "Dres Guard",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 4,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Guard",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/dres_guard.png",
+ "id": "7462d3b1-0818-5993-bbfc-9a7f1d8fae69",
+ "code": "eW"
+}

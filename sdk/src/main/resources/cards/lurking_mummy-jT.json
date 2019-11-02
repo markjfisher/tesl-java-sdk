@@ -1,1 +1,30 @@
-{"name":"Lurking Mummy","rarity":"Common","type":"Creature","subtypes":["Mummy"],"cost":5,"power":2,"health":6,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Prophecy, Guard","attributes":["Endurance"],"keywords":["Guard","Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/lurking_mummy.png","id":"61a261f8-4e8f-5a8d-a51b-5d68fb385858","code":"jT"}
+{
+ "name": "Lurking Mummy",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Mummy"
+ ],
+ "cost": 5,
+ "power": 2,
+ "health": 6,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Prophecy, Guard",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Guard",
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/lurking_mummy.png",
+ "id": "61a261f8-4e8f-5a8d-a51b-5d68fb385858",
+ "code": "jT"
+}

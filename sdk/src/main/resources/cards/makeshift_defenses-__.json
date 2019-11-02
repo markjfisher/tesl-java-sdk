@@ -1,1 +1,29 @@
-{"name":"Makeshift Defenses","rarity":"Common","type":"Creature","subtypes":["Defense"],"cost":0,"power":0,"health":2,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Guard","attributes":["Neutral"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/makeshift_defenses.png","id":"50bd444f-4d2a-5b45-8c79-9ca7c1acb40f","code":"__"}
+{
+ "name": "Makeshift Defenses",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Defense"
+ ],
+ "cost": 0,
+ "power": 0,
+ "health": 2,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Guard",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/makeshift_defenses.png",
+ "id": "50bd444f-4d2a-5b45-8c79-9ca7c1acb40f",
+ "code": "__"
+}

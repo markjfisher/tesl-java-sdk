@@ -1,1 +1,31 @@
-{"name":"Apex Wolf","rarity":"Epic","type":"Creature","subtypes":["Wolf"],"cost":6,"power":4,"health":4,"set":{"name":"FrostSpark Collection","id":"fsc"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Breakthrough, Drain. Last Gasp: Draw the top creature of your deck and give it Breakthrough and Drain.","attributes":["Willpower"],"keywords":["Breakthrough","Drain","Last Gasp"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fsc/apex_wolf.png","id":"3bad18ea-151a-5f14-9971-7fae215272e4","code":"aF"}
+{
+ "name": "Apex Wolf",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Wolf"
+ ],
+ "cost": 6,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "FrostSpark Collection",
+  "id": "fsc"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Breakthrough, Drain. Last Gasp: Draw the top creature of your deck and give it Breakthrough and Drain.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Breakthrough",
+  "Drain",
+  "Last Gasp"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fsc/apex_wolf.png",
+ "id": "3bad18ea-151a-5f14-9971-7fae215272e4",
+ "code": "aF"
+}

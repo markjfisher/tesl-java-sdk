@@ -1,1 +1,28 @@
-{"name":"Apprentice Necromancer","rarity":"Epic","type":"Creature","subtypes":["Imperial"],"cost":3,"power":3,"health":3,"set":{"name":"Monthly Rewards","id":"mr"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon: Summon a 1-cost creature from your discard pile.","attributes":["Willpower","Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mr/apprentice_necromancer.png","id":"3d09eec6-5ed0-555c-a7e9-9fb622c4e4fd","code":"xb"}
+{
+ "name": "Apprentice Necromancer",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 3,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Monthly Rewards",
+  "id": "mr"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon: Summon a 1-cost creature from your discard pile.",
+ "attributes": [
+  "Willpower",
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mr/apprentice_necromancer.png",
+ "id": "3d09eec6-5ed0-555c-a7e9-9fb622c4e4fd",
+ "code": "xb"
+}

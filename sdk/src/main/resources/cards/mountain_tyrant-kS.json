@@ -1,1 +1,29 @@
-{"name":"Mountain Tyrant","rarity":"Rare","type":"Creature","subtypes":["Giant"],"cost":6,"power":6,"health":6,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Guard","attributes":["Endurance"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/mountain_tyrant.png","id":"01b4ea16-53df-5591-be7d-634899a8e761","code":"kS"}
+{
+ "name": "Mountain Tyrant",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Giant"
+ ],
+ "cost": 6,
+ "power": 6,
+ "health": 6,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Guard",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/mountain_tyrant.png",
+ "id": "01b4ea16-53df-5591-be7d-634899a8e761",
+ "code": "kS"
+}

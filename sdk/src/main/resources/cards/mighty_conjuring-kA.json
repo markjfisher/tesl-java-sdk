@@ -1,1 +1,25 @@
-{"name":"Mighty Conjuring","rarity":"Legendary","type":"Action","subtypes":[],"cost":7,"power":-1,"health":-1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon a random Atronach. If you have a creature with 5 power or more, summon a Lava Atronach instead.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/mighty_conjuring.png","id":"846c66a2-450a-5da6-910b-e7fe083ce3ae","code":"kA"}
+{
+ "name": "Mighty Conjuring",
+ "rarity": "Legendary",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 7,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon a random Atronach. If you have a creature with 5 power or more, summon a Lava Atronach instead.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/mighty_conjuring.png",
+ "id": "846c66a2-450a-5da6-910b-e7fe083ce3ae",
+ "code": "kA"
+}

@@ -1,1 +1,27 @@
-{"name":"Hlaalu Oathman","rarity":"Common","type":"Creature","subtypes":["Dark Elf"],"cost":3,"power":2,"health":2,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: if you have a (agility) card in play, gain 3 magicka this turn. (strenght) card in play, draw a card.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/hlaalu_oathman.png","id":"f342c8e9-2ce2-5ba5-9c0d-7e975cc73d6e","code":"iq"}
+{
+ "name": "Hlaalu Oathman",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: if you have a (agility) card in play, gain 3 magicka this turn. (strenght) card in play, draw a card.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/hlaalu_oathman.png",
+ "id": "f342c8e9-2ce2-5ba5-9c0d-7e975cc73d6e",
+ "code": "iq"
+}

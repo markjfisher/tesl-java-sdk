@@ -1,1 +1,27 @@
-{"name":"Kynreeve Champion","rarity":"Legendary","type":"Creature","subtypes":["Daedra"],"cost":4,"power":4,"health":3,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"When Kynreeve Champion takes damage, it deals that much damage to your opponent.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/kynreevechampion.png","id":"033678f0-74eb-5622-8ac3-cc8e40b7a1cc","code":"yA"}
+{
+ "name": "Kynreeve Champion",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Daedra"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 3,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "When Kynreeve Champion takes damage, it deals that much damage to your opponent.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/kynreevechampion.png",
+ "id": "033678f0-74eb-5622-8ac3-cc8e40b7a1cc",
+ "code": "yA"
+}

@@ -1,1 +1,27 @@
-{"name":"Jarl Balgruuf","rarity":"Legendary","type":"Creature","subtypes":["Nord"],"cost":7,"power":3,"health":3,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Summon a Stormcloak Skirmisher in the left lane and a Colovian Trooper in the right lane. At the start of your turn, if your lanes are full, you win the game.","attributes":["Willpower"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/hos/jarl_balgruuf.png","id":"15fa6c65-989d-5039-8e4b-0d61b26cafb5","code":"jd"}
+{
+ "name": "Jarl Balgruuf",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Nord"
+ ],
+ "cost": 7,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Summon a Stormcloak Skirmisher in the left lane and a Colovian Trooper in the right lane. At the start of your turn, if your lanes are full, you win the game.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/jarl_balgruuf.png",
+ "id": "15fa6c65-989d-5039-8e4b-0d61b26cafb5",
+ "code": "jd"
+}

@@ -1,1 +1,29 @@
-{"name":"Legion Zero Templar","rarity":"Common","type":"Creature","subtypes":["Imperial"],"cost":4,"power":2,"health":5,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Guard. Summon: If you have another creature in each lane, +0/+3.","attributes":["Willpower"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/legion_zero_templar.png","id":"38048f6f-1f62-521a-ab67-c74be107eede","code":"tA"}
+{
+ "name": "Legion Zero Templar",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 4,
+ "power": 2,
+ "health": 5,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Guard. Summon: If you have another creature in each lane, +0/+3.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/legion_zero_templar.png",
+ "id": "38048f6f-1f62-521a-ab67-c74be107eede",
+ "code": "tA"
+}

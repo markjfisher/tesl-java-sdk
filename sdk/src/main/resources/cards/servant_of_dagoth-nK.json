@@ -1,1 +1,29 @@
-{"name":"Servant of Dagoth","rarity":"Common","type":"Creature","subtypes":["Ash Creature"],"cost":5,"power":4,"health":4,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: if you have a creature with 5 power or more, +2/+2 and Guard.","attributes":["Strength"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/servant_of_dagoth.png","id":"0a308c6c-3e47-5312-8b51-92ec90aa6829","code":"nK"}
+{
+ "name": "Servant of Dagoth",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Ash Creature"
+ ],
+ "cost": 5,
+ "power": 4,
+ "health": 4,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: if you have a creature with 5 power or more, +2/+2 and Guard.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/servant_of_dagoth.png",
+ "id": "0a308c6c-3e47-5312-8b51-92ec90aa6829",
+ "code": "nK"
+}

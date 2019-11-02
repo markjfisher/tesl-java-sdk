@@ -1,1 +1,30 @@
-{"name":"Imbued Bosmer","rarity":"Common","type":"Creature","subtypes":["High Elf"],"cost":1,"power":1,"health":1,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Lethal. When Imbued Bosmer is Consumed, give the consuming creature +1/+1 and Lethal.","attributes":["Agility"],"keywords":["Lethal","Consume"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/imbued_bosmer.png","id":"086e9bae-005b-5376-88ac-66ed0d098a39","code":"vH"}
+{
+ "name": "Imbued Bosmer",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "High Elf"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Lethal. When Imbued Bosmer is Consumed, give the consuming creature +1/+1 and Lethal.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Lethal",
+  "Consume"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/imbued_bosmer.png",
+ "id": "086e9bae-005b-5376-88ac-66ed0d098a39",
+ "code": "vH"
+}

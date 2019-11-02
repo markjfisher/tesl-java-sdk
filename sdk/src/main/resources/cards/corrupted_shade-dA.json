@@ -1,1 +1,29 @@
-{"name":"Corrupted Shade","rarity":"Epic","type":"Creature","subtypes":["Spirit"],"cost":4,"power":5,"health":5,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Ward. At the end of your turn, if Corrupted Shade doesn't have a Ward, sacrifice it.","attributes":["Endurance"],"keywords":["Ward"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/corrupted_shade.png","id":"b9c9bf48-0c0c-5f44-b9ae-f74c798902f6","code":"dA"}
+{
+ "name": "Corrupted Shade",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Spirit"
+ ],
+ "cost": 4,
+ "power": 5,
+ "health": 5,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Ward. At the end of your turn, if Corrupted Shade doesn't have a Ward, sacrifice it.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Ward"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/corrupted_shade.png",
+ "id": "b9c9bf48-0c0c-5f44-b9ae-f74c798902f6",
+ "code": "dA"
+}

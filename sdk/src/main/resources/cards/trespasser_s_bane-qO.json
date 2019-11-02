@@ -1,1 +1,25 @@
-{"name":"Trespasser's Bane","rarity":"Common","type":"Action","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Set a creature's power to 1.","attributes":["Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/trespassers_bane.png","id":"84fdc411-88b0-5081-b364-09030f7d8751","code":"qO"}
+{
+ "name": "Trespasser's Bane",
+ "rarity": "Common",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Set a creature's power to 1.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/trespassers_bane.png",
+ "id": "84fdc411-88b0-5081-b364-09030f7d8751",
+ "code": "qO"
+}

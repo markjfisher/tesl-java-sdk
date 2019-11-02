@@ -1,1 +1,27 @@
-{"name":"Corsair","rarity":"Epic","type":"Creature","subtypes":["Breton"],"cost":1,"power":1,"health":1,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/corsair.png","id":"4b7c7859-fa7b-587d-8fd2-73104cad2eaf","code":"__"}
+{
+ "name": "Corsair",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/corsair.png",
+ "id": "4b7c7859-fa7b-587d-8fd2-73104cad2eaf",
+ "code": "__"
+}

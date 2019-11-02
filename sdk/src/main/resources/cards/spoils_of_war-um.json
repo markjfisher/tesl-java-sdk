@@ -1,1 +1,25 @@
-{"name":"Spoils of War","rarity":"Common","type":"Action","subtypes":[],"cost":5,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Draw two cards. Empower: Costs 1 less.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/spoils_of_war.png","id":"861b7edc-a57e-56b4-9799-307e3da1fbe4","code":"um"}
+{
+ "name": "Spoils of War",
+ "rarity": "Common",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 5,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Draw two cards. Empower: Costs 1 less.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/spoils_of_war.png",
+ "id": "861b7edc-a57e-56b4-9799-307e3da1fbe4",
+ "code": "um"
+}

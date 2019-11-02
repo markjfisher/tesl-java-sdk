@@ -1,1 +1,30 @@
-{"name":"Monastic Champion","rarity":"Epic","type":"Creature","subtypes":["Khajiit"],"cost":5,"power":6,"health":5,"set":{"name":"Moons of Elsweyr","id":"moe"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Breakthrough. Pilfer: Summon a 3/3 Cathay-raht.","attributes":["Willpower"],"keywords":["Breakthrough","Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/moe/monastic_champion.png","id":"d28941c7-e79c-5e56-af90-2c675ea7711f","code":"wC"}
+{
+ "name": "Monastic Champion",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 5,
+ "power": 6,
+ "health": 5,
+ "set": {
+  "name": "Moons of Elsweyr",
+  "id": "moe"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Breakthrough. Pilfer: Summon a 3/3 Cathay-raht.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [
+  "Breakthrough",
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/moe/monastic_champion.png",
+ "id": "d28941c7-e79c-5e56-af90-2c675ea7711f",
+ "code": "wC"
+}

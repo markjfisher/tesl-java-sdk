@@ -1,1 +1,25 @@
-{"name":"Goldbrand","rarity":"Legendary","type":"Support","subtypes":[],"cost":7,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Activate: Deal 2 damage to a creature, then increase the damage Goldbrand deals by 2.","attributes":["Neutral"],"keywords":[],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/cs/goldbrand.png","id":"63408aa5-97ce-58fc-82d9-57fd8330ffe8","code":"hm"}
+{
+ "name": "Goldbrand",
+ "rarity": "Legendary",
+ "type": "Support",
+ "subtypes": [],
+ "cost": 7,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Activate: Deal 2 damage to a creature, then increase the damage Goldbrand deals by 2.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/goldbrand.png",
+ "id": "63408aa5-97ce-58fc-82d9-57fd8330ffe8",
+ "code": "hm"
+}

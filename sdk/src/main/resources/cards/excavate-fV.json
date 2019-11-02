@@ -1,1 +1,25 @@
-{"name":"Excavate","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Draw an item or support from your discard pile.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/rcc/excavate.png","id":"0bf5239d-47bc-5b39-b9d2-a9f9a91b43e5","code":"fV"}
+{
+ "name": "Excavate",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Draw an item or support from your discard pile.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/excavate.png",
+ "id": "0bf5239d-47bc-5b39-b9d2-a9f9a91b43e5",
+ "code": "fV"
+}

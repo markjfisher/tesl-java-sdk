@@ -1,1 +1,29 @@
-{"name":"Circle Initiate","rarity":"Common","type":"Creature","subtypes":["Nord"],"cost":2,"power":2,"health":2,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Prophecy. Beast Form: +2/+1","attributes":["Strength"],"keywords":["Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/circle_initiate.png","id":"65cfe878-1a72-5d0a-94af-bbe7d65f8157","code":"de"}
+{
+ "name": "Circle Initiate",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Nord"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Prophecy. Beast Form: +2/+1",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/circle_initiate.png",
+ "id": "65cfe878-1a72-5d0a-94af-bbe7d65f8157",
+ "code": "de"
+}

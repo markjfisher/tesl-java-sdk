@@ -1,1 +1,25 @@
-{"name":"Fireball","rarity":"Rare","type":"Action","subtypes":[],"cost":4,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Deal 1 damage to all enemies.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/fireball.png","id":"04829877-a972-552f-a2a7-bbbc8b65f1b6","code":"gx"}
+{
+ "name": "Fireball",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 4,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Deal 1 damage to all enemies.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/fireball.png",
+ "id": "04829877-a972-552f-a2a7-bbbc8b65f1b6",
+ "code": "gx"
+}

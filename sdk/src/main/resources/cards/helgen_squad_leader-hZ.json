@@ -1,1 +1,27 @@
-{"name":"Helgen Squad Leader","rarity":"Epic","type":"Creature","subtypes":["Nord"],"cost":2,"power":0,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"When another friendly creature attacks, Helgen Squad Leader gains +1/+0.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/helgen_squad_leader.png","id":"268cd874-8d5a-5c44-a499-d2327fb1fb73","code":"hZ"}
+{
+ "name": "Helgen Squad Leader",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Nord"
+ ],
+ "cost": 2,
+ "power": 0,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "When another friendly creature attacks, Helgen Squad Leader gains +1/+0.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/helgen_squad_leader.png",
+ "id": "268cd874-8d5a-5c44-a499-d2327fb1fb73",
+ "code": "hZ"
+}

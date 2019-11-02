@@ -1,1 +1,30 @@
-{"name":"Nix-Hound Fabricant","rarity":"Common","type":"Creature","subtypes":["Fabricant"],"cost":4,"power":3,"health":3,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Drain. Summon: If you have a [neutral] card in play, Shackle an enemy creature.","attributes":["Agility"],"keywords":["Drain","Shackle"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/rcc/nix-hound_fabricant.png","id":"0b1b8f2c-ca92-543d-9e8c-472f605d2e60","code":"lB"}
+{
+ "name": "Nix-Hound Fabricant",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Fabricant"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Drain. Summon: If you have a [neutral] card in play, Shackle an enemy creature.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Drain",
+  "Shackle"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/nix-hound_fabricant.png",
+ "id": "0b1b8f2c-ca92-543d-9e8c-472f605d2e60",
+ "code": "lB"
+}

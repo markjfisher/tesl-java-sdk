@@ -1,1 +1,25 @@
-{"name":"Tullius' Conscription","rarity":"Epic","type":"Action","subtypes":[],"cost":12,"power":-1,"health":-1,"set":{"name":"Forgotten Hero Collection","id":"fhc"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Summon one of each creature from your deck that costs 2 or less.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fhc/tullius_conscription.png","id":"26121118-68c2-574f-a677-247b493338cb","code":"qT"}
+{
+ "name": "Tullius' Conscription",
+ "rarity": "Epic",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 12,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Forgotten Hero Collection",
+  "id": "fhc"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Summon one of each creature from your deck that costs 2 or less.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fhc/tullius_conscription.png",
+ "id": "26121118-68c2-574f-a677-247b493338cb",
+ "code": "qT"
+}

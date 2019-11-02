@@ -1,1 +1,25 @@
-{"name":"Arrest","rarity":"Rare","type":"Action","subtypes":[],"cost":7,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Steal an enemy creature. It loses Guard, and is permanently Shackled.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/arrest.png","id":"df34cd82-a9f9-526e-ab47-549c2f194a82","code":"aP"}
+{
+ "name": "Arrest",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 7,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Steal an enemy creature. It loses Guard, and is permanently Shackled.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/arrest.png",
+ "id": "df34cd82-a9f9-526e-ab47-549c2f194a82",
+ "code": "aP"
+}

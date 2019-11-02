@@ -1,1 +1,25 @@
-{"name":"Bedlam","rarity":"Common","type":"Action","subtypes":[],"cost":1,"power":0,"health":0,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Put two 1/1 Scamps into your hand.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/bedlam.png","id":"901d37ea-448d-51b2-bac1-827b7efa97d8","code":"xx"}
+{
+ "name": "Bedlam",
+ "rarity": "Common",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 1,
+ "power": 0,
+ "health": 0,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Put two 1/1 Scamps into your hand.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/bedlam.png",
+ "id": "901d37ea-448d-51b2-bac1-827b7efa97d8",
+ "code": "xx"
+}

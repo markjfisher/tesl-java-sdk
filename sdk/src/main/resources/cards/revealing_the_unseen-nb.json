@@ -1,1 +1,25 @@
-{"name":"Revealing the Unseen","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Put two random actions into your hand.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/revealing_the_unseen.png","id":"3c1f97b6-5639-5092-a862-2aec273dbd53","code":"nb"}
+{
+ "name": "Revealing the Unseen",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Put two random actions into your hand.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/revealing_the_unseen.png",
+ "id": "3c1f97b6-5639-5092-a862-2aec273dbd53",
+ "code": "nb"
+}

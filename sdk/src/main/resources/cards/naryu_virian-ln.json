@@ -1,1 +1,31 @@
-{"name":"Naryu Virian","rarity":"Legendary","type":"Creature","subtypes":["Dark Elf"],"cost":6,"power":6,"health":6,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Summon: Summon a 0/1 Target with Guard for your opponent in each lane. Friendly creatures have \"Slay: +1/+1 and Lethal.\"","attributes":["Agility"],"keywords":["Slay","Lethal","Guard"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/hom/naryu_virian.png","id":"abba8978-8a48-506a-8d69-1ec05d14b2ae","code":"ln"}
+{
+ "name": "Naryu Virian",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 6,
+ "power": 6,
+ "health": 6,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Summon: Summon a 0/1 Target with Guard for your opponent in each lane. Friendly creatures have \"Slay: +1/+1 and Lethal.\"",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Slay",
+  "Lethal",
+  "Guard"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/naryu_virian.png",
+ "id": "abba8978-8a48-506a-8d69-1ec05d14b2ae",
+ "code": "ln"
+}

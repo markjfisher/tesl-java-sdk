@@ -1,1 +1,30 @@
-{"name":"Indoril Archmage","rarity":"Legendary","type":"Creature","subtypes":["Dark Elf"],"cost":8,"power":6,"health":6,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Guard. Last Gasp: Indoril Archmage deals 6 damage to all enemy creatures in this lane.","attributes":["Intelligence"],"keywords":["Guard","Last Gasp"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/indoril_archmage.png","id":"140182f3-6f73-513d-a027-9fface424a6f","code":"iR"}
+{
+ "name": "Indoril Archmage",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 8,
+ "power": 6,
+ "health": 6,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Guard. Last Gasp: Indoril Archmage deals 6 damage to all enemy creatures in this lane.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Guard",
+  "Last Gasp"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/indoril_archmage.png",
+ "id": "140182f3-6f73-513d-a027-9fface424a6f",
+ "code": "iR"
+}

@@ -1,1 +1,30 @@
-{"name":"Daring Cutpurse","rarity":"Common","type":"Creature","subtypes":["Khajiit"],"cost":2,"power":2,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Prophecy, Pilfer: +1/+1","attributes":["Agility"],"keywords":["Pilfer","Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/daring_cutpurse.png","id":"9c29aee4-ee73-562a-be27-8920e19342b5","code":"eb"}
+{
+ "name": "Daring Cutpurse",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Prophecy, Pilfer: +1/+1",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Pilfer",
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/daring_cutpurse.png",
+ "id": "9c29aee4-ee73-562a-be27-8920e19342b5",
+ "code": "eb"
+}

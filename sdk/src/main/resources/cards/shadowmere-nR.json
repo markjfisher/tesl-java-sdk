@@ -1,1 +1,30 @@
-{"name":"Shadowmere","rarity":"Legendary","type":"Creature","subtypes":["Beast"],"cost":1,"power":1,"health":1,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Charge. Last Gasp: Shuffle Shadowmere into your deck, give it +3/+3 and increase its cost by 3.","attributes":["Neutral"],"keywords":["Charge","Last Gasp"],"unique":true,"imageUrl":"https://images.elderscrollslegends.io/fodb/shadowmere.png","id":"b3d87a8e-6f6b-54d0-a50e-ae1116534f57","code":"nR"}
+{
+ "name": "Shadowmere",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Beast"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Charge. Last Gasp: Shuffle Shadowmere into your deck, give it +3/+3 and increase its cost by 3.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [
+  "Charge",
+  "Last Gasp"
+ ],
+ "unique": true,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/shadowmere.png",
+ "id": "b3d87a8e-6f6b-54d0-a50e-ae1116534f57",
+ "code": "nR"
+}

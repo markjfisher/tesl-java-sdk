@@ -1,1 +1,25 @@
-{"name":"Salvage","rarity":"Epic","type":"Action","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Choose an item in your discard pile. Draw it and all items with the same name from your discard pile.","attributes":["Strength"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/salvage.png","id":"9f904315-d51c-5bc2-9d24-f24e95001d68","code":"ug"}
+{
+ "name": "Salvage",
+ "rarity": "Epic",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Choose an item in your discard pile. Draw it and all items with the same name from your discard pile.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/salvage.png",
+ "id": "9f904315-d51c-5bc2-9d24-f24e95001d68",
+ "code": "ug"
+}

@@ -1,1 +1,30 @@
-{"name":"Moonlight Werebat","rarity":"Epic","type":"Creature","subtypes":["Beast"],"cost":4,"power":4,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":400,"soulTrap":100,"text":"Prophecy, Drain","attributes":["Agility"],"keywords":["Drain","Prophecy"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/moonlight_werebat.png","id":"2b430155-45ba-5092-b13d-3c8c03cf3240","code":"kI"}
+{
+ "name": "Moonlight Werebat",
+ "rarity": "Epic",
+ "type": "Creature",
+ "subtypes": [
+  "Beast"
+ ],
+ "cost": 4,
+ "power": 4,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 400,
+ "soulTrap": 100,
+ "text": "Prophecy, Drain",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [
+  "Drain",
+  "Prophecy"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/moonlight_werebat.png",
+ "id": "2b430155-45ba-5092-b13d-3c8c03cf3240",
+ "code": "kI"
+}

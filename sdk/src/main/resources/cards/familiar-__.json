@@ -1,1 +1,27 @@
-{"name":"Familiar","rarity":"Common","type":"Creature","subtypes":["Wolf"],"cost":2,"power":2,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/familiar.png","id":"cdf495d0-e8a2-56b3-a309-c7c650ca3c71","code":"__"}
+{
+ "name": "Familiar",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Wolf"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/familiar.png",
+ "id": "cdf495d0-e8a2-56b3-a309-c7c650ca3c71",
+ "code": "__"
+}

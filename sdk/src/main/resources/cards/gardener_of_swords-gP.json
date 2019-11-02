@@ -1,1 +1,27 @@
-{"name":"Gardener of Swords","rarity":"Rare","type":"Creature","subtypes":["Redguard"],"cost":3,"power":1,"health":1,"set":{"name":"Madhouse Collection","id":"mc"},"collectible":true,"soulSummon":-1,"soulTrap":-1,"text":"When you equip an item to another creature, equip a copy of it to Gardener of Swords.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/mc/gardener_of_swords.png","id":"d9215b57-bd82-530b-8496-9f4fdc7bc565","code":"gP"}
+{
+ "name": "Gardener of Swords",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 3,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Madhouse Collection",
+  "id": "mc"
+ },
+ "collectible": true,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "When you equip an item to another creature, equip a copy of it to Gardener of Swords.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/mc/gardener_of_swords.png",
+ "id": "d9215b57-bd82-530b-8496-9f4fdc7bc565",
+ "code": "gP"
+}

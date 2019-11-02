@@ -1,1 +1,27 @@
-{"name":"Dagoth Dagger","rarity":"Common","type":"Item","subtypes":[],"cost":1,"power":-1,"health":-1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Breakthrough. +2/+1.","attributes":["Strength"],"keywords":["Breakthrough"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/dagoth_dagger.png","id":"b46640b3-6998-54be-b105-50cf851dadbc","code":"dY"}
+{
+ "name": "Dagoth Dagger",
+ "rarity": "Common",
+ "type": "Item",
+ "subtypes": [],
+ "cost": 1,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Breakthrough. +2/+1.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/dagoth_dagger.png",
+ "id": "b46640b3-6998-54be-b105-50cf851dadbc",
+ "code": "dY"
+}

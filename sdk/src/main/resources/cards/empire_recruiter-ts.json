@@ -1,1 +1,31 @@
-{"name":"Empire Recruiter","rarity":"Rare","type":"Creature","subtypes":["Imperial"],"cost":2,"power":2,"health":3,"set":{"name":"Alliance War","id":"aw"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Pilfer: Summon a 1/1 Recruit in the other lane.","attributes":["Willpower","Agility","Endurance"],"keywords":["Pilfer"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/aw/empire_recruiter.png","id":"2b62756a-d964-57b2-a472-a93a7893c0da","code":"ts"}
+{
+ "name": "Empire Recruiter",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "name": "Alliance War",
+  "id": "aw"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Pilfer: Summon a 1/1 Recruit in the other lane.",
+ "attributes": [
+  "Willpower",
+  "Agility",
+  "Endurance"
+ ],
+ "keywords": [
+  "Pilfer"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/aw/empire_recruiter.png",
+ "id": "2b62756a-d964-57b2-a472-a93a7893c0da",
+ "code": "ts"
+}

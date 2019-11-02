@@ -1,1 +1,27 @@
-{"name":"Snapping Dreugh","rarity":"Rare","type":"Creature","subtypes":["Dreugh"],"cost":4,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/snapping_dreugh.png","id":"34d2540c-3d2f-5d82-8e0d-38f425082f03","code":"oH"}
+{
+ "name": "Snapping Dreugh",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Dreugh"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/snapping_dreugh.png",
+ "id": "34d2540c-3d2f-5d82-8e0d-38f425082f03",
+ "code": "oH"
+}

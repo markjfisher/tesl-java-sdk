@@ -1,1 +1,30 @@
-{"name":"Scroll Seeker","rarity":"Common","type":"Creature","subtypes":["Breton"],"cost":1,"power":1,"health":2,"set":{"name":"Return to Clockwork City","id":"rcc"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Ward. Treasure Hunt - Two actions: +1/+0","attributes":["Intelligence"],"keywords":["Ward","Treasure Hunt"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/rcc/scroll_seeker.png","id":"d750ebcb-8c99-5509-b44a-a55a4c13c881","code":"nC"}
+{
+ "name": "Scroll Seeker",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 2,
+ "set": {
+  "name": "Return to Clockwork City",
+  "id": "rcc"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Ward. Treasure Hunt - Two actions: +1/+0",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [
+  "Ward",
+  "Treasure Hunt"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/rcc/scroll_seeker.png",
+ "id": "d750ebcb-8c99-5509-b44a-a55a4c13c881",
+ "code": "nC"
+}

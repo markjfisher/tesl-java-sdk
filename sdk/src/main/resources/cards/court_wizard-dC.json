@@ -1,1 +1,27 @@
-{"name":"Court Wizard","rarity":"Common","type":"Creature","subtypes":["Breton"],"cost":5,"power":3,"health":5,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Draw a card if you have two other  creatures.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/court_wizard.png","id":"7efbaf22-fa45-5797-91d9-8cb862c9015c","code":"dC"}
+{
+ "name": "Court Wizard",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Breton"
+ ],
+ "cost": 5,
+ "power": 3,
+ "health": 5,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Draw a card if you have two other  creatures.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/court_wizard.png",
+ "id": "7efbaf22-fa45-5797-91d9-8cb862c9015c",
+ "code": "dC"
+}

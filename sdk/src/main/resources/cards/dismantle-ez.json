@@ -1,1 +1,25 @@
-{"name":"Dismantle","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Destroy an enemy support or (neutral) creature.","attributes":["Neutral"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/dismantle.png","id":"72f398e9-5e2a-5d7f-94fe-360ac7abb1cf","code":"ez"}
+{
+ "name": "Dismantle",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Destroy an enemy support or (neutral) creature.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/dismantle.png",
+ "id": "72f398e9-5e2a-5d7f-94fe-360ac7abb1cf",
+ "code": "ez"
+}

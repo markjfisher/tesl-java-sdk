@@ -1,1 +1,29 @@
-{"name":"Gloom Wraith","rarity":"Rare","type":"Creature","subtypes":["Spirit"],"cost":4,"power":3,"health":3,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Breakthrough. Summon: +1/+1 for each other friendly (Endurance) creature.","attributes":["Endurance"],"keywords":["Breakthrough"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/gloom_wraith.png","id":"da213512-8678-5fa6-9f81-76a8e1b2844a","code":"hi"}
+{
+ "name": "Gloom Wraith",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Spirit"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 3,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Breakthrough. Summon: +1/+1 for each other friendly (Endurance) creature.",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Breakthrough"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/gloom_wraith.png",
+ "id": "da213512-8678-5fa6-9f81-76a8e1b2844a",
+ "code": "hi"
+}

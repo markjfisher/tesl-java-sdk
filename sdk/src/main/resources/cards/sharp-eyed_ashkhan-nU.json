@@ -1,1 +1,29 @@
-{"name":"Sharp-Eyed Ashkhan","rarity":"Legendary","type":"Creature","subtypes":["Dark Elf"],"cost":6,"power":6,"health":6,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Plot: Discard your hand, then draw three cards.","attributes":["Strength"],"keywords":["Plot"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/sharp-eyed_ashkhan.png","id":"b7f6fef9-854a-52b6-a439-2e6a0ce676ce","code":"nU"}
+{
+ "name": "Sharp-Eyed Ashkhan",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 6,
+ "power": 6,
+ "health": 6,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Plot: Discard your hand, then draw three cards.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Plot"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/sharp-eyed_ashkhan.png",
+ "id": "b7f6fef9-854a-52b6-a439-2e6a0ce676ce",
+ "code": "nU"
+}

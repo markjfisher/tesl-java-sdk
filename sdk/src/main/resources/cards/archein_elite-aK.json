@@ -1,1 +1,29 @@
-{"name":"Archein Elite","rarity":"Rare","type":"Creature","subtypes":["Argonian"],"cost":4,"power":3,"health":5,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Lethal","attributes":["Endurance"],"keywords":["Lethal"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/archein_elite.png","id":"d9d5f131-c03f-5d35-bfff-24f627ee9ae9","code":"aK"}
+{
+ "name": "Archein Elite",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Argonian"
+ ],
+ "cost": 4,
+ "power": 3,
+ "health": 5,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Lethal",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Lethal"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/archein_elite.png",
+ "id": "d9d5f131-c03f-5d35-bfff-24f627ee9ae9",
+ "code": "aK"
+}

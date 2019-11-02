@@ -1,1 +1,27 @@
-{"name":"Chanter of Akatosh","rarity":"Rare","type":"Creature","subtypes":["Imperial"],"cost":5,"power":1,"health":2,"set":{"name":"The Fall of the Dark Brotherhood","id":"fodb"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"After you play an action, summon a random creature from your deck with the same cost.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/fodb/chanter_of_akatosh.png","id":"6ea71be3-9abb-55c4-ac40-b3b7d5faabc2","code":"cU"}
+{
+ "name": "Chanter of Akatosh",
+ "rarity": "Rare",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 5,
+ "power": 1,
+ "health": 2,
+ "set": {
+  "name": "The Fall of the Dark Brotherhood",
+  "id": "fodb"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "After you play an action, summon a random creature from your deck with the same cost.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/fodb/chanter_of_akatosh.png",
+ "id": "6ea71be3-9abb-55c4-ac40-b3b7d5faabc2",
+ "code": "cU"
+}

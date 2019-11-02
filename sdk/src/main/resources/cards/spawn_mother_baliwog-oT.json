@@ -1,1 +1,27 @@
-{"name":"Spawn Mother/Baliwog","rarity":"Common","type":"Creature","subtypes":["Grummite"],"cost":4,"power":1,"health":1,"set":{"name":"Isle of Madness","id":"iom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/iom/spawn_motherbaliwog.png","id":"0396ae54-2d99-58c9-8079-037a8e8594c3","code":"oT"}
+{
+ "name": "Spawn Mother/Baliwog",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Grummite"
+ ],
+ "cost": 4,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "name": "Isle of Madness",
+  "id": "iom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/iom/spawn_motherbaliwog.png",
+ "id": "0396ae54-2d99-58c9-8079-037a8e8594c3",
+ "code": "oT"
+}

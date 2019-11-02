@@ -1,1 +1,27 @@
-{"name":"Unicorn","rarity":"Legendary","type":"Creature","subtypes":["Beast"],"cost":3,"power":2,"health":3,"set":{"id":"joo","name":"Jaws of Oblivion"},"collectible":true,"soulSummon":1200,"soulTrap":400,"text":"Friendly creatures in this lane with less power than Unicorn have Charge.","attributes":["Agility"],"keywords":[],"unique":false,"imageUrl":"https://www.legends-decks.com/img_cards/unicorn.png","id":"c64c3642-24a2-5e93-8ca5-3586e358f32d","code":"xX"}
+{
+ "name": "Unicorn",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Beast"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 3,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": true,
+ "soulSummon": 1200,
+ "soulTrap": 400,
+ "text": "Friendly creatures in this lane with less power than Unicorn have Charge.",
+ "attributes": [
+  "Agility"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/unicorn.png",
+ "id": "c64c3642-24a2-5e93-8ca5-3586e358f32d",
+ "code": "xX"
+}

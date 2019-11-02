@@ -1,1 +1,27 @@
-{"name":"Crown Quartermaster","rarity":"Common","type":"Creature","subtypes":["Redguard"],"cost":1,"power":2,"health":1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Summon: Put a Steel Dagger into your hand.","attributes":["Intelligence"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/crown_quartermaster.png","id":"cd48d7b5-3dce-5032-b9c5-5e8bd110293a","code":"dI"}
+{
+ "name": "Crown Quartermaster",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Redguard"
+ ],
+ "cost": 1,
+ "power": 2,
+ "health": 1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Summon: Put a Steel Dagger into your hand.",
+ "attributes": [
+  "Intelligence"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/crown_quartermaster.png",
+ "id": "cd48d7b5-3dce-5032-b9c5-5e8bd110293a",
+ "code": "dI"
+}

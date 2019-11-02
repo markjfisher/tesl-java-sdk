@@ -1,1 +1,29 @@
-{"name":"Lower Canton Smith","rarity":"Common","type":"Creature","subtypes":["Dark Elf"],"cost":3,"power":2,"health":2,"set":{"name":"Houses of Morrowind","id":"hom"},"collectible":true,"soulSummon":50,"soulTrap":5,"text":"Plot: Equip a friendly creature with a +2/+2 Steel Scimitar.","attributes":["Strength"],"keywords":["Plot"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hom/lower_canton_smith.png","id":"1be05305-a366-549c-a70d-d65f63d2da6f","code":"jN"}
+{
+ "name": "Lower Canton Smith",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Dark Elf"
+ ],
+ "cost": 3,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Houses of Morrowind",
+  "id": "hom"
+ },
+ "collectible": true,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Plot: Equip a friendly creature with a +2/+2 Steel Scimitar.",
+ "attributes": [
+  "Strength"
+ ],
+ "keywords": [
+  "Plot"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hom/lower_canton_smith.png",
+ "id": "1be05305-a366-549c-a70d-d65f63d2da6f",
+ "code": "jN"
+}

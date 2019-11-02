@@ -1,1 +1,26 @@
-{"name":"Warrior's Fury","rarity":"Rare","type":"Action","subtypes":[],"cost":3,"power":-1,"health":-1,"set":{"name":"Heroes of Skyrim","id":"hos"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Give a random creature and item in your hand +2/+2.","attributes":["Strength","Endurance"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/hos/warriors_fury.png","id":"c0660c1d-89b6-53b8-90ba-6fed4b1ffb6c","code":"rD"}
+{
+ "name": "Warrior's Fury",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 3,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Heroes of Skyrim",
+  "id": "hos"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Give a random creature and item in your hand +2/+2.",
+ "attributes": [
+  "Strength",
+  "Endurance"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/hos/warriors_fury.png",
+ "id": "c0660c1d-89b6-53b8-90ba-6fed4b1ffb6c",
+ "code": "rD"
+}

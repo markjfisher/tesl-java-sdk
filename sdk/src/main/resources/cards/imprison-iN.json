@@ -1,1 +1,25 @@
-{"name":"Imprison","rarity":"Rare","type":"Action","subtypes":[],"cost":2,"power":-1,"health":-1,"set":{"name":"Core Set","id":"cs"},"collectible":true,"soulSummon":100,"soulTrap":20,"text":"Shackle a creature. If you have four or more (Willpower) creatures, destroy it instead.","attributes":["Willpower"],"keywords":[],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/imprison.png","id":"eed02b1b-95b0-5fad-8487-bb9a84eab46a","code":"iN"}
+{
+ "name": "Imprison",
+ "rarity": "Rare",
+ "type": "Action",
+ "subtypes": [],
+ "cost": 2,
+ "power": -1,
+ "health": -1,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": true,
+ "soulSummon": 100,
+ "soulTrap": 20,
+ "text": "Shackle a creature. If you have four or more (Willpower) creatures, destroy it instead.",
+ "attributes": [
+  "Willpower"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/imprison.png",
+ "id": "eed02b1b-95b0-5fad-8487-bb9a84eab46a",
+ "code": "iN"
+}

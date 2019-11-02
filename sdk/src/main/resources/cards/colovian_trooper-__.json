@@ -1,1 +1,29 @@
-{"name":"Colovian Trooper","rarity":"Common","type":"Creature","subtypes":["Imperial"],"cost":2,"power":2,"health":2,"set":{"name":"Core Set","id":"cs"},"collectible":false,"soulSummon":-1,"soulTrap":-1,"text":"Guard","attributes":["Endurance"],"keywords":["Guard"],"unique":false,"imageUrl":"https://images.elderscrollslegends.io/cs/colovian_trooper.png","id":"04ecc1cf-bda0-58ae-9f4c-a7f3d7fcd719","code":"__"}
+{
+ "name": "Colovian Trooper",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Imperial"
+ ],
+ "cost": 2,
+ "power": 2,
+ "health": 2,
+ "set": {
+  "name": "Core Set",
+  "id": "cs"
+ },
+ "collectible": false,
+ "soulSummon": -1,
+ "soulTrap": -1,
+ "text": "Guard",
+ "attributes": [
+  "Endurance"
+ ],
+ "keywords": [
+  "Guard"
+ ],
+ "unique": false,
+ "imageUrl": "https://images.elderscrollslegends.io/cs/colovian_trooper.png",
+ "id": "04ecc1cf-bda0-58ae-9f4c-a7f3d7fcd719",
+ "code": "__"
+}
