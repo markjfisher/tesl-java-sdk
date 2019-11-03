@@ -42,6 +42,9 @@ val assertJVersion: String by project
 val mockkVersion: String by project
 val junitJupiterEngineVersion: String by project
 
+// Supply the image url in ~/.gradle/gradle.properties
+val dockerImageURL: String by project
+
 dependencies {
     implementation("com.fasterxml.jackson.core:jackson-core:$jacksonVersion")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonVersion")
@@ -222,16 +225,12 @@ jib {
         ports = listOf("80")
         creationTime = "USE_CURRENT_TIMESTAMP"
     }
-    // GITHUB (works, but can't download images in cloudjiffy)
-//    to {
-//        image = "docker.pkg.github.com/markjfisher/tesl-java-sdk/tesl-java-rest-repo"
-//        credHelper = "secretservice"
-//        tags = setOf("latest")
-//        // credHelper = "github"
-//    }
     to {
-        image = "markjfisher/tesl-java-rest-repo"
+        // Docker Hub - credentials needed. See CREDENTIALS_DOCKER.md
+        image = dockerImageURL
         credHelper = "secretservice"
-        tags = setOf("latest", "${project.version}")
+        tags = setOf("latest")
+        // Can add a specific version to deploy to as follows:
+        // tags = setOf("latest", "${project.version}")
     }
 }
