@@ -1,6 +1,6 @@
-package tesl.rest
+package tesl.model
 
-import tesl.rest.ClassColour.*
+import tesl.model.ClassColour.*
 import java.awt.Color
 
 enum class ClassColour(val hexColor: Color) {

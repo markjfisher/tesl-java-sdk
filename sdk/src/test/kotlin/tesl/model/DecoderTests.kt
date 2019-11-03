@@ -1,6 +1,7 @@
 package tesl.model
 
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 class DecoderTests {
@@ -89,5 +90,15 @@ class DecoderTests {
         checkResult = decoder.checkImportCode("SPAEaaabzazbACaczcACzdad")
         assertThat(checkResult.first).isTrue()
         assertThat(checkResult.second).containsExactlyInAnyOrder("za", "zb", "zc", "zd")
+    }
+
+    @Test
+    @Disabled("Don't need this yet. Also requires the decoder to know about cards directly. Might be better under Deck/Collection")
+    fun `unique cards are only seen once`() {
+        val decoder = Decoder(DecoderType.DECK)
+
+        assertThat(decoder.isCodeValid("SPAAABxDAA")).isFalse()
+        assertThat(decoder.isCodeValid("SPAAAAABxD")).isFalse()
+
     }
 }

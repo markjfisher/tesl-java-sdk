@@ -3,7 +3,8 @@ rootProject.name = "tesl-java-sdk"
 include(
     "extract",
     "sdk",
-    "rest"
+    "rest",
+    "imageutils"
 )
 
 val kotlinVersion: String by settings

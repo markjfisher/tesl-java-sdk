@@ -11,5 +11,8 @@ class Collection(
     companion object {
         @JvmStatic
         fun importCode(code: String) = Collection(Decoder(DecoderType.COLLECTION).createListFromCode(code))
+
+        @JvmStatic
+        fun canonicalCode(code: String) = importCode(code).exportCode()
     }
 }

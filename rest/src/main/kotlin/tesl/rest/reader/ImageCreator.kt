@@ -3,7 +3,7 @@ package tesl.rest.reader
 import tesl.model.Deck
 import tesl.model.Decoder
 import tesl.model.DecoderType
-import tesl.rest.ClassAbility
+import tesl.model.ClassAbility
 import java.awt.*
 import java.awt.image.BufferedImage
 import java.io.ByteArrayOutputStream
@@ -19,15 +19,12 @@ class ImageCreator {
     private val leftCircle = ImageIO.read(leftCircleFilledResource)
     private val fullWidth = 1445
 
-    // Deck Class [x/y] |    Mana    |   Class  |
+    // Deck Class       |    Mana    |   Class  |
     // Deck Icons       |   Curve    | cardback |
     // 2 x 5 Stats      |            |          |
 
     // Done as panels of individual images
     // Brought together pasting into final image
-
-    // TODO: Canonical deck code (sort the codes within a of1/2/3
-    // This will allow us to save the image for all similar codes
 
     fun createDeckImage(code: String): ByteArray? {
         if (!Decoder(DecoderType.DECK).isCodeValid(code)) return null

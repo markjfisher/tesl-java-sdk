@@ -100,7 +100,7 @@ open class Decoder(
     fun createExportCode(group: CardGrouping): String {
         return "SP" +
                 (1..3).joinToString("") { i ->
-                    createCountMaker(group.of(i).size) + group.of(i).joinToString("") { it.code }
+                    createCountMaker(group.of(i).size) + group.of(i).sortedBy { it.code }.joinToString("") { it.code }
                 }
 
     }

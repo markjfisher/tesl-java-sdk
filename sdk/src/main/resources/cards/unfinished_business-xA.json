@@ -15,7 +15,7 @@
  "soulTrap": 100,
  "text": "Costs 3 less for each friendly Wounded creature. Unsummon a creature. Then you may unsummon a friendly creature.",
  "attributes": [
-  "Endurance"
+  "Strength"
  ],
  "keywords": [],
  "unique": false,

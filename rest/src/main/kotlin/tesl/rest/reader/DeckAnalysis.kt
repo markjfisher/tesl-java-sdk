@@ -2,8 +2,8 @@ package tesl.rest.reader
 
 import tesl.model.Card
 import tesl.model.Deck
-import tesl.rest.ClassAbility
-import tesl.rest.DeckClass
+import tesl.model.ClassAbility
+import tesl.model.DeckClass
 
 data class CardCount(
     val count: Int,

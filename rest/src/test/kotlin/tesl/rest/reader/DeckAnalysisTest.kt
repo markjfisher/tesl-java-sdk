@@ -4,7 +4,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import tesl.TestCard
 import tesl.model.Deck
-import tesl.rest.DeckClass
+import tesl.model.DeckClass
 
 class DeckAnalysisTest {
     private val redDeck = Deck.importCode("SPAEcCiPhypuAEsGdzkawiAElDdDmgmV")

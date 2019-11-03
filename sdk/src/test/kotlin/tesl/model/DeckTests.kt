@@ -57,4 +57,22 @@ class DeckTests {
     fun `importing invalid code returns empty Deck`() {
         assertThat(Deck.importCode("SPABABAB").cards.size).isEqualTo(0)
     }
+
+    @Test
+    fun `exporting a code gives it as its canonical value`() {
+        // Expect same card in multiple positions gets grouped and sorted
+        assertThat(Deck.importCode("SPAEwZhihhhgAEhhhihgwZAA").exportCode()).isEqualTo("SPAAAAAEhghhhiwZ")
+
+        // Expect unsorted lists to be sorted, note capital before lower, but it's consistent so doesn't matter
+        assertThat(Deck.importCode("SPAGwZhivFhhhgulAFuBuyuzuAuxAEuGvAuFuH").exportCode()).isEqualTo("SPAGhghhhiulvFwZAFuAuBuxuyuzAEuFuGuHvA")
+    }
+
+    @Test
+    fun `canonical codes`() {
+        // Expect same card in multiple positions gets grouped and sorted
+        assertThat(Deck.canonicalCode("SPAEwZhihhhgAEhhhihgwZAA")).isEqualTo("SPAAAAAEhghhhiwZ")
+
+        // Expect unsorted lists to be sorted, note capital before lower, but it's consistent so doesn't matter
+        assertThat(Deck.canonicalCode("SPAGwZhivFhhhgulAFuBuyuzuAuxAEuGvAuFuH")).isEqualTo("SPAGhghhhiulvFwZAFuAuBuxuyuzAEuFuGuHvA")
+    }
 }

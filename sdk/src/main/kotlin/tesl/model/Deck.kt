@@ -11,5 +11,8 @@ class Deck(
     companion object {
         @JvmStatic
         fun importCode(code: String) = Deck(Decoder(DecoderType.DECK).createListFromCode(code))
+
+        @JvmStatic
+        fun canonicalCode(code: String) = importCode(code).exportCode()
     }
 }

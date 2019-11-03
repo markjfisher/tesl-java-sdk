@@ -44,4 +44,23 @@ class CollectionTests {
     fun `importing invalid code returns empty Collection`() {
         assertThat(Collection.importCode("SP!#!#!#").cards.size).isEqualTo(0)
     }
+
+    @Test
+    fun `exporting a code gives it as its canonical value`() {
+        // Expect same card in multiple positions gets grouped and sorted
+        assertThat(Collection.importCode("SP!%wZhihhhg!%hhhihgwZ!!").exportCode()).isEqualTo("SP!!!!!%%hghhhiwZ")
+
+        // Expect unsorted lists to be sorted, note capital before lower, but it's consistent so doesn't matter
+        assertThat(Collection.importCode("SP!'wZhivFhhhgul!&uBuyuzuAux!%uGvAuFuH").exportCode()).isEqualTo("SP!'hghhhiulvFwZ!&uAuBuxuyuz!%%uFuGuHvA")
+    }
+
+    @Test
+    fun `canonical codes`() {
+        // Expect same card in multiple positions gets grouped and sorted
+        assertThat(Collection.canonicalCode("SP!%wZhihhhg!%hhhihgwZ!!")).isEqualTo("SP!!!!!%%hghhhiwZ")
+
+        // Expect unsorted lists to be sorted, note capital before lower, but it's consistent so doesn't matter
+        assertThat(Collection.canonicalCode("SP!'wZhivFhhhgul!&uBuyuzuAux!%uGvAuFuH")).isEqualTo("SP!'hghhhiulvFwZ!&uAuBuxuyuz!%%uFuGuHvA")
+    }
+
 }
