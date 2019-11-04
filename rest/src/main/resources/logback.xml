@@ -9,4 +9,6 @@
         <appender-ref ref="STDOUT"/>
     </root>
 
+    <logger name="io.ktor.client.HttpClient" level="OFF"/>
+
 </configuration>

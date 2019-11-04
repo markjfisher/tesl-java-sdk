@@ -15,10 +15,11 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.3"
+version = "1.0.4"
 val teslArchiveBaseName = "tesl-java-rest"
 
 val micronautBoMVersion: String by project
+val teslBotToken: String by project
 
 dependencyManagement {
     imports {
@@ -33,6 +34,8 @@ val uuidGeneratorVersion: String by project
 val jacksonVersion: String by project
 val konfigVersion: String by project
 val classgraphVersion: String by project
+
+val diskordVersion: String by project
 
 val kotlinLoggingVersion: String by project
 val logbackClassicVersion: String by project
@@ -76,6 +79,8 @@ dependencies {
     implementation("com.fasterxml.uuid:java-uuid-generator:$uuidGeneratorVersion")
     implementation("com.natpryce:konfig:$konfigVersion")
     implementation("io.github.classgraph:classgraph:$classgraphVersion")
+
+    implementation(group = "com.jessecorbett", name = "diskord-jvm", version = diskordVersion)// , configuration = "compile")
 
     implementation("ch.qos.logback:logback-classic:$logbackClassicVersion")
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
@@ -219,7 +224,7 @@ jib {
         image = "registry://adoptopenjdk/openjdk11"
     }
     container {
-        jvmFlags = listOf("-Xms400m", "-Xmx400m")
+        jvmFlags = listOf("-Xms512m", "-Xmx512m", "-Dtesl.bot.token=$teslBotToken")
         mainClass = "tesl.Application"
         args = listOf("")
         ports = listOf("80")

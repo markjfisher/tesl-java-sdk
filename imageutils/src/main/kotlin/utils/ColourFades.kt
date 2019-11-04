@@ -8,6 +8,10 @@ object ColourFades {
         DeckClass.values().forEach { deckClass ->
             val colours = deckClass.classAbilities.map { it.classColour.hexColor }
 
+            val width = 300
+            val height = 46
+
+            // create the initial transparency for the block
 
 
             val floats = createTransitionFloats(colours.size, 0.15f)
