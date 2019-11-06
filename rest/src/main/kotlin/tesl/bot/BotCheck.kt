@@ -32,7 +32,6 @@ class BotCheck(private val imageCreator: ImageCreator) {
     @UnstableDefault
     @EventListener
     fun startBot(e: ServerStartupEvent) {
-
         // a while loop here doesn't help. eats all resources on machine, as bot doesn't release gracefully.
         try {
             runBot()
@@ -48,6 +47,12 @@ class BotCheck(private val imageCreator: ImageCreator) {
                 commands(prefix = "!") {
                     command(command = "deck") {
                         reply(channel, doDeckCommand(words, author))
+                    }
+                    command(command = "card2") {
+                        doCardCommand(words, author).forEach {
+                            reply(channel, it)
+                            Thread.sleep(250)
+                        }
                     }
                 }
 
