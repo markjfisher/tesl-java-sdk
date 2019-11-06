@@ -198,7 +198,8 @@ abstract class BaseDeckCommand() : DeckCommand {
         }
 
         val maxTypesLength = deck.cards.fold(0) { max, c ->
-            val len = c.subtypes.joinToString(", ").length
+            // Use "[All]" for Reflective Automaton
+            val len = if (c.name == "Reflective Automaton") 5 else c.subtypes.joinToString(", ").length
             if (len > max) len else max
         }
 
@@ -207,9 +208,13 @@ abstract class BaseDeckCommand() : DeckCommand {
             if (len > max) len else max
         }
 
-        val of1Data = byType(deck.of(1), 1, type, maxCardNameLength, maxTypesLength, maxSetIdLength)
-        val of2Data = byType(deck.of(2), 2, type, maxCardNameLength, maxTypesLength, maxSetIdLength)
-        val of3Data = byType(deck.of(3), 3, type, maxCardNameLength, maxTypesLength, maxSetIdLength)
+        val maxHealthLength = if(deck.cards.any { it.health >= 10 }) 2 else 1
+        val maxPowerLength = if(deck.cards.any { it.power >= 10 }) 2 else 1
+        val maxCostLength = if(deck.cards.any { it.cost >= 10 }) 2 else 1
+
+        val of1Data = byType(deck.of(1), 1, type, maxCardNameLength, maxTypesLength, maxSetIdLength, maxCostLength, maxPowerLength, maxHealthLength)
+        val of2Data = byType(deck.of(2), 2, type, maxCardNameLength, maxTypesLength, maxSetIdLength, maxCostLength, maxPowerLength, maxHealthLength)
+        val of3Data = byType(deck.of(3), 3, type, maxCardNameLength, maxTypesLength, maxSetIdLength, maxCostLength, maxPowerLength, maxHealthLength)
         return listOf(of1Data, of2Data, of3Data).mapNotNull { if (it.isBlank()) null else it }.joinToString("\n")
     }
 
@@ -219,7 +224,10 @@ abstract class BaseDeckCommand() : DeckCommand {
         type: String,
         maxCardNameLength: Int,
         maxTypesLength: Int,
-        maxSetIdLength: Int
+        maxSetIdLength: Int,
+        maxCostLength: Int,
+        maxPowerLength: Int,
+        maxHealthLength: Int
     ): String {
 
         return cards
@@ -227,18 +235,26 @@ abstract class BaseDeckCommand() : DeckCommand {
             .filter { it.type == type }
             .sortedBy { it.cost }
             .map { card ->
-                val cost = card.cost
-                val power = if (card.power >= 0) "${card.power}" else "-"
-                val health = if (card.health >= 0) "${card.health}" else "-"
+                val cost = formatNumber(card.cost, maxCostLength)
+                val power = formatNumber(card.power, maxPowerLength)
+                val health = formatNumber(card.health, maxHealthLength)
                 val costPowerHealthString = "[$cost/$power/$health]"
 
                 val namesString = String.format("%-${maxCardNameLength}s", card.name.take(maxCardNameLength))
                 val rarityString = String.format("%-6s", card.rarity.take(6))
                 val setName = String.format("| %-${maxSetIdLength}s", card.set["id"])
-                val typesString = if (card.subtypes.isNotEmpty()) String.format("| %-${maxTypesLength}s", card.subtypes.joinToString(",")) else ""
+                val typesString = if (card.subtypes.isNotEmpty()) {
+                    val partialTypesString = if (card.name == "Reflective Automaton") "[All]" else card.subtypes.joinToString(",")
+                    String.format("| %-${maxTypesLength}s", partialTypesString)
+                } else ""
                 "$size x $namesString $costPowerHealthString $rarityString $setName $typesString"
 
             }
             .joinToString("\n")
+    }
+
+    private fun formatNumber(n: Int, max: Int): String {
+        val asString = if (n >= 0) "$n" else "-"
+        return if(max > asString.length) " $asString" else asString
     }
 }
