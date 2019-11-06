@@ -79,8 +79,8 @@ class ImageCreator {
         val bi = BufferedImage(472, 400, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
 
-        displayDeckDetailValue(g, "Creatures:", "${a.creatureCount}", 0, 0)
-        displayDeckDetailValue(g, "Soulgems:", "${a.soulgemCost}", 0, 1)
+        displayDeckDetailValue(g, "Soulgems:", "${a.soulgemCost}", 0, 0)
+        displayDeckDetailValue(g, "Creatures:", "${a.creatureCount}", 0, 1)
         displayDeckDetailValue(g, "Actions:", "${a.actionCount}", 0, 2)
         displayDeckDetailValue(g, "Items:", "${a.itemCount}", 0, 3)
         displayDeckDetailValue(g, "Supports:", "${a.supportCount}", 0, 4)

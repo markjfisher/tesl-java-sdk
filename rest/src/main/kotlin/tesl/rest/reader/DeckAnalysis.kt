@@ -28,6 +28,7 @@ data class DeckAnalysis(
     val deckClass: DeckClass
     val className: String
     val attributesCount: Map<String, Int>
+    val attributesText: String
     val manaCurve: Map<Int, Int>
     val cardCountSorted: List<CardCount>
 
@@ -57,6 +58,7 @@ data class DeckAnalysis(
         className = calculateClassName()
 
         attributesCount = groupAndCount { it.attributes }
+        attributesText = attributesCount.map { (name, count) -> "$name: $count" }.joinToString(", ")
 
         val c1 = deck.of(1).size
         val c2 = deck.of(2).size
@@ -170,5 +172,30 @@ data class DeckAnalysis(
             .map { (k, v) -> k to v.size }
             .toMap()
     }
+
+    fun createManaString(): String {
+        val maxValue = manaCurve.values.max()!!
+        val maxValueLength = "$maxValue".length
+        val increment = maxValue / 20.0
+        val maxLabelLength = 4
+
+        return manaCurve.map { (cost, count) ->
+            val barChunks = ((count * 8) / increment).toInt().div(8)
+            val remainder = ((count * 8) / increment).toInt().rem(8)
+
+            var bar = "█".repeat(barChunks)
+            if (remainder > 0) {
+                bar += ('█'.toInt() + (8 - remainder)).toChar()
+            }
+            if (bar == "") {
+                bar = "▏"
+            }
+
+            val costText = if (cost < 7) "$cost" else "7+"
+            " ${costText.padEnd(maxLabelLength)}| ${count.toString().padEnd(maxValueLength)} $bar"
+        }.joinToString("\n")
+
+    }
+
 
 }

@@ -14,14 +14,14 @@ private val logger = KotlinLogging.logger {}
 
 object DeckCommands {
     private val allCommands = mapOf(
-        "help" to HelpCommand,
-        "info" to InfoCommand,
-        "detail" to DetailCommand,
-        "image" to ImageCommand,
-        "validate" to ValidateCommand
+        "help" to HelpDeckCommand,
+        "info" to InfoDeckCommand,
+        "detail" to DetailDeckCommand,
+        "image" to ImageDeckCommand,
+        "validate" to ValidateDeckCommand
     )
 
-    fun find(name: String): DeckCommand = allCommands[name] ?: HelpCommand
+    fun find(name: String): DeckCommand = allCommands[name] ?: HelpDeckCommand
     fun allHelp() = allCommands.values.joinToString("\n") { it.help() }
 }
 
@@ -31,7 +31,7 @@ interface DeckCommand {
     fun help(): String
 }
 
-object HelpCommand : BaseDeckCommand() {
+object HelpDeckCommand : BaseDeckCommand() {
     override fun run(args: List<String>, mention: String, username: String): ReplyData {
         val helpText = DeckCommands.allHelp()
         return ReplyData(text = listOf("```$helpText```"))
@@ -42,17 +42,17 @@ object HelpCommand : BaseDeckCommand() {
     }
 }
 
-object InfoCommand : BaseDeckCommand() {
+object InfoDeckCommand : BaseDeckCommand() {
     override fun run(args: List<String>, mention: String, username: String): ReplyData {
         return ReplyData(text = show(args, mention, username, "info"))
     }
 
     override fun help(): String {
-        return "info - displays summary information about a deck (class, keywords, types, etc. and mana curve.)"
+        return "info - displays summary information about a deck"
     }
 }
 
-object DetailCommand : BaseDeckCommand() {
+object DetailDeckCommand : BaseDeckCommand() {
     override fun run(args: List<String>, mention: String, username: String): ReplyData {
         return ReplyData(text = show(args, mention, username, "detail"))
     }
@@ -62,7 +62,7 @@ object DetailCommand : BaseDeckCommand() {
     }
 }
 
-object ImageCommand : BaseDeckCommand() {
+object ImageDeckCommand : BaseDeckCommand() {
     override fun help(): String {
         return "image - creates a graphical image of the deck."
     }
@@ -94,7 +94,7 @@ object ImageCommand : BaseDeckCommand() {
 
 }
 
-object ValidateCommand : BaseDeckCommand() {
+object ValidateDeckCommand : BaseDeckCommand() {
     override fun run(args: List<String>, mention: String, username: String): ReplyData {
         if (args.size != 1) {
             return ReplyData(text = listOf("$mention: Please supply a single deck code."))
@@ -124,15 +124,15 @@ abstract class BaseDeckCommand() : DeckCommand {
         val deckCode = args[0]
         logger.info { "User: $username asked for $type for code: $deckCode" }
         val deck = Deck.importCode(deckCode)
-        val da = DeckAnalysis(deck)
+        val a = DeckAnalysis(deck)
 
         val reply = when (type) {
             "info", "detail" -> {
-                val line1 = String.format("%-10s: %-5d   %-10s: %-5d", "Common", da.commonCount, "Actions", da.actionCount)
-                val line2 = String.format("%-10s: %-5d   %-10s: %-5d", "Rare", da.rareCount, "Items", da.itemCount)
-                val line3 = String.format("%-10s: %-5d   %-10s: %-5d", "Epic", da.epicCount, "Support", da.supportCount)
-                val line4 = String.format("%-10s: %-5d   %-10s: %-5d", "Legendary", da.legendaryCount, "Creatures", da.creatureCount)
-                val line5 = String.format("%-10s: %-10d", "Soulgems", da.soulgemCost)
+                val line1 = String.format("%-10s: %-5d   %-10s: %-5d", "Common", a.commonCount, "Actions", a.actionCount)
+                val line2 = String.format("%-10s: %-5d   %-10s: %-5d", "Rare", a.rareCount, "Items", a.itemCount)
+                val line3 = String.format("%-10s: %-5d   %-10s: %-5d", "Epic", a.epicCount, "Support", a.supportCount)
+                val line4 = String.format("%-10s: %-5d   %-10s: %-5d", "Legendary", a.legendaryCount, "Creatures", a.creatureCount)
+                val line5 = String.format("%-10s: %-10d", "Soulgems", a.soulgemCost)
 
                 """|$mention : $deckCode
                 |```$line1
@@ -141,9 +141,12 @@ abstract class BaseDeckCommand() : DeckCommand {
                 |$line4
                 |$line5
                 |
-                |Class    : ${da.className}
-                |Unique   : ${da.totalUnique}
-                |Total    : ${da.totalCards}```
+                |Class    : ${a.className} [${a.attributesText}]
+                |Unique   : ${a.totalUnique}
+                |Total    : ${a.totalCards} (1s: ${deck.of(1).size}, 2s: ${deck.of(2).size}, 3s: ${deck.of(3).size})
+                |
+                |Mana Curve
+                |${a.createManaString()}```
                 |""".trimMargin(marginPrefix = "|")
             }
 

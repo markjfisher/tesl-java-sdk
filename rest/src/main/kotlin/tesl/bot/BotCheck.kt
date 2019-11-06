@@ -78,11 +78,22 @@ class BotCheck(private val imageCreator: ImageCreator) {
         val deckArgs = w.drop(1)
 
         val deckCommand = when {
-            deckArgs.isEmpty() -> HelpCommand
+            deckArgs.isEmpty() -> HelpDeckCommand
             else -> DeckCommands.find(deckArgs[0]) as BaseDeckCommand
         }
         deckCommand.imageCreator = imageCreator
 
         return deckCommand.run(deckArgs.drop(1), author.mention, author.username)
+    }
+
+    private fun doCardCommand(w: List<String>, author: User): List<ReplyData> {
+        val cardArgs = w.drop(1)
+
+        val cardCommand = when {
+            cardArgs.isEmpty() -> HelpCardCommand
+            else -> CardCommands.find(cardArgs[0]) as BaseCardCommand
+        }
+
+        return cardCommand.run(cardArgs.drop(1), author)
     }
 }

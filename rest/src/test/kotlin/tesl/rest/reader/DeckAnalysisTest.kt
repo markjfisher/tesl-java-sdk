@@ -39,6 +39,7 @@ class DeckAnalysisTest {
         assertThat(a.totalUnique).isEqualTo(12)
         assertThat(a.className).isEqualTo("Strength")
         assertThat(a.attributesCount).containsExactlyEntriesOf(mapOf("Strength" to 24))
+        assertThat(a.attributesText).isEqualTo("Strength: 24")
     }
 
     @Test
@@ -59,6 +60,7 @@ class DeckAnalysisTest {
         assertThat(a.totalUnique).isEqualTo(32)
         assertThat(a.className).isEqualTo("Aldmeri Dominion")
         assertThat(a.attributesCount).containsAllEntriesOf(mapOf("Intelligence" to 37, "Willpower" to 16, "Agility" to 27, "Neutral" to 1))
+        assertThat(a.attributesText).isEqualTo("Intelligence: 37, Agility: 27, Willpower: 16, Neutral: 1")
     }
 
     @Test
@@ -79,6 +81,7 @@ class DeckAnalysisTest {
         assertThat(a.totalUnique).isEqualTo(51)
         assertThat(a.className).isEqualTo("Daggerfall Covenant")
         assertThat(a.attributesCount).containsAllEntriesOf(mapOf("Intelligence" to 49, "Strength" to 17, "Endurance" to 18, "Neutral" to 6))
+        assertThat(a.attributesText).isEqualTo("Endurance: 18, Strength: 17, Intelligence: 49, Neutral: 6")
     }
 
     @Test
