@@ -47,10 +47,10 @@ class BotCheck(private val imageCreator: ImageCreator) {
         runBlocking {
             bot(config[token]) {
                 commands(prefix = "!") {
-                    command(command = "deck2") {
+                    command(command = "deck") {
                         reply(channel, doDeckCommand(words, author))
                     }
-                    command(command = "card2") {
+                    command(command = "card") {
                         doCardCommand(words, author).forEach {
                             if (it.fileData == null) {
                                 reply(channel, it)
