@@ -3,11 +3,13 @@ package tesl.bot
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.Embed
 import com.jessecorbett.diskord.api.rest.EmbedAuthor
-import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.util.mention
 import com.jessecorbett.diskord.util.pngAvatar
+import com.jessecorbett.diskord.util.toFileData
 import me.xdrop.fuzzywuzzy.FuzzySearch
 import tesl.model.CardCache
+import tesl.rest.reader.toByteArray
+import javax.imageio.ImageIO
 
 object CardCommands {
     private val allCommands = mapOf(
@@ -36,21 +38,35 @@ object FindCardCommand: BaseCardCommand() {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
         val searchTerm = args.joinToString(" ")
         val extractSorted = FuzzySearch.extractSorted(searchTerm, allCards) { it.name }
-        if (extractSorted.isEmpty() || extractSorted.first().score < 70) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
+        if (extractSorted.isEmpty() || extractSorted.first().score < 73) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
+
+        val numToTake = if (extractSorted.first().score == 100) 1 else 2
 
         return extractSorted
-            .filter { it.score > 69 }
-            .take(3)
+            .filter { it.score > 72 }
+            .take(numToTake)
             .map {
-                ReplyData(
+                val card = it.referent
+                val imageFileName = card.imageUrl.substringAfterLast("/")
+                val imageResource = this::class.java.classLoader.getResource("images/cards/${imageFileName}")
+
+                val data = ReplyData(
                     text = listOf(""),
                     embed = Embed(
                         title = it.referent.name,
                         description = "Score: ${it.score}",
-                        author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar()),
-                        image = EmbedImage(url = it.referent.imageUrl)
+                        author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar())
                     )
                 )
+
+                if (imageResource != null) {
+                    data.fileData = ImageIO.read(imageResource).toByteArray().toFileData(imageFileName)
+                } else {
+                    val missingImageResource = this::class.java.classLoader.getResource("images/missing_image.png")
+                    data.fileData = ImageIO.read(missingImageResource).toByteArray().toFileData(imageFileName)
+                }
+
+                data
             }
     }
 

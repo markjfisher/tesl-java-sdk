@@ -50,8 +50,14 @@ class BotCheck(private val imageCreator: ImageCreator) {
                     }
                     command(command = "card2") {
                         doCardCommand(words, author).forEach {
-                            reply(channel, it)
-                            Thread.sleep(250)
+                            channel.createMessage(
+                                CreateMessage(
+                                    content = it.text.first(),
+                                    embed = it.embed
+                                )
+                            )
+                            channel.sendFile(data = it.fileData!!, comment = "")
+                            Thread.sleep(200)
                         }
                     }
                 }
@@ -65,7 +71,7 @@ class BotCheck(private val imageCreator: ImageCreator) {
 
     private suspend fun reply(channel: ChannelClient, replyData: ReplyData) {
         if (replyData.fileData != null) {
-            channel.sendFile(data = replyData.fileData, comment = replyData.text.first())
+            channel.sendFile(data = replyData.fileData!!, comment = replyData.text.first())
         } else {
             replyData.text.forEach { text ->
                 channel.createMessage(

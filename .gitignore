@@ -15,3 +15,4 @@ dist
 .attach_pid*
 .DS_Store
 
+rest/src/main/resources/images/cards
