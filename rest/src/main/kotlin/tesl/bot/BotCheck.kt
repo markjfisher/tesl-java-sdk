@@ -48,7 +48,7 @@ class BotCheck(private val imageCreator: ImageCreator) {
                     command(command = "deck") {
                         reply(channel, doDeckCommand(words, author))
                     }
-                    command(command = "card2") {
+                    command(command = "card") {
                         doCardCommand(words, author).forEach {
                             channel.createMessage(
                                 CreateMessage(
