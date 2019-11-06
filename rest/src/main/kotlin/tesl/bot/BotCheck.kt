@@ -2,6 +2,8 @@ package tesl.bot
 
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.CreateMessage
+import com.jessecorbett.diskord.api.rest.Embed
+import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.api.rest.client.ChannelClient
 import com.jessecorbett.diskord.dsl.bot
 import com.jessecorbett.diskord.dsl.command
@@ -45,19 +47,22 @@ class BotCheck(private val imageCreator: ImageCreator) {
         runBlocking {
             bot(config[token]) {
                 commands(prefix = "!") {
-                    command(command = "deck") {
+                    command(command = "deck2") {
                         reply(channel, doDeckCommand(words, author))
                     }
-                    command(command = "card") {
+                    command(command = "card2") {
                         doCardCommand(words, author).forEach {
-                            channel.createMessage(
-                                CreateMessage(
-                                    content = it.text.first(),
-                                    embed = it.embed
+                            if (it.fileData == null) {
+                                reply(channel, it)
+                            } else {
+                                channel.createMessage(
+                                    CreateMessage(
+                                        content = it.text.first(),
+                                        embed = it.embed
+                                    ),
+                                    it.fileData!!
                                 )
-                            )
-                            channel.sendFile(data = it.fileData!!, comment = "")
-                            Thread.sleep(200)
+                            }
                         }
                     }
                 }

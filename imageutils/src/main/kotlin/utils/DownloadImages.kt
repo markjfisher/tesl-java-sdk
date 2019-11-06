@@ -9,10 +9,14 @@ object DownloadImages {
     @JvmStatic
     fun main(args: Array<String>) {
         CardCache.all().forEach { card ->
-            println("saving image ${card.name}")
-            val x = ImageIO.read(URL(card.imageUrl))
             val fileName = card.imageUrl.substringAfterLast("/")
-            ImageIO.write(x, "PNG", File("/home/markf/dev/personal/gaming/tesl-java-sdk/rest/src/main/resources/images/cards/$fileName"))
+            val file = File("/home/markf/dev/personal/gaming/tesl-java-sdk/rest/src/main/resources/images/cards/$fileName")
+
+            if (!file.exists()) {
+                println("processing image for ${card.name}")
+                val x = ImageIO.read(URL(card.imageUrl))
+                ImageIO.write(x, "PNG", file)
+            }
         }
     }
 }

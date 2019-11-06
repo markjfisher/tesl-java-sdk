@@ -1,0 +1,27 @@
+{
+ "name": "Oblivion Gate",
+ "rarity": "Common",
+ "type": "Creature",
+ "subtypes": [
+  "Portal"
+ ],
+ "cost": 3,
+ "power": 0,
+ "health": 4,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": false,
+ "soulSummon": 50,
+ "soulTrap": 5,
+ "text": "Level: 1. Immune to Silence. Permanently Shackled. When you summon a Daedra, give it +0/+1.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/obliviongate.png",
+ "id": "fded515c-54ea-51cc-95be-a11bd3827130",
+ "code": "__"
+}

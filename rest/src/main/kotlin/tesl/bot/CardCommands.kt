@@ -3,6 +3,7 @@ package tesl.bot
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.Embed
 import com.jessecorbett.diskord.api.rest.EmbedAuthor
+import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.util.mention
 import com.jessecorbett.diskord.util.pngAvatar
 import com.jessecorbett.diskord.util.toFileData
@@ -17,7 +18,7 @@ object CardCommands {
         "find" to FindCardCommand
     )
     fun find(name: String): CardCommand = allCommands[name] ?: HelpCardCommand
-    fun allHelp() = allCommands.values.joinToString("\n") { it.help() }
+    fun allHelp() = "Type '!card <command> <args>' where commands are:\n" + allCommands.values.joinToString("\n") { it.help() }
 }
 
 object HelpCardCommand: BaseCardCommand() {
@@ -38,12 +39,12 @@ object FindCardCommand: BaseCardCommand() {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
         val searchTerm = args.joinToString(" ")
         val extractSorted = FuzzySearch.extractSorted(searchTerm, allCards) { it.name }
-        if (extractSorted.isEmpty() || extractSorted.first().score < 73) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
+        if (extractSorted.isEmpty() || extractSorted.first().score <= 71) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
 
-        val numToTake = if (extractSorted.first().score == 100) 1 else 2
+        val numToTake = if (extractSorted.first().score == 100) 1 else 4
 
         return extractSorted
-            .filter { it.score > 72 }
+            .filter { it.score >= 72 }
             .take(numToTake)
             .map {
                 val card = it.referent
@@ -54,8 +55,8 @@ object FindCardCommand: BaseCardCommand() {
                     text = listOf(""),
                     embed = Embed(
                         title = it.referent.name,
-                        description = "Score: ${it.score}",
-                        author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar())
+                        author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar()),
+                        image = EmbedImage(url = "attachment://$imageFileName")
                     )
                 )
 
@@ -71,7 +72,7 @@ object FindCardCommand: BaseCardCommand() {
     }
 
     override fun help(): String {
-        return "find - Finds a card from the given arguements, e.g. 'find Young Mammoth'"
+        return "find - Finds a card from the given arguements, e.g. '!card find Young Mammoth'"
     }
 
 }
