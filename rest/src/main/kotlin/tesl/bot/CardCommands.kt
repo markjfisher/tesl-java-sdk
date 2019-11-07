@@ -8,9 +8,12 @@ import com.jessecorbett.diskord.util.mention
 import com.jessecorbett.diskord.util.pngAvatar
 import com.jessecorbett.diskord.util.toFileData
 import me.xdrop.fuzzywuzzy.FuzzySearch
+import mu.KotlinLogging
 import tesl.model.CardCache
 import tesl.rest.reader.toByteArray
 import javax.imageio.ImageIO
+
+private val logger = KotlinLogging.logger {}
 
 object CardCommands {
     private val allCommands = mapOf(
@@ -37,12 +40,14 @@ object FindCardCommand: BaseCardCommand() {
 
     override fun run(args: List<String>, author: User): List<ReplyData> {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
+
         val searchTerm = args.joinToString(" ")
         val extractSorted = FuzzySearch.extractSorted(searchTerm, allCards) { it.name }
+        logger.info { "User: ${author.username} searching for '$searchTerm'. Hits: ${extractSorted.size}"}
+
         if (extractSorted.isEmpty() || extractSorted.first().score <= 71) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
 
-        val numToTake = if (extractSorted.first().score == 100) 1 else 4
-
+        val numToTake = if (extractSorted.first().score == 100) 1 else 3
         return extractSorted
             .filter { it.score >= 72 }
             .take(numToTake)
