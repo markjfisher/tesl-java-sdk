@@ -1,11 +1,11 @@
-package tesl.model
+package tesl.oldmodel
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import tesl.idgenerator.IdGenerator
 import java.io.File
-import tesl.model.CardSet as OldCardSet
+import tesl.oldmodel.CardSet as OldCardSet
 
 data class TESLCard(
     val name: String,

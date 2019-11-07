@@ -1,4 +1,4 @@
-package tesl.model
+package tesl.oldmodel
 
 class QueryBuilder : Config() {
     private val unirestClient =

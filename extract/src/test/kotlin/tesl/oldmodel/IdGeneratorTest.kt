@@ -1,8 +1,9 @@
-package tesl.model
+package tesl.oldmodel
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import tesl.idgenerator.IdGenerator
+import tesl.oldmodel.TESLCard
 
 class IdGeneratorTest {
     @Test

@@ -1,0 +1,27 @@
+{
+ "name": "Blackwood Hoodlum",
+ "rarity": "Legendary",
+ "type": "Creature",
+ "subtypes": [
+  "Khajiit"
+ ],
+ "cost": 1,
+ "power": 1,
+ "health": 1,
+ "set": {
+  "id": "joo",
+  "name": "Jaws of Oblivion"
+ },
+ "collectible": false,
+ "soulSummon": 0,
+ "soulTrap": 0,
+ "text": "Last Gasp: Give Modryn Oreyn +2/+2.",
+ "attributes": [
+  "Neutral"
+ ],
+ "keywords": [],
+ "unique": false,
+ "imageUrl": "https://www.legends-decks.com/img_cards/blackwoodhoodlum.png",
+ "id": "1b3dbdd6-b0a7-54cd-8557-ce5c9ff2a074",
+ "code": "__"
+}

@@ -1,4 +1,4 @@
-package tesl.model
+package tesl.oldmodel
 
 import com.natpryce.konfig.*
 

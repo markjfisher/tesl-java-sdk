@@ -60,6 +60,7 @@ dependencies {
     testImplementation("org.assertj:assertj-core:$assertJVersion")
     testImplementation("io.mockk:mockk:$mockkVersion")
 
+    implementation(project(":sdk"))
 }
 
 tasks {

@@ -1,9 +1,9 @@
 package tesl.extract
 
-import tesl.model.Card
-import tesl.model.APICardCache
-import tesl.model.Decoder
-import tesl.model.TESLCard
+import tesl.oldmodel.Card
+import tesl.oldmodel.APICardCache
+import tesl.oldmodel.Decoder
+import tesl.oldmodel.TESLCard
 import java.io.File
 
 object APICardExtractor {

@@ -1,4 +1,4 @@
-package tesl.model
+package tesl.oldmodel
 
 open class CardGrouping(val cards: List<Card>) {
     // A map of count to list of cards with that count in the deck, e.g. {1: [Adoring Fan, Aela the Huntress], 2: [Aldmeri Patriot]}

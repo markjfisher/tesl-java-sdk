@@ -1,7 +1,8 @@
-package tesl.model
+package tesl.oldmodel
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
+import tesl.oldmodel.TESLCard
 
 class TESLCardTest {
     @Test
