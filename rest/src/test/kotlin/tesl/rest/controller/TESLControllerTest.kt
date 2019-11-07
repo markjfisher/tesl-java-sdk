@@ -4,7 +4,10 @@ import io.mockk.every
 import io.mockk.mockk
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertThrows
 import tesl.createDeckInfo
+import tesl.rest.exceptions.ApiException
+import tesl.rest.exceptions.BadRequestException
 import tesl.rest.model.DeckInfo
 import tesl.rest.reader.DeckInfoCreator
 import tesl.rest.reader.ImageCreator
@@ -27,12 +30,12 @@ class TESLControllerTest {
     @Test
     fun `should return empty when code not parsed`() {
         val reader = mockk<DeckInfoCreator>()
-        every { reader.parse("abc") } returns null
+        every { reader.parse("abc") } throws BadRequestException("error message")
 
-        // When
-        val d = TESLController(reader, imageCreator).info("abc").blockingGet()
+        val e = assertThrows<Exception> {
+            TESLController(reader, imageCreator).info("abc").blockingGet()
+        }
 
-        // Then
-        assertThat(d).isNull()
+        assertThat(e.cause?.message).isEqualTo("error message")
     }
 }

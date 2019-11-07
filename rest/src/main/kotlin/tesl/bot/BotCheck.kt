@@ -12,6 +12,7 @@ import com.jessecorbett.diskord.util.mention
 import com.jessecorbett.diskord.util.sendFile
 import com.jessecorbett.diskord.util.words
 import com.natpryce.konfig.*
+import io.micronaut.context.annotation.Requires
 import io.micronaut.runtime.event.annotation.EventListener
 import io.micronaut.runtime.server.event.ServerStartupEvent
 import kotlinx.coroutines.runBlocking
@@ -22,6 +23,7 @@ import javax.inject.Singleton
 
 private val logger = KotlinLogging.logger {}
 
+@Requires(notEnv = ["test"])
 @Singleton
 class BotCheck(private val imageCreator: ImageCreator) {
 

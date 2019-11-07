@@ -15,7 +15,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.7"
+version = "1.0.8"
 val teslArchiveBaseName = "tesl-java-rest"
 
 val micronautBoMVersion: String by project
@@ -37,6 +37,7 @@ val fuzzyMatchVersion: String by project
 
 val diskordVersion: String by project
 
+val micronautJunit: String by project
 val kotlinLoggingVersion: String by project
 val logbackClassicVersion: String by project
 val logbackEncoderVersion: String by project
@@ -91,6 +92,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-engine:$junitJupiterEngineVersion")
     testImplementation("org.assertj:assertj-core:$assertJVersion")
     testImplementation("io.mockk:mockk:$mockkVersion")
+    testImplementation("io.micronaut.test:micronaut-test-junit5:$micronautJunit")
 
     implementation(project(":sdk"))
 }

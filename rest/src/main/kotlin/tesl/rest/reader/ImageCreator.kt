@@ -4,6 +4,7 @@ import tesl.model.Deck
 import tesl.model.Decoder
 import tesl.model.DecoderType
 import tesl.model.ClassAbility
+import tesl.rest.exceptions.BadRequestException
 import java.awt.*
 import java.awt.image.BufferedImage
 import java.io.ByteArrayOutputStream
@@ -26,11 +27,11 @@ class ImageCreator {
     // Done as panels of individual images
     // Brought together pasting into final image
 
-    fun createDeckImage(code: String): ByteArray? {
-        if (!Decoder(DecoderType.DECK).isCodeValid(code)) return null
+    fun createDeckImage(code: String): ByteArray {
+        if (!Decoder(DecoderType.DECK).isCodeValid(code)) throw BadRequestException(message = "Invalid deck code")
 
         val deck = Deck.importCode(code)
-        val a = DeckAnalysis(deck).run { return@run if (totalCards == 0) null else this } ?: return null
+        val a = DeckAnalysis(deck).run { return@run if (totalCards == 0) null else this } ?: throw BadRequestException(message = "No cards in deck")
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // CREATE PANELS
@@ -109,7 +110,7 @@ class ImageCreator {
 
         // Text
         g.font = Font(fontName, Font.BOLD, fontSize)
-        val fmText = g.fontMetrics
+        // val fmText = g.fontMetrics
         g.paint = Color(0xd2, 0xcb, 0xfe)
         val x3 = x2 + wTitle + 10
         g.drawString(text, x3, y2)
@@ -253,7 +254,7 @@ class ImageCreator {
         g.font = Font(fontName, Font.PLAIN, 30)
         g.paint = Color(0xd2, 0xcb, 0xfe)
 
-        attributes.forEachIndexed() { attIndex, attribute ->
+        attributes.forEachIndexed { attIndex, attribute ->
             val attributeName = attribute.name.toLowerCase()
             val count = a.attributesCount[attributeName.capitalize()]
             val iconResource = this::class.java.classLoader.getResource("images/${attributeName}-50.png")
@@ -339,7 +340,7 @@ class ImageCreator {
             }
             // the actual count
             val countOfCurrentMana = "$manaCount"
-            val (wManaCount, hManaCount) = setupToDrawNumber(g, countOfCurrentMana, Color.WHITE)
+            val (wManaCount, _) = setupToDrawNumber(g, countOfCurrentMana, Color.WHITE)
             g.drawString(countOfCurrentMana, x - wManaCount / 2 + 25, 32)
         }
 

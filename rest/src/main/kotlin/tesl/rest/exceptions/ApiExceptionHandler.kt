@@ -51,4 +51,3 @@ class ApiExceptionHandler() : ExceptionHandler<ApiException, HttpResponse<Any>> 
 
 class BadRequestException(message: String) : ApiException(message, HttpStatus.BAD_REQUEST)
 class ServiceException(message: String) : ApiException(message, HttpStatus.INTERNAL_SERVER_ERROR)
-class FakeException : ApiException("Fault injected for testing", HttpStatus.INTERNAL_SERVER_ERROR)

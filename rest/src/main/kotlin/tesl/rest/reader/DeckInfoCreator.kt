@@ -3,6 +3,7 @@ package tesl.rest.reader
 import tesl.model.Deck
 import tesl.model.Decoder
 import tesl.model.DecoderType
+import tesl.rest.exceptions.BadRequestException
 import tesl.rest.model.CardInfo
 import tesl.rest.model.CardInfoCount
 import tesl.rest.model.DeckInfo
@@ -10,8 +11,8 @@ import javax.inject.Singleton
 
 @Singleton
 class DeckInfoCreator {
-    fun parse(code: String): DeckInfo? {
-        if (!Decoder(DecoderType.DECK).isCodeValid(code)) return null
+    fun parse(code: String): DeckInfo {
+        if (!Decoder(DecoderType.DECK).isCodeValid(code)) throw BadRequestException(message = "Invalid deck code")
 
         val deck = Deck.importCode(code)
         val analysis = DeckAnalysis(deck)
