@@ -1,81 +1,34 @@
 package tesl.rest.reader
 
-import tesl.model.Deck
-import tesl.model.Decoder
-import tesl.model.DecoderType
 import tesl.model.ClassAbility
-import tesl.rest.exceptions.BadRequestException
 import java.awt.*
 import java.awt.image.BufferedImage
 import java.io.ByteArrayOutputStream
 import javax.imageio.ImageIO
-import javax.inject.Singleton
 import kotlin.math.min
 
-@Singleton
-class ImageCreator {
-    private val fontName = "FreeSans"
+interface ImageCreator {
+    fun createImage(code: String): ByteArray
+}
+
+abstract class BaseImageCreator : ImageCreator {
+
+    companion object {
+        const val fontName = "FreeSans"
+        const val fullWidth = 1445
+
+        fun calculateColumnLengths(total: Int, columnCount: Int): List<Int> {
+            return (0 until columnCount).map { i ->
+                total / columnCount + if (i < total % columnCount) 1 else 0
+            }
+        }
+
+    }
 
     private val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue-50.png")
     private val leftCircle = ImageIO.read(leftCircleFilledResource)
-    private val fullWidth = 1445
 
-    // Deck Class       |    Mana    |   Class  |
-    // Deck Icons       |   Curve    | cardback |
-    // 2 x 5 Stats      |            |          |
-
-    // Done as panels of individual images
-    // Brought together pasting into final image
-
-    fun createDeckImage(code: String): ByteArray {
-        if (!Decoder(DecoderType.DECK).isCodeValid(code)) throw BadRequestException(message = "Invalid deck code")
-
-        val deck = Deck.importCode(code)
-        val a = DeckAnalysis(deck).run { return@run if (totalCards == 0) null else this } ?: throw BadRequestException(message = "No cards in deck")
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////
-        // CREATE PANELS
-        // Create Deck Class Name
-        val deckClassNameImage = createDeckClassName(a)
-        val deckClassIconsImage = createDeckClassIcons(a)
-        val manaCurveImage = createManaCurve(a)
-        val classGraphic = createClassGraphic(a)
-        val statsImage = createStats(a)
-        val cardsImage = createCards(a)
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////
-        // CREATE THE MAIN GRAPHICS
-        val fullHeight = manaCurveImage.height + cardsImage.height + 10
-        val bi = BufferedImage(fullWidth, fullHeight, BufferedImage.TYPE_INT_ARGB)
-        val g = createGraphics(bi)
-        g.color = Color.BLACK
-        g.fillRect(0, 0, fullWidth, fullHeight)
-
-        // deck class
-        val deckWidth = 472 // max(deckClassIconsImage.width, deckClassNameImage.width)
-        g.drawImage(deckClassNameImage, (deckWidth - deckClassNameImage.width) / 2, 5, null)
-        g.drawImage(deckClassIconsImage, (deckWidth - deckClassIconsImage.width) / 2, deckClassNameImage.height + 20, null)
-
-        // mana curve
-        val manaCurveCentreOffset = (fullWidth - manaCurveImage.width) / 2
-        g.drawImage(manaCurveImage, manaCurveCentreOffset, 0, null)
-
-        // class graphic
-        val classGraphicOffset = 472 + 500 + 86
-        g.drawImage(classGraphic, classGraphicOffset, 20, null)
-
-        // stats
-        g.drawImage(statsImage, 0, deckClassIconsImage.height + deckClassNameImage.height + 40, null)
-
-        // cards
-        g.drawImage(cardsImage, 0, manaCurveImage.height + 10, null)
-
-        // Finally
-        g.dispose()
-        return bi.toByteArray()
-    }
-
-    private fun createStats(a: DeckAnalysis): BufferedImage {
+    fun createStats(a: DeckAnalysis): BufferedImage {
         // 2 columns of 5 stats
         val bi = BufferedImage(472, 400, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
@@ -117,7 +70,7 @@ class ImageCreator {
 
     }
 
-    private fun createCards(da: DeckAnalysis): BufferedImage {
+    fun createCards(da: DeckAnalysis): BufferedImage {
         val colourLineLight = Color(0x50, 0x4e, 0x36)
         val colourLineDark = Color(0x39, 0x37, 0x25)
         val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue-50.png")
@@ -154,11 +107,11 @@ class ImageCreator {
                 ////////////////////////////////////////////////////////////////////////////////////
                 g.color = colourLineDark
                 val rightX = imageX + cardWidth + circRadius * 2
-                g.drawLine(point(imageX, imageY - circRadius + 2), point(rightX, imageY - circRadius + 2))
-                g.drawLine(point(imageX, imageY + circRadius - 2), point(rightX, imageY + circRadius - 2))
+                g.drawLine(imageX, imageY - circRadius + 2, rightX, imageY - circRadius + 2)
+                g.drawLine(imageX, imageY + circRadius - 2, rightX, imageY + circRadius - 2)
                 g.color = colourLineLight
-                g.drawLine(point(imageX, imageY - circRadius + 1), point(rightX, imageY - circRadius + 1))
-                g.drawLine(point(imageX, imageY + circRadius - 1), point(rightX, imageY + circRadius - 1))
+                g.drawLine(imageX, imageY - circRadius + 1, rightX, imageY - circRadius + 1)
+                g.drawLine(imageX, imageY + circRadius - 1, rightX, imageY + circRadius - 1)
 
                 ////////////////////////////////////////////////////////////////////////////////////
                 // LEFT CIRCLE
@@ -169,7 +122,7 @@ class ImageCreator {
                     val rightCircle = ImageIO.read(rightCircleHollowResource)
                     g.drawImage(rightCircle, rightX - circRadius, imageY - circRadius + 1, null)
                 } else {
-                    g.drawLine(point(rightX, imageY - circRadius + 2), point(rightX, imageY + circRadius - 2))
+                    g.drawLine(rightX, imageY - circRadius + 2, rightX, imageY + circRadius - 2)
                 }
 
                 // RIGHT INNER
@@ -214,7 +167,7 @@ class ImageCreator {
         return bi
     }
 
-    private fun createClassGraphic(a: DeckAnalysis): BufferedImage {
+    fun createClassGraphic(a: DeckAnalysis): BufferedImage {
         val bi = BufferedImage(300, 305, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
         val classNameGraphic = a.className.toLowerCase().replace(" ", "_")
@@ -227,7 +180,7 @@ class ImageCreator {
         return bi
     }
 
-    private fun createDeckClassName(a: DeckAnalysis): BufferedImage {
+    fun createDeckClassName(a: DeckAnalysis): BufferedImage {
         val bi = BufferedImage(600, 100, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
         g.font = Font(fontName, Font.PLAIN, 45)
@@ -244,7 +197,7 @@ class ImageCreator {
         return resize(bi, wCost, hCost)
     }
 
-    private fun createDeckClassIcons(a: DeckAnalysis): BufferedImage {
+    fun createDeckClassIcons(a: DeckAnalysis): BufferedImage {
         val neutralCount = a.attributesCount.getOrDefault("Neutral", 0)
         val attributes = a.deckClass.classAbilities.let { if (neutralCount > 0) it + ClassAbility.NEUTRAL else it }
         val width = attributes.size * 100 - if (neutralCount in 1..9) 25 else 10
@@ -267,7 +220,7 @@ class ImageCreator {
         return bi
     }
 
-    private fun createManaCurve(a: DeckAnalysis): BufferedImage {
+    fun createManaCurve(a: DeckAnalysis): BufferedImage {
         val manaFillDark = 0x21a2ff
         val manaFillLight = 0x3fccff
         val manaDarkLine = 0x3169d5
@@ -308,7 +261,7 @@ class ImageCreator {
             val outlineBoxWidth = circRadius * 2
             val outlineBoxHeight = manaBoxHeight - circRadius * 2 - 20
             g.color = Color(manaBoundingBox, false)
-            g.drawBox(point(x, 5), point(x + outlineBoxWidth, outlineBoxHeight + 5))
+            drawBox(g, Point(x, 5), Point(x + outlineBoxWidth, outlineBoxHeight + 5))
             g.color = Color.BLACK
             g.fillRect(x + 1, 6, outlineBoxWidth - 1, outlineBoxHeight - 1)
 
@@ -335,7 +288,7 @@ class ImageCreator {
 
                 // now a small inner border
                 g.color = Color(manaDarkLine, false)
-                g.drawBox(point(x + 2, blueBlockHeightMaxHeight - blueBlockHeight + 7), point(x + circRadius * 2 - 2, outlineBoxHeight + 3))
+                drawBox(g, Point(x + 2, blueBlockHeightMaxHeight - blueBlockHeight + 7), Point(x + circRadius * 2 - 2, outlineBoxHeight + 3))
 
             }
             // the actual count
@@ -347,7 +300,7 @@ class ImageCreator {
         return bi
     }
 
-    private fun setupToDrawNumber(g: Graphics2D, s: String, colour: Color, style: Int = Font.BOLD, fontSize: Int = 25): Pair<Int, Int> {
+    fun setupToDrawNumber(g: Graphics2D, s: String, colour: Color, style: Int = Font.BOLD, fontSize: Int = 25): Pair<Int, Int> {
         g.font = Font(fontName, style, fontSize)
         val cost = g.fontMetrics
         val wCost = cost.stringWidth(s)
@@ -356,7 +309,7 @@ class ImageCreator {
         return Pair(wCost, hCost)
     }
 
-    private fun resize(image: BufferedImage, width: Int, height: Int): BufferedImage {
+    fun resize(image: BufferedImage, width: Int, height: Int): BufferedImage {
         val newImage = BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB)
         val g = newImage.createGraphics()
         g.drawImage(image, 0, 0, null)
@@ -364,7 +317,7 @@ class ImageCreator {
         return newImage
     }
 
-    private fun fileNameFromCardName(s: String): String {
+    fun fileNameFromCardName(s: String): String {
         var x = s
             .replace("/", "_")
             .replace(" ", "_")
@@ -384,17 +337,18 @@ class ImageCreator {
 
     }
 
-    fun calculateColumnLengths(total: Int, columnCount: Int): List<Int> {
-        return (0 until columnCount).map { i ->
-            total / columnCount + if (i < total % columnCount) 1 else 0
-        }
-    }
-
-    private fun createGraphics(image: BufferedImage) = image.createGraphics().apply {
+    fun createGraphics(image: BufferedImage) = image.createGraphics().apply {
         setRenderingHint(
             RenderingHints.KEY_ANTIALIASING,
             RenderingHints.VALUE_ANTIALIAS_ON
         )
+    }
+
+    private fun drawBox(g: Graphics, a: Point, b: Point) {
+        g.drawLine(a.x, a.y, b.x, a.y)
+        g.drawLine(b.x, a.y, b.x, b.y)
+        g.drawLine(b.x, b.y, a.x, b.y)
+        g.drawLine(a.x, b.y, a.x, a.y)
     }
 
 }
@@ -405,16 +359,3 @@ fun BufferedImage.toByteArray(): ByteArray {
     return baos.toByteArray()
 }
 
-class Point(val x : Double, val y : Double)
-fun point(x : Int, y : Int) = Point(x.toDouble(), y.toDouble())
-
-fun Graphics.drawLine(a : Point, b : Point) {
-    drawLine(a.x.toInt(), a.y.toInt(), b.x.toInt(), b.y.toInt())
-}
-
-fun Graphics.drawBox(a: Point, b: Point) {
-    drawLine(a, Point(b.x, a.y))
-    drawLine(Point(b.x, a.y), b)
-    drawLine(b, point(a.x.toInt(), b.y.toInt()))
-    drawLine(point(a.x.toInt(), b.y.toInt()), a)
-}

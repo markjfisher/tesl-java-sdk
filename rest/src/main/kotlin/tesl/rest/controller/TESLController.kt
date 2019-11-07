@@ -5,13 +5,11 @@ import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.PathVariable
 import io.micronaut.validation.Validated
-import io.reactivex.Maybe
 import io.reactivex.Single
 import mu.KotlinLogging
 import tesl.rest.model.DeckInfo
 import tesl.rest.reader.DeckInfoCreator
 import tesl.rest.reader.ImageCreator
-import tesl.rest.rx.asMaybe
 import tesl.rest.rx.asSingle
 import javax.annotation.security.PermitAll
 
@@ -36,7 +34,7 @@ class TESLController(
     fun image(@PathVariable code: String): Single<ByteArray> {
         logger.info { "image for code $code" }
         return asSingle {
-            imageCreator.createDeckImage(code)
+            imageCreator.createImage(code)
         }
     }
 }

@@ -8,6 +8,7 @@ import tesl.model.Decoder
 import tesl.model.DecoderType
 import tesl.rest.reader.DeckAnalysis
 import tesl.rest.reader.ImageCreator
+import java.lang.Exception
 import java.lang.Integer.min
 
 private val logger = KotlinLogging.logger {}
@@ -75,19 +76,18 @@ object ImageDeckCommand : BaseDeckCommand() {
         val deckCode = args[0]
         logger.info { "User: $username asked for image for code: $deckCode" }
 
-        val fileName = "${username.substring(0, min(username.length, 10))}-${deckCode.substring(2, min(deckCode.length - 2, 12))}.png"
-            .filter { it.isLetterOrDigit() || it == '.' || it == '-' }
-
-        val fileData = imageCreator.createDeckImage(deckCode)?.toFileData(fileName)
-
-        return if (fileData == null) {
-            ReplyData(
-                text = listOf("$mention - unable to create deck from given code: $deckCode")
-            )
-        } else {
+        return try {
+            val image = imageCreator.createImage(deckCode)
+            val fileName = "${username.substring(0, min(username.length, 10))}-${deckCode.substring(2, min(deckCode.length - 2, 12))}.png"
+                .filter { it.isLetterOrDigit() || it == '.' || it == '-' }
+            val fileData = image.toFileData(fileName)
             ReplyData(
                 text = listOf("$mention - here is your deck for $deckCode"),
                 fileData = fileData
+            )
+        } catch (e: Exception) {
+            ReplyData(
+                text = listOf("$mention - unable to create deck from given code: $deckCode")
             )
         }
     }
@@ -113,7 +113,7 @@ object ValidateDeckCommand : BaseDeckCommand() {
     }
 }
 
-abstract class BaseDeckCommand() : DeckCommand {
+abstract class BaseDeckCommand : DeckCommand {
     lateinit var imageCreator: ImageCreator
 
     fun show(args: List<String>, mention: String, username: String, type: String): List<String> {

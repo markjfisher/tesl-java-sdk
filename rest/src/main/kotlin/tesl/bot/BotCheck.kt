@@ -18,6 +18,7 @@ import io.micronaut.runtime.server.event.ServerStartupEvent
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.UnstableDefault
 import mu.KotlinLogging
+import tesl.Configuration
 import tesl.rest.reader.ImageCreator
 import javax.inject.Singleton
 
@@ -25,7 +26,10 @@ private val logger = KotlinLogging.logger {}
 
 @Requires(notEnv = ["test"])
 @Singleton
-class BotCheck(private val imageCreator: ImageCreator) {
+class BotCheck(
+    private val imageCreator: ImageCreator,
+    private val configuration: Configuration
+) {
 
     private val token = Key("tesl.bot.token", stringType)
 
@@ -49,10 +53,10 @@ class BotCheck(private val imageCreator: ImageCreator) {
         runBlocking {
             bot(config[token]) {
                 commands(prefix = "!") {
-                    command(command = "deck") {
+                    command(command = "deck${configuration.botCommandPostFix}") {
                         reply(channel, doDeckCommand(words, author))
                     }
-                    command(command = "card") {
+                    command(command = "card${configuration.botCommandPostFix}") {
                         doCardCommand(words, author).forEach {
                             if (it.fileData == null) {
                                 reply(channel, it)

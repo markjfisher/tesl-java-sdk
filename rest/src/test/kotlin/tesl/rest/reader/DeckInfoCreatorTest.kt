@@ -2,14 +2,19 @@ package tesl.rest.reader
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertThrows
+import tesl.rest.exceptions.BadRequestException
 
 class DeckInfoCreatorTest {
 
     @Test
-    fun `an invalid code returns no deck info`() {
-        // This might change, but for now, we have null represent non-valid deck
+    fun `an invalid code throws an exception`() {
         val creator = DeckInfoCreator()
-        assertThat(creator.parse("X")).isNull()
+        val e = assertThrows<BadRequestException> {
+            creator.parse("X")
+        }
+
+        assertThat(e.message).isEqualTo("Invalid deck code")
     }
 
 }
