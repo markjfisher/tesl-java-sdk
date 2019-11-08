@@ -44,7 +44,7 @@ class BotCheck(
         try {
             runBot()
         } catch (e: Exception) {
-            logger.error(e) { "Bot died." }
+            logger.error(e) { "Bot died :(" }
         }
 
     }
