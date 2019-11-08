@@ -18,10 +18,17 @@ private val logger = KotlinLogging.logger {}
 object CardCommands {
     private val allCommands = mapOf(
         "help" to HelpCardCommand,
-        "find" to FindCardCommand
+        "find" to FindCardCommand,
+        "search" to SearchCardCommand
     )
     fun find(name: String): CardCommand = allCommands[name] ?: HelpCardCommand
-    fun allHelp() = "Type '!card <command> <args>' where commands are:\n" + allCommands.values.joinToString("\n") { it.help() }
+    fun allHelp() = "Type '!card <command> <args>' where commands are:\n\n" + allCommands.values.filter { !it.isHidden() }.joinToString("\n") { it.help() }
+}
+
+interface CardCommand {
+    fun run(args: List<String>, author: User): List<ReplyData>
+    fun help(): String
+    fun isHidden(): Boolean
 }
 
 object HelpCardCommand: BaseCardCommand() {
@@ -33,17 +40,21 @@ object HelpCardCommand: BaseCardCommand() {
     override fun help(): String {
         return "help - shows this help"
     }
+
+    override fun isHidden() = true
 }
 
-object FindCardCommand: BaseCardCommand() {
+object SearchCardCommand: BaseCardCommand() {
     private val allCards = CardCache.all()
+
+    override fun isHidden() = false
 
     override fun run(args: List<String>, author: User): List<ReplyData> {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
 
         val searchTerm = args.joinToString(" ")
         val extractSorted = FuzzySearch.extractSorted(searchTerm, allCards) { it.name }
-        logger.info { "User: ${author.username} searching for '$searchTerm'. Hits: ${extractSorted.size}"}
+        logger.info { "User: ${author.username} searching for '$searchTerm'"}
 
         if (extractSorted.isEmpty() || extractSorted.first().score <= 71) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
 
@@ -75,20 +86,25 @@ object FindCardCommand: BaseCardCommand() {
                 data
             }
     }
-
     override fun help(): String {
-        return "find - Finds a card from the given arguements, e.g. '!card find Young Mammoth'"
+        return """
+            |search - Fuzzy searches a card from the given arguments
+            |   e.g. '!card search aduring fun'
+            |   which finds 'Adoring Fan' and 'Alduin'
+            """.trimMargin()
     }
 
 }
 
-interface CardCommand {
-    fun run(args: List<String>, author: User): List<ReplyData>
-    fun help(): String
+object FindCardCommand: BaseCardCommand() {
+    override fun isHidden() = false
+    override fun run(args: List<String>, author: User): List<ReplyData> = SearchCardCommand.run(args, author)
+    override fun help(): String {
+        return "find   - synonym for 'search'"
+    }
+
 }
 
-abstract class BaseCardCommand() : CardCommand {
-
-}
+abstract class BaseCardCommand : CardCommand
 
 

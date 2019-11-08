@@ -23,13 +23,14 @@ object DeckCommands {
     )
 
     fun find(name: String): DeckCommand = allCommands[name] ?: HelpDeckCommand
-    fun allHelp() = allCommands.values.joinToString("\n") { it.help() }
+    fun allHelp() = "Type '!deck <command> <args>' where commands are:\n\n" + allCommands.values.filter { !it.isHidden() }.joinToString("\n") { it.help() }
 }
 
 
 interface DeckCommand {
     fun run(args: List<String>, mention: String, username: String): ReplyData
     fun help(): String
+    fun isHidden(): Boolean
 }
 
 object HelpDeckCommand : BaseDeckCommand() {
@@ -41,6 +42,8 @@ object HelpDeckCommand : BaseDeckCommand() {
     override fun help(): String {
         return "help - shows this help"
     }
+
+    override fun isHidden() = true
 }
 
 object InfoDeckCommand : BaseDeckCommand() {
@@ -49,8 +52,10 @@ object InfoDeckCommand : BaseDeckCommand() {
     }
 
     override fun help(): String {
-        return "info - displays summary information about a deck"
+        return "info   - displays summary information about a deck (text)"
     }
+
+    override fun isHidden() = false
 }
 
 object DetailDeckCommand : BaseDeckCommand() {
@@ -59,13 +64,14 @@ object DetailDeckCommand : BaseDeckCommand() {
     }
 
     override fun help(): String {
-        return "detail - displays detailed information about a deck, as info but with addition creatures/items/support/actions breakdown"
+        return "detail - displays detailed information about a deck. As info but with addition creatures/items... etc"
     }
+    override fun isHidden() = false
 }
 
 object ImageDeckCommand : BaseDeckCommand() {
     override fun help(): String {
-        return "image - creates a graphical image of the deck."
+        return "image  - creates a graphical image of the deck"
     }
 
     override fun run(args: List<String>, mention: String, username: String): ReplyData {
@@ -92,6 +98,7 @@ object ImageDeckCommand : BaseDeckCommand() {
         }
     }
 
+    override fun isHidden() = false
 }
 
 object ValidateDeckCommand : BaseDeckCommand() {
@@ -111,6 +118,8 @@ object ValidateDeckCommand : BaseDeckCommand() {
     override fun help(): String {
         return "validate - validates a deck code is in correct format, and all card codes are known."
     }
+
+    override fun isHidden() = true
 }
 
 abstract class BaseDeckCommand : DeckCommand {
