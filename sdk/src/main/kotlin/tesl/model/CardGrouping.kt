@@ -23,6 +23,6 @@ open class CardGrouping(val cards: List<Card>) {
 }
 
 data class CardCount(
-    val card: Card? = null,
-    val count: Int = 0
+    val count: Int = 0,
+    val card: Card? = null
 )

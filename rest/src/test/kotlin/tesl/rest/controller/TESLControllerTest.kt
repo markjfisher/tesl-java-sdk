@@ -6,14 +6,14 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import tesl.createDeckInfo
-import tesl.rest.exceptions.ApiException
 import tesl.rest.exceptions.BadRequestException
 import tesl.rest.model.DeckInfo
 import tesl.rest.reader.DeckInfoCreator
 import tesl.rest.reader.ImageCreator
 
 class TESLControllerTest {
-    private val imageCreator = mockk<ImageCreator>()
+    private val deckImageCreator = mockk<ImageCreator>()
+    private val collectionImageCreator = mockk<ImageCreator>()
     @Test
     fun `should return a deck info from deck reader`() {
         val reader = mockk<DeckInfoCreator>()
@@ -21,7 +21,7 @@ class TESLControllerTest {
         every { reader.parse("abc") } returns deckInfo
 
         // When
-        val d = TESLController(reader, imageCreator).info("abc").blockingGet()
+        val d = TESLController(reader, deckImageCreator, collectionImageCreator).info("abc").blockingGet()
 
         // Then
         assertThat(d?.code).isEqualTo("abc")
@@ -33,7 +33,7 @@ class TESLControllerTest {
         every { reader.parse("abc") } throws BadRequestException("error message")
 
         val e = assertThrows<Exception> {
-            TESLController(reader, imageCreator).info("abc").blockingGet()
+            TESLController(reader, deckImageCreator, collectionImageCreator).info("abc").blockingGet()
         }
 
         assertThat(e.cause?.message).isEqualTo("error message")

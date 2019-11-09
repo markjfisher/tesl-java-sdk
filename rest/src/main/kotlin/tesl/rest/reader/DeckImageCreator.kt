@@ -6,18 +6,12 @@ import tesl.model.DecoderType
 import tesl.rest.exceptions.BadRequestException
 import java.awt.Color
 import java.awt.image.BufferedImage
+import javax.inject.Named
 import javax.inject.Singleton
 
+@Named("deckImageCreator")
 @Singleton
-class DeckImageCreator: BaseImageCreator() {
-    override fun columnCount() = 4
-
-    // Deck Class       |    Mana    |   Class  |
-    // Deck Icons       |   Curve    | cardback |
-    // 2 x 5 Stats      |            |          |
-
-    // Done as panels of individual images
-    // Brought together pasting into final image
+class DeckImageCreator: ImageCreator {
 
     override fun createImage(code: String): ByteArray {
         if (!Decoder(DecoderType.DECK).isCodeValid(code)) throw BadRequestException(message = "Invalid deck code")
@@ -25,21 +19,24 @@ class DeckImageCreator: BaseImageCreator() {
         val deck = Deck.importCode(code)
         val a = DeckAnalysis(deck).run { return@run if (totalCards == 0) null else this } ?: throw BadRequestException(message = "No cards in deck")
 
+        val columnCount = 4
+        val fullWidth = 365 * columnCount - 15
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // CREATE PANELS
         // Create Deck Class Name
-        val deckClassNameImage = createDeckClassName(a)
-        val deckClassIconsImage = createDeckClassIcons(a)
-        val manaCurveImage = createManaCurve(a)
-        val classGraphic = createClassGraphic(a)
-        val statsImage = createStats(a)
-        val cardsImage = createCards(a)
+        val deckClassNameImage = ImageCreatorHelper.createDeckClassName(a)
+        val deckClassIconsImage = ImageCreatorHelper.createDeckClassIcons(a)
+        val manaCurveImage = ImageCreatorHelper.createManaCurve(a)
+        val classGraphic = ImageCreatorHelper.createClassGraphic(a)
+        val statsImage = ImageCreatorHelper.createStats(a)
+        val cardsImage = ImageCreatorHelper.createCards(a, columnCount, fullWidth)
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // CREATE THE MAIN GRAPHICS
         val fullHeight = manaCurveImage.height + cardsImage.height + 10
         val bi = BufferedImage(fullWidth, fullHeight, BufferedImage.TYPE_INT_ARGB)
-        val g = createGraphics(bi)
+        val g = ImageCreatorHelper.createGraphics(bi)
         g.color = Color.BLACK
         g.fillRect(0, 0, fullWidth, fullHeight)
 

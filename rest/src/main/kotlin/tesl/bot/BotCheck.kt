@@ -2,8 +2,6 @@ package tesl.bot
 
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.CreateMessage
-import com.jessecorbett.diskord.api.rest.Embed
-import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.api.rest.client.ChannelClient
 import com.jessecorbett.diskord.dsl.bot
 import com.jessecorbett.diskord.dsl.command
@@ -20,6 +18,7 @@ import kotlinx.serialization.UnstableDefault
 import mu.KotlinLogging
 import tesl.Configuration
 import tesl.rest.reader.ImageCreator
+import javax.inject.Named
 import javax.inject.Singleton
 
 private val logger = KotlinLogging.logger {}
@@ -27,7 +26,7 @@ private val logger = KotlinLogging.logger {}
 @Requires(notEnv = ["test"])
 @Singleton
 class BotCheck(
-    private val imageCreator: ImageCreator,
+    @Named("deckImageCreator") private val deckImageCreator: ImageCreator,
     private val configuration: Configuration
 ) {
 
@@ -103,7 +102,7 @@ class BotCheck(
             deckArgs.isEmpty() -> HelpDeckCommand
             else -> DeckCommands.find(deckArgs[0]) as BaseDeckCommand
         }
-        deckCommand.imageCreator = imageCreator
+        deckCommand.imageCreator = deckImageCreator
 
         return deckCommand.run(deckArgs.drop(1), author.mention, author.username)
     }

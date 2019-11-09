@@ -1,11 +1,7 @@
 package tesl.rest.reader
 
 import tesl.model.*
-
-data class CardCount(
-    val count: Int,
-    val card: Card
-)
+import tesl.model.Collection
 
 data class DeckAnalysis(
     private val deck: CardGrouping
@@ -43,13 +39,13 @@ data class DeckAnalysis(
         prophecyCount = calculateProphecyCount()
 
         creaturesMap = byType("Creature")
-        creatureCount = creaturesMap.map{ it.value.count }.sum()
+        creatureCount = creaturesMap.map { it.value.count }.sum()
         itemsMap = byType("Item")
-        itemCount = itemsMap.map{ it.value.count }.sum()
+        itemCount = itemsMap.map { it.value.count }.sum()
         actionsMap = byType("Action")
-        actionCount = actionsMap.map{ it.value.count }.sum()
+        actionCount = actionsMap.map { it.value.count }.sum()
         supportsMap = byType("Support")
-        supportCount = supportsMap.map{ it.value.count }.sum()
+        supportCount = supportsMap.map { it.value.count }.sum()
 
         deckClass = calculateDeckClass()
         className = calculateClassName()
@@ -73,13 +69,18 @@ data class DeckAnalysis(
     private fun createSortedCardCount(): List<CardCount> {
         // Sorts all the cards by cost, then name, and then groups the same card into a count to give List<CardCount>
         // so that each card is represented only once in the list, but its count is still captured in the ordering
+        val cardSorter = when (deck) {
+            // is Collection -> compareBy<Card> { it.cost }.thenBy { it.attributes.joinToString("") }.thenBy { it.name }
+            is Collection -> compareBy<Card> { it.attributes.joinToString("") }.thenBy { it.cost }.thenBy { it.name }
+            else -> compareBy<Card> { it.cost }.thenBy { it.name }
+        }
+
         return deck.cards
-            .sortedWith(compareBy<Card> { it.cost }.thenBy { it.attributes.joinToString("") }.thenBy { it.name })
+            .sortedWith(cardSorter)
             .groupBy { Pair(it.cost, it.name) }
             .map {
                 CardCount(count = it.value.size, card = it.value.first())
             }
-
     }
 
     private fun calculateManaCurve(): Map<Int, Int> {
@@ -118,10 +119,10 @@ data class DeckAnalysis(
     }
 
     private fun calculateClassName() = deckClass.name
-            .replace("_", " ")
-            .toLowerCase()
-            .split(" ")
-            .joinToString(" ") { it.capitalize() }
+        .replace("_", " ")
+        .toLowerCase()
+        .split(" ")
+        .joinToString(" ") { it.capitalize() }
 
     private fun calculateProphecyCount(): Int {
         return deck.cards
@@ -193,6 +194,5 @@ data class DeckAnalysis(
         }.joinToString("\n")
 
     }
-
 
 }

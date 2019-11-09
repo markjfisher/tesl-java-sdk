@@ -12,6 +12,7 @@ import tesl.rest.reader.DeckInfoCreator
 import tesl.rest.reader.ImageCreator
 import tesl.rest.rx.asSingle
 import javax.annotation.security.PermitAll
+import javax.inject.Named
 
 private val logger = KotlinLogging.logger {}
 
@@ -20,7 +21,8 @@ private val logger = KotlinLogging.logger {}
 @Controller("/")
 class TESLController(
     val deckInfoCreator: DeckInfoCreator,
-    val imageCreator: ImageCreator
+    @Named("deckImageCreator") val deckImageCreator: ImageCreator,
+    @Named("collectionImageCreator") val collectionImageCreator: ImageCreator
 ) {
     @Get("/info/{code}")
     fun info(@PathVariable code: String): Single<DeckInfo> {
@@ -31,10 +33,20 @@ class TESLController(
     }
 
     @Get(value = "/image/{code}", produces = [MediaType.IMAGE_PNG])
-    fun image(@PathVariable code: String): Single<ByteArray> {
-        logger.info { "image for code $code" }
+    fun renderImage(@PathVariable code: String): Single<ByteArray> {
+        logger.info { "deck image for code $code" }
         return asSingle {
-            imageCreator.createImage(code)
+            deckImageCreator.createImage(code)
         }
     }
+
+    @Get(value = "/collection/{code}", produces = [MediaType.IMAGE_PNG])
+    fun renderCollection(@PathVariable code: String): Single<ByteArray> {
+        logger.info { "collection image for code $code" }
+        return asSingle {
+            collectionImageCreator.createImage(code)
+        }
+    }
+
+
 }
