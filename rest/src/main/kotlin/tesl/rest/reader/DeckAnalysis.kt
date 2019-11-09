@@ -1,9 +1,6 @@
 package tesl.rest.reader
 
-import tesl.model.Card
-import tesl.model.Deck
-import tesl.model.ClassAbility
-import tesl.model.DeckClass
+import tesl.model.*
 
 data class CardCount(
     val count: Int,
@@ -11,7 +8,7 @@ data class CardCount(
 )
 
 data class DeckAnalysis(
-    private val deck: Deck
+    private val deck: CardGrouping
 ) {
     val commonCount: Int
     val rareCount: Int
@@ -77,7 +74,7 @@ data class DeckAnalysis(
         // Sorts all the cards by cost, then name, and then groups the same card into a count to give List<CardCount>
         // so that each card is represented only once in the list, but its count is still captured in the ordering
         return deck.cards
-            .sortedWith(compareBy<Card> { it.cost }.thenBy { it.name })
+            .sortedWith(compareBy<Card> { it.cost }.thenBy { it.attributes.joinToString("") }.thenBy { it.name })
             .groupBy { Pair(it.cost, it.name) }
             .map {
                 CardCount(count = it.value.size, card = it.value.first())

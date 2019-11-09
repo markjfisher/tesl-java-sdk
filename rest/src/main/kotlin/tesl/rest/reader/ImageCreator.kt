@@ -9,13 +9,14 @@ import kotlin.math.min
 
 interface ImageCreator {
     fun createImage(code: String): ByteArray
+    fun columnCount(): Int
 }
 
 abstract class BaseImageCreator : ImageCreator {
+    val fullWidth: Int = 365 * this.columnCount() - 15
 
     companion object {
         const val fontName = "FreeSans"
-        const val fullWidth = 1445
 
         fun calculateColumnLengths(total: Int, columnCount: Int): List<Int> {
             return (0 until columnCount).map { i ->
@@ -80,14 +81,17 @@ abstract class BaseImageCreator : ImageCreator {
         val heightGap = 8
         val circRadius = 25
         val cardWidth = 250
-        val columnLengths: List<Int> = calculateColumnLengths(da.totalUnique, 4)
+        val columnLengths: List<Int> = calculateColumnLengths(da.totalUnique, columnCount())
 
-        val cardsInColumns = listOf(
-            da.cardCountSorted.take(columnLengths[0]),
-            da.cardCountSorted.drop(columnLengths[0]).take(columnLengths[1]),
-            da.cardCountSorted.drop(columnLengths[0] + columnLengths[1]).take(columnLengths[2]),
-            da.cardCountSorted.drop(columnLengths[0] + columnLengths[1] + columnLengths[2]).take(columnLengths[3])
-        )
+        val cardsInColumns = mutableListOf<List<CardCount>>()
+        var amountLeft = da.cardCountSorted.size
+        var currentIndex = 0
+        while (amountLeft > 0) {
+            amountLeft -= columnLengths[currentIndex]
+            val dropCount = (0 until currentIndex).fold(0) { acc, i -> acc + columnLengths[i] }
+            val cards = da.cardCountSorted.drop(dropCount).take(columnLengths[currentIndex++])
+            cardsInColumns.add(cards)
+        }
 
         val height = columnLengths[0] * (2 * circRadius + heightGap) + 5
         val bi = BufferedImage(fullWidth, height, BufferedImage.TYPE_INT_ARGB)

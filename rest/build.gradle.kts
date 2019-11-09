@@ -15,7 +15,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.9"
+version = "1.0.10"
 val teslArchiveBaseName = "tesl-java-rest"
 
 val micronautBoMVersion: String by project

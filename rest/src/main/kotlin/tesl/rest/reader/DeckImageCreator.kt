@@ -10,6 +10,7 @@ import javax.inject.Singleton
 
 @Singleton
 class DeckImageCreator: BaseImageCreator() {
+    override fun columnCount() = 4
 
     // Deck Class       |    Mana    |   Class  |
     // Deck Icons       |   Curve    | cardback |
