@@ -4,6 +4,8 @@ plugins {
     kotlin("jvm")
     kotlin("kapt")
     kotlin("plugin.allopen")
+    // id ("org.jetbrains.kotlin.plugin.serialization")
+    id("org.openjfx.javafxplugin") version "0.0.5"
 }
 
 val konfigVersion: String by project
@@ -16,6 +18,7 @@ val assertJVersion: String by project
 val mockkVersion: String by project
 val junitJupiterEngineVersion: String by project
 val testContainersVersion: String by project
+val tornadoFxVersion: String by project
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
@@ -25,9 +28,10 @@ dependencies {
     implementation("io.github.microutils:kotlin-logging:$kotlinLoggingVersion")
 
     implementation("com.natpryce:konfig:$konfigVersion")
-
     implementation("ch.qos.logback:logback-classic:$logbackClassicVersion")
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
+
+    implementation("no.tornado:tornadofx:$tornadoFxVersion")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterEngineVersion")
     testImplementation("org.junit.jupiter:junit-jupiter-params:$junitJupiterEngineVersion")
@@ -62,4 +66,12 @@ tasks {
         useJUnitPlatform()
     }
 
+}
+
+// --module-path /usr/share/openjfx/lib
+// --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web
+// "javafx.base", "javafx.controls", "javafx.fxml", "javafx.graphics", "javafx.media", "javafx.swing", "javafx.web"
+javafx {
+    version = "11"
+    modules = listOf("javafx.base", "javafx.controls", "javafx.fxml", "javafx.graphics", "javafx.media", "javafx.swing", "javafx.web")
 }

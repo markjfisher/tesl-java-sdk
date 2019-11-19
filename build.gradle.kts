@@ -1,6 +1,6 @@
 plugins {
     id("com.github.ben-manes.versions")
-    kotlin("jvm") version "1.3.50"
+    kotlin("jvm") version "1.3.60"
 }
 
 tasks {
@@ -21,6 +21,7 @@ allprojects {
         jcenter()
         maven(url = "https://plugins.gradle.org/m2/")
         maven(url = "https://kotlin.bintray.com/kotlinx")
+        maven(url = "https://oss.sonatype.org/content/repositories/snapshots")
     }
 
 }

@@ -9,7 +9,7 @@ enum class ClassColour(val hexColor: Color) {
     BLUE(Color(0x26, 0x9d, 0xff)),
     YELLOW(Color(0xb4, 0xb4, 0x35)),
     PURPLE(Color(0x80, 0x00, 0x80)),
-    GREY(Color(0xa0, 0xa0, 0xa0))
+    GREY(Color(0x70, 0x70, 0x70))
 }
 
 enum class ClassAbility(val classColour: ClassColour) {

@@ -4,6 +4,7 @@ import io.micronaut.runtime.Micronaut
 import io.micronaut.runtime.event.annotation.EventListener
 import io.micronaut.runtime.server.event.ServerStartupEvent
 import mu.KLogging
+import tesl.model.CardCache
 
 class Application {
 
@@ -17,6 +18,7 @@ class Application {
     @EventListener
     fun onStartup(e: ServerStartupEvent) {
         logger.info { "starting TESL REST service for url: ${e.source.url}" }
+        CardCache.all()
     }
 
 }

@@ -3,6 +3,7 @@ package tesl.bot
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.CreateMessage
 import com.jessecorbett.diskord.api.rest.client.ChannelClient
+import com.jessecorbett.diskord.api.websocket.events.Ready
 import com.jessecorbett.diskord.dsl.bot
 import com.jessecorbett.diskord.dsl.command
 import com.jessecorbett.diskord.dsl.commands
@@ -72,8 +73,18 @@ class BotCheck(
                     }
                 }
 
-                started {
-                    logger.info { "started with sessionId: ${it.sessionId}" }
+                started { ready: Ready ->
+                    logger.info { "started with sessionId: ${ready.sessionId}" }
+                    val guilds = ready.guilds
+                        .map { g -> g.id }
+                        .map { id -> clientStore.guilds[id].get() }
+
+                    println ("Registered with following guilds")
+                    guilds.forEach { guild ->
+                        val owner = clientStore.discord.getUser(guild.ownerId)
+                        println(" ${guild.name}, owner: ${owner.username}, region: ${guild.region}")
+                    }
+
                 }
             }
         }
