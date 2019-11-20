@@ -102,6 +102,10 @@ class CardAlignMainView : View("Card Align Main View") {
             cardAlignController.saveCardData()
         }
 
+        shortcut(KeyCombination.valueOf("L")) {
+            cardAlignController.loadCardData()
+        }
+
         keyboard {
             addEventHandler(KeyEvent.KEY_PRESSED) { println(it.code) }
         }

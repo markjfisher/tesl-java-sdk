@@ -40,4 +40,7 @@ object CardCache {
         return cache.values.toList()
     }
 
+    @JvmStatic
+    fun findById(id: String) = cache[id]
+
 }

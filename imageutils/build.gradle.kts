@@ -4,8 +4,8 @@ plugins {
     kotlin("jvm")
     kotlin("kapt")
     kotlin("plugin.allopen")
-    // id ("org.jetbrains.kotlin.plugin.serialization")
-    id("org.openjfx.javafxplugin") version "0.0.5"
+    kotlin("plugin.serialization")
+    id("org.openjfx.javafxplugin")
 }
 
 val konfigVersion: String by project
@@ -19,6 +19,7 @@ val mockkVersion: String by project
 val junitJupiterEngineVersion: String by project
 val testContainersVersion: String by project
 val tornadoFxVersion: String by project
+val kotlinxSerializationRuntime: String by project
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
@@ -32,6 +33,7 @@ dependencies {
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
 
     implementation("no.tornado:tornadofx:$tornadoFxVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$kotlinxSerializationRuntime")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterEngineVersion")
     testImplementation("org.junit.jupiter:junit-jupiter-params:$junitJupiterEngineVersion")

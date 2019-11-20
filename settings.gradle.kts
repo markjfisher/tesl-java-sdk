@@ -8,11 +8,11 @@ include(
 )
 
 val kotlinVersion: String by settings
-val kotlinXSerialisationVersion: String by settings
 val springDependencyManagementVersion: String by settings
 val gradleVersionsVersion: String by settings
 val shadowVersion: String by settings
 val jibVersion: String by settings
+val javafxPluginVersion: String by settings
 
 pluginManagement {
     resolutionStrategy {
@@ -25,9 +25,9 @@ pluginManagement {
                 "io.spring.dependency-management" -> useVersion(springDependencyManagementVersion)
                 "com.github.johnrengelman.shadow" -> useVersion(shadowVersion)
                 "com.google.cloud.tools.jib" -> useVersion(jibVersion)
-//                "kotlinx-serialization" -> {
-//                    useModule("org.jetbrains.kotlin:kotlin-serialization:${requested.version}")
-//                }
+                "org.jetbrains.kotlin.multiplatform" -> useVersion(kotlinVersion)
+                "org.jetbrains.kotlin.plugin.serialization" -> useVersion(kotlinVersion)
+                "org.openjfx.javafxplugin" -> useVersion(javafxPluginVersion)
             }
         }
     }

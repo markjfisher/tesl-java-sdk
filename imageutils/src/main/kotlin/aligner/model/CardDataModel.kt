@@ -1,8 +1,21 @@
 package aligner.model
 
+import kotlinx.serialization.Serializable
 import tornadofx.ItemViewModel
 import tornadofx.getProperty
 import tornadofx.property
+
+@Serializable
+data class SerializableCardData(
+    val cardName: String,
+    val cardId: String,
+    val cardUrl: String,
+    val cardColourUrl: String,
+    val xOffset: Double,
+    val yOffset: Double,
+    val scale: Double,
+    val index: Int
+)
 
 class CardData(
     cardName: String,
