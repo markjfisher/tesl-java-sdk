@@ -19,7 +19,9 @@ class CollectionImageCreator: ImageCreator {
         val a = DeckAnalysis(deck).run { return@run if (totalCards == 0) null else this } ?: throw BadRequestException(message = "No cards in collection")
 
         val columnCount = 20
-        val fullWidth = 365 * columnCount - 15
+        val circleRadius = 28
+        val columnGap = 15
+        val fullWidth = (300 + circleRadius * 2 + columnGap) * columnCount - columnGap
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // CREATE PANELS

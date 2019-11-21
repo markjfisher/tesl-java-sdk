@@ -5,7 +5,7 @@
 #45 05 * * * /bin/sh /usr/local/bin/restartApp.sh
 
 LOGFILE=/var/log/run.log
-export TESL_BOT_TOKEN=NTczNzkwMDM2NzM5NDg5ODIy.XM1PHQ.xmJmywlctOoMDE04PX3wBmUCuYA
+export TESL_BOT_TOKEN=FIX_ME
 
 echo "Restarting application on cron" >> $LOGFILE
 ps -ef | grep '[j]ava' | awk '{print $2}' | xargs kill

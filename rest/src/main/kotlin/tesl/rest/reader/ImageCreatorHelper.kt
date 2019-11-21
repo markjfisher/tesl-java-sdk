@@ -10,7 +10,7 @@ import kotlin.math.min
 
 object ImageCreatorHelper {
     private const val fontName = "FreeSans"
-    private val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue-50.png")
+    private val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue.png")
     private val leftCircle = ImageIO.read(leftCircleFilledResource)
 
     fun calculateColumnLengths(total: Int, columnCount: Int): List<Int> {
@@ -36,25 +36,7 @@ object ImageCreatorHelper {
         return newImage
     }
 
-    fun fileNameFromCardName(s: String): String {
-        var x = s
-            .replace("/", "_")
-            .replace(" ", "_")
-            .replace(",", "_")
-            .replace("'", "")
-            .replace("\"", "")
-            .replace("?", "")
-            .replace(")", "")
-            .replace("(", "")
-            .toLowerCase()
-        var xLen = 0
-        while (x.length != xLen) {
-            xLen = x.length
-            x = x.replace("__", "_")
-        }
-        return x
-
-    }
+    fun fileNameFromCardName(s: String)= s.replace("[^A-Za-z0-9]".toRegex(), "").toLowerCase()
 
     fun createGraphics(image: BufferedImage): Graphics2D = image.createGraphics().apply {
         setRenderingHint(
@@ -91,6 +73,29 @@ object ImageCreatorHelper {
         return bi
     }
 
+    fun createCardTotal(a: DeckAnalysis): BufferedImage {
+        val ofCount = if (a.deckClass.classAbilities.size < 3) 50 else 75
+        val total = a.totalCards
+        val text = "[$total / $ofCount]"
+        val fontSize = 25
+
+        val bi = BufferedImage(200, 80, BufferedImage.TYPE_INT_ARGB)
+        val g = createGraphics(bi)
+        g.font = Font(fontName, Font.PLAIN, fontSize)
+        val metrics = g.fontMetrics
+        val width = metrics.stringWidth(text)
+        val height = metrics.ascent + metrics.descent
+        g.dispose()
+
+        val bi2 = BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB)
+        val g2 = createGraphics(bi2)
+        g2.font = Font(fontName, Font.PLAIN, fontSize)
+        g2.drawString(text, 0, height - metrics.descent)
+        g2.dispose()
+
+        return bi2
+    }
+
     fun displayDeckDetailValue(g: Graphics2D, title: String, text: String, x: Int, y: Int) {
         val fontSize = 20
 
@@ -116,13 +121,13 @@ object ImageCreatorHelper {
     fun createCards(da: DeckAnalysis, columnCount: Int, fullWidth: Int): BufferedImage {
         val colourLineLight = Color(0x50, 0x4e, 0x36)
         val colourLineDark = Color(0x39, 0x37, 0x25)
-        val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue-50.png")
-        val rightCircleHollowResource = this::class.java.classLoader.getResource("images/outer-50.png")
+        val leftCircleFilledResource = this::class.java.classLoader.getResource("images/outer-blue.png")
+        val rightCircleHollowResource = this::class.java.classLoader.getResource("images/outer-trans.png")
         val leftCircle = ImageIO.read(leftCircleFilledResource)
 
         val heightGap = 8
-        val circRadius = 25
-        val cardWidth = 250
+        val circRadius = 28
+        val cardWidth = 300 // ???
         val columnLengths: List<Int> = calculateColumnLengths(da.totalUnique, columnCount)
 
         val cardsInColumns = mutableListOf<List<CardCount>>()
@@ -141,7 +146,7 @@ object ImageCreatorHelper {
         cardsInColumns.forEachIndexed { i, list ->
             list.forEachIndexed inner@{ j, (count, card) ->
                 if (card == null) return@inner
-                val imageX = i * (4 * circRadius + cardWidth + 15) + circRadius
+                val imageX = i * (2 * circRadius + cardWidth + 15) + circRadius
                 val imageY = j * (circRadius * 2 + heightGap) + circRadius
 
                 val fileName = fileNameFromCardName(card.name)
@@ -153,7 +158,7 @@ object ImageCreatorHelper {
                 // CONNECTING PARALLEL LINES (will be overwritten by circles)
                 ////////////////////////////////////////////////////////////////////////////////////
                 g.color = colourLineDark
-                val rightX = imageX + cardWidth + circRadius * 2
+                val rightX = imageX + cardWidth // - circRadius * 2
                 g.drawLine(imageX, imageY - circRadius + 2, rightX, imageY - circRadius + 2)
                 g.drawLine(imageX, imageY + circRadius - 2, rightX, imageY + circRadius - 2)
                 g.color = colourLineLight
@@ -228,7 +233,7 @@ object ImageCreatorHelper {
     }
 
     fun createDeckClassName(a: DeckAnalysis): BufferedImage {
-        val bi = BufferedImage(600, 100, BufferedImage.TYPE_INT_ARGB)
+        val bi = BufferedImage(600, 106, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
         g.font = Font(fontName, Font.PLAIN, 45)
         g.paint = Color(0xd2, 0xcb, 0xfe)
@@ -245,23 +250,28 @@ object ImageCreatorHelper {
     }
 
     fun createDeckClassIcons(a: DeckAnalysis): BufferedImage {
+        val strengthIconResource = this::class.java.classLoader.getResource("images/strength.png")
+        val strengthImage = ImageIO.read(strengthIconResource)
+        val iconHeight = strengthImage.height
+
         val neutralCount = a.attributesCount.getOrDefault("Neutral", 0)
         val attributes = a.deckClass.classAbilities.let { if (neutralCount > 0) it + ClassAbility.NEUTRAL else it }
-        val width = attributes.size * 100 - if (neutralCount in 1..9) 25 else 10
-        val bi = BufferedImage(width, 50, BufferedImage.TYPE_INT_ARGB)
+        val width = attributes.size * 100 - if (neutralCount in 1..9) 21 else 6
+        val bi = BufferedImage(width, iconHeight, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
 
-        g.font = Font(fontName, Font.PLAIN, 30)
+        val fontSize = 30
+        g.font = Font(fontName, Font.PLAIN, fontSize)
         g.paint = Color(0xd2, 0xcb, 0xfe)
 
         attributes.forEachIndexed { attIndex, attribute ->
             val attributeName = attribute.name.toLowerCase()
             val count = a.attributesCount[attributeName.capitalize()]
-            val iconResource = this::class.java.classLoader.getResource("images/${attributeName}-50.png")
+            val iconResource = this::class.java.classLoader.getResource("images/${attributeName}.png")
             val iconImage = ImageIO.read(iconResource)
             val x = attIndex * 100
             g.drawImage(iconImage, x, 0, null)
-            g.drawString("$count", x + 55, 35)
+            g.drawString("$count", x + iconImage.width + 5, iconImage.height / 2 + fontSize / 2 - 5)
         }
 
         return bi
@@ -273,9 +283,9 @@ object ImageCreatorHelper {
         val manaDarkLine = 0x3169d5
         val manaBoundingBox = 0x16202a
         val manaBackgroundGrey = 0x131516
-        val manaBoxWidth = 500
+        val manaBoxWidth = 550
         val manaBoxHeight = 350
-        val circRadius = 25
+        val circRadius = 28
 
         val bi = BufferedImage(manaBoxWidth, manaBoxHeight, BufferedImage.TYPE_INT_ARGB)
         val g = createGraphics(bi)
@@ -319,7 +329,7 @@ object ImageCreatorHelper {
                 val blueBlockHeightMaxHeight = outlineBoxHeight - 1
                 val blueBlockHeight = manaCount * blueBlockHeightMaxHeight / largestManaCount
 
-                val blueBlock = BufferedImage(49, blueBlockHeight, BufferedImage.TYPE_INT_ARGB)
+                val blueBlock = BufferedImage(2 * circRadius - 1, blueBlockHeight, BufferedImage.TYPE_INT_ARGB)
                 blueBlock.createGraphics().run {
                     paint = LinearGradientPaint(
                         Point(0, 0),
@@ -327,7 +337,7 @@ object ImageCreatorHelper {
                         floatArrayOf(0.0f, 1.0f),
                         listOf(Color(manaFillDark, false), Color(manaFillLight, false)).toTypedArray()
                     )
-                    fillRect(0, 0, 49, blueBlockHeight)
+                    fillRect(0, 0, 2 * circRadius - 1, blueBlockHeight)
                     dispose()
                 }
 
@@ -341,7 +351,7 @@ object ImageCreatorHelper {
             // the actual count
             val countOfCurrentMana = "$manaCount"
             val (wManaCount, _) = setupToDrawNumber(g, countOfCurrentMana, Color.WHITE)
-            g.drawString(countOfCurrentMana, x - wManaCount / 2 + 25, 32)
+            g.drawString(countOfCurrentMana, x - wManaCount / 2 + circRadius, 32)
         }
 
         return bi

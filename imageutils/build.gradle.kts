@@ -34,6 +34,7 @@ dependencies {
 
     implementation("no.tornado:tornadofx:$tornadoFxVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$kotlinxSerializationRuntime")
+    implementation("com.mortennobel:java-image-scaling:0.8.6")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterEngineVersion")
     testImplementation("org.junit.jupiter:junit-jupiter-params:$junitJupiterEngineVersion")
