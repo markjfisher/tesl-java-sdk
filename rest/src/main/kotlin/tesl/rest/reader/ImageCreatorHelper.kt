@@ -207,7 +207,7 @@ object ImageCreatorHelper {
                 ////////////////////////////////////////////////////////////////////////////////////
                 // NAME
                 ////////////////////////////////////////////////////////////////////////////////////
-                val nameMessage = card.name.substring(0, min(card.name.length, 26))
+                val nameMessage = card.name.substring(0, min(card.name.length, 23))
                 val (_, hNameBlack) = setupToDrawNumber(g, nameMessage, Color.BLACK, Font.PLAIN, 20)
                 g.drawString(nameMessage, imageX + 24 + circRadius / 2, imageY + hNameBlack / 2)
                 val (_, hName) = setupToDrawNumber(g, nameMessage, Color.WHITE, Font.PLAIN, 20)
