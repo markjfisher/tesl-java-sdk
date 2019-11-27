@@ -1,0 +1,31 @@
+{
+  "name": "Loyal Housecarl",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Prophecy. Summon: Give a creature +2/+2 and Guard.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard",
+    "Prophecy"
+  ],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/loyal_housecarl.png",
+  "id": "a66fa8e8-a094-5030-8093-b361e8dbd144",
+  "code": "Aj"
+}

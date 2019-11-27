@@ -1,0 +1,26 @@
+{
+  "name": "Squish the Wimpy",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "A friendly creature Battles an enemy creature.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/squish_the_wimpy.png",
+  "id": "18417a42-0b00-5003-8b7b-ea07507eca2d",
+  "code": "zt"
+}

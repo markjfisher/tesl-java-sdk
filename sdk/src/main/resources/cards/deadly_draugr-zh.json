@@ -1,0 +1,30 @@
+{
+  "name": "Deadly Draugr",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Lethal",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Lethal"
+  ],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/deadly_draugr.png",
+  "id": "2860c331-7d9c-51ed-ae12-c7607dc0cff2",
+  "code": "zh"
+}

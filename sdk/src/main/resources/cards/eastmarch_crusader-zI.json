@@ -1,0 +1,28 @@
+{
+  "name": "Eastmarch Crusader",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 3,
+  "power": 4,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Draw a card if an enemy rune has been destroyed this game.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/eastmarch_crusader.png",
+  "id": "8cc62a9a-1221-5ddb-85e5-76ffc286f446",
+  "code": "zI"
+}

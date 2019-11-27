@@ -1,0 +1,28 @@
+{
+  "name": "Doppelganger",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra"
+  ],
+  "cost": 5,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Forgotten Hero Collection",
+    "id": "fhc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Transform Doppelganger into a copy of another friendly creature.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/fhc/doppelganger.png",
+  "id": "5f5bfc4a-1a33-5de3-9150-adc9bb1bc3f8",
+  "code": "Af"
+}

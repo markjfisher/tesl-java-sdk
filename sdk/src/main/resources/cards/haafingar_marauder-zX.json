@@ -1,0 +1,28 @@
+{
+  "name": "Haafingar Marauder",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "When a friendly creature destroys an enemy rune, equip it with a random item.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/haafingar_marauder.png",
+  "id": "96fd1a56-cf85-55c1-bd89-d73eedb29997",
+  "code": "zX"
+}

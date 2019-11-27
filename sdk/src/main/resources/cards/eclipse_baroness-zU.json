@@ -1,0 +1,30 @@
+{
+  "name": "Eclipse Baroness",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 8,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon and Last Gasp: Draw a card and reduce its cost by 2.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Last Gasp"
+  ],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/eclipse_baroness.png",
+  "id": "579f3a4f-7abc-5ea8-ba91-831c29e2d256",
+  "code": "zU"
+}

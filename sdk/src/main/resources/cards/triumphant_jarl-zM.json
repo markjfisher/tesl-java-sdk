@@ -1,0 +1,28 @@
+{
+  "name": "Triumphant Jarl",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: If you have more health than your opponent, draw two cards.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/triumphant_jarl.png",
+  "id": "fe50ed1f-1929-5c8d-8af9-097f93b674e1",
+  "code": "zM"
+}

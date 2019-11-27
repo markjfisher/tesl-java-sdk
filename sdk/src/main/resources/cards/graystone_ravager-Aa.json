@@ -1,0 +1,30 @@
+{
+  "name": "Graystone Ravager",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Orc"
+  ],
+  "cost": 2,
+  "power": 4,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/graystone_ravager.png",
+  "id": "5d591d0f-e43e-5eff-a5c5-4f1ae2a2d579",
+  "code": "Aa"
+}

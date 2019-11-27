@@ -51,7 +51,8 @@ object AltArtExtractor: Extractor() {
                 if (normalCard != null) {
                     val sanitizedName = TESLCard.sanitize(name)
                     val id = IdGenerator.generateCardUUID("$sanitizedName-$exportCode")
-                    val imageUrl = normalCard.imageUrl.substringBeforeLast(".png") + "_alt.png"
+                    // USE SAME imageUrl as original card - not supporting alts other than by code
+                    // val imageUrl = normalCard.imageUrl.substringBeforeLast(".png") + "_alt.png"
 
                     val altCard = Card(
                         name = normalCard.name,
@@ -70,7 +71,7 @@ object AltArtExtractor: Extractor() {
                         keywords = normalCard.keywords,
                         unique = normalCard.unique,
                         isAlt = true,
-                        imageUrl = imageUrl,
+                        imageUrl = normalCard.imageUrl,
                         id = id,
                         code = exportCode
                     )

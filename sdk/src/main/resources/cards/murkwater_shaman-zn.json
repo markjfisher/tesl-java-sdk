@@ -1,0 +1,28 @@
+{
+  "name": "Murkwater Shaman",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Goblin"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "At the start of your turn, put a Curse into your hand.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/murkwater_shaman.png",
+  "id": "8e6f1292-f1fb-591d-b172-2e31034c601b",
+  "code": "zn"
+}

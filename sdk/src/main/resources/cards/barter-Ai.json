@@ -1,0 +1,26 @@
+{
+  "name": "Barter",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Trade a card in your hand for a random card in your opponent's hand.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/barter.png",
+  "id": "3275f033-69f9-5934-90da-32e1da76d52c",
+  "code": "Ai"
+}

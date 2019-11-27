@@ -1,0 +1,28 @@
+{
+  "name": "Greybeard Mentor",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 4,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: Draw a random Shout from your deck.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/greybeard_mentor.png",
+  "id": "fd3db591-a624-512a-bdcf-d313b8b14fa9",
+  "code": "zx"
+}

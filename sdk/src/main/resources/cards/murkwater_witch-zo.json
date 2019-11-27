@@ -1,0 +1,30 @@
+{
+  "name": "Murkwater Witch",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Goblin"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard. Summon: Give a creature -1/-1.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "isAlt": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/murkwater_witch.png",
+  "id": "785b3b44-13b5-5a36-8e38-c4144812eefa",
+  "code": "zo"
+}
