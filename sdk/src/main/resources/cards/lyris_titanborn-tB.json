@@ -1,27 +1,28 @@
 {
- "name": "Lyris Titanborn",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 6,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "At the start of your turn, destroy your oppnent's front rune.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/aw/lyris_titanborn.png",
- "id": "c8eebf94-e291-55f6-8292-dac748dc4388",
- "code": "tB"
+  "name": "Lyris Titanborn",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 6,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "At the start of your turn, destroy your oppnent's front rune.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/lyris_titanborn.png",
+  "id": "c8eebf94-e291-55f6-8292-dac748dc4388",
+  "code": "tB",
+  "isAlt": false
 }

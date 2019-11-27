@@ -1,28 +1,29 @@
 {
- "name": "Flesh Atronach",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Daedra",
-  "Atronach"
- ],
- "cost": 6,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon: +1/+1 for each creature in your discard pile.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/flesh_atronach.png",
- "id": "8c3b136f-fbd9-5afc-91cb-014155dbeb19",
- "code": "gB"
+  "name": "Flesh Atronach",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra",
+    "Atronach"
+  ],
+  "cost": 6,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: +1/+1 for each creature in your discard pile.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/flesh_atronach.png",
+  "id": "8c3b136f-fbd9-5afc-91cb-014155dbeb19",
+  "code": "gB",
+  "isAlt": false
 }

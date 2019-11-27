@@ -1,27 +1,28 @@
 {
- "name": "Hulking Fabricant",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Fabricant"
- ],
- "cost": 5,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: If you have a [neutral] card in play, +3/+3.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/hulking_fabricant.png",
- "id": "ce2101ff-b911-5801-bf48-04e80437c993",
- "code": "iu"
+  "name": "Hulking Fabricant",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Fabricant"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: If you have a [neutral] card in play, +3/+3.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/hulking_fabricant.png",
+  "id": "ce2101ff-b911-5801-bf48-04e80437c993",
+  "code": "iu",
+  "isAlt": false
 }

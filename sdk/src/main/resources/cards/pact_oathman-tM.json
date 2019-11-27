@@ -1,27 +1,28 @@
 {
- "name": "Pact Oathman",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 2,
- "power": 1,
- "health": 3,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: If you have a...\r\n[agility] card in play, +2/+0.\r\n[endurance] card in play, Battle an enemy creature.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/aw/pact_oathman.png",
- "id": "b9728c6f-1a39-5046-8995-e01db3fb757a",
- "code": "tM"
+  "name": "Pact Oathman",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 3,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: If you have a...\r\n[agility] card in play, +2/+0.\r\n[endurance] card in play, Battle an enemy creature.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/pact_oathman.png",
+  "id": "b9728c6f-1a39-5046-8995-e01db3fb757a",
+  "code": "tM",
+  "isAlt": false
 }

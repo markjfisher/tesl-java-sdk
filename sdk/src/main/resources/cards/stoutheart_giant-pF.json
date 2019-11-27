@@ -1,27 +1,28 @@
 {
- "name": "Stoutheart Giant",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Giant"
- ],
- "cost": 5,
- "power": 6,
- "health": 4,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/stoutheart_giant.png",
- "id": "edc390e8-864f-527a-8bf9-b125fd7aee2e",
- "code": "pF"
+  "name": "Stoutheart Giant",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Giant"
+  ],
+  "cost": 5,
+  "power": 6,
+  "health": 4,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/stoutheart_giant.png",
+  "id": "edc390e8-864f-527a-8bf9-b125fd7aee2e",
+  "code": "pF",
+  "isAlt": false
 }

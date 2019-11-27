@@ -1,25 +1,26 @@
 {
- "name": "Staff of Sparks",
- "rarity": "Legendary",
- "type": "Item",
- "subtypes": [],
- "cost": 6,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "+3/+0. When the wielder attacks, it deals 1 damage to all enemy creatures in this lane.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/staff_of_sparks.png",
- "id": "e80ce374-ded8-5c7f-ba30-8f74955757fc",
- "code": "pf"
+  "name": "Staff of Sparks",
+  "rarity": "Legendary",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 6,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "+3/+0. When the wielder attacks, it deals 1 damage to all enemy creatures in this lane.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/staff_of_sparks.png",
+  "id": "e80ce374-ded8-5c7f-ba30-8f74955757fc",
+  "code": "pf",
+  "isAlt": false
 }

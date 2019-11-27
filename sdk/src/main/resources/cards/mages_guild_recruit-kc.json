@@ -1,27 +1,28 @@
 {
- "name": "Mages Guild Recruit",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 2,
- "power": 1,
- "health": 2,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: Reduce the cost of an action in your hand by 2.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/mages_guild_recruit.png",
- "id": "3f7f6f5a-11f4-5290-85fe-ee6c5f5ae6a6",
- "code": "kc"
+  "name": "Mages Guild Recruit",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 2,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: Reduce the cost of an action in your hand by 2.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/mages_guild_recruit.png",
+  "id": "3f7f6f5a-11f4-5290-85fe-ee6c5f5ae6a6",
+  "code": "kc",
+  "isAlt": false
 }

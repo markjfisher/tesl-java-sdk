@@ -1,29 +1,30 @@
 {
- "name": "Feasting Hunger",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Daedra"
- ],
- "cost": 3,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Guard. Summon: You gain 1 health for each enemy creature.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/feasting_hunger.png",
- "id": "2bc1e766-3a2a-55a7-8215-2381683ce100",
- "code": "gh"
+  "name": "Feasting Hunger",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard. Summon: You gain 1 health for each enemy creature.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/feasting_hunger.png",
+  "id": "2bc1e766-3a2a-55a7-8215-2381683ce100",
+  "code": "gh",
+  "isAlt": false
 }

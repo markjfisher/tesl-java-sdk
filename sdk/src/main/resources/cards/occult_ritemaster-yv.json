@@ -1,27 +1,28 @@
 {
- "name": "Occult Ritemaster",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Orc"
- ],
- "cost": 4,
- "power": 4,
- "health": 3,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Put a Steel Dagger into your hand. When Occult Ritemaster equips an item, Invade.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/occultritemaster.png",
- "id": "c723a53b-d8b5-5320-b2d9-d431fdaa5a95",
- "code": "yv"
+  "name": "Occult Ritemaster",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Orc"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 3,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Put a Steel Dagger into your hand. When Occult Ritemaster equips an item, Invade.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/occultritemaster.png",
+  "id": "c723a53b-d8b5-5320-b2d9-d431fdaa5a95",
+  "code": "yv",
+  "isAlt": false
 }

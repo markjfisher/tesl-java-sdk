@@ -1,27 +1,28 @@
 {
- "name": "Bloodline Outcast",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Vampire"
- ],
- "cost": 7,
- "power": 7,
- "health": 7,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "When a creature dies, Bloodline Outcast gains Drain this turn.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/bloodline_outcast.png",
- "id": "54469d8e-7301-5da2-ae50-4842b68a741b",
- "code": "ch"
+  "name": "Bloodline Outcast",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Vampire"
+  ],
+  "cost": 7,
+  "power": 7,
+  "health": 7,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "When a creature dies, Bloodline Outcast gains Drain this turn.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/bloodline_outcast.png",
+  "id": "54469d8e-7301-5da2-ae50-4842b68a741b",
+  "code": "ch",
+  "isAlt": false
 }

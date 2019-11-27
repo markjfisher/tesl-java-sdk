@@ -1,27 +1,28 @@
 {
- "name": "Alduin",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dragon"
- ],
- "cost": 20,
- "power": 12,
- "health": 12,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Costs 2 less for each Dragon in your discard pile. Summon: Destroy all other creatures. At the start of your turn, summon a random Dragon from your discard pile.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hos/alduin.png",
- "id": "9552e25d-6a9a-5af8-b918-29c02d27d4da",
- "code": "ao"
+  "name": "Alduin",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dragon"
+  ],
+  "cost": 20,
+  "power": 12,
+  "health": 12,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Costs 2 less for each Dragon in your discard pile. Summon: Destroy all other creatures. At the start of your turn, summon a random Dragon from your discard pile.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/alduin.png",
+  "id": "9552e25d-6a9a-5af8-b918-29c02d27d4da",
+  "code": "ao",
+  "isAlt": false
 }

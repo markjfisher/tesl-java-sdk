@@ -1,29 +1,30 @@
 {
- "name": "Tree Minder",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 3,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Guard, Summon: Gain +1 max magicka.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/tree_minder.png",
- "id": "077249c3-0bef-5e62-8921-cb6d3d266ebf",
- "code": "qN"
+  "name": "Tree Minder",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Guard, Summon: Gain +1 max magicka.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/tree_minder.png",
+  "id": "077249c3-0bef-5e62-8921-cb6d3d266ebf",
+  "code": "qN",
+  "isAlt": false
 }

@@ -1,29 +1,30 @@
 {
- "name": "Marked Man",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "The Fall of the Dark Brotherhood",
-  "id": "fodb"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: Put a 0/2 Makeshift Defenses with Guard into your hand.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fodb/marked_man.png",
- "id": "97dd5f8f-24c7-5a22-abd4-eba4e62e81e2",
- "code": "kk"
+  "name": "Marked Man",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: Put a 0/2 Makeshift Defenses with Guard into your hand.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/marked_man.png",
+  "id": "97dd5f8f-24c7-5a22-abd4-eba4e62e81e2",
+  "code": "kk",
+  "isAlt": false
 }

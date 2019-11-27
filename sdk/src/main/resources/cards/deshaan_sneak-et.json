@@ -1,27 +1,28 @@
 {
- "name": "Deshaan Sneak",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 4,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/deshaan_sneak.png",
- "id": "cbe00bb2-dc3f-5868-a642-8469403a1995",
- "code": "et"
+  "name": "Deshaan Sneak",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/deshaan_sneak.png",
+  "id": "cbe00bb2-dc3f-5868-a642-8469403a1995",
+  "code": "et",
+  "isAlt": false
 }

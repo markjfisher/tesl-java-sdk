@@ -1,26 +1,27 @@
 {
- "name": "Avatar of Akatosh",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [],
- "cost": 4,
- "power": 30,
- "health": 30,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": false,
- "soulSummon": 0,
- "soulTrap": 0,
- "text": "",
- "attributes": [
-  "Agility",
-  "Endurance"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://www.legends-decks.com/img_cards/avatarofakatosh.png",
- "id": "906e90e1-4fd2-5a1a-9664-85ede0a677c1",
- "code": "__"
+  "name": "Avatar of Akatosh",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [],
+  "cost": 4,
+  "power": 30,
+  "health": 30,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": false,
+  "soulSummon": 0,
+  "soulTrap": 0,
+  "text": "",
+  "attributes": [
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://www.legends-decks.com/img_cards/avatarofakatosh.png",
+  "id": "906e90e1-4fd2-5a1a-9664-85ede0a677c1",
+  "code": "__",
+  "isAlt": false
 }

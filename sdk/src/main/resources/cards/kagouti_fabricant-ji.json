@@ -1,27 +1,28 @@
 {
- "name": "Kagouti Fabricant",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Fabricant"
- ],
- "cost": 4,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: If you have a [neutral] card in play, summon a copy of Kagouti Fabricant in the other lane.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/kagouti_fabricant.png",
- "id": "b1011783-375e-5628-9491-a479df5f1d7b",
- "code": "ji"
+  "name": "Kagouti Fabricant",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Fabricant"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: If you have a [neutral] card in play, summon a copy of Kagouti Fabricant in the other lane.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/kagouti_fabricant.png",
+  "id": "b1011783-375e-5628-9491-a479df5f1d7b",
+  "code": "ji",
+  "isAlt": false
 }

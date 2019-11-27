@@ -1,27 +1,28 @@
 {
- "name": "Scuttler",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Reptile"
- ],
- "cost": 1,
- "power": 1,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/scuttler.png",
- "id": "e4c1c6a4-40c8-58bb-bda8-b8b0a828818c",
- "code": "nD"
+  "name": "Scuttler",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Reptile"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/scuttler.png",
+  "id": "e4c1c6a4-40c8-58bb-bda8-b8b0a828818c",
+  "code": "nD",
+  "isAlt": false
 }

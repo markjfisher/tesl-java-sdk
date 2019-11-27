@@ -1,27 +1,28 @@
 {
- "name": "Vicious Dreugh",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dreugh"
- ],
- "cost": 4,
- "power": 3,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Destroy an enemy support card.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/vicious_dreugh.png",
- "id": "2b970c57-b3a4-5472-ac15-614a6f991cdd",
- "code": "rp"
+  "name": "Vicious Dreugh",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dreugh"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Destroy an enemy support card.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/vicious_dreugh.png",
+  "id": "2b970c57-b3a4-5472-ac15-614a6f991cdd",
+  "code": "rp",
+  "isAlt": false
 }

@@ -1,30 +1,31 @@
 {
- "name": "Khuul Lawkeeper",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 3,
- "power": 1,
- "health": 6,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Guard, Rally.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard",
-  "Rally"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/khuul_lawkeeper.png",
- "id": "55b1d7ec-884b-5949-9827-84607c21924d",
- "code": "jm"
+  "name": "Khuul Lawkeeper",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 6,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard, Rally.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard",
+    "Rally"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/khuul_lawkeeper.png",
+  "id": "55b1d7ec-884b-5949-9827-84607c21924d",
+  "code": "jm",
+  "isAlt": false
 }

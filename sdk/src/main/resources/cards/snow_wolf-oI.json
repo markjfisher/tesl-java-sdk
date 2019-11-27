@@ -1,27 +1,28 @@
 {
- "name": "Snow Wolf",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Wolf"
- ],
- "cost": 2,
- "power": 1,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "+2/+0 while you have the most creatures in this lane.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/snow_wolf.png",
- "id": "3c9eaded-e6d8-56f9-8d97-27c71a8b4bbd",
- "code": "oI"
+  "name": "Snow Wolf",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Wolf"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "+2/+0 while you have the most creatures in this lane.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/snow_wolf.png",
+  "id": "3c9eaded-e6d8-56f9-8d97-27c71a8b4bbd",
+  "code": "oI",
+  "isAlt": false
 }

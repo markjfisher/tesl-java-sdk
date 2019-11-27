@@ -1,27 +1,28 @@
 {
- "name": "Merchant's Camel",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 4,
- "power": 1,
- "health": 4,
- "set": {
-  "name": "Madhouse Collection",
-  "id": "mc"
- },
- "collectible": true,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Summon: Look at the top three cards of your deck. Put one into your hand and discard the others.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/mc/merchants_camel.png",
- "id": "e1dfff77-fd15-5426-a0f9-b582f6486d23",
- "code": "kv"
+  "name": "Merchant's Camel",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 4,
+  "power": 1,
+  "health": 4,
+  "set": {
+    "name": "Madhouse Collection",
+    "id": "mc"
+  },
+  "collectible": true,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Summon: Look at the top three cards of your deck. Put one into your hand and discard the others.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/mc/merchants_camel.png",
+  "id": "e1dfff77-fd15-5426-a0f9-b582f6486d23",
+  "code": "kv",
+  "isAlt": false
 }

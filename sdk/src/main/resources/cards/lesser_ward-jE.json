@@ -1,27 +1,28 @@
 {
- "name": "Lesser Ward",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 0,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Give a creature a Ward.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [
-  "Ward"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/lesser_ward.png",
- "id": "408f8f39-dcf5-5a09-8243-eba11ed8cf51",
- "code": "jE"
+  "name": "Lesser Ward",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 0,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Give a creature a Ward.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [
+    "Ward"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/lesser_ward.png",
+  "id": "408f8f39-dcf5-5a09-8243-eba11ed8cf51",
+  "code": "jE",
+  "isAlt": false
 }

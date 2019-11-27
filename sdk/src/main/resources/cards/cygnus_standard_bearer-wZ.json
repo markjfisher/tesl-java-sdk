@@ -1,27 +1,28 @@
 {
- "name": "Cygnus Standard Bearer",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 4,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Summon a 2/2 Imperial Solider for each friendly support. When you summon a support, summon a 2/2 Imperial Soldier.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/cygnus_standard_bearer.png",
- "id": "cca52cf5-41ad-58f4-8f1d-ead46a642ed0",
- "code": "wZ"
+  "name": "Cygnus Standard Bearer",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Summon a 2/2 Imperial Solider for each friendly support. When you summon a support, summon a 2/2 Imperial Soldier.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/cygnus_standard_bearer.png",
+  "id": "cca52cf5-41ad-58f4-8f1d-ead46a642ed0",
+  "code": "wZ",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Eldergleam Matron",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Spriggan"
- ],
- "cost": 3,
- "power": 4,
- "health": 2,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Put a random Animal into your hand.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/eldergleam_matron.png",
- "id": "85b91c6f-162e-5570-838f-7c6ce1219671",
- "code": "fD"
+  "name": "Eldergleam Matron",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Spriggan"
+  ],
+  "cost": 3,
+  "power": 4,
+  "health": 2,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Put a random Animal into your hand.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/eldergleam_matron.png",
+  "id": "85b91c6f-162e-5570-838f-7c6ce1219671",
+  "code": "fD",
+  "isAlt": false
 }

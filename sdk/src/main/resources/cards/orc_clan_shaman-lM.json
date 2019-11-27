@@ -1,29 +1,30 @@
 {
- "name": "Orc Clan Shaman",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Orc"
- ],
- "cost": 2,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Breakthrough. Other friendly Orcs in this lane have Breakthrough.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Breakthrough"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/orc_clan_shaman.png",
- "id": "927190f6-3f9f-5ea2-a977-b7f6bed55641",
- "code": "lM"
+  "name": "Orc Clan Shaman",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Orc"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Breakthrough. Other friendly Orcs in this lane have Breakthrough.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Breakthrough"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/orc_clan_shaman.png",
+  "id": "927190f6-3f9f-5ea2-a977-b7f6bed55641",
+  "code": "lM",
+  "isAlt": false
 }

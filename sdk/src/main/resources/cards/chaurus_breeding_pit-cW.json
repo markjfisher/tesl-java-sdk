@@ -1,25 +1,26 @@
 {
- "name": "Chaurus Breeding Pit",
- "rarity": "Epic",
- "type": "Action",
- "subtypes": [],
- "cost": 10,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Monthly Rewards",
-  "id": "mr"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon a Chaurus Reaper in each lane.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/mr/chaurus_breeding_pit.png",
- "id": "6da8e832-d152-57ac-a109-838a10201730",
- "code": "cW"
+  "name": "Chaurus Breeding Pit",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 10,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Monthly Rewards",
+    "id": "mr"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon a Chaurus Reaper in each lane.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/mr/chaurus_breeding_pit.png",
+  "id": "6da8e832-d152-57ac-a109-838a10201730",
+  "code": "cW",
+  "isAlt": false
 }

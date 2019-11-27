@@ -1,27 +1,28 @@
 {
- "name": "Glacial Dragon",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dragon"
- ],
- "cost": 6,
- "power": 4,
- "health": 5,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Shackle enemy creatures damaged by friendly Dragons. Summon: Deal 2 damage to a creature.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/glacial_dragon.png",
- "id": "8769c151-cf8c-5874-8bf3-11e04aa5ceef",
- "code": "wx"
+  "name": "Glacial Dragon",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dragon"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 5,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Shackle enemy creatures damaged by friendly Dragons. Summon: Deal 2 damage to a creature.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/glacial_dragon.png",
+  "id": "8769c151-cf8c-5874-8bf3-11e04aa5ceef",
+  "code": "wx",
+  "isAlt": false
 }

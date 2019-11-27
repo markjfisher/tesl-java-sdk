@@ -1,29 +1,30 @@
 {
- "name": "Dwarven Ballista",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dwemer"
- ],
- "cost": 6,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Breakthrough",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Breakthrough"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/dwarven_ballista.png",
- "id": "bb62530f-8f0a-589a-b6c4-a34ed7143b7e",
- "code": "fn"
+  "name": "Dwarven Ballista",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dwemer"
+  ],
+  "cost": 6,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Breakthrough",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Breakthrough"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/dwarven_ballista.png",
+  "id": "bb62530f-8f0a-589a-b6c4-a34ed7143b7e",
+  "code": "fn",
+  "isAlt": false
 }

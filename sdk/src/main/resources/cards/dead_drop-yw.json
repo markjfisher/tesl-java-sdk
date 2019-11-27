@@ -1,25 +1,26 @@
 {
- "name": "Dead Drop",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 0,
- "power": 0,
- "health": 0,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Give a friendly creature \"Slay: Put a Completed Contract into your hand\" this turn. It may move to attack creatures in the other lane this turn.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/deaddrop.png",
- "id": "ecebcc4e-68c1-5728-8ece-93f1b49c3397",
- "code": "yw"
+  "name": "Dead Drop",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 0,
+  "power": 0,
+  "health": 0,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Give a friendly creature \"Slay: Put a Completed Contract into your hand\" this turn. It may move to attack creatures in the other lane this turn.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/deaddrop.png",
+  "id": "ecebcc4e-68c1-5728-8ece-93f1b49c3397",
+  "code": "yw",
+  "isAlt": false
 }

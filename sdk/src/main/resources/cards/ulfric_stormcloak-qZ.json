@@ -1,29 +1,30 @@
 {
- "name": "Ulfric Stormcloak",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 5,
- "power": 6,
- "health": 5,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Breakthrough, When you play a Shout, draw a random Nord from your deck.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Breakthrough"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hos/ulfric_stormcloak.png",
- "id": "c5aa31cf-0ea7-54d6-a1d6-b8173157be71",
- "code": "qZ"
+  "name": "Ulfric Stormcloak",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 6,
+  "health": 5,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Breakthrough, When you play a Shout, draw a random Nord from your deck.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Breakthrough"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/ulfric_stormcloak.png",
+  "id": "c5aa31cf-0ea7-54d6-a1d6-b8173157be71",
+  "code": "qZ",
+  "isAlt": false
 }

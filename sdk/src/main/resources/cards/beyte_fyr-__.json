@@ -1,27 +1,28 @@
 {
- "name": "Beyte Fyr",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 11,
- "power": 6,
- "health": 6,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Summon: Deal 6 damage to a random enemy.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/cs/beyte_fyr.png",
- "id": "8a5cc75d-835f-5831-8f61-b1b65e22e5eb",
- "code": "__"
+  "name": "Beyte Fyr",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 11,
+  "power": 6,
+  "health": 6,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Summon: Deal 6 damage to a random enemy.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/beyte_fyr.png",
+  "id": "8a5cc75d-835f-5831-8f61-b1b65e22e5eb",
+  "code": "__",
+  "isAlt": false
 }

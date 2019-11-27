@@ -1,27 +1,28 @@
 {
- "name": "Ice Wraith",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Wraith"
- ],
- "cost": 4,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "At the start of your turn, draw an Ice Spike.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/ice_wraith.png",
- "id": "7b018eb5-7cf8-5ede-967a-07dbcbed3188",
- "code": "iz"
+  "name": "Ice Wraith",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Wraith"
+  ],
+  "cost": 4,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "At the start of your turn, draw an Ice Spike.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/ice_wraith.png",
+  "id": "7b018eb5-7cf8-5ede-967a-07dbcbed3188",
+  "code": "iz",
+  "isAlt": false
 }

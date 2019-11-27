@@ -1,29 +1,30 @@
 {
- "name": "Assassin's Ritual",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Give a creature Lethal and Ward.",
- "attributes": [
-  "Intelligence",
-  "Agility"
- ],
- "keywords": [
-  "Lethal",
-  "Ward"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/assassins_ritual.png",
- "id": "dc4f8f2c-6fd2-57b6-8f51-2131d9c0d083",
- "code": "bf"
+  "name": "Assassin's Ritual",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Give a creature Lethal and Ward.",
+  "attributes": [
+    "Intelligence",
+    "Agility"
+  ],
+  "keywords": [
+    "Lethal",
+    "Ward"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/assassins_ritual.png",
+  "id": "dc4f8f2c-6fd2-57b6-8f51-2131d9c0d083",
+  "code": "bf",
+  "isAlt": false
 }

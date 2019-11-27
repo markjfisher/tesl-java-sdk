@@ -1,29 +1,30 @@
 {
- "name": "Battlerage Orc",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Orc"
- ],
- "cost": 3,
- "power": 2,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Charge",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Charge"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/battlerage_orc.png",
- "id": "fe6f04d3-6937-5167-aa39-8ef555a8a7ed",
- "code": "bH"
+  "name": "Battlerage Orc",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Orc"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Charge",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Charge"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/battlerage_orc.png",
+  "id": "fe6f04d3-6937-5167-aa39-8ef555a8a7ed",
+  "code": "bH",
+  "isAlt": false
 }

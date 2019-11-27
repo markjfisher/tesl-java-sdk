@@ -1,29 +1,30 @@
 {
- "name": "Hive Warrior",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Kwama"
- ],
- "cost": 4,
- "power": 6,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Breakthrough",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Breakthrough"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/hive_warrior.png",
- "id": "4b251ea4-3a64-5ce9-a02f-19b555fb937c",
- "code": "io"
+  "name": "Hive Warrior",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Kwama"
+  ],
+  "cost": 4,
+  "power": 6,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Breakthrough",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Breakthrough"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/hive_warrior.png",
+  "id": "4b251ea4-3a64-5ce9-a02f-19b555fb937c",
+  "code": "io",
+  "isAlt": false
 }

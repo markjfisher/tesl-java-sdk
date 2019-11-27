@@ -1,27 +1,28 @@
 {
- "name": "Silent Pilgrim",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 3,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Draw a random multi-attribute card from your deck.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/silent_pilgrim.png",
- "id": "80a9f86d-2eba-53e5-826f-24144ee7ea07",
- "code": "oj"
+  "name": "Silent Pilgrim",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Draw a random multi-attribute card from your deck.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/silent_pilgrim.png",
+  "id": "80a9f86d-2eba-53e5-826f-24144ee7ea07",
+  "code": "oj",
+  "isAlt": false
 }

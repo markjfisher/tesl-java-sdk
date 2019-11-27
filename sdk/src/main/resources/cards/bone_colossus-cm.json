@@ -1,27 +1,28 @@
 {
- "name": "Bone Colossus",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 7,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Summon 1/1 Skeletons to fill this lane. Other friendly Undead have +1/+1.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/bone_colossus.png",
- "id": "57ec15a4-3680-5c28-b669-0b30414f0c82",
- "code": "cm"
+  "name": "Bone Colossus",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 7,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Summon 1/1 Skeletons to fill this lane. Other friendly Undead have +1/+1.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/bone_colossus.png",
+  "id": "57ec15a4-3680-5c28-b669-0b30414f0c82",
+  "code": "cm",
+  "isAlt": false
 }

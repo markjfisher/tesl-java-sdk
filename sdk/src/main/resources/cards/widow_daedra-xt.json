@@ -1,27 +1,28 @@
 {
- "name": "Widow Daedra",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Daedra"
- ],
- "cost": 4,
- "power": 5,
- "health": 3,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "When an enemy rune is destroyed, Invade.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/widowdaedra.png",
- "id": "45132a65-b549-564c-a23c-4c8fa52ef550",
- "code": "xt"
+  "name": "Widow Daedra",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra"
+  ],
+  "cost": 4,
+  "power": 5,
+  "health": 3,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "When an enemy rune is destroyed, Invade.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/widowdaedra.png",
+  "id": "45132a65-b549-564c-a23c-4c8fa52ef550",
+  "code": "xt",
+  "isAlt": false
 }

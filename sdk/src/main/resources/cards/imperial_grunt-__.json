@@ -1,27 +1,28 @@
 {
- "name": "Imperial Grunt",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/imperial_grunt.png",
- "id": "3be913b1-fc1c-5838-a2cc-fe06f1e96ec7",
- "code": "__"
+  "name": "Imperial Grunt",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/imperial_grunt.png",
+  "id": "3be913b1-fc1c-5838-a2cc-fe06f1e96ec7",
+  "code": "__",
+  "isAlt": false
 }

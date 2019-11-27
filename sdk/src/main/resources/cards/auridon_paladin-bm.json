@@ -1,29 +1,30 @@
 {
- "name": "Auridon Paladin",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "When you play an action, give Auridon Paladin Drain this turn.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Drain"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/auridon_paladin.png",
- "id": "effa8bcb-7726-5e7c-b995-51b9093a42b2",
- "code": "bm"
+  "name": "Auridon Paladin",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "When you play an action, give Auridon Paladin Drain this turn.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Drain"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/auridon_paladin.png",
+  "id": "effa8bcb-7726-5e7c-b995-51b9093a42b2",
+  "code": "bm",
+  "isAlt": false
 }

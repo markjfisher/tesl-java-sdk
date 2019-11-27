@@ -1,29 +1,30 @@
 {
- "name": "Golden Saint",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Daedra"
- ],
- "cost": 6,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Guard. Summon: If you have more health than your opponent, summon a Golden Saint in the other lane.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/golden_saint.png",
- "id": "d710beb8-937f-5308-a3f1-6b164316ebc2",
- "code": "ho"
+  "name": "Golden Saint",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard. Summon: If you have more health than your opponent, summon a Golden Saint in the other lane.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/golden_saint.png",
+  "id": "d710beb8-937f-5308-a3f1-6b164316ebc2",
+  "code": "ho",
+  "isAlt": false
 }

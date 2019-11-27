@@ -1,27 +1,28 @@
 {
- "name": "Crassius' Favor",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 2,
- "power": 0,
- "health": 0,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon two 1/1 Imperial Grunts to a lane. Plot: Gain 1 health for each friendly creature in that lane.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Plot"
- ],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/crassiusfavor.png",
- "id": "37c78ea9-5000-58c4-bfad-c57a3494d8b1",
- "code": "dG"
+  "name": "Crassius' Favor",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 2,
+  "power": 0,
+  "health": 0,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon two 1/1 Imperial Grunts to a lane. Plot: Gain 1 health for each friendly creature in that lane.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Plot"
+  ],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/crassiusfavor.png",
+  "id": "37c78ea9-5000-58c4-bfad-c57a3494d8b1",
+  "code": "dG",
+  "isAlt": false
 }

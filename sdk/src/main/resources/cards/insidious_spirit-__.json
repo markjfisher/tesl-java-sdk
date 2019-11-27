@@ -1,27 +1,28 @@
 {
- "name": "Insidious Spirit",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Spirit"
- ],
- "cost": 3,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/insidious_spirit.png",
- "id": "527744ce-2261-5ea0-bad7-dba813da79d7",
- "code": "__"
+  "name": "Insidious Spirit",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Spirit"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/insidious_spirit.png",
+  "id": "527744ce-2261-5ea0-bad7-dba813da79d7",
+  "code": "__",
+  "isAlt": false
 }

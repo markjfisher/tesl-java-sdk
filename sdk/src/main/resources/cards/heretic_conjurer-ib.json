@@ -1,29 +1,30 @@
 {
- "name": "Heretic Conjurer",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 5,
- "power": 2,
- "health": 3,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Guard. Pilfer: Creatures you summon this turn are transformed into random Daedra.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/iom/heretic_conjurer.png",
- "id": "0bd37c57-6056-5692-b6ac-190c5f92f408",
- "code": "ib"
+  "name": "Heretic Conjurer",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 5,
+  "power": 2,
+  "health": 3,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard. Pilfer: Creatures you summon this turn are transformed into random Daedra.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/heretic_conjurer.png",
+  "id": "0bd37c57-6056-5692-b6ac-190c5f92f408",
+  "code": "ib",
+  "isAlt": false
 }

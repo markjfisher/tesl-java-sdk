@@ -1,27 +1,28 @@
 {
- "name": "Chodala's Treachery",
- "rarity": "Legendary",
- "type": "Action",
- "subtypes": [],
- "cost": 9,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Destroy a creature. Plot: Steal the creature instead.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Plot"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/chodalas_treachery.png",
- "id": "b9fb78c8-fdc1-57f5-aaa6-47c7abdc3dea",
- "code": "dc"
+  "name": "Chodala's Treachery",
+  "rarity": "Legendary",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 9,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Destroy a creature. Plot: Steal the creature instead.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Plot"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/chodalas_treachery.png",
+  "id": "b9fb78c8-fdc1-57f5-aaa6-47c7abdc3dea",
+  "code": "dc",
+  "isAlt": false
 }

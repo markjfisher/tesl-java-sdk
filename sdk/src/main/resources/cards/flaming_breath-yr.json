@@ -1,27 +1,28 @@
 {
- "name": "Flaming Breath",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 2,
- "power": 0,
- "health": 0,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Prophecy. Deal 1 damage to everything.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/flamingbreath.png",
- "id": "fe1528bb-711d-5906-bb84-eb333d4698e0",
- "code": "yr"
+  "name": "Flaming Breath",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 2,
+  "power": 0,
+  "health": 0,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy. Deal 1 damage to everything.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/flamingbreath.png",
+  "id": "fe1528bb-711d-5906-bb84-eb333d4698e0",
+  "code": "yr",
+  "isAlt": false
 }

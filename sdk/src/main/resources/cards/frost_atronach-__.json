@@ -1,29 +1,30 @@
 {
- "name": "Frost Atronach",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Daedra"
- ],
- "cost": 5,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Breakthrough",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/frost_atronach.png",
- "id": "7caa628d-9862-583e-8cb0-bb06c5d00455",
- "code": "__"
+  "name": "Frost Atronach",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Daedra"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Breakthrough",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/frost_atronach.png",
+  "id": "7caa628d-9862-583e-8cb0-bb06c5d00455",
+  "code": "__",
+  "isAlt": false
 }

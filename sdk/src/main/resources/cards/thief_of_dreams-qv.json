@@ -1,27 +1,28 @@
 {
- "name": "Thief of Dreams",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 5,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon: See a vision of two of your opponent's cards. Guess which one is in their hand. If you're right, draw a copy of it.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/thief_of_dreams.png",
- "id": "77d34a1f-d92b-5430-8f15-fb244b84165f",
- "code": "qv"
+  "name": "Thief of Dreams",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 5,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: See a vision of two of your opponent's cards. Guess which one is in their hand. If you're right, draw a copy of it.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/thief_of_dreams.png",
+  "id": "77d34a1f-d92b-5430-8f15-fb244b84165f",
+  "code": "qv",
+  "isAlt": false
 }

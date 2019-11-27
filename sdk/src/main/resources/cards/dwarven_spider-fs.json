@@ -1,29 +1,30 @@
 {
- "name": "Dwarven Spider",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dwemer"
- ],
- "cost": 0,
- "power": 0,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Guard",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/dwarven_spider.png",
- "id": "66d42b0c-3f49-59ca-852a-382e31919be9",
- "code": "fs"
+  "name": "Dwarven Spider",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dwemer"
+  ],
+  "cost": 0,
+  "power": 0,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Guard",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/dwarven_spider.png",
+  "id": "66d42b0c-3f49-59ca-852a-382e31919be9",
+  "code": "fs",
+  "isAlt": false
 }

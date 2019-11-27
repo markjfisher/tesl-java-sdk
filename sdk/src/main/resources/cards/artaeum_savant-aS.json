@@ -1,27 +1,28 @@
 {
- "name": "Artaeum Savant",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 3,
- "power": 1,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "After you play an action, a random friendly creature gets +1/+1.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/artaeum_savant.png",
- "id": "75e5670f-4042-5d38-ac26-5d797c0e31a1",
- "code": "aS"
+  "name": "Artaeum Savant",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "After you play an action, a random friendly creature gets +1/+1.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/artaeum_savant.png",
+  "id": "75e5670f-4042-5d38-ac26-5d797c0e31a1",
+  "code": "aS",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Icewing Dragon",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dragon"
- ],
- "cost": 6,
- "power": 6,
- "health": 4,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Shackle an enemy creature.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/icewing_dragon.png",
- "id": "aeeda21c-1c1e-51be-85de-71c17f1943d5",
- "code": "iA"
+  "name": "Icewing Dragon",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dragon"
+  ],
+  "cost": 6,
+  "power": 6,
+  "health": 4,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Shackle an enemy creature.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/icewing_dragon.png",
+  "id": "aeeda21c-1c1e-51be-85de-71c17f1943d5",
+  "code": "iA",
+  "isAlt": false
 }

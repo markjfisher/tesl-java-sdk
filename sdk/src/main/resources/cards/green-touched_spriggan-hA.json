@@ -1,27 +1,28 @@
 {
- "name": "Green-Touched Spriggan",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Spriggan"
- ],
- "cost": 5,
- "power": 1,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "When you gain health, Green-Touched Spriggan gains that much power.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/green-touched_spriggan.png",
- "id": "dd5d702c-749a-5fa8-a65d-649034605a07",
- "code": "hA"
+  "name": "Green-Touched Spriggan",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Spriggan"
+  ],
+  "cost": 5,
+  "power": 1,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "When you gain health, Green-Touched Spriggan gains that much power.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/green-touched_spriggan.png",
+  "id": "dd5d702c-749a-5fa8-a65d-649034605a07",
+  "code": "hA",
+  "isAlt": false
 }

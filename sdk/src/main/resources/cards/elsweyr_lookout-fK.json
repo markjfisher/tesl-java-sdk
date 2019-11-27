@@ -1,29 +1,30 @@
 {
- "name": "Elsweyr Lookout",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 3,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Monthly Rewards",
-  "id": "mr"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Pilfer: Double Elsweyr Lookout's power and health.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Pilfer"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/mr/elsweyr_lookout.png",
- "id": "000ec7fc-0c07-5671-bf52-b50b5299ddd1",
- "code": "fK"
+  "name": "Elsweyr Lookout",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Monthly Rewards",
+    "id": "mr"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Pilfer: Double Elsweyr Lookout's power and health.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Pilfer"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/mr/elsweyr_lookout.png",
+  "id": "000ec7fc-0c07-5671-bf52-b50b5299ddd1",
+  "code": "fK",
+  "isAlt": false
 }

@@ -1,29 +1,30 @@
 {
- "name": "Ancestral Dead",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 3,
- "power": 2,
- "health": 4,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Slay: Summon a Risen Dead.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Slay"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/ancestral_dead.png",
- "id": "3db538ec-0aae-5531-8af2-0f80de22c1fe",
- "code": "aC"
+  "name": "Ancestral Dead",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 4,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Slay: Summon a Risen Dead.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Slay"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/ancestral_dead.png",
+  "id": "3db538ec-0aae-5531-8af2-0f80de22c1fe",
+  "code": "aC",
+  "isAlt": false
 }

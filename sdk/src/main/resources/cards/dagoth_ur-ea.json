@@ -1,36 +1,37 @@
 {
- "name": "Dagoth Ur",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "God"
- ],
- "cost": 12,
- "power": 8,
- "health": 8,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Breakthrough, Charge, Drain, Guard, Lethal, Ward",
- "attributes": [
-  "Strength",
-  "Intelligence",
-  "Agility"
- ],
- "keywords": [
-  "Breakthrough",
-  "Charge",
-  "Drain",
-  "Guard",
-  "Lethal",
-  "Ward"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hom/dagoth_ur.png",
- "id": "f61c7266-cea7-5ff5-a092-07e9c18e5d89",
- "code": "ea"
+  "name": "Dagoth Ur",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "God"
+  ],
+  "cost": 12,
+  "power": 8,
+  "health": 8,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Breakthrough, Charge, Drain, Guard, Lethal, Ward",
+  "attributes": [
+    "Strength",
+    "Intelligence",
+    "Agility"
+  ],
+  "keywords": [
+    "Breakthrough",
+    "Charge",
+    "Drain",
+    "Guard",
+    "Lethal",
+    "Ward"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/dagoth_ur.png",
+  "id": "f61c7266-cea7-5ff5-a092-07e9c18e5d89",
+  "code": "ea",
+  "isAlt": false
 }

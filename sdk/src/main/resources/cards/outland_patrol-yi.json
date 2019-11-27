@@ -1,27 +1,28 @@
 {
- "name": "Outland Patrol",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 3,
- "power": 3,
- "health": 4,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Last Gasp: Give a random creature in your hand +1/+1.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/outlandpatrol.png",
- "id": "0df4eadf-1598-50f6-960d-1fbb65c20230",
- "code": "yi"
+  "name": "Outland Patrol",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 4,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Last Gasp: Give a random creature in your hand +1/+1.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/outlandpatrol.png",
+  "id": "0df4eadf-1598-50f6-960d-1fbb65c20230",
+  "code": "yi",
+  "isAlt": false
 }

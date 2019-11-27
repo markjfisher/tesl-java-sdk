@@ -1,27 +1,28 @@
 {
- "name": "Mannimarco",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 10,
- "power": 6,
- "health": 6,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Summon a creature from your opponent's discard pile.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/aw/mannimarco.png",
- "id": "b8bb3b5b-7f60-5063-964d-8cdf593d8dd1",
- "code": "tD"
+  "name": "Mannimarco",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 10,
+  "power": 6,
+  "health": 6,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Summon a creature from your opponent's discard pile.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/mannimarco.png",
+  "id": "b8bb3b5b-7f60-5063-964d-8cdf593d8dd1",
+  "code": "tD",
+  "isAlt": false
 }

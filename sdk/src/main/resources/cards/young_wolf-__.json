@@ -1,27 +1,28 @@
 {
- "name": "Young Wolf",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Wolf"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/young_wolf.png",
- "id": "78679dbd-bccd-5b2f-9c28-2e8141f7c8b8",
- "code": "__"
+  "name": "Young Wolf",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Wolf"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/young_wolf.png",
+  "id": "78679dbd-bccd-5b2f-9c28-2e8141f7c8b8",
+  "code": "__",
+  "isAlt": false
 }

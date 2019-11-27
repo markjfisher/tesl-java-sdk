@@ -1,25 +1,26 @@
 {
- "name": "Thalmor Embassy",
- "rarity": "Epic",
- "type": "Support",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Ongoing. Your High Elves cost 1 less. You can't be damaged by actions.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/thalmor_embassy.png",
- "id": "979ee078-e68b-5b8d-9111-ee8cf4741c97",
- "code": "ql"
+  "name": "Thalmor Embassy",
+  "rarity": "Epic",
+  "type": "Support",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Ongoing. Your High Elves cost 1 less. You can't be damaged by actions.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/thalmor_embassy.png",
+  "id": "979ee078-e68b-5b8d-9111-ee8cf4741c97",
+  "code": "ql",
+  "isAlt": false
 }

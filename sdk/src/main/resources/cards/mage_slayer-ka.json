@@ -1,27 +1,28 @@
 {
- "name": "Mage Slayer",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 2,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Mage Slayer can't be damaged by actions.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/mage_slayer.png",
- "id": "9bf09233-5cfc-5416-88ce-d5a29d7d8b44",
- "code": "ka"
+  "name": "Mage Slayer",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Mage Slayer can't be damaged by actions.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/mage_slayer.png",
+  "id": "9bf09233-5cfc-5416-88ce-d5a29d7d8b44",
+  "code": "ka",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Custom Fabricant",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Fabricant"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/custom_fabricant.png",
- "id": "54c3e1d3-c567-5c5b-a813-507d9655ec1f",
- "code": "__"
+  "name": "Custom Fabricant",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Fabricant"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/custom_fabricant.png",
+  "id": "54c3e1d3-c567-5c5b-a813-507d9655ec1f",
+  "code": "__",
+  "isAlt": false
 }

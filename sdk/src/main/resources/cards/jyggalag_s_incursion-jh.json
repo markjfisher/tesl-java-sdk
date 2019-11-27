@@ -1,27 +1,28 @@
 {
- "name": "Jyggalag's Incursion",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Prophecy. Each player gains +2 max magicka",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/iom/jyggalags_incursion.png",
- "id": "1bbe15ef-0ddb-5c21-9c4b-1b869662f446",
- "code": "jh"
+  "name": "Jyggalag's Incursion",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Prophecy. Each player gains +2 max magicka",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/jyggalags_incursion.png",
+  "id": "1bbe15ef-0ddb-5c21-9c4b-1b869662f446",
+  "code": "jh",
+  "isAlt": false
 }

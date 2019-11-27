@@ -1,27 +1,28 @@
 {
- "name": "Vigilant of Stendarr",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 3,
- "power": 5,
- "health": 2,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/vigilant_of_stendarr.png",
- "id": "cce4ca8e-c604-5f5a-94c4-fdd28a82e1b8",
- "code": "rs"
+  "name": "Vigilant of Stendarr",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 3,
+  "power": 5,
+  "health": 2,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/vigilant_of_stendarr.png",
+  "id": "cce4ca8e-c604-5f5a-94c4-fdd28a82e1b8",
+  "code": "rs",
+  "isAlt": false
 }

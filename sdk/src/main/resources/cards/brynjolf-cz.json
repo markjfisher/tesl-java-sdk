@@ -1,30 +1,31 @@
 {
- "name": "Brynjolf",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 5,
- "power": 4,
- "health": 5,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Drain, When a friendly creature Pilfers or Drain, gain +1 magicka this turn.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Drain",
-  "Pilfer"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hos/brynjolf.png",
- "id": "0290b6e5-01f9-520b-a8ea-b806acadd854",
- "code": "cz"
+  "name": "Brynjolf",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 4,
+  "health": 5,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Drain, When a friendly creature Pilfers or Drain, gain +1 magicka this turn.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Drain",
+    "Pilfer"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/brynjolf.png",
+  "id": "0290b6e5-01f9-520b-a8ea-b806acadd854",
+  "code": "cz",
+  "isAlt": false
 }

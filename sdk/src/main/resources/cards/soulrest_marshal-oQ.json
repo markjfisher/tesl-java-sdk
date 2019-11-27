@@ -1,27 +1,28 @@
 {
- "name": "Soulrest Marshal",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 6,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: If you have more health than your opponent, the next card you play this turn costs 6 less.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/soulrest_marshal.png",
- "id": "d430220d-2779-5282-9ca3-65e0bebf22e4",
- "code": "oQ"
+  "name": "Soulrest Marshal",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: If you have more health than your opponent, the next card you play this turn costs 6 less.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/soulrest_marshal.png",
+  "id": "d430220d-2779-5282-9ca3-65e0bebf22e4",
+  "code": "oQ",
+  "isAlt": false
 }

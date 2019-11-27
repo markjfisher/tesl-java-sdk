@@ -1,27 +1,28 @@
 {
- "name": "Imprisoned Deathlord",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 4,
- "power": 7,
- "health": 7,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "When an enemy creature is summoned, Shackle Imprisoned Deathlord.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/imprisoned_deathlord.png",
- "id": "e1c0df9c-3033-5e27-a2ea-a5b25174100e",
- "code": "iO"
+  "name": "Imprisoned Deathlord",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 4,
+  "power": 7,
+  "health": 7,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "When an enemy creature is summoned, Shackle Imprisoned Deathlord.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/imprisoned_deathlord.png",
+  "id": "e1c0df9c-3033-5e27-a2ea-a5b25174100e",
+  "code": "iO",
+  "isAlt": false
 }

@@ -1,29 +1,30 @@
 {
- "name": "Voice of Balance",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Forgotten Hero Collection",
-  "id": "fhc"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon: +4/+4 and Guard if you have an action, item, and support in your discard pile or in play.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fhc/voice_of_balance.png",
- "id": "b9ab3ee5-a5f2-5dfe-ae55-a0dddd33ef47",
- "code": "rv"
+  "name": "Voice of Balance",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Forgotten Hero Collection",
+    "id": "fhc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: +4/+4 and Guard if you have an action, item, and support in your discard pile or in play.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fhc/voice_of_balance.png",
+  "id": "b9ab3ee5-a5f2-5dfe-ae55-a0dddd33ef47",
+  "code": "rv",
+  "isAlt": false
 }

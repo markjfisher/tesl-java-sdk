@@ -1,25 +1,26 @@
 {
- "name": "Shadowmarking",
- "rarity": "Epic",
- "type": "Action",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "FrostSpark Collection",
-  "id": "fsc"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Look at the top three cards of your deck. Choose one to put into your opponent's hand and draw the other two.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fsc/shadowmarking.png",
- "id": "2c37c97b-c2f3-5522-8395-bc018431cc59",
- "code": "nP"
+  "name": "Shadowmarking",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "FrostSpark Collection",
+    "id": "fsc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Look at the top three cards of your deck. Choose one to put into your opponent's hand and draw the other two.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fsc/shadowmarking.png",
+  "id": "2c37c97b-c2f3-5522-8395-bc018431cc59",
+  "code": "nP",
+  "isAlt": false
 }

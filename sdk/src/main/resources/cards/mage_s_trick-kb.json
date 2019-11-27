@@ -1,26 +1,27 @@
 {
- "name": "Mage's Trick",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Deal 1 damage, gain 1 health, and draw a card.",
- "attributes": [
-  "Intelligence",
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/mages_trick.png",
- "id": "849d45c1-d443-5b7a-ad0a-56c7db65f8d9",
- "code": "kb"
+  "name": "Mage's Trick",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Deal 1 damage, gain 1 health, and draw a card.",
+  "attributes": [
+    "Intelligence",
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/mages_trick.png",
+  "id": "849d45c1-d443-5b7a-ad0a-56c7db65f8d9",
+  "code": "kb",
+  "isAlt": false
 }

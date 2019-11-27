@@ -1,27 +1,28 @@
 {
- "name": "Thadon, Duke of Mania",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Wood Elf"
- ],
- "cost": 6,
- "power": 6,
- "health": 7,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: This lane becomes Mania.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/iom/thadon_duke_of_mania.png",
- "id": "75564a6e-88a0-5c87-8906-594b8e36e5b6",
- "code": "fe"
+  "name": "Thadon, Duke of Mania",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Wood Elf"
+  ],
+  "cost": 6,
+  "power": 6,
+  "health": 7,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: This lane becomes Mania.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/thadon_duke_of_mania.png",
+  "id": "75564a6e-88a0-5c87-8906-594b8e36e5b6",
+  "code": "fe",
+  "isAlt": false
 }

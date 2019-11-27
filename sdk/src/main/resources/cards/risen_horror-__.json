@@ -1,29 +1,30 @@
 {
- "name": "Risen Horror",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 3,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Guard",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/risen_horror.png",
- "id": "329a68bd-6ffe-54ce-b34d-9f72675253d0",
- "code": "__"
+  "name": "Risen Horror",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Guard",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/risen_horror.png",
+  "id": "329a68bd-6ffe-54ce-b34d-9f72675253d0",
+  "code": "__",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Keeper of the Gates",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 6,
- "power": 6,
- "health": 6,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "When you Invade, Invade again.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/keeperofthegates.png",
- "id": "3271ece2-bd1e-5960-b25b-740d2ca43c12",
- "code": "xL"
+  "name": "Keeper of the Gates",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 6,
+  "power": 6,
+  "health": 6,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "When you Invade, Invade again.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/keeperofthegates.png",
+  "id": "3271ece2-bd1e-5960-b25b-740d2ca43c12",
+  "code": "xL",
+  "isAlt": false
 }

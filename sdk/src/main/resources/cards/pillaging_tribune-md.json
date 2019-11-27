@@ -1,29 +1,30 @@
 {
- "name": "Pillaging Tribune",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 5,
- "power": 5,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon: Give a friendly creature Drain this turn.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Drain"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/pillaging_tribune.png",
- "id": "e6faa88c-3e82-596a-828e-81da8e007e55",
- "code": "md"
+  "name": "Pillaging Tribune",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: Give a friendly creature Drain this turn.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Drain"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/pillaging_tribune.png",
+  "id": "e6faa88c-3e82-596a-828e-81da8e007e55",
+  "code": "md",
+  "isAlt": false
 }

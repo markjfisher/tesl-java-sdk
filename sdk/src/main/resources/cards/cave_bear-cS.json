@@ -1,27 +1,28 @@
 {
- "name": "Cave Bear",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 5,
- "power": 5,
- "health": 6,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/cave_bear.png",
- "id": "b5d3092d-0c4d-55ad-a425-6e7f2c448c46",
- "code": "cS"
+  "name": "Cave Bear",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 6,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/cave_bear.png",
+  "id": "b5d3092d-0c4d-55ad-a425-6e7f2c448c46",
+  "code": "cS",
+  "isAlt": false
 }

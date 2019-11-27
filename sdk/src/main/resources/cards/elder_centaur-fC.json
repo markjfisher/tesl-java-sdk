@@ -1,27 +1,28 @@
 {
- "name": "Elder Centaur",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Centaur"
- ],
- "cost": 5,
- "power": 5,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "After Elder Centaur attacks, give it Cover.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/elder_centaur.png",
- "id": "56cc67bf-c936-5c4f-b5c7-52ff67c3538c",
- "code": "fC"
+  "name": "Elder Centaur",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Centaur"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "After Elder Centaur attacks, give it Cover.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/elder_centaur.png",
+  "id": "56cc67bf-c936-5c4f-b5c7-52ff67c3538c",
+  "code": "fC",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Rallying Stormcloak",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/rallying_stormcloak.png",
- "id": "7e12e395-8bda-574c-92d2-ac3043a8ef59",
- "code": "__"
+  "name": "Rallying Stormcloak",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/rallying_stormcloak.png",
+  "id": "7e12e395-8bda-574c-92d2-ac3043a8ef59",
+  "code": "__",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Miscarcand Lich",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 4,
- "power": 3,
- "health": 5,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Choose an enemy creature. At the start of your turn, if the chosen creature is alive, summon a 1/1 Risen Dead with Guard in its lane.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/miscarcandlich.png",
- "id": "bf1abb47-e13c-5857-8599-6304737f288f",
- "code": "xO"
+  "name": "Miscarcand Lich",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 5,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Choose an enemy creature. At the start of your turn, if the chosen creature is alive, summon a 1/1 Risen Dead with Guard in its lane.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/miscarcandlich.png",
+  "id": "bf1abb47-e13c-5857-8599-6304737f288f",
+  "code": "xO",
+  "isAlt": false
 }

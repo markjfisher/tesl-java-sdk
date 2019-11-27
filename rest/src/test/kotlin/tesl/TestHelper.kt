@@ -39,13 +39,32 @@ data class TestCard(
     val attributes: List<String> = emptyList(),
     val keywords: List<String> = emptyList(),
     val unique: Boolean = true,
+    val isAlt: Boolean = false,
     val imageUrl: String = "",
     val id: String = "",
     val code: String = ""
 ) {
     fun createCard(): Card {
         return Card(
-            name, rarity, type, subtypes, cost, power, health, set, collectible, soulSummon, soulTrap, text, attributes, keywords, unique, imageUrl, id, code
+            name = name,
+            rarity = rarity,
+            type = type,
+            subtypes = subtypes,
+            cost = cost,
+            power = power,
+            health = health,
+            set = set,
+            collectible = collectible,
+            soulSummon = soulSummon,
+            soulTrap = soulTrap,
+            text = text,
+            attributes = attributes,
+            keywords = keywords,
+            unique = unique,
+            isAlt = isAlt,
+            imageUrl = imageUrl,
+            id = id,
+            code = code
         )
     }
 }

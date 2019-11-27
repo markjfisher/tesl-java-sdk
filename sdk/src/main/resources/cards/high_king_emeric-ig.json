@@ -1,30 +1,31 @@
 {
- "name": "High King Emeric",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 6,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Ward. Summon: Deal 2 damage for each Ward your creatures have.",
- "attributes": [
-  "Intelligence",
-  "Endurance"
- ],
- "keywords": [
-  "Ward"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/cs/high_king_emeric.png",
- "id": "1b53f2dc-818a-5f3e-b650-cbf96cf7bd53",
- "code": "ig"
+  "name": "High King Emeric",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 6,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Ward. Summon: Deal 2 damage for each Ward your creatures have.",
+  "attributes": [
+    "Intelligence",
+    "Endurance"
+  ],
+  "keywords": [
+    "Ward"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/high_king_emeric.png",
+  "id": "1b53f2dc-818a-5f3e-b650-cbf96cf7bd53",
+  "code": "ig",
+  "isAlt": false
 }

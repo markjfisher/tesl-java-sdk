@@ -1,29 +1,30 @@
 {
- "name": "Dune Rogue",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 2,
- "power": 3,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Prophecy",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/dune_rogue.png",
- "id": "25e23650-9169-5ed8-b4cb-de5b5177b49e",
- "code": "fg"
+  "name": "Dune Rogue",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Prophecy",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/dune_rogue.png",
+  "id": "25e23650-9169-5ed8-b4cb-de5b5177b49e",
+  "code": "fg",
+  "isAlt": false
 }

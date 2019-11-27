@@ -1,27 +1,28 @@
 {
- "name": "Empire Dreadmage",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 7,
- "power": 7,
- "health": 5,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: If you have another creature in each lane, give a creature -2/-2.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/aw/empire_dreadmage.png",
- "id": "20f7cb41-f91c-5044-a5aa-e1c6222951cc",
- "code": "tr"
+  "name": "Empire Dreadmage",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 7,
+  "power": 7,
+  "health": 5,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: If you have another creature in each lane, give a creature -2/-2.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/empire_dreadmage.png",
+  "id": "20f7cb41-f91c-5044-a5aa-e1c6222951cc",
+  "code": "tr",
+  "isAlt": false
 }

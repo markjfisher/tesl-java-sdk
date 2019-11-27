@@ -1,25 +1,26 @@
 {
- "name": "Wake the Dead",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 2,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Draw a Spirit or Skeleton creature of your choice from your deck and give it +0/+1.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/iom/wake_the_dead.png",
- "id": "963c6abf-8ab9-5524-b622-928c51796e52",
- "code": "lq"
+  "name": "Wake the Dead",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Draw a Spirit or Skeleton creature of your choice from your deck and give it +0/+1.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/wake_the_dead.png",
+  "id": "963c6abf-8ab9-5524-b622-928c51796e52",
+  "code": "lq",
+  "isAlt": false
 }

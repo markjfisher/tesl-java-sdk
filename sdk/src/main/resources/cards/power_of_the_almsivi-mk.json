@@ -1,27 +1,28 @@
 {
- "name": "Power of the Almsivi",
- "rarity": "Epic",
- "type": "Action",
- "subtypes": [],
- "cost": 8,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Set each creature's power and health to 1.",
- "attributes": [
-  "Intelligence",
-  "Willpower",
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/power_of_the_almsivi.png",
- "id": "def0d63a-e2da-5037-bde1-0466e5b2de47",
- "code": "mk"
+  "name": "Power of the Almsivi",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 8,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Set each creature's power and health to 1.",
+  "attributes": [
+    "Intelligence",
+    "Willpower",
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/power_of_the_almsivi.png",
+  "id": "def0d63a-e2da-5037-bde1-0466e5b2de47",
+  "code": "mk",
+  "isAlt": false
 }

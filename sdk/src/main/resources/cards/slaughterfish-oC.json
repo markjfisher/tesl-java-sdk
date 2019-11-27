@@ -1,27 +1,28 @@
 {
- "name": "Slaughterfish",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Fish"
- ],
- "cost": 4,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Slaughterfish gains +2/+0 at the start of your turn.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/slaughterfish.png",
- "id": "23b44caa-3d86-5f9d-97cc-addabd8884c2",
- "code": "oC"
+  "name": "Slaughterfish",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Fish"
+  ],
+  "cost": 4,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Slaughterfish gains +2/+0 at the start of your turn.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/slaughterfish.png",
+  "id": "23b44caa-3d86-5f9d-97cc-addabd8884c2",
+  "code": "oC",
+  "isAlt": false
 }

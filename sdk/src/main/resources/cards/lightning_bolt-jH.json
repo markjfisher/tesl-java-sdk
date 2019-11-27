@@ -1,27 +1,28 @@
 {
- "name": "Lightning Bolt",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 4,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Prophecy. Deal 4 damage.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/lightning_bolt.png",
- "id": "03d65372-e8e9-581e-8bc7-1f21f9714200",
- "code": "jH"
+  "name": "Lightning Bolt",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 4,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy. Deal 4 damage.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/lightning_bolt.png",
+  "id": "03d65372-e8e9-581e-8bc7-1f21f9714200",
+  "code": "jH",
+  "isAlt": false
 }

@@ -1,25 +1,26 @@
 {
- "name": "Horned Helm",
- "rarity": "Common",
- "type": "Item",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "+2/+3",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/horned_helm.png",
- "id": "0ccdd32f-572c-5350-8f35-308b1263a719",
- "code": "is"
+  "name": "Horned Helm",
+  "rarity": "Common",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "+2/+3",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/horned_helm.png",
+  "id": "0ccdd32f-572c-5350-8f35-308b1263a719",
+  "code": "is",
+  "isAlt": false
 }

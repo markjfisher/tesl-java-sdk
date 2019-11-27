@@ -1,29 +1,30 @@
 {
- "name": "Painted Troll",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Troll"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": false,
- "soulSummon": 0,
- "soulTrap": 0,
- "text": "Regenerate. Summon: Painted Troll becomes a random attribute.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Regenerate"
- ],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/paintedtroll.png",
- "id": "e3017440-b874-524b-8d83-ca331ba6cc81",
- "code": "__"
+  "name": "Painted Troll",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Troll"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": false,
+  "soulSummon": 0,
+  "soulTrap": 0,
+  "text": "Regenerate. Summon: Painted Troll becomes a random attribute.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Regenerate"
+  ],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/paintedtroll.png",
+  "id": "e3017440-b874-524b-8d83-ca331ba6cc81",
+  "code": "__",
+  "isAlt": false
 }

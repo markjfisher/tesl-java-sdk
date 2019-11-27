@@ -1,30 +1,31 @@
 {
- "name": "Ald Velothi Assassin",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 2,
- "power": 1,
- "health": 2,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Lethal, Rally.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Lethal",
-  "Rally"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/ald_velothi_assassin.png",
- "id": "d09eb8ff-460f-55c8-b2f9-b0d647dede95",
- "code": "ak"
+  "name": "Ald Velothi Assassin",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 2,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Lethal, Rally.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Lethal",
+    "Rally"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/ald_velothi_assassin.png",
+  "id": "d09eb8ff-460f-55c8-b2f9-b0d647dede95",
+  "code": "ak",
+  "isAlt": false
 }

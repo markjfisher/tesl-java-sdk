@@ -1,25 +1,26 @@
 {
- "name": "Fell the Mighty",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 4,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "The Fall of the Dark Brotherhood",
-  "id": "fodb"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Destroy a creature with 4 power or more.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fodb/fell_the_mighty.png",
- "id": "51bbc3ca-98c6-533f-953f-fe1920267aa0",
- "code": "gj"
+  "name": "Fell the Mighty",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 4,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Destroy a creature with 4 power or more.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/fell_the_mighty.png",
+  "id": "51bbc3ca-98c6-533f-953f-fe1920267aa0",
+  "code": "gj",
+  "isAlt": false
 }

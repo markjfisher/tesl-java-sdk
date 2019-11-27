@@ -1,29 +1,30 @@
 {
- "name": "Seeker of the Black Arts",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 2,
- "power": 2,
- "health": 3,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Pilfer: Discard the top three cards of your deck.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Pilfer"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/seeker_of_the_black_arts.png",
- "id": "32d74ada-c5ff-5696-9011-d8990eb940ae",
- "code": "vO"
+  "name": "Seeker of the Black Arts",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 3,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Pilfer: Discard the top three cards of your deck.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Pilfer"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/seeker_of_the_black_arts.png",
+  "id": "32d74ada-c5ff-5696-9011-d8990eb940ae",
+  "code": "vO",
+  "isAlt": false
 }

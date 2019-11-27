@@ -1,27 +1,28 @@
 {
- "name": "Morokei, the Deathless",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 5,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Forgotten Hero Collection",
-  "id": "fhc"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: If you started the game with no duplicate cards in your deck, you gain 5 health and restore a rune.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/fhc/morokei_the_deathless.png",
- "id": "425f0d43-cddf-5252-939f-49ec8f0c3e0e",
- "code": "kP"
+  "name": "Morokei, the Deathless",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Forgotten Hero Collection",
+    "id": "fhc"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: If you started the game with no duplicate cards in your deck, you gain 5 health and restore a rune.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/fhc/morokei_the_deathless.png",
+  "id": "425f0d43-cddf-5252-939f-49ec8f0c3e0e",
+  "code": "kP",
+  "isAlt": false
 }

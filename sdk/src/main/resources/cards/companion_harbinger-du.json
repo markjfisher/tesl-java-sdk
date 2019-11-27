@@ -1,27 +1,28 @@
 {
- "name": "Companion Harbinger",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 3,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Beast Form: Give friendly Werwolves +1/+1.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/companion_harbinger.png",
- "id": "742c6f2a-044b-591e-9370-c48f4f27b1b5",
- "code": "du"
+  "name": "Companion Harbinger",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Beast Form: Give friendly Werwolves +1/+1.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/companion_harbinger.png",
+  "id": "742c6f2a-044b-591e-9370-c48f4f27b1b5",
+  "code": "du",
+  "isAlt": false
 }

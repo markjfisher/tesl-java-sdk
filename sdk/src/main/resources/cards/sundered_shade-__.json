@@ -1,27 +1,28 @@
 {
- "name": "Sundered Shade",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Spirit"
- ],
- "cost": 2,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/sundered_shade.png",
- "id": "f228c826-c9ba-578a-8cdb-0b50b833080a",
- "code": "__"
+  "name": "Sundered Shade",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Spirit"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/sundered_shade.png",
+  "id": "f228c826-c9ba-578a-8cdb-0b50b833080a",
+  "code": "__",
+  "isAlt": false
 }

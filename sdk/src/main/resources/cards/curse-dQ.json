@@ -1,25 +1,26 @@
 {
- "name": "Curse",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 0,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Give a creature -1/-1.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/curse.png",
- "id": "2a23a6f0-bfea-5fa4-b389-eaee3dffa8cf",
- "code": "dQ"
+  "name": "Curse",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 0,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Give a creature -1/-1.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/curse.png",
+  "id": "2a23a6f0-bfea-5fa4-b389-eaee3dffa8cf",
+  "code": "dQ",
+  "isAlt": false
 }

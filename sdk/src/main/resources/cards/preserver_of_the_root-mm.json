@@ -1,29 +1,30 @@
 {
- "name": "Preserver of the Root",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "While you have 7 or more magicka, Preserver of the Root has +2/+2 and Guard.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/preserver_of_the_root.png",
- "id": "a736b282-54c1-5700-bec2-5946d640a57a",
- "code": "mm"
+  "name": "Preserver of the Root",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "While you have 7 or more magicka, Preserver of the Root has +2/+2 and Guard.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/preserver_of_the_root.png",
+  "id": "a736b282-54c1-5700-bec2-5946d640a57a",
+  "code": "mm",
+  "isAlt": false
 }

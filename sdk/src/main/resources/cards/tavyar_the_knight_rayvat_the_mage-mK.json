@@ -1,28 +1,29 @@
 {
- "name": "Tavyar the Knight/Rayvat the Mage",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 5,
- "power": 3,
- "health": 5,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "",
- "attributes": [
-  "Endurance",
-  "Intelligence"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/iom/tavyar_the_knightrayvat_the_mage.png",
- "id": "69be0a17-3a9a-5968-834f-6b64e9139bd2",
- "code": "mK"
+  "name": "Tavyar the Knight/Rayvat the Mage",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 5,
+  "power": 3,
+  "health": 5,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "",
+  "attributes": [
+    "Endurance",
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/tavyar_the_knightrayvat_the_mage.png",
+  "id": "69be0a17-3a9a-5968-834f-6b64e9139bd2",
+  "code": "mK",
+  "isAlt": false
 }

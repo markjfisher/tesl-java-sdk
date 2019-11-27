@@ -1,29 +1,30 @@
 {
- "name": "Guildsworn Honeytongue",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 7,
- "power": 0,
- "health": 5,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Expertise: You may trade Guildsworn Honeytongue for an enemy creature.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Expertise"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/aw/guildsworn_honeytongue.png",
- "id": "d78a32ff-7e4a-5f31-8a42-646bcd02b8f0",
- "code": "up"
+  "name": "Guildsworn Honeytongue",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 7,
+  "power": 0,
+  "health": 5,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Expertise: You may trade Guildsworn Honeytongue for an enemy creature.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Expertise"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/guildsworn_honeytongue.png",
+  "id": "d78a32ff-7e4a-5f31-8a42-646bcd02b8f0",
+  "code": "up",
+  "isAlt": false
 }

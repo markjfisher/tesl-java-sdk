@@ -1,25 +1,26 @@
 {
- "name": "Healing Hands",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 0,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Heal a creature, then give it +1/+1.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/healing_hands.png",
- "id": "33ca6afd-e798-58bd-8885-e39cd6d0fb19",
- "code": "hV"
+  "name": "Healing Hands",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 0,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Heal a creature, then give it +1/+1.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/healing_hands.png",
+  "id": "33ca6afd-e798-58bd-8885-e39cd6d0fb19",
+  "code": "hV",
+  "isAlt": false
 }

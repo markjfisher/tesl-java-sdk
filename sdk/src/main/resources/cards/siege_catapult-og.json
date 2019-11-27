@@ -1,27 +1,28 @@
 {
- "name": "Siege Catapult",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 2,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Siege Catapult can't attack unless your side of its lane is full.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/siege_catapult.png",
- "id": "99fd3a69-5e10-5038-9721-9b6585fc9ff6",
- "code": "og"
+  "name": "Siege Catapult",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 2,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Siege Catapult can't attack unless your side of its lane is full.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/siege_catapult.png",
+  "id": "99fd3a69-5e10-5038-9721-9b6585fc9ff6",
+  "code": "og",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Ebonthread Cloak",
- "rarity": "Rare",
- "type": "Item",
- "subtypes": [],
- "cost": 2,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Mobilize. +1/+2. Summon: Your opponent can't target the wielder with actions until your next turn.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Mobilize"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/aw/ebonthread_cloak.png",
- "id": "4463d949-1346-5e09-8247-2580f111e0c1",
- "code": "sK"
+  "name": "Ebonthread Cloak",
+  "rarity": "Rare",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Mobilize. +1/+2. Summon: Your opponent can't target the wielder with actions until your next turn.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Mobilize"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/ebonthread_cloak.png",
+  "id": "4463d949-1346-5e09-8247-2580f111e0c1",
+  "code": "sK",
+  "isAlt": false
 }

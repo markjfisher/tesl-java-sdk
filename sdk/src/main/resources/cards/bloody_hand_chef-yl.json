@@ -1,27 +1,28 @@
 {
- "name": "Bloody Hand Chef",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Goblin"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "When you reduce an enemy creature's power or health with an effect, Bloody Hand Chef gains that much power or health.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/bloodyhandchef.png",
- "id": "6ab14a21-bf16-5be3-8f4b-a4fa926c9a76",
- "code": "yl"
+  "name": "Bloody Hand Chef",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Goblin"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "When you reduce an enemy creature's power or health with an effect, Bloody Hand Chef gains that much power or health.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/bloodyhandchef.png",
+  "id": "6ab14a21-bf16-5be3-8f4b-a4fa926c9a76",
+  "code": "yl",
+  "isAlt": false
 }

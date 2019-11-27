@@ -1,29 +1,30 @@
 {
- "name": "Nix-Hound",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 4,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Prophecy. Summon: Shackle each enemy creature with less power than Nix-Hound.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/nix-hound.png",
- "id": "a1205376-6863-53f1-b011-16ffa98dc412",
- "code": "lA"
+  "name": "Nix-Hound",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy. Summon: Shackle each enemy creature with less power than Nix-Hound.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/nix-hound.png",
+  "id": "a1205376-6863-53f1-b011-16ffa98dc412",
+  "code": "lA",
+  "isAlt": false
 }

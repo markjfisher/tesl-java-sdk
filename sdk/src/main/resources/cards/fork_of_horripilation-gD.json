@@ -1,27 +1,28 @@
 {
- "name": "Fork of Horripilation",
- "rarity": "Legendary",
- "type": "Item",
- "subtypes": [],
- "cost": 3,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "-2/+0. Slay: Sacrifice Fork of Horripilation and draw three cards.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Slay"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/iom/fork_of_horripilation.png",
- "id": "db08b6c3-ea93-5cce-86b9-5be60ce94bd5",
- "code": "gD"
+  "name": "Fork of Horripilation",
+  "rarity": "Legendary",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 3,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "-2/+0. Slay: Sacrifice Fork of Horripilation and draw three cards.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Slay"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/fork_of_horripilation.png",
+  "id": "db08b6c3-ea93-5cce-86b9-5be60ce94bd5",
+  "code": "gD",
+  "isAlt": false
 }

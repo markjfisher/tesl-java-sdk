@@ -1,29 +1,30 @@
 {
- "name": "Wind Keep Spellsword",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Ward",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Ward"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/wind_keep_spellsword.png",
- "id": "93f1d241-58bf-5b4b-9850-3f8043fcfdf9",
- "code": "rQ"
+  "name": "Wind Keep Spellsword",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Ward",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Ward"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/wind_keep_spellsword.png",
+  "id": "93f1d241-58bf-5b4b-9850-3f8043fcfdf9",
+  "code": "rQ",
+  "isAlt": false
 }

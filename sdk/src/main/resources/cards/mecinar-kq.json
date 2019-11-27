@@ -1,27 +1,28 @@
 {
- "name": "Mecinar",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 8,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Stitch together the top creature from both decks to create an Abomination and put it into your hand.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/mecinar.png",
- "id": "42592487-a900-5855-9ec6-ecaed59673f4",
- "code": "kq"
+  "name": "Mecinar",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 8,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Stitch together the top creature from both decks to create an Abomination and put it into your hand.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/mecinar.png",
+  "id": "42592487-a900-5855-9ec6-ecaed59673f4",
+  "code": "kq",
+  "isAlt": false
 }

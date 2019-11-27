@@ -1,28 +1,29 @@
 {
- "name": "Merric-at-Aswala",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Redguard"
- ],
- "cost": 7,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Equip all friendly creatures in this lane with a random item.",
- "attributes": [
-  "Strength",
-  "Intelligence"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/cs/merric-at-aswala.png",
- "id": "3a209803-43a1-53f8-84b6-1fa748e52820",
- "code": "kw"
+  "name": "Merric-at-Aswala",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Redguard"
+  ],
+  "cost": 7,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Equip all friendly creatures in this lane with a random item.",
+  "attributes": [
+    "Strength",
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/merric-at-aswala.png",
+  "id": "3a209803-43a1-53f8-84b6-1fa748e52820",
+  "code": "kw",
+  "isAlt": false
 }

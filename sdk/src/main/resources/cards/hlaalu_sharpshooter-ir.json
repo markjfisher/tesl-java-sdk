@@ -1,30 +1,31 @@
 {
- "name": "Hlaalu Sharpshooter",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 3,
- "power": 2,
- "health": 3,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Plot: Silence a creature, then deal 1 damage to it.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Plot",
-  "Silence"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/hlaalu_sharpshooter.png",
- "id": "647389e3-1b64-5324-a539-4263882037cb",
- "code": "ir"
+  "name": "Hlaalu Sharpshooter",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 3,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Plot: Silence a creature, then deal 1 damage to it.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Plot",
+    "Silence"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/hlaalu_sharpshooter.png",
+  "id": "647389e3-1b64-5324-a539-4263882037cb",
+  "code": "ir",
+  "isAlt": false
 }

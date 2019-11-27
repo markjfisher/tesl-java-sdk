@@ -1,27 +1,28 @@
 {
- "name": "Wily Kee'va",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 2,
- "power": 2,
- "health": 4,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/wily_keeva.png",
- "id": "9ac4efcb-3321-5c88-b242-5c0e56333ebe",
- "code": "wc"
+  "name": "Wily Kee'va",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 4,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/wily_keeva.png",
+  "id": "9ac4efcb-3321-5c88-b242-5c0e56333ebe",
+  "code": "wc",
+  "isAlt": false
 }

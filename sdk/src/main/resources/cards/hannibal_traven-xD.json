@@ -1,27 +1,28 @@
 {
- "name": "Hannibal Traven",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 7,
- "power": 5,
- "health": 5,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "After you play an action, Hannibal Traven learns it. Last Gasp: Play all learned actions form your discard pile.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://www.legends-decks.com/img_cards/hannibaltraven.png",
- "id": "2aca89da-7fac-5d35-beee-85c582ac26b2",
- "code": "xD"
+  "name": "Hannibal Traven",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 7,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "After you play an action, Hannibal Traven learns it. Last Gasp: Play all learned actions form your discard pile.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://www.legends-decks.com/img_cards/hannibaltraven.png",
+  "id": "2aca89da-7fac-5d35-beee-85c582ac26b2",
+  "code": "xD",
+  "isAlt": false
 }

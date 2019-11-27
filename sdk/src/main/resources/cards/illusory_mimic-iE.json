@@ -1,27 +1,28 @@
 {
- "name": "Illusory Mimic",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Spirit"
- ],
- "cost": 6,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Madhouse Collection",
-  "id": "mc"
- },
- "collectible": true,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Summon: Illusory Mimic gains all Keywords on the top three cards of your deck.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/mc/illusory_mimic.png",
- "id": "f84eacec-d9b7-5507-abd4-aa44cc4178b2",
- "code": "iE"
+  "name": "Illusory Mimic",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Spirit"
+  ],
+  "cost": 6,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Madhouse Collection",
+    "id": "mc"
+  },
+  "collectible": true,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Summon: Illusory Mimic gains all Keywords on the top three cards of your deck.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/mc/illusory_mimic.png",
+  "id": "f84eacec-d9b7-5507-abd4-aa44cc4178b2",
+  "code": "iE",
+  "isAlt": false
 }

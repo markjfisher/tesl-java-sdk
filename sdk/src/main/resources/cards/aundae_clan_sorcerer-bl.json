@@ -1,27 +1,28 @@
 {
- "name": "Aundae Clan Sorcerer",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Vampire"
- ],
- "cost": 3,
- "power": 4,
- "health": 3,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "At the end of your turn, if three or more creatures died this turn, put a random Blood Magic Spell into your hand.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/aundae_clan_sorcerer.png",
- "id": "98b88de7-c26a-544d-8a94-28fc32f58cb2",
- "code": "bl"
+  "name": "Aundae Clan Sorcerer",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Vampire"
+  ],
+  "cost": 3,
+  "power": 4,
+  "health": 3,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "At the end of your turn, if three or more creatures died this turn, put a random Blood Magic Spell into your hand.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/aundae_clan_sorcerer.png",
+  "id": "98b88de7-c26a-544d-8a94-28fc32f58cb2",
+  "code": "bl",
+  "isAlt": false
 }

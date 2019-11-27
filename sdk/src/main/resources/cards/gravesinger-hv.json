@@ -1,27 +1,28 @@
 {
- "name": "Gravesinger",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 10,
- "power": 6,
- "health": 6,
- "set": {
-  "name": "The Fall of the Dark Brotherhood",
-  "id": "fodb"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "At the start of your turn, summon the highest cost creature from your discard pile and give Charge. At the end of the turn, put it on the bottom of your deck.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fodb/gravesinger.png",
- "id": "1386a549-0db3-5faf-a107-888764c7ec46",
- "code": "hv"
+  "name": "Gravesinger",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 10,
+  "power": 6,
+  "health": 6,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "At the start of your turn, summon the highest cost creature from your discard pile and give Charge. At the end of the turn, put it on the bottom of your deck.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/gravesinger.png",
+  "id": "1386a549-0db3-5faf-a107-888764c7ec46",
+  "code": "hv",
+  "isAlt": false
 }

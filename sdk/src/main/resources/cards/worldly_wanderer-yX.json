@@ -1,27 +1,28 @@
 {
- "name": "Worldly Wanderer",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 5,
- "power": 3,
- "health": 5,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Summon a support of your choice from your deck with cost less than Worldly Wanderer's power.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/worldlywanderer.png",
- "id": "ccc87a01-b007-505b-a784-c3d3e85633ae",
- "code": "yX"
+  "name": "Worldly Wanderer",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 3,
+  "health": 5,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Summon a support of your choice from your deck with cost less than Worldly Wanderer's power.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/worldlywanderer.png",
+  "id": "ccc87a01-b007-505b-a784-c3d3e85633ae",
+  "code": "yX",
+  "isAlt": false
 }

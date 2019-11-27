@@ -1,27 +1,28 @@
 {
- "name": "Stricken Draugr",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/stricken_draugr.png",
- "id": "fda8cf95-f334-58bf-9040-071b6dc69482",
- "code": "__"
+  "name": "Stricken Draugr",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/stricken_draugr.png",
+  "id": "fda8cf95-f334-58bf-9040-071b6dc69482",
+  "code": "__",
+  "isAlt": false
 }

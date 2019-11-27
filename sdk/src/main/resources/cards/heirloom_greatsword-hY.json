@@ -1,27 +1,28 @@
 {
- "name": "Heirloom Greatsword",
- "rarity": "Epic",
- "type": "Item",
- "subtypes": [],
- "cost": 6,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "+5/+0. Last Gasp: Return Heirloom Greatsword to your hand.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [
-  "Last Gasp"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/heirloom_greatsword.png",
- "id": "86cd3780-2ba9-57c8-ae7f-92da18a84458",
- "code": "hY"
+  "name": "Heirloom Greatsword",
+  "rarity": "Epic",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 6,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "+5/+0. Last Gasp: Return Heirloom Greatsword to your hand.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [
+    "Last Gasp"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/heirloom_greatsword.png",
+  "id": "86cd3780-2ba9-57c8-ae7f-92da18a84458",
+  "code": "hY",
+  "isAlt": false
 }

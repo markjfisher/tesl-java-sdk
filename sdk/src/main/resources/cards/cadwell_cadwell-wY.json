@@ -1,27 +1,28 @@
 {
- "name": "Cadwell the Soul Shriven/Cadwell the Betrayer",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 1,
- "power": 0,
- "health": 1,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Immune to Shackle. When a rune is destroyed, Cadwell the Soul Shriven gains +1/+0. - Cadwell the Betrayer can attack you.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://www.legends-decks.com/img_cards/cadwellthesoulshrivencadwellthebetrayer.png",
- "id": "857b9be1-3d6d-5d5b-b573-1c68bb0a554d",
- "code": "wY"
+  "name": "Cadwell the Soul Shriven/Cadwell the Betrayer",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 1,
+  "power": 0,
+  "health": 1,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Immune to Shackle. When a rune is destroyed, Cadwell the Soul Shriven gains +1/+0. - Cadwell the Betrayer can attack you.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://www.legends-decks.com/img_cards/cadwellthesoulshrivencadwellthebetrayer.png",
+  "id": "857b9be1-3d6d-5d5b-b573-1c68bb0a554d",
+  "code": "wY",
+  "isAlt": false
 }

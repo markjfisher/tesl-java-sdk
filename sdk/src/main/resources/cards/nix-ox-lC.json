@@ -1,27 +1,28 @@
 {
- "name": "Nix-Ox",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 7,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: Gain 5 magicka this turn.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/nix-ox.png",
- "id": "737eafe7-7e86-500d-9407-e6429aab3d6c",
- "code": "lC"
+  "name": "Nix-Ox",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 7,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: Gain 5 magicka this turn.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/nix-ox.png",
+  "id": "737eafe7-7e86-500d-9407-e6429aab3d6c",
+  "code": "lC",
+  "isAlt": false
 }

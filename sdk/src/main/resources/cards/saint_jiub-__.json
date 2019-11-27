@@ -1,29 +1,30 @@
 {
- "name": "Saint Jiub",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 5,
- "power": 5,
- "health": 5,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Guard. Can't be damaged or targeted by Cliff Racers, Cliff HUnters, and Cliff Striders.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hom/saint_jiub.png",
- "id": "cecfcd32-c7d1-59d5-8c28-502d2e8056f5",
- "code": "__"
+  "name": "Saint Jiub",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Guard. Can't be damaged or targeted by Cliff Racers, Cliff HUnters, and Cliff Striders.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/saint_jiub.png",
+  "id": "cecfcd32-c7d1-59d5-8c28-502d2e8056f5",
+  "code": "__",
+  "isAlt": false
 }

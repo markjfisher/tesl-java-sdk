@@ -1,27 +1,28 @@
 {
- "name": "Gristlehide Dreugh",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dreugh"
- ],
- "cost": 5,
- "power": 3,
- "health": 5,
- "set": {
-  "name": "The Fall of the Dark Brotherhood",
-  "id": "fodb"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "When Gristlehide Dreugh takes damage and survives, draw a card.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fodb/gristlehide_dreugh.png",
- "id": "39fe5697-49a4-53c2-92bc-33ce9be8002d",
- "code": "hH"
+  "name": "Gristlehide Dreugh",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dreugh"
+  ],
+  "cost": 5,
+  "power": 3,
+  "health": 5,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "When Gristlehide Dreugh takes damage and survives, draw a card.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/gristlehide_dreugh.png",
+  "id": "39fe5697-49a4-53c2-92bc-33ce9be8002d",
+  "code": "hH",
+  "isAlt": false
 }

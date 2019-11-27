@@ -1,29 +1,30 @@
 {
- "name": "Wardcrafter",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Breton"
- ],
- "cost": 2,
- "power": 2,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Give a creature a Ward.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [
-  "Ward"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/wardcrafter.png",
- "id": "e1979fa2-308e-5a08-ae5e-307c4c7eb3d8",
- "code": "rC"
+  "name": "Wardcrafter",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Give a creature a Ward.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [
+    "Ward"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/wardcrafter.png",
+  "id": "e1979fa2-308e-5a08-ae5e-307c4c7eb3d8",
+  "code": "rC",
+  "isAlt": false
 }

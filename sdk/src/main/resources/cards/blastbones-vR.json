@@ -1,29 +1,30 @@
 {
- "name": "Blastbones",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 5,
- "power": 3,
- "health": 1,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Charge. Last Gasp: Deal 1 damage to all creatures in this lane.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Charge"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/blastbones.png",
- "id": "fdf70d24-f83a-50d3-8b8b-897ecd65accf",
- "code": "vR"
+  "name": "Blastbones",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 5,
+  "power": 3,
+  "health": 1,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Charge. Last Gasp: Deal 1 damage to all creatures in this lane.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Charge"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/blastbones.png",
+  "id": "fdf70d24-f83a-50d3-8b8b-897ecd65accf",
+  "code": "vR",
+  "isAlt": false
 }

@@ -1,30 +1,31 @@
 {
- "name": "Mournhold Pilgrim",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Regenerate. Exalt 3: +2/+2",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Regenerate",
-  "Exalt"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/mournhold_pilgrim.png",
- "id": "10b0f9d4-5075-5719-bdc3-ed75622ef0d4",
- "code": "kU"
+  "name": "Mournhold Pilgrim",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Regenerate. Exalt 3: +2/+2",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Regenerate",
+    "Exalt"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/mournhold_pilgrim.png",
+  "id": "10b0f9d4-5075-5719-bdc3-ed75622ef0d4",
+  "code": "kU",
+  "isAlt": false
 }

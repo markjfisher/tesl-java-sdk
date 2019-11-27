@@ -1,25 +1,26 @@
 {
- "name": "Whodunit?",
- "rarity": "Epic",
- "type": "Action",
- "subtypes": [],
- "cost": 8,
- "power": 0,
- "health": 0,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Costs 1 less for each creature in your discard pile. Gain +2 max magicka.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/whodunit.png",
- "id": "04944253-72c8-5e75-8096-456dafdbed7f",
- "code": "xR"
+  "name": "Whodunit?",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 8,
+  "power": 0,
+  "health": 0,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Costs 1 less for each creature in your discard pile. Gain +2 max magicka.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/whodunit.png",
+  "id": "04944253-72c8-5e75-8096-456dafdbed7f",
+  "code": "xR",
+  "isAlt": false
 }

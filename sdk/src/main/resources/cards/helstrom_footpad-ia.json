@@ -1,27 +1,28 @@
 {
- "name": "Helstrom Footpad",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 2,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/helstrom_footpad.png",
- "id": "f5650ea5-2852-5a6f-b196-b2a867ae3a56",
- "code": "ia"
+  "name": "Helstrom Footpad",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/helstrom_footpad.png",
+  "id": "f5650ea5-2852-5a6f-b196-b2a867ae3a56",
+  "code": "ia",
+  "isAlt": false
 }

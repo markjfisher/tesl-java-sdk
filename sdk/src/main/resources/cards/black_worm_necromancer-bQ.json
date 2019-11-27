@@ -1,27 +1,28 @@
 {
- "name": "Black Worm Necromancer",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 6,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: If you have more health than your opponent, summon a random creature card from your discard pile.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/black_worm_necromancer.png",
- "id": "1cb79f84-bfca-5f40-b326-aee4c1032601",
- "code": "bQ"
+  "name": "Black Worm Necromancer",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: If you have more health than your opponent, summon a random creature card from your discard pile.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/black_worm_necromancer.png",
+  "id": "1cb79f84-bfca-5f40-b326-aee4c1032601",
+  "code": "bQ",
+  "isAlt": false
 }

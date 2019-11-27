@@ -1,27 +1,28 @@
 {
- "name": "Blackwood Alchemist",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 3,
- "power": 1,
- "health": 4,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Gains +2/+0 when your max magicka increases.",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://www.legends-decks.com/img_cards/blackwoodalchemist.png",
- "id": "dc2d320f-32cc-5297-9021-45830eb71c5b",
- "code": "yu"
+  "name": "Blackwood Alchemist",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 4,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Gains +2/+0 when your max magicka increases.",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/blackwoodalchemist.png",
+  "id": "dc2d320f-32cc-5297-9021-45830eb71c5b",
+  "code": "yu",
+  "isAlt": false
 }

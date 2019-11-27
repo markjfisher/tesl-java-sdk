@@ -1,30 +1,31 @@
 {
- "name": "Mankar Camoran",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "High Elf"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "id": "joo",
-  "name": "Jaws of Oblivion"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "After you play an action, Invade. Friendly Oblivion Gates have +4/+0.",
- "attributes": [
-  "Strength",
-  "Intelligence"
- ],
- "keywords": [
-  "Invade"
- ],
- "unique": true,
- "imageUrl": "https://www.legends-decks.com/img_cards/mankarcamoran.png",
- "id": "cce73318-d1b8-5cb4-904c-958ef109c732",
- "code": "xg"
+  "name": "Mankar Camoran",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "id": "joo",
+    "name": "Jaws of Oblivion"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "After you play an action, Invade. Friendly Oblivion Gates have +4/+0.",
+  "attributes": [
+    "Strength",
+    "Intelligence"
+  ],
+  "keywords": [
+    "Invade"
+  ],
+  "unique": true,
+  "imageUrl": "https://www.legends-decks.com/img_cards/mankarcamoran.png",
+  "id": "cce73318-d1b8-5cb4-904c-958ef109c732",
+  "code": "xg",
+  "isAlt": false
 }

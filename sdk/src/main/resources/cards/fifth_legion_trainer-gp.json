@@ -1,27 +1,28 @@
 {
- "name": "Fifth Legion Trainer",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 2,
- "power": 1,
- "health": 3,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "When you summon another creature, give it +1/+0.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/fifth_legion_trainer.png",
- "id": "4d9f2456-9cfe-56dc-b37f-72562612ae99",
- "code": "gp"
+  "name": "Fifth Legion Trainer",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 3,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "When you summon another creature, give it +1/+0.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/fifth_legion_trainer.png",
+  "id": "4d9f2456-9cfe-56dc-b37f-72562612ae99",
+  "code": "gp",
+  "isAlt": false
 }

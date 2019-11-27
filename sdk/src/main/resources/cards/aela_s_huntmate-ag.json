@@ -1,27 +1,28 @@
 {
- "name": "Aela's Huntmate",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 4,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Beast Form: +1/+1 and draw a card.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/aelas_huntmate.png",
- "id": "a3238957-f314-5a41-aab9-c61a09a3cd90",
- "code": "ag"
+  "name": "Aela's Huntmate",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Beast Form: +1/+1 and draw a card.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/aelas_huntmate.png",
+  "id": "a3238957-f314-5a41-aab9-c61a09a3cd90",
+  "code": "ag",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Chaurus",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Chaurus"
- ],
- "cost": 4,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/chaurus.png",
- "id": "64439154-0090-5131-831a-4b2a3f7cc18b",
- "code": "cV"
+  "name": "Chaurus",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Chaurus"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/chaurus.png",
+  "id": "64439154-0090-5131-831a-4b2a3f7cc18b",
+  "code": "cV",
+  "isAlt": false
 }

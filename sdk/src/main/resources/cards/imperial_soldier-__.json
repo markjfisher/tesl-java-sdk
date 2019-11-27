@@ -1,27 +1,28 @@
 {
- "name": "Imperial Soldier",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/imperial_soldier.png",
- "id": "3ff4f2ea-11c6-55e6-a4e8-921d406f1d26",
- "code": "__"
+  "name": "Imperial Soldier",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/imperial_soldier.png",
+  "id": "3ff4f2ea-11c6-55e6-a4e8-921d406f1d26",
+  "code": "__",
+  "isAlt": false
 }

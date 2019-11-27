@@ -1,29 +1,30 @@
 {
- "name": "Target",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 1,
- "power": 0,
- "health": 1,
- "set": {
-  "name": "The Fall of the Dark Brotherhood",
-  "id": "fodb"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Guard",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/fodb/target.png",
- "id": "cb03476d-a579-52ec-af32-bdb0ec76bccf",
- "code": "__"
+  "name": "Target",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 1,
+  "power": 0,
+  "health": 1,
+  "set": {
+    "name": "The Fall of the Dark Brotherhood",
+    "id": "fodb"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Guard",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/fodb/target.png",
+  "id": "cb03476d-a579-52ec-af32-bdb0ec76bccf",
+  "code": "__",
+  "isAlt": false
 }

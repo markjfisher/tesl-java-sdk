@@ -1,25 +1,26 @@
 {
- "name": "Ice Storm",
- "rarity": "Epic",
- "type": "Action",
- "subtypes": [],
- "cost": 6,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Deal 3 damage to all creatures.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/ice_storm.png",
- "id": "7c0d4f78-b0e9-5051-9436-1e148afcace4",
- "code": "iy"
+  "name": "Ice Storm",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 6,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Deal 3 damage to all creatures.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/ice_storm.png",
+  "id": "7c0d4f78-b0e9-5051-9436-1e148afcace4",
+  "code": "iy",
+  "isAlt": false
 }

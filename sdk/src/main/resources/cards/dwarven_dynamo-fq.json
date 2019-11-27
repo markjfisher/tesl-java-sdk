@@ -1,27 +1,28 @@
 {
- "name": "Dwarven Dynamo",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dwemer"
- ],
- "cost": 4,
- "power": 2,
- "health": 1,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Give another (Neutral) creature +3/+3 and Guard.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/dwarven_dynamo.png",
- "id": "bf79073f-0fd3-53cb-bd2d-858e0347c622",
- "code": "fq"
+  "name": "Dwarven Dynamo",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dwemer"
+  ],
+  "cost": 4,
+  "power": 2,
+  "health": 1,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Give another (Neutral) creature +3/+3 and Guard.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/dwarven_dynamo.png",
+  "id": "bf79073f-0fd3-53cb-bd2d-858e0347c622",
+  "code": "fq",
+  "isAlt": false
 }

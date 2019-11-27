@@ -1,27 +1,28 @@
 {
- "name": "Valenwood Trapper",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Wood Elf"
- ],
- "cost": 3,
- "power": 3,
- "health": 1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/valenwood_trapper.png",
- "id": "c9ac98df-e1fd-54bd-aae3-d7ca762c33b2",
- "code": "rm"
+  "name": "Valenwood Trapper",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Wood Elf"
+  ],
+  "cost": 3,
+  "power": 3,
+  "health": 1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/valenwood_trapper.png",
+  "id": "c9ac98df-e1fd-54bd-aae3-d7ca762c33b2",
+  "code": "rm",
+  "isAlt": false
 }

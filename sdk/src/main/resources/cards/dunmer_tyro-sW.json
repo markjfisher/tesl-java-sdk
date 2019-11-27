@@ -1,30 +1,31 @@
 {
- "name": "Dunmer Tyro",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 3,
- "power": 1,
- "health": 4,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Charge. Veteran: +2/+0.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Charge",
-  "Veteran"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/aw/dunmer_tyro.png",
- "id": "518cf7d2-0aab-511b-be33-6c51ff50bb7d",
- "code": "sW"
+  "name": "Dunmer Tyro",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 4,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Charge. Veteran: +2/+0.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Charge",
+    "Veteran"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/dunmer_tyro.png",
+  "id": "518cf7d2-0aab-511b-be33-6c51ff50bb7d",
+  "code": "sW",
+  "isAlt": false
 }

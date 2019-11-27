@@ -1,31 +1,32 @@
 {
- "name": "Archcanon Saryoni",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 4,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Choose a blessing from one of the Tribunal gods. Exalt 3: Gain all three blessings instead.",
- "attributes": [
-  "Intelligence",
-  "Willpower",
-  "Endurance"
- ],
- "keywords": [
-  "Exalt"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hom/archcanon_saryoni.png",
- "id": "7af651e6-d5c9-5494-9eba-ea2ce3cc79b9",
- "code": "aJ"
+  "name": "Archcanon Saryoni",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Choose a blessing from one of the Tribunal gods. Exalt 3: Gain all three blessings instead.",
+  "attributes": [
+    "Intelligence",
+    "Willpower",
+    "Endurance"
+  ],
+  "keywords": [
+    "Exalt"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/archcanon_saryoni.png",
+  "id": "7af651e6-d5c9-5494-9eba-ea2ce3cc79b9",
+  "code": "aJ",
+  "isAlt": false
 }

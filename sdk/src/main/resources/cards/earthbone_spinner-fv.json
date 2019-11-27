@@ -1,27 +1,28 @@
 {
- "name": "Earthbone Spinner",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Wood Elf"
- ],
- "cost": 4,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Summon: Silence another creature, then deal 1 damage to it.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/earthbone_spinner.png",
- "id": "69892fc6-80a8-510d-a247-f952b0750999",
- "code": "fv"
+  "name": "Earthbone Spinner",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Wood Elf"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: Silence another creature, then deal 1 damage to it.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/earthbone_spinner.png",
+  "id": "69892fc6-80a8-510d-a247-f952b0750999",
+  "code": "fv",
+  "isAlt": false
 }

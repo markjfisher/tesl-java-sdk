@@ -1,27 +1,28 @@
 {
- "name": "Dwemer Puzzle Box",
- "rarity": "Rare",
- "type": "Support",
- "subtypes": [],
- "cost": 2,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Uses: 3. Activate: Discard the top card of your deck. Last Gasp: Draw a card.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Last Gasp"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/dwemer_puzzle_box.png",
- "id": "0e752358-4c00-5da5-8bab-0c93dd0f7252",
- "code": "ft"
+  "name": "Dwemer Puzzle Box",
+  "rarity": "Rare",
+  "type": "Support",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Uses: 3. Activate: Discard the top card of your deck. Last Gasp: Draw a card.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Last Gasp"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/dwemer_puzzle_box.png",
+  "id": "0e752358-4c00-5da5-8bab-0c93dd0f7252",
+  "code": "ft",
+  "isAlt": false
 }

@@ -1,27 +1,28 @@
 {
- "name": "Drain Blood",
- "rarity": "Common",
- "type": "Action",
- "subtypes": [],
- "cost": 4,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Betray. Give a creature -2/-2.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Betray"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/drain_blood.png",
- "id": "16eb6664-e23b-512a-a169-3dd5383c5854",
- "code": "eR"
+  "name": "Drain Blood",
+  "rarity": "Common",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 4,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Betray. Give a creature -2/-2.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Betray"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/drain_blood.png",
+  "id": "16eb6664-e23b-512a-a169-3dd5383c5854",
+  "code": "eR",
+  "isAlt": false
 }

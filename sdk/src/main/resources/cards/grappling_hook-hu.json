@@ -1,25 +1,26 @@
 {
- "name": "Grappling Hook",
- "rarity": "Common",
- "type": "Item",
- "subtypes": [],
- "cost": 4,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "+3/+2. Summon: Move an enemy creature into this lane. It loses Cover.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/grappling_hook.png",
- "id": "683a348d-c237-531d-a779-0336da338f88",
- "code": "hu"
+  "name": "Grappling Hook",
+  "rarity": "Common",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 4,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "+3/+2. Summon: Move an enemy creature into this lane. It loses Cover.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/grappling_hook.png",
+  "id": "683a348d-c237-531d-a779-0336da338f88",
+  "code": "hu",
+  "isAlt": false
 }

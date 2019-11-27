@@ -1,29 +1,30 @@
 {
- "name": "Worm Thrall",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Skeleton"
- ],
- "cost": 2,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Guard",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/worm_thrall.png",
- "id": "2781e671-ba9e-564b-9118-be8c5506f19d",
- "code": "__"
+  "name": "Worm Thrall",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Skeleton"
+  ],
+  "cost": 2,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Guard",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/worm_thrall.png",
+  "id": "2781e671-ba9e-564b-9118-be8c5506f19d",
+  "code": "__",
+  "isAlt": false
 }

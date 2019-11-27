@@ -1,27 +1,28 @@
 {
- "name": "Dres Spy",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Dark Elf"
- ],
- "cost": 0,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Summon: Look at the top card of your deck. You may discard it.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/dres_spy.png",
- "id": "f08ff171-87aa-5609-95e0-a3c9cfb5a4e7",
- "code": "eY"
+  "name": "Dres Spy",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 0,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Summon: Look at the top card of your deck. You may discard it.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/dres_spy.png",
+  "id": "f08ff171-87aa-5609-95e0-a3c9cfb5a4e7",
+  "code": "eY",
+  "isAlt": false
 }

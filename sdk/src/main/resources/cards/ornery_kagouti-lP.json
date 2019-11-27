@@ -1,29 +1,30 @@
 {
- "name": "Ornery Kagouti",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 2,
- "power": 3,
- "health": 2,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Breakthrough",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Breakthrough"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/ornery_kagouti.png",
- "id": "4d4f918b-f4bf-5fef-9ae6-3eaa199d6bb9",
- "code": "lP"
+  "name": "Ornery Kagouti",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Breakthrough",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Breakthrough"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/ornery_kagouti.png",
+  "id": "4d4f918b-f4bf-5fef-9ae6-3eaa199d6bb9",
+  "code": "lP",
+  "isAlt": false
 }

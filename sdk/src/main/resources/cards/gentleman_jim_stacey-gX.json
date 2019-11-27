@@ -1,27 +1,28 @@
 {
- "name": "Gentleman Jim Stacey",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Redguard"
- ],
- "cost": 7,
- "power": 5,
- "health": 4,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Your opponent chooses a card in their hand and gives it to you.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hom/gentleman_jim_stacey.png",
- "id": "1d793f31-8a45-55e7-8cfe-e9e51c35e4e7",
- "code": "gX"
+  "name": "Gentleman Jim Stacey",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Redguard"
+  ],
+  "cost": 7,
+  "power": 5,
+  "health": 4,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Your opponent chooses a card in their hand and gives it to you.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/gentleman_jim_stacey.png",
+  "id": "1d793f31-8a45-55e7-8cfe-e9e51c35e4e7",
+  "code": "gX",
+  "isAlt": false
 }

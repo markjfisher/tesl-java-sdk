@@ -1,27 +1,28 @@
 {
- "name": "Unstable Madman",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Nord"
- ],
- "cost": 3,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "At the end of your turn, Unstable Madman gains +1/+1. The , if he has 5 or more power, change him into Unstoppable Berskerker.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/iom/unstable_madman.png",
- "id": "b34c9fcf-ab8f-5cec-85d5-f4c901c9a5ec",
- "code": "rj"
+  "name": "Unstable Madman",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "At the end of your turn, Unstable Madman gains +1/+1. The , if he has 5 or more power, change him into Unstoppable Berskerker.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/unstable_madman.png",
+  "id": "b34c9fcf-ab8f-5cec-85d5-f4c901c9a5ec",
+  "code": "rj",
+  "isAlt": false
 }

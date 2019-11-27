@@ -1,30 +1,31 @@
 {
- "name": "Moon Bishop",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Khajiit"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Wax: +0/+4. Wane: You gain 4 health.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Wax",
-  "Wane"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/moe/moon_bishop.png",
- "id": "2c6aae11-63a5-55d0-9bff-27309b1f0954",
- "code": "wU"
+  "name": "Moon Bishop",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Khajiit"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Wax: +0/+4. Wane: You gain 4 health.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Wax",
+    "Wane"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/moon_bishop.png",
+  "id": "2c6aae11-63a5-55d0-9bff-27309b1f0954",
+  "code": "wU",
+  "isAlt": false
 }

@@ -1,31 +1,32 @@
 {
- "name": "Clivia Tharn",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 6,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Alliance War",
-  "id": "aw"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Other friendly creatures in this lane have Guard. At the end of your turn, summon a 1/1 Recruit in each lane.",
- "attributes": [
-  "Willpower",
-  "Agility",
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/aw/clivia_tharn.png",
- "id": "6b798c7c-5333-55d6-95c2-6bc31549a64e",
- "code": "sI"
+  "name": "Clivia Tharn",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 6,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Alliance War",
+    "id": "aw"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Other friendly creatures in this lane have Guard. At the end of your turn, summon a 1/1 Recruit in each lane.",
+  "attributes": [
+    "Willpower",
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/aw/clivia_tharn.png",
+  "id": "6b798c7c-5333-55d6-95c2-6bc31549a64e",
+  "code": "sI",
+  "isAlt": false
 }

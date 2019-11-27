@@ -1,27 +1,28 @@
 {
- "name": "Ash Servant",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Ash Creature"
- ],
- "cost": 4,
- "power": 2,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Deal 2 damage to a creature.",
- "attributes": [
-  "Intelligence"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/ash_servant.png",
- "id": "02c2dacc-3806-50ff-85ca-a94973e57d24",
- "code": "aX"
+  "name": "Ash Servant",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Ash Creature"
+  ],
+  "cost": 4,
+  "power": 2,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Deal 2 damage to a creature.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/ash_servant.png",
+  "id": "02c2dacc-3806-50ff-85ca-a94973e57d24",
+  "code": "aX",
+  "isAlt": false
 }

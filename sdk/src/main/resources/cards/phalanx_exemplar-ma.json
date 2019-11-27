@@ -1,29 +1,30 @@
 {
- "name": "Phalanx Exemplar",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 5,
- "power": 5,
- "health": 6,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Guard. When your opponent draws a Prophecy from a rune being destroyed, put a 1/2 Septim Guardsman with Guard into your hand.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/phalanx_exemplar.png",
- "id": "bced09b9-987e-58c9-ab06-7bebc075011c",
- "code": "ma"
+  "name": "Phalanx Exemplar",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 6,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Guard. When your opponent draws a Prophecy from a rune being destroyed, put a 1/2 Septim Guardsman with Guard into your hand.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/phalanx_exemplar.png",
+  "id": "bced09b9-987e-58c9-ab06-7bebc075011c",
+  "code": "ma",
+  "isAlt": false
 }

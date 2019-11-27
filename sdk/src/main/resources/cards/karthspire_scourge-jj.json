@@ -1,27 +1,28 @@
 {
- "name": "Karthspire Scourge",
- "rarity": "Rare",
- "type": "Creature",
- "subtypes": [
-  "Dragon"
- ],
- "cost": 5,
- "power": 4,
- "health": 4,
- "set": {
-  "name": "Heroes of Skyrim",
-  "id": "hos"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Summon: Give all enemy creatures in this lane -1/-0.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hos/karthspire_scourge.png",
- "id": "880fefac-6050-52f1-b748-4b5c94e9ab3e",
- "code": "jj"
+  "name": "Karthspire Scourge",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Dragon"
+  ],
+  "cost": 5,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Heroes of Skyrim",
+    "id": "hos"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: Give all enemy creatures in this lane -1/-0.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hos/karthspire_scourge.png",
+  "id": "880fefac-6050-52f1-b748-4b5c94e9ab3e",
+  "code": "jj",
+  "isAlt": false
 }

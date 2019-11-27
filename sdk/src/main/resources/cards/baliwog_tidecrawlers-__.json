@@ -1,29 +1,30 @@
 {
- "name": "Baliwog Tidecrawlers",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Grummite"
- ],
- "cost": 4,
- "power": 2,
- "health": 6,
- "set": {
-  "name": "Isle of Madness",
-  "id": "iom"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "Guard",
- "attributes": [
-  "Endurance"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/iom/baliwog_tidecrawlers.png",
- "id": "0da02064-ed49-5a7a-ad81-17f7e082e871",
- "code": "__"
+  "name": "Baliwog Tidecrawlers",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Grummite"
+  ],
+  "cost": 4,
+  "power": 2,
+  "health": 6,
+  "set": {
+    "name": "Isle of Madness",
+    "id": "iom"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "Guard",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/iom/baliwog_tidecrawlers.png",
+  "id": "0da02064-ed49-5a7a-ad81-17f7e082e871",
+  "code": "__",
+  "isAlt": false
 }

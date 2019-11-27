@@ -1,27 +1,28 @@
 {
- "name": "Skywag",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Beast"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": false,
- "soulSummon": -1,
- "soulTrap": -1,
- "text": "",
- "attributes": [
-  "Strength"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/skywag.png",
- "id": "ab08a73c-e44e-5dae-8d63-69a6c052a06f",
- "code": "__"
+  "name": "Skywag",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": false,
+  "soulSummon": -1,
+  "soulTrap": -1,
+  "text": "",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/skywag.png",
+  "id": "ab08a73c-e44e-5dae-8d63-69a6c052a06f",
+  "code": "__",
+  "isAlt": false
 }

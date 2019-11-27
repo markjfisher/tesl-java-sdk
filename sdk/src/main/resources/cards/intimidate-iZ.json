@@ -1,27 +1,28 @@
 {
- "name": "Intimidate",
- "rarity": "Rare",
- "type": "Action",
- "subtypes": [],
- "cost": 1,
- "power": -1,
- "health": -1,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 100,
- "soulTrap": 20,
- "text": "Enemy creatures lose Guard.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/intimidate.png",
- "id": "65332020-7631-5372-acd5-b65ca920b083",
- "code": "iZ"
+  "name": "Intimidate",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Enemy creatures lose Guard.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/intimidate.png",
+  "id": "65332020-7631-5372-acd5-b65ca920b083",
+  "code": "iZ",
+  "isAlt": false
 }

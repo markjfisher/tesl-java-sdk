@@ -1,31 +1,32 @@
 {
- "name": "Fighters Guild Recruit",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 2,
- "power": 1,
- "health": 2,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Prophecy, Guard, Lethal",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Guard",
-  "Lethal",
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/fighters_guild_recruit.png",
- "id": "58c335db-0532-5e46-bf4f-7684336f5fa4",
- "code": "gs"
+  "name": "Fighters Guild Recruit",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 2,
+  "power": 1,
+  "health": 2,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy, Guard, Lethal",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Guard",
+    "Lethal",
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/fighters_guild_recruit.png",
+  "id": "58c335db-0532-5e46-bf4f-7684336f5fa4",
+  "code": "gs",
+  "isAlt": false
 }

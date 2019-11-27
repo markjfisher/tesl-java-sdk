@@ -1,27 +1,28 @@
 {
- "name": "Tower Alchemist",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 3,
- "power": 2,
- "health": 4,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Your support cards with Activate abilities have unlimited uses.",
- "attributes": [
-  "Willpower"
- ],
- "keywords": [],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/tower_alchemist.png",
- "id": "7a3d1e13-f7e9-5c33-bc71-93f15447cbe7",
- "code": "qI"
+  "name": "Tower Alchemist",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 4,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Your support cards with Activate abilities have unlimited uses.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/tower_alchemist.png",
+  "id": "7a3d1e13-f7e9-5c33-bc71-93f15447cbe7",
+  "code": "qI",
+  "isAlt": false
 }

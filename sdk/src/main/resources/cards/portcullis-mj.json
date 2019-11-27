@@ -1,30 +1,31 @@
 {
- "name": "Portcullis",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Defense"
- ],
- "cost": 5,
- "power": 0,
- "health": 9,
- "set": {
-  "name": "Core Set",
-  "id": "cs"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Prophecy, Guard",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [
-  "Guard",
-  "Prophecy"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/cs/portcullis.png",
- "id": "73bc8664-4447-5313-8076-6081195b2870",
- "code": "mj"
+  "name": "Portcullis",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Defense"
+  ],
+  "cost": 5,
+  "power": 0,
+  "health": 9,
+  "set": {
+    "name": "Core Set",
+    "id": "cs"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Prophecy, Guard",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [
+    "Guard",
+    "Prophecy"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/cs/portcullis.png",
+  "id": "73bc8664-4447-5313-8076-6081195b2870",
+  "code": "mj",
+  "isAlt": false
 }

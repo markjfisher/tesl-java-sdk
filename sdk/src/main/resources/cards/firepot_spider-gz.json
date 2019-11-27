@@ -1,29 +1,30 @@
 {
- "name": "Firepot Spider",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Fabricant"
- ],
- "cost": 1,
- "power": 1,
- "health": 1,
- "set": {
-  "name": "Return to Clockwork City",
-  "id": "rcc"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Last Gasp: Deal 1 damage to all creatures in this lane.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Last Gasp"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/rcc/firepot_spider.png",
- "id": "c242f05c-c169-5beb-83b6-a763c7768fe9",
- "code": "gz"
+  "name": "Firepot Spider",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Fabricant"
+  ],
+  "cost": 1,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Return to Clockwork City",
+    "id": "rcc"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Last Gasp: Deal 1 damage to all creatures in this lane.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Last Gasp"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/rcc/firepot_spider.png",
+  "id": "c242f05c-c169-5beb-83b6-a763c7768fe9",
+  "code": "gz",
+  "isAlt": false
 }

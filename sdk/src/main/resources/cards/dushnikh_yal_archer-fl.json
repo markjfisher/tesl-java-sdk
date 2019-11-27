@@ -1,29 +1,30 @@
 {
- "name": "Dushnikh Yal Archer",
- "rarity": "Epic",
- "type": "Creature",
- "subtypes": [
-  "Orc"
- ],
- "cost": 4,
- "power": 3,
- "health": 3,
- "set": {
-  "name": "Monthly Rewards",
-  "id": "mr"
- },
- "collectible": true,
- "soulSummon": 400,
- "soulTrap": 100,
- "text": "Guard. Summon: Deal 1 damage or destroy an enemy support.",
- "attributes": [
-  "Strength"
- ],
- "keywords": [
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/mr/dushnikh_yal_archer.png",
- "id": "029623da-7e4e-5283-b120-5ec035202e11",
- "code": "fl"
+  "name": "Dushnikh Yal Archer",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Orc"
+  ],
+  "cost": 4,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Monthly Rewards",
+    "id": "mr"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Guard. Summon: Deal 1 damage or destroy an enemy support.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/mr/dushnikh_yal_archer.png",
+  "id": "029623da-7e4e-5283-b120-5ec035202e11",
+  "code": "fl",
+  "isAlt": false
 }

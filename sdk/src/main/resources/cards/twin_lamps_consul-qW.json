@@ -1,31 +1,32 @@
 {
- "name": "Twin Lamps Consul",
- "rarity": "Common",
- "type": "Creature",
- "subtypes": [
-  "Argonian"
- ],
- "cost": 3,
- "power": 2,
- "health": 4,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 50,
- "soulTrap": 5,
- "text": "Plot: Lethal and Guard.",
- "attributes": [
-  "Agility"
- ],
- "keywords": [
-  "Plot",
-  "Lethal",
-  "Guard"
- ],
- "unique": false,
- "imageUrl": "https://images.elderscrollslegends.io/hom/twin_lamps_consul.png",
- "id": "d3fe6174-0f12-5c1e-bc02-92441c01dc90",
- "code": "qW"
+  "name": "Twin Lamps Consul",
+  "rarity": "Common",
+  "type": "Creature",
+  "subtypes": [
+    "Argonian"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 4,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 50,
+  "soulTrap": 5,
+  "text": "Plot: Lethal and Guard.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [
+    "Plot",
+    "Lethal",
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/twin_lamps_consul.png",
+  "id": "d3fe6174-0f12-5c1e-bc02-92441c01dc90",
+  "code": "qW",
+  "isAlt": false
 }

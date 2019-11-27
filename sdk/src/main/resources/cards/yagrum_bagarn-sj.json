@@ -1,27 +1,28 @@
 {
- "name": "Yagrum Bagarn",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Dwemer"
- ],
- "cost": 3,
- "power": 2,
- "health": 4,
- "set": {
-  "name": "Houses of Morrowind",
-  "id": "hom"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Draw a Dwemer from your discard pile and give it +2/+2.",
- "attributes": [
-  "Neutral"
- ],
- "keywords": [],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/hom/yagrum_bagarn.png",
- "id": "6dfece4a-e9ae-5308-aed0-0f95b3048456",
- "code": "sj"
+  "name": "Yagrum Bagarn",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Dwemer"
+  ],
+  "cost": 3,
+  "power": 2,
+  "health": 4,
+  "set": {
+    "name": "Houses of Morrowind",
+    "id": "hom"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Draw a Dwemer from your discard pile and give it +2/+2.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/hom/yagrum_bagarn.png",
+  "id": "6dfece4a-e9ae-5308-aed0-0f95b3048456",
+  "code": "sj",
+  "isAlt": false
 }

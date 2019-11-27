@@ -1,30 +1,31 @@
 {
- "name": "Euraxia Tharn",
- "rarity": "Legendary",
- "type": "Creature",
- "subtypes": [
-  "Imperial"
- ],
- "cost": 9,
- "power": 6,
- "health": 6,
- "set": {
-  "name": "Moons of Elsweyr",
-  "id": "moe"
- },
- "collectible": true,
- "soulSummon": 1200,
- "soulTrap": 400,
- "text": "Summon: Steal an enemy creature or support. Last Gasp: Your opponent steals it back.",
- "attributes": [
-  "Willpower",
-  "Endurance"
- ],
- "keywords": [
-  "Last Gasp"
- ],
- "unique": true,
- "imageUrl": "https://images.elderscrollslegends.io/moe/euraxia_tharn.png",
- "id": "c00ed478-a2ed-5835-a6f2-c4a0f8b0d508",
- "code": "wb"
+  "name": "Euraxia Tharn",
+  "rarity": "Legendary",
+  "type": "Creature",
+  "subtypes": [
+    "Imperial"
+  ],
+  "cost": 9,
+  "power": 6,
+  "health": 6,
+  "set": {
+    "name": "Moons of Elsweyr",
+    "id": "moe"
+  },
+  "collectible": true,
+  "soulSummon": 1200,
+  "soulTrap": 400,
+  "text": "Summon: Steal an enemy creature or support. Last Gasp: Your opponent steals it back.",
+  "attributes": [
+    "Willpower",
+    "Endurance"
+  ],
+  "keywords": [
+    "Last Gasp"
+  ],
+  "unique": true,
+  "imageUrl": "https://images.elderscrollslegends.io/moe/euraxia_tharn.png",
+  "id": "c00ed478-a2ed-5835-a6f2-c4a0f8b0d508",
+  "code": "wb",
+  "isAlt": false
 }
