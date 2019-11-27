@@ -87,9 +87,9 @@ class DecoderTests {
         assertThat(checkResult.first).isTrue()
         assertThat(checkResult.second).isEmpty()
 
-        checkResult = decoder.checkImportCode("SPAEaaabzazbACaczcACzdad")
+        checkResult = decoder.checkImportCode("SPAEaaabZaZbACacZcACZdad")
         assertThat(checkResult.first).isTrue()
-        assertThat(checkResult.second).containsExactlyInAnyOrder("za", "zb", "zc", "zd")
+        assertThat(checkResult.second).containsExactlyInAnyOrder("Za", "Zb", "Zc", "Zd")
     }
 
     @Test

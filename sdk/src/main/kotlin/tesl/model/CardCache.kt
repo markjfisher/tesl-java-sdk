@@ -13,6 +13,7 @@ object CardCache {
         .apply { setSerializationInclusion(JsonInclude.Include.NON_NULL) }
 
     private val cache = mutableMapOf<String, Card>()
+    private lateinit var cards: List<Card>
 
     init {
         load()
@@ -27,18 +28,17 @@ object CardCache {
             val card = mapper.readValue<Card>(content)
             cache[card.id] = card
         }
+        cards = cache.values.toList()
     }
 
     @JvmStatic
     fun findByCode(code: String): Card? {
         if (code == "__") return null
-        return cache.values.find { it.code == code }
+        return cards.find { it.code == code }
     }
 
     @JvmStatic
-    fun all(): List<Card> {
-        return cache.values.toList()
-    }
+    fun all(): List<Card> = cards
 
     @JvmStatic
     fun findById(id: String) = cache[id]

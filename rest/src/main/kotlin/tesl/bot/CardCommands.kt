@@ -37,30 +37,27 @@ object HelpCardCommand: BaseCardCommand() {
         return listOf(ReplyData(text = listOf("```$helpText```")))
     }
 
-    override fun help(): String {
-        return "help - shows this help"
-    }
-
+    override fun help() = "help - shows this help"
     override fun isHidden() = true
 }
 
 object SearchCardCommand: BaseCardCommand() {
-    private val allCards = CardCache.all()
+    private val countLimit = 3
 
+    override fun help() = "search - Fuzzy search card names, e.g. '!card search aduring fun'"
     override fun isHidden() = false
 
     override fun run(args: List<String>, author: User): List<ReplyData> {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
 
         val searchTerm = args.joinToString(" ")
-        val extractSorted = FuzzySearch.extractSorted(searchTerm, allCards) { it.name }
+        val extractSorted = FuzzySearch.extractTop(searchTerm, CardCache.all().filter { !it.isAlt }, { it.name }, countLimit, 72)
         logger.info { "User: ${author.username} searching for '$searchTerm'"}
 
-        if (extractSorted.isEmpty() || extractSorted.first().score <= 71) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
+        if (extractSorted.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))
 
-        val numToTake = if (extractSorted.first().score == 100) 1 else 3
+        val numToTake = if (extractSorted.first().score == 100) 1 else countLimit
         return extractSorted
-            .filter { it.score >= 72 }
             .take(numToTake)
             .map {
                 val card = it.referent
@@ -86,22 +83,13 @@ object SearchCardCommand: BaseCardCommand() {
                 data
             }
     }
-    override fun help(): String {
-        return """
-            |search - Fuzzy searches a card from the given arguments
-            |   e.g. '!card search aduring fun'
-            |   which finds 'Adoring Fan' and 'Alduin'
-            """.trimMargin()
-    }
 
 }
 
 object FindCardCommand: BaseCardCommand() {
-    override fun isHidden() = false
+    override fun isHidden() = true
     override fun run(args: List<String>, author: User): List<ReplyData> = SearchCardCommand.run(args, author)
-    override fun help(): String {
-        return "find   - synonym for 'search'"
-    }
+    override fun help() = "find   - synonym for 'search'"
 
 }
 
