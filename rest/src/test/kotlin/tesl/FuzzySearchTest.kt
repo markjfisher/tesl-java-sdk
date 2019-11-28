@@ -17,10 +17,8 @@ class FuzzySearchTest {
         val cutoff100Top3 = FuzzySearch.extractTop("guard", CardCache.all(), { it.name }, 3, 100)
         assertThat(cutoff100Top3).hasSize(0)
 
-        val withAlts = FuzzySearch.extractTop("arrw stor", CardCache.all(), { it.name }, 3, 72)
-        assertThat(withAlts).hasSize(2)
+        val arrowStrorm = FuzzySearch.extractTop("arrw stor", CardCache.all(), { it.name }, 3, 72)
+        assertThat(arrowStrorm).hasSize(1)
 
-        val noAlts = FuzzySearch.extractTop("arrw stor", CardCache.all().filter { !it.isAlt }, { it.name }, 3, 72)
-        assertThat(noAlts).hasSize(1)
     }
 }

@@ -51,7 +51,7 @@ object SearchCardCommand: BaseCardCommand() {
         if (args.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention} please supply a search term.")))
 
         val searchTerm = args.joinToString(" ")
-        val extractSorted = FuzzySearch.extractTop(searchTerm, CardCache.all().filter { !it.isAlt }, { it.name }, countLimit, 72)
+        val extractSorted = FuzzySearch.extractTop(searchTerm, CardCache.all(), { it.name }, countLimit, 72)
         logger.info { "User: ${author.username} searching for '$searchTerm'"}
 
         if (extractSorted.isEmpty()) return listOf(ReplyData(text = listOf("${author.mention}, sorry, no matches for $searchTerm.")))

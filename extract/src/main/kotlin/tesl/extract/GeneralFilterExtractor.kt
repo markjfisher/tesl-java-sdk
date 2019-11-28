@@ -6,7 +6,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import krangl.DataFrame
 import krangl.DataFrameRow
-import krangl.eq
 import krangl.readDelim
 import tesl.idgenerator.IdGenerator
 import tesl.model.Card
@@ -14,7 +13,7 @@ import tesl.model.CardCache
 import tesl.oldmodel.TESLCard
 import java.io.File
 
-object AltArtExtractor: Extractor() {
+object GeneralFilterExtractor: Extractor() {
     private val mapper = jacksonObjectMapper()
         .registerModule(JavaTimeModule())
         .enable(SerializationFeature.INDENT_OUTPUT)
@@ -36,8 +35,11 @@ object AltArtExtractor: Extractor() {
         val sparkyPantsCodeCSV = this::class.java.getResource("/allCards.csv").openStream()
         val sparkyPantsDF = DataFrame
             .readDelim(sparkyPantsCodeCSV)
-            .filter { it["card_source"] eq "Exclusive" }
-            .filterByRow { (it["type_name"] as String).toLowerCase().endsWith("_alt") }
+//            .filter { it["card_source"] eq "Exclusive" }
+//            .filterByRow {
+//                val typeName = (it["type_name"] as String).toLowerCase()
+//                typeName.endsWith("_alt")
+//            }
 
         val allCards = CardCache.all()
         sparkyPantsDF.rows.forEach lit@{ row: DataFrameRow ->
@@ -51,8 +53,6 @@ object AltArtExtractor: Extractor() {
                 if (normalCard != null) {
                     val sanitizedName = TESLCard.sanitize(name)
                     val id = IdGenerator.generateCardUUID("$sanitizedName-$exportCode")
-                    // USE SAME imageUrl as original card - not supporting alts other than by code
-                    // val imageUrl = normalCard.imageUrl.substringBeforeLast(".png") + "_alt.png"
 
                     val altCard = Card(
                         name = normalCard.name,
@@ -70,7 +70,6 @@ object AltArtExtractor: Extractor() {
                         attributes = normalCard.attributes,
                         keywords = normalCard.keywords,
                         unique = normalCard.unique,
-                        isAlt = true,
                         imageUrl = normalCard.imageUrl,
                         id = id,
                         code = exportCode

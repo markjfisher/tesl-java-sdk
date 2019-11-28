@@ -39,7 +39,6 @@ data class TestCard(
     val attributes: List<String> = emptyList(),
     val keywords: List<String> = emptyList(),
     val unique: Boolean = true,
-    val isAlt: Boolean = false,
     val imageUrl: String = "",
     val id: String = "",
     val code: String = ""
@@ -61,7 +60,6 @@ data class TestCard(
             attributes = attributes,
             keywords = keywords,
             unique = unique,
-            isAlt = isAlt,
             imageUrl = imageUrl,
             id = id,
             code = code
