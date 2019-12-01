@@ -101,4 +101,13 @@ class DecoderTests {
         assertThat(decoder.isCodeValid("SPAAAAABxD")).isFalse()
 
     }
+
+    @Test
+    fun `cross collection types fail correctly`() {
+        val deck = Deck.importCode("SP!\"xy!!!!")
+        assertThat(deck.cards).isEmpty()
+
+        val collection = Collection.importCode("SPABxyAAAA")
+        assertThat(collection.cards).isEmpty()
+    }
 }

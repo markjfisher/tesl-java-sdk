@@ -9400,6 +9400,16 @@
     "index": 939
   },
   {
+    "cardName": "Rimmen Purveyor",
+    "cardId": "6ad7fb74-596c-590c-ab9f-9baf14493b52",
+    "cardUrl": "rest/src/main/resources/images/cards/rimmenpurveyor.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/agility.png",
+    "xOffset": 313.0,
+    "yOffset": 130.0,
+    "scale": 0.45999999999999996,
+    "index": 940
+  },
+  {
     "cardName": "Rimmen Siege Weapons",
     "cardId": "a215d39b-31f4-5968-b447-0036822b6fb2",
     "cardUrl": "rest/src/main/resources/images/cards/rimmen_siege_weapons.png",

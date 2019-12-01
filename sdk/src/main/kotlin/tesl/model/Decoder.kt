@@ -82,15 +82,15 @@ open class Decoder(
 
         val of1MarkerIndex = 2
         val of1Count = decodeCountMarker(code.substring(intRange(of1MarkerIndex)))
-        if (code.length < (4 + of1Count * 2 + 4)) return false
+        if (of1Count < 0 || code.length < (4 + of1Count * 2 + 4)) return false
 
         val of2MarkerIndex = 4 + of1Count * 2
         val of2Count = decodeCountMarker(code.substring(intRange(of2MarkerIndex)))
-        if (code.length < (6 + of1Count * 2 + of2Count * 2 + 2)) return false
+        if (of2Count < 0 || code.length < (6 + of1Count * 2 + of2Count * 2 + 2)) return false
 
         val of3MarkerIndex = 6 + of1Count * 2 + of2Count * 2
         val of3Count = decodeCountMarker(code.substring(intRange(of3MarkerIndex)))
-        if (code.length != (8 + of1Count * 2 + of2Count * 2 + of3Count * 2)) return false
+        if (of3Count < 0 || code.length != (8 + of1Count * 2 + of2Count * 2 + of3Count * 2)) return false
 
         return true
     }

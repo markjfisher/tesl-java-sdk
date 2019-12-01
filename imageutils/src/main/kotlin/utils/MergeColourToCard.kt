@@ -24,6 +24,7 @@ object MergeColourToCard {
     private fun mergeColourToCard() {
 
         readCardData().forEach { cardData ->
+            // if (cardData.cardName != "Rimmen Purveyor") return@forEach
             val card = CardCache.findById(cardData.cardId) ?: return@forEach
             // if (cardData.index != 0) return@forEach
             println("doing ${cardData.cardName}")

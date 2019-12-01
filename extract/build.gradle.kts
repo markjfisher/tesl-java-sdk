@@ -1,6 +1,5 @@
 //import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import java.lang.System.getenv
 
 plugins {
     kotlin("jvm")
@@ -16,6 +15,7 @@ val konfigVersion: String by project
 val cacheVersion: String by project
 val jsoupVersion: String by project
 val kranglVersion: String by project
+val argParserVersion: String by project
 
 val kotlinLoggingVersion: String by project
 val logbackClassicVersion: String by project
@@ -50,6 +50,7 @@ dependencies {
     implementation("com.natpryce:konfig:$konfigVersion")
     implementation("org.apache.httpcomponents:httpclient-cache:$cacheVersion")
     implementation("de.mpicbg.scicomp:krangl:$kranglVersion")
+    implementation("com.xenomachina:kotlin-argparser:$argParserVersion")
 
     implementation("ch.qos.logback:logback-classic:$logbackClassicVersion")
     implementation("net.logstash.logback:logstash-logback-encoder:$logbackEncoderVersion")
@@ -87,4 +88,12 @@ tasks {
         useJUnitPlatform()
     }
 
+    register("analyseLogs", JavaExec::class) {
+        description = "Analyse log file for deck codes and output some stats about them"
+        main = "tesl.stats.LogAnalyser"
+        classpath = sourceSets["main"].runtimeClasspath
+        if (project.hasProperty("args")) {
+            args = (project.findProperty("args") as String).split(" ")
+        }
+    }
 }

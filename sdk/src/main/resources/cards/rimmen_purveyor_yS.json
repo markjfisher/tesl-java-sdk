@@ -1,0 +1,27 @@
+{
+  "name": "Rimmen Purveyor",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 4,
+  "set": {
+    "name": "Monthly Rewards",
+    "id": "mr"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Summon: Consume a creature. Reduce the cost of each creature in your deck that shares a type with that creature by 1.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "https://www.legends-decks.com/img_cards/rimmenpurveyor.png",
+  "id": "6ad7fb74-596c-590c-ab9f-9baf14493b52",
+  "code": "ad"
+}

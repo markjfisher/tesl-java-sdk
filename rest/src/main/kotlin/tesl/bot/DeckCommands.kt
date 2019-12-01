@@ -80,7 +80,7 @@ object ImageDeckCommand : BaseDeckCommand() {
         }
 
         val deckCode = args[0]
-        logger.info { "User: $username asked for image for code: $deckCode" }
+        logger.info { "deck image for code: $deckCode" }
 
         return try {
             val image = imageCreator.createImage(deckCode)
