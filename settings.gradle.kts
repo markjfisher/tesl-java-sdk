@@ -4,7 +4,8 @@ include(
     "extract",
     "sdk",
     "rest",
-    "imageutils"
+    "imageutils",
+    "bot"
 )
 
 val kotlinVersion: String by settings

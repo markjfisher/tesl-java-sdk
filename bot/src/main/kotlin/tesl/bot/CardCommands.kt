@@ -10,7 +10,6 @@ import com.jessecorbett.diskord.util.toFileData
 import me.xdrop.fuzzywuzzy.FuzzySearch
 import mu.KotlinLogging
 import tesl.model.CardCache
-import tesl.rest.reader.toByteArray
 import javax.imageio.ImageIO
 
 private val logger = KotlinLogging.logger {}
@@ -42,7 +41,7 @@ object HelpCardCommand: BaseCardCommand() {
 }
 
 object SearchCardCommand: BaseCardCommand() {
-    private val countLimit = 3
+    private const val countLimit = 3
 
     override fun help() = "search - Fuzzy search card names, e.g. '!card search aduring fun'"
     override fun isHidden() = false
@@ -62,23 +61,25 @@ object SearchCardCommand: BaseCardCommand() {
             .map {
                 val card = it.referent
                 val imageFileName = card.imageUrl.substringAfterLast("/")
-                val imageResource = this::class.java.classLoader.getResource("images/cards/${imageFileName}")
+                // val imageResource = this::class.java.classLoader.getResource("images/cards/${imageFileName}")
 
+                logger.info { "image url: ${card.imageUrl}" }
                 val data = ReplyData(
                     text = listOf(""),
                     embed = Embed(
-                        title = it.referent.name,
+                        title = card.name,
                         author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar()),
-                        image = EmbedImage(url = "attachment://$imageFileName")
+                        // image = EmbedImage(url = "attachment://$imageFileName")
+                        image = EmbedImage(url = card.imageUrl)
                     )
                 )
 
-                if (imageResource != null) {
-                    data.fileData = ImageIO.read(imageResource).toByteArray().toFileData(imageFileName)
-                } else {
-                    val missingImageResource = this::class.java.classLoader.getResource("images/missing_image.png")
-                    data.fileData = ImageIO.read(missingImageResource).toByteArray().toFileData(imageFileName)
-                }
+//                if (imageResource != null) {
+//                    data.fileData = ImageIO.read(imageResource).toByteArray().toFileData(imageFileName)
+//                } else {
+//                    val missingImageResource = this::class.java.classLoader.getResource("images/missing_image.png")
+//                    data.fileData = ImageIO.read(missingImageResource).toByteArray().toFileData(imageFileName)
+//                }
 
                 data
             }

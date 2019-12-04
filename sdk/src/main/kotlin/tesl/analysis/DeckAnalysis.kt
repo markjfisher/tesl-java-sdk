@@ -1,9 +1,7 @@
-package tesl.stats
+package tesl.analysis
 
 import tesl.model.*
 import tesl.model.Collection
-
-// TODO make this part of SDK
 
 data class DeckAnalysis(
     private val deck: CardGrouping

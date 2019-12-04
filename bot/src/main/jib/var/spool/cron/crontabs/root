@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+45 05 * * * /bin/sh /usr/local/bin/restartApp.sh

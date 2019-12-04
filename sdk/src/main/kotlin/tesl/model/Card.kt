@@ -19,4 +19,51 @@ data class Card(
     val imageUrl: String = "",
     val id: String,
     val code: String
-)
+) {
+    companion object {
+        fun createFrom(
+            card: Card,
+            name: String = card.name,
+            rarity: String = card.rarity,
+            type: String = card.type,
+            subtypes: List<String> = card.subtypes,
+            cost: Int = card.cost,
+            power: Int = card.power,
+            health: Int = card.health,
+            set: Map<String, String> = card.set,
+            collectible: Boolean = card.collectible,
+            soulSummon: Int = card.soulSummon,
+            soulTrap: Int = card.soulTrap,
+            text: String = card.text,
+            attributes: List<String> = card.attributes,
+            keywords: List<String> = card.keywords,
+            unique: Boolean = card.unique,
+            imageUrl: String = card.imageUrl,
+            id: String = card.id,
+            code: String = card.code
+        ): Card {
+            return Card(
+                name = name,
+                rarity = rarity,
+                type = type,
+                subtypes = subtypes,
+                cost = cost,
+                power = power,
+                health = health,
+                set = set,
+                collectible = collectible,
+                soulSummon = soulSummon,
+                soulTrap = soulTrap,
+                text = text,
+                attributes = attributes,
+                keywords = keywords,
+                unique = unique,
+                imageUrl = imageUrl,
+                id = id,
+                code = code
+            )
+        }
+
+    }
+
+}

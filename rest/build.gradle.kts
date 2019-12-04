@@ -47,7 +47,7 @@ val mockkVersion: String by project
 val junitJupiterEngineVersion: String by project
 
 // Supply the image url in ~/.gradle/gradle.properties
-val dockerImageURL: String by project
+val restDockerImageURL: String by project
 
 dependencies {
     implementation("com.fasterxml.jackson.core:jackson-core:$jacksonVersion")
@@ -65,7 +65,6 @@ dependencies {
     implementation("io.micronaut:micronaut-management")
     implementation("io.micronaut:micronaut-security")
     implementation("io.micronaut.configuration:micronaut-hibernate-validator")
-    implementation("com.fasterxml.uuid:java-uuid-generator:$uuidGeneratorVersion")
 
     kapt("io.micronaut:micronaut-inject-java")
     kapt("io.micronaut:micronaut-validation")
@@ -235,7 +234,7 @@ jib {
     }
     to {
         // Docker Hub - credentials needed. See CREDENTIALS_DOCKER.md
-        image = dockerImageURL
+        image = restDockerImageURL
         credHelper = "secretservice"
         tags = setOf("latest")
         // Can add a specific version to deploy to as follows:

@@ -1,15 +1,13 @@
 package tesl.bot
 
-import com.jessecorbett.diskord.util.toFileData
+import com.jessecorbett.diskord.api.rest.Embed
+import com.jessecorbett.diskord.api.rest.EmbedImage
 import mu.KotlinLogging
+import tesl.analysis.DeckAnalysis
 import tesl.model.Card
 import tesl.model.Deck
 import tesl.model.Decoder
 import tesl.model.DecoderType
-import tesl.rest.reader.DeckAnalysis
-import tesl.rest.reader.ImageCreator
-import java.lang.Exception
-import java.lang.Integer.min
 
 private val logger = KotlinLogging.logger {}
 
@@ -66,6 +64,7 @@ object DetailDeckCommand : BaseDeckCommand() {
     override fun help(): String {
         return "detail - displays detailed information about a deck. As info but with addition creatures/items... etc"
     }
+
     override fun isHidden() = false
 }
 
@@ -80,22 +79,20 @@ object ImageDeckCommand : BaseDeckCommand() {
         }
 
         val deckCode = args[0]
-        logger.info { "deck image for code: $deckCode" }
-
-        return try {
-            val image = imageCreator.createImage(deckCode)
-            val fileName = "${username.substring(0, min(username.length, 10))}-${deckCode.substring(2, min(deckCode.length - 2, 12))}.png"
-                .filter { it.isLetterOrDigit() || it == '.' || it == '-' }
-            val fileData = image.toFileData(fileName)
-            ReplyData(
-                text = listOf("$mention - here is your deck for $deckCode"),
-                fileData = fileData
-            )
-        } catch (e: Exception) {
-            ReplyData(
-                text = listOf("$mention - unable to create deck from given code: $deckCode")
-            )
+        val isValid = Decoder(DecoderType.DECK).checkImportCode(deckCode).first
+        if (!isValid) {
+            return ReplyData(text = listOf("$mention: Deck code supplied is not valid."))
         }
+
+        logger.info { "deck image for code: $deckCode" }
+        return ReplyData(
+            text = listOf("$mention - here is your deck for $deckCode"),
+            embed = Embed(
+                image = EmbedImage(
+                    url = "http://tesl-decks.markjfisher.net/image/$deckCode"
+                )
+            )
+        )
     }
 
     override fun isHidden() = false
@@ -123,7 +120,7 @@ object ValidateDeckCommand : BaseDeckCommand() {
 }
 
 abstract class BaseDeckCommand : DeckCommand {
-    lateinit var imageCreator: ImageCreator
+    // lateinit var imageCreator: ImageCreator
 
     fun show(args: List<String>, mention: String, username: String, type: String): List<String> {
         if (args.size != 1) {
@@ -217,9 +214,9 @@ abstract class BaseDeckCommand : DeckCommand {
             if (len > max) len else max
         }
 
-        val maxHealthLength = if(deck.cards.any { it.health >= 10 }) 2 else 1
-        val maxPowerLength = if(deck.cards.any { it.power >= 10 }) 2 else 1
-        val maxCostLength = if(deck.cards.any { it.cost >= 10 }) 2 else 1
+        val maxHealthLength = if (deck.cards.any { it.health >= 10 }) 2 else 1
+        val maxPowerLength = if (deck.cards.any { it.power >= 10 }) 2 else 1
+        val maxCostLength = if (deck.cards.any { it.cost >= 10 }) 2 else 1
 
         val of1Data = byType(deck.of(1), 1, type, maxCardNameLength, maxTypesLength, maxSetIdLength, maxCostLength, maxPowerLength, maxHealthLength)
         val of2Data = byType(deck.of(2), 2, type, maxCardNameLength, maxTypesLength, maxSetIdLength, maxCostLength, maxPowerLength, maxHealthLength)
@@ -264,6 +261,6 @@ abstract class BaseDeckCommand : DeckCommand {
 
     private fun formatNumber(n: Int, max: Int): String {
         val asString = if (n >= 0) "$n" else "-"
-        return if(max > asString.length) " $asString" else asString
+        return if (max > asString.length) " $asString" else asString
     }
 }
