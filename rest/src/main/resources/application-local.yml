@@ -1,5 +1,3 @@
-tesl-rest:
-  bot-command-post-fix: -test
 micronaut:
   server:
     port: 8080

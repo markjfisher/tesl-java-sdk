@@ -6,11 +6,9 @@ import com.jessecorbett.diskord.api.rest.EmbedAuthor
 import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.util.mention
 import com.jessecorbett.diskord.util.pngAvatar
-import com.jessecorbett.diskord.util.toFileData
 import me.xdrop.fuzzywuzzy.FuzzySearch
 import mu.KotlinLogging
 import tesl.model.CardCache
-import javax.imageio.ImageIO
 
 private val logger = KotlinLogging.logger {}
 
@@ -60,28 +58,14 @@ object SearchCardCommand: BaseCardCommand() {
             .take(numToTake)
             .map {
                 val card = it.referent
-                val imageFileName = card.imageUrl.substringAfterLast("/")
-                // val imageResource = this::class.java.classLoader.getResource("images/cards/${imageFileName}")
-
-                logger.info { "image url: ${card.imageUrl}" }
-                val data = ReplyData(
+                ReplyData(
                     text = listOf(""),
                     embed = Embed(
                         title = card.name,
                         author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar()),
-                        // image = EmbedImage(url = "attachment://$imageFileName")
                         image = EmbedImage(url = card.imageUrl)
                     )
                 )
-
-//                if (imageResource != null) {
-//                    data.fileData = ImageIO.read(imageResource).toByteArray().toFileData(imageFileName)
-//                } else {
-//                    val missingImageResource = this::class.java.classLoader.getResource("images/missing_image.png")
-//                    data.fileData = ImageIO.read(missingImageResource).toByteArray().toFileData(imageFileName)
-//                }
-
-                data
             }
     }
 

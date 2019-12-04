@@ -41,7 +41,7 @@ object BotCheck {
     private fun runBot() {
         val token = config[token]
         val postFix = config[cmdPostFix]
-        logger.info { "Bot running, post fix = $postFix" }
+        logger.info { "Bot running, post fix = '$postFix'" }
         runBlocking {
             bot(token) {
                 commands(prefix = "!") {

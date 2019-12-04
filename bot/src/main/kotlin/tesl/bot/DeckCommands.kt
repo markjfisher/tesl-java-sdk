@@ -2,12 +2,17 @@ package tesl.bot
 
 import com.jessecorbett.diskord.api.rest.Embed
 import com.jessecorbett.diskord.api.rest.EmbedImage
+import com.jessecorbett.diskord.util.toFileData
+import com.natpryce.konfig.*
 import mu.KotlinLogging
 import tesl.analysis.DeckAnalysis
 import tesl.model.Card
 import tesl.model.Deck
 import tesl.model.Decoder
 import tesl.model.DecoderType
+import java.lang.Integer.min
+import java.net.URL
+import javax.imageio.ImageIO
 
 private val logger = KotlinLogging.logger {}
 
@@ -69,6 +74,11 @@ object DetailDeckCommand : BaseDeckCommand() {
 }
 
 object ImageDeckCommand : BaseDeckCommand() {
+    private val restUrl = Key("tesl.rest.image-url", stringType)
+    private val config = ConfigurationProperties.systemProperties() overriding
+            EnvironmentVariables() overriding
+            ConfigurationProperties.fromResource("tesl-bot.properties")
+
     override fun help(): String {
         return "image  - creates a graphical image of the deck"
     }
@@ -85,14 +95,20 @@ object ImageDeckCommand : BaseDeckCommand() {
         }
 
         logger.info { "deck image for code: $deckCode" }
-        return ReplyData(
-            text = listOf("$mention - here is your deck for $deckCode"),
-            embed = Embed(
-                image = EmbedImage(
-                    url = "http://tesl-decks.markjfisher.net/image/$deckCode"
-                )
+        return try {
+            val imageData = ImageIO.read(URL("${config[restUrl]}/$deckCode")).toByteArray()
+            val fileName = "${username.substring(0, min(username.length, 10))}-${deckCode.substring(2, min(deckCode.length - 2, 12))}.png"
+                .filter { it.isLetterOrDigit() || it == '.' || it == '-' }
+            val fileData = imageData.toFileData(fileName)
+            ReplyData(
+                text = listOf("$mention - here is your deck for $deckCode"),
+                fileData = fileData
             )
-        )
+        } catch (e: Exception) {
+            ReplyData(
+                text = listOf("$mention - unable to create deck from given code: $deckCode")
+            )
+        }
     }
 
     override fun isHidden() = false

@@ -21,8 +21,7 @@ private val logger = KotlinLogging.logger {}
 @Controller("/")
 class TESLController(
     val deckInfoCreator: DeckInfoCreator,
-    @Named("deckImageCreator") val deckImageCreator: ImageCreator,
-    @Named("collectionImageCreator") val collectionImageCreator: ImageCreator
+    @Named("deckImageCreator") val deckImageCreator: ImageCreator
 ) {
     @Get("/info/{code}")
     fun info(@PathVariable code: String): Single<DeckInfo> {
@@ -39,14 +38,4 @@ class TESLController(
             deckImageCreator.createImage(code)
         }
     }
-
-    @Get(value = "/collection/{code}", produces = [MediaType.IMAGE_PNG])
-    fun renderCollection(@PathVariable code: String): Single<ByteArray> {
-        logger.info { "collection image for code $code" }
-        return asSingle {
-            collectionImageCreator.createImage(code)
-        }
-    }
-
-
 }

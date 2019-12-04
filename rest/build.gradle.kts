@@ -15,7 +15,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.13"
+version = "1.0.14"
 val teslArchiveBaseName = "tesl-java-rest"
 
 val micronautBoMVersion: String by project
@@ -226,7 +226,7 @@ jib {
         image = "registry://adoptopenjdk/openjdk11"
     }
     container {
-        jvmFlags = listOf("-Xms480m", "-Xmx480m")
+        jvmFlags = listOf("-Xms256m", "-Xmx256m")
         mainClass = "tesl.Application"
         args = listOf("")
         ports = listOf("80")

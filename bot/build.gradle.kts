@@ -4,7 +4,6 @@ plugins {
     application
     kotlin("jvm")
     id("com.google.cloud.tools.jib")
-    `java-library`
 }
 
 group = "net.markjfisher"
@@ -32,7 +31,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    // implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("io.github.microutils:kotlin-logging:$kotlinLoggingVersion")
     implementation("com.natpryce:konfig:$konfigVersion")
 
@@ -101,7 +100,7 @@ tasks {
 }
 
 application {
-    mainClassName = "tesl.bot.Application"
+    mainClassName = "tesl.bot.BotCheck"
 }
 
 jib {
@@ -109,10 +108,10 @@ jib {
         image = "registry://adoptopenjdk/openjdk11"
     }
     container {
-        jvmFlags = listOf("-Xms400m", "-Xmx400m")
-        mainClass = "tesl.bot.Application"
+        jvmFlags = listOf("-Xms256m", "-Xmx256m")
+        mainClass = "tesl.bot.BotCheck"
         args = listOf("")
-        ports = listOf("80")
+        // ports = listOf("80")
         creationTime = "USE_CURRENT_TIMESTAMP"
     }
     to {
