@@ -22,7 +22,7 @@ class CardAlignController : Controller() {
     private val cards = FXCollections.observableArrayList<CardData>()
     private var currentIndex = 0
 
-    private val cardsDir = File("./rest/src/main/resources/images/cards")
+    private val cardsDir = File("./imageutils/src/main/resources/images/cards")
     private val colourBackDir = File("./imageutils/src/main/resources/images/colours")
     private val resourcesDir = File("./imageutils/src/main/resources")
 

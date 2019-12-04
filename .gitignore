@@ -16,3 +16,4 @@ dist
 .DS_Store
 
 rest/src/main/resources/images/cards
+imageutils/src/main/resources/images/cards

@@ -1,5 +1,6 @@
 package tesl.rest.reader
 
+import tesl.analysis.DeckAnalysis
 import tesl.model.Decoder
 import tesl.model.DecoderType
 import tesl.rest.exceptions.BadRequestException
