@@ -36,7 +36,7 @@ object LegendsImageURLExtractor: Extractor() {
             return
         }
 
-        val ldCodesCSV = this::class.java.getResource("/nameToLDCode.csv").openStream()
+        val ldCodesCSV = this::class.java.getResource("/nameToLDCode-non-collectible.csv").openStream()
         val ldDF = DataFrame.readDelim(ldCodesCSV)
         var canStart = false
         ldDF.rows.forEach { row ->
@@ -49,11 +49,11 @@ object LegendsImageURLExtractor: Extractor() {
 //                return@forEach
 //            }
 
-            when(legendsName) {
-                "dremoraadept" -> println("Reading $legendsName")
-                else -> return@forEach
-            }
-
+//            when(legendsName) {
+//                "dremoraadept" -> println("Reading $legendsName")
+//                else -> return@forEach
+//            }
+//
             val rawCardHtml = LegendsDecksExtractor.fetchLDHtml(legendsCode, legendsName)
 
             val doc = Jsoup.parse(rawCardHtml)
