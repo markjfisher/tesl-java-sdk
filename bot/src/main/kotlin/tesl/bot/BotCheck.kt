@@ -89,15 +89,17 @@ object BotCheck {
                 }
 
                 messageCreated { message ->
-                    val replies = MessageScanner.scanMessage(message.content).mapNotNull { match ->
-                        val isDeckCode = Decoder(DecoderType.DECK).checkImportCode(match).first
-                        when {
-                            isDeckCode -> doDeckCommand(listOf("!deck", "image", match), message.author)
-                            else -> matchSearch(match, message.author)
+                    if (message.content.contains("!{{")) {
+                        val replies = MessageScanner.scanMessage(message.content).mapNotNull { match ->
+                            val isDeckCode = Decoder(DecoderType.DECK).checkImportCode(match).first
+                            when {
+                                isDeckCode -> doDeckCommand(listOf("!deck", "image", match), message.author)
+                                else -> matchSearch(match, message.author)
+                            }
                         }
-                    }
-                    replies.forEach {
-                        reply(message.channel, it)
+                        replies.forEach {
+                            reply(message.channel, it)
+                        }
                     }
                 }
             }
