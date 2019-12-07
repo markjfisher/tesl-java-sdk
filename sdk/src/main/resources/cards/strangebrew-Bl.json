@@ -1,0 +1,25 @@
+{
+  "name": "Strange Brew",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Transform a creature in your hand into a random creature that costs 2 more. Reduce its cost by 2.",
+  "attributes": [
+    "Intelligence"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/strangebrew.png",
+  "id": "33055c68-1c2d-517f-860b-ea8cc343b377",
+  "code": "Bl"
+}

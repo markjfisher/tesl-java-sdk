@@ -1,0 +1,25 @@
+{
+  "name": "Feed",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 6,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Destroy a creature and give its Keywords to a friendly creature.",
+  "attributes": [
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/feed.png",
+  "id": "2d385407-6eec-52c7-b5a5-0ed7ee492cce",
+  "code": "Bi"
+}

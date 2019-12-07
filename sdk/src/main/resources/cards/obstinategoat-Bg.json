@@ -1,0 +1,27 @@
+{
+  "name": "Obstinate Goat",
+  "rarity": "Rare",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 2,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Summon: If the top card of your deck is an Animal, draw it. Otherwise put it on the bottom.",
+  "attributes": [
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/obstinategoat.png",
+  "id": "25f71646-1ec4-55ef-a0a0-bd297ca25e25",
+  "code": "Bg"
+}

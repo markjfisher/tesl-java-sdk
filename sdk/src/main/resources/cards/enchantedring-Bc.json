@@ -1,0 +1,29 @@
+{
+  "name": "Enchanted Ring",
+  "rarity": "Epic",
+  "type": "Item",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Mobilize +1/+1 Summon: Equip the wielder with all copies of Enchanted Ring from your discard pile. Then if the wielder has three or more items, draw a card.",
+  "attributes": [
+    "Strength",
+    "Intelligence",
+    "Endurance"
+  ],
+  "keywords": [
+    "Mobilize"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/enchantedring.png",
+  "id": "834ac9df-6540-59ca-8ef2-c63011d9df68",
+  "code": "Bc"
+}

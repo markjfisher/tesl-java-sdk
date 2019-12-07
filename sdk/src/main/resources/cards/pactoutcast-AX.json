@@ -1,0 +1,33 @@
+{
+  "name": "Pact Outcast",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Nord"
+  ],
+  "cost": 5,
+  "power": 5,
+  "health": 5,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Guard Summon and Veteran: Consume a creature. Pact Outcast uses the consumed creature's veteran ability.",
+  "attributes": [
+    "Strength",
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard",
+    "Veteran",
+    "Consume"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/pactoutcast.png",
+  "id": "59da643d-9113-5099-854e-64911e02fc0b",
+  "code": "AX"
+}

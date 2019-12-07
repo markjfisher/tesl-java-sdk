@@ -1,0 +1,25 @@
+{
+  "name": "Explore",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Choose creature, item, action, or support. Put a random card of that type into your hand.",
+  "attributes": [
+    "Strength"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/explore.png",
+  "id": "728d4a26-de0b-58de-8984-de830fa50433",
+  "code": "Bf"
+}

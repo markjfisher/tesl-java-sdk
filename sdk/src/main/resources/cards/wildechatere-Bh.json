@@ -1,0 +1,32 @@
+{
+  "name": "Wild Echatere",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Beast"
+  ],
+  "cost": 3,
+  "power": 1,
+  "health": 1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Charge Summon: Friendly creatures gain Rally this turn.",
+  "attributes": [
+    "Strength",
+    "Willpower",
+    "Endurance"
+  ],
+  "keywords": [
+    "Charge",
+    "Rally"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/wildechatere.png",
+  "id": "1c66993e-a9c3-594a-9449-15bc3b1d5bc3",
+  "code": "Bh"
+}

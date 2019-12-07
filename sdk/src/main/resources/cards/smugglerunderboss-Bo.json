@@ -1,0 +1,31 @@
+{
+  "name": "Smuggler Underboss",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Breton"
+  ],
+  "cost": 4,
+  "power": 4,
+  "health": 3,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Drain At the end of your turn, if you played three cards this turn, Smuggler Underboss is immune to damage until your next turn.",
+  "attributes": [
+    "Strength",
+    "Willpower",
+    "Agility"
+  ],
+  "keywords": [
+    "Drain"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/smugglerunderboss.png",
+  "id": "350db23e-9b84-551b-ba8c-eaba00a5f37d",
+  "code": "Bo"
+}

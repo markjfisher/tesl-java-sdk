@@ -1,0 +1,27 @@
+{
+  "name": "Altar of Spellmaking",
+  "rarity": "Epic",
+  "type": "Support",
+  "subtypes": [],
+  "cost": 2,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "At the end of each turn, if you played a creature, action, item, and support, play the top card of your deck.",
+  "attributes": [
+    "Strength",
+    "Intelligence",
+    "Willpower"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/altarofspellmaking.png",
+  "id": "cbdacd40-8d43-55cb-9247-9085aabd46a3",
+  "code": "AY"
+}

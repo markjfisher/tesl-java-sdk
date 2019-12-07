@@ -1,0 +1,29 @@
+{
+  "name": "Death Scythe",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Drain. Deal damage to a creature equal to the number of creatures that died this turn.",
+  "attributes": [
+    "Intelligence",
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [
+    "Drain"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/deathscythe.png",
+  "id": "4701e6a2-addf-5fc6-88e0-d0f157a8399c",
+  "code": "Bk"
+}

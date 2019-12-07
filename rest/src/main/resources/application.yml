@@ -1,3 +1,7 @@
 micronaut:
   server:
     port: 80
+  router:
+    static-resources:
+      public:
+        paths: classpath:public

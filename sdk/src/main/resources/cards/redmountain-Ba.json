@@ -1,0 +1,27 @@
+{
+  "name": "Red Mountain",
+  "rarity": "Epic",
+  "type": "Support",
+  "subtypes": [],
+  "cost": 4,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Your creatures with 5 power or more cost 2 less",
+  "attributes": [
+    "Strength",
+    "Intelligence",
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/redmountain.png",
+  "id": "ffc4490e-db4c-504e-99f1-396526606a7a",
+  "code": "Ba"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Ordinator of the Almsivi",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Dark Elf"
+  ],
+  "cost": 2,
+  "power": 3,
+  "health": 3,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Guard Exalt 3: +2/+2 Ordinator of the Almsivi is permanently Shackled unless you have an Exalted creature in play.",
+  "attributes": [
+    "Intelligence",
+    "Willpower",
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard",
+    "Exalt"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/ordinatorofthealmsivi.png",
+  "id": "4d748dac-33f4-5c43-8349-5e0ff9f873d0",
+  "code": "Bb"
+}

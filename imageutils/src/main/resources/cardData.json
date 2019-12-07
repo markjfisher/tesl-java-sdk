@@ -13028,5 +13028,165 @@
     "yOffset": 159.0,
     "scale": 0.46,
     "index": 1301
+  },
+  {
+    "cardName": "Aldmeri Spellwright",
+    "cardId": "932f24da-f030-54bc-9bea-b20e5f574711",
+    "cardUrl": "imageutils/src/main/resources/images/cards/aldmerispellwright.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/aldmeri_dominion.png",
+    "xOffset": 313.0,
+    "yOffset": 212.0,
+    "scale": 0.45999999999999996,
+    "index": 1302
+  },
+  {
+    "cardName": "Altar of Spellmaking",
+    "cardId": "cbdacd40-8d43-55cb-9247-9085aabd46a3",
+    "cardUrl": "imageutils/src/main/resources/images/cards/altarofspellmaking.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/guildsworn.png",
+    "xOffset": 326.0,
+    "yOffset": 176.0,
+    "scale": 0.44999999999999996,
+    "index": 1303
+  },
+  {
+    "cardName": "A New Era",
+    "cardId": "6c7044b1-9c5b-5e39-b281-0f20c310b175",
+    "cardUrl": "imageutils/src/main/resources/images/cards/anewera.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/empire_of_cyrodiil.png",
+    "xOffset": 306.0,
+    "yOffset": 214.0,
+    "scale": 0.5,
+    "index": 1304
+  },
+  {
+    "cardName": "Call Dragon",
+    "cardId": "8b892e6b-e55c-542e-bab2-55d1dac631b6",
+    "cardUrl": "imageutils/src/main/resources/images/cards/calldragon.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/neutral.png",
+    "xOffset": 268.0,
+    "yOffset": 98.0,
+    "scale": 0.5,
+    "index": 1305
+  },
+  {
+    "cardName": "Death Scythe",
+    "cardId": "4701e6a2-addf-5fc6-88e0-d0f157a8399c",
+    "cardUrl": "imageutils/src/main/resources/images/cards/deathscythe.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/house_telvanni.png",
+    "xOffset": 285.0,
+    "yOffset": 163.0,
+    "scale": 0.49,
+    "index": 1306
+  },
+  {
+    "cardName": "Enchanted Ring",
+    "cardId": "834ac9df-6540-59ca-8ef2-c63011d9df68",
+    "cardUrl": "imageutils/src/main/resources/images/cards/enchantedring.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/daggerfall_covenant.png",
+    "xOffset": 293.0,
+    "yOffset": 151.0,
+    "scale": 0.47,
+    "index": 1307
+  },
+  {
+    "cardName": "Explore",
+    "cardId": "728d4a26-de0b-58de-8984-de830fa50433",
+    "cardUrl": "imageutils/src/main/resources/images/cards/explore.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/strength.png",
+    "xOffset": 292.0,
+    "yOffset": -31.0,
+    "scale": 0.5,
+    "index": 1308
+  },
+  {
+    "cardName": "Feed",
+    "cardId": "2d385407-6eec-52c7-b5a5-0ed7ee492cce",
+    "cardUrl": "imageutils/src/main/resources/images/cards/feed.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/willpower.png",
+    "xOffset": 309.0,
+    "yOffset": 101.0,
+    "scale": 0.47,
+    "index": 1309
+  },
+  {
+    "cardName": "Midnight Burial",
+    "cardId": "6b7b2b1f-f201-53bf-bb0b-8dd93e05a0f7",
+    "cardUrl": "imageutils/src/main/resources/images/cards/midnightburial.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/endurance.png",
+    "xOffset": 286.0,
+    "yOffset": 115.0,
+    "scale": 0.47,
+    "index": 1310
+  },
+  {
+    "cardName": "Obstinate Goat",
+    "cardId": "25f71646-1ec4-55ef-a0a0-bd297ca25e25",
+    "cardUrl": "imageutils/src/main/resources/images/cards/obstinategoat.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/agility.png",
+    "xOffset": 320.0,
+    "yOffset": 210.0,
+    "scale": 0.48,
+    "index": 1311
+  },
+  {
+    "cardName": "Ordinator of the Almsivi",
+    "cardId": "4d748dac-33f4-5c43-8349-5e0ff9f873d0",
+    "cardUrl": "imageutils/src/main/resources/images/cards/ordinatorofthealmsivi.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/tribunal_temple.png",
+    "xOffset": 296.0,
+    "yOffset": 224.0,
+    "scale": 0.48,
+    "index": 1312
+  },
+  {
+    "cardName": "Pact Outcast",
+    "cardId": "59da643d-9113-5099-854e-64911e02fc0b",
+    "cardUrl": "imageutils/src/main/resources/images/cards/pactoutcast.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/ebonheart_pact.png",
+    "xOffset": 320.0,
+    "yOffset": 179.0,
+    "scale": 0.48,
+    "index": 1313
+  },
+  {
+    "cardName": "Red Mountain",
+    "cardId": "ffc4490e-db4c-504e-99f1-396526606a7a",
+    "cardUrl": "imageutils/src/main/resources/images/cards/redmountain.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/house_dagoth.png",
+    "xOffset": 284.0,
+    "yOffset": 193.0,
+    "scale": 0.48,
+    "index": 1314
+  },
+  {
+    "cardName": "Smuggler Underboss",
+    "cardId": "350db23e-9b84-551b-ba8c-eaba00a5f37d",
+    "cardUrl": "imageutils/src/main/resources/images/cards/smugglerunderboss.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/house_hlaalu.png",
+    "xOffset": 317.0,
+    "yOffset": 184.0,
+    "scale": 0.45999999999999996,
+    "index": 1315
+  },
+  {
+    "cardName": "Strange Brew",
+    "cardId": "33055c68-1c2d-517f-860b-ea8cc343b377",
+    "cardUrl": "imageutils/src/main/resources/images/cards/strangebrew.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/intelligence.png",
+    "xOffset": 330.0,
+    "yOffset": 149.0,
+    "scale": 0.45999999999999996,
+    "index": 1316
+  },
+  {
+    "cardName": "Wild Echatere",
+    "cardId": "1c66993e-a9c3-594a-9449-15bc3b1d5bc3",
+    "cardUrl": "imageutils/src/main/resources/images/cards/wildechatere.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/house_redoran.png",
+    "xOffset": 313.0,
+    "yOffset": 150.0,
+    "scale": 0.45999999999999996,
+    "index": 1317
   }
 ]

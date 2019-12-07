@@ -1,0 +1,25 @@
+{
+  "name": "Call Dragon",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 8,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Upgrade all your Shouts. Summon a random 6-8 cost Dragon.",
+  "attributes": [
+    "Neutral"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/calldragon.png",
+  "id": "8b892e6b-e55c-542e-bab2-55d1dac631b6",
+  "code": "Bj"
+}

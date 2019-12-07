@@ -1,0 +1,27 @@
+{
+  "name": "Midnight Burial",
+  "rarity": "Rare",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 1,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 100,
+  "soulTrap": 20,
+  "text": "Betray Choose a creature in your deck. Create a copy of that creature in your discard pile and give it +1/+1",
+  "attributes": [
+    "Endurance"
+  ],
+  "keywords": [
+    "Betray"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/midnightburial.png",
+  "id": "6b7b2b1f-f201-53bf-bb0b-8dd93e05a0f7",
+  "code": "Bn"
+}

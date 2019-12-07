@@ -1,0 +1,29 @@
+{
+  "name": "Aldmeri Spellwright",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "High Elf"
+  ],
+  "cost": 5,
+  "power": 3,
+  "health": 6,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "When your opponent takes damage, you gain 1 magicka this turn.",
+  "attributes": [
+    "Intelligence",
+    "Willpower",
+    "Agility"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/aldmerispellwright.png",
+  "id": "932f24da-f030-54bc-9bea-b20e5f574711",
+  "code": "Bm"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "A New Era",
+  "rarity": "Epic",
+  "type": "Action",
+  "subtypes": [],
+  "cost": 11,
+  "power": -1,
+  "health": -1,
+  "set": {
+    "name": "Tamriel Collection",
+    "id": "tc"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Shuffle all creatures into your deck.",
+  "attributes": [
+    "Willpower",
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/anewera.png",
+  "id": "6c7044b1-9c5b-5e39-b281-0f20c310b175",
+  "code": "Be"
+}
