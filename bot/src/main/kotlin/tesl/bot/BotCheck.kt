@@ -2,18 +2,28 @@ package tesl.bot
 
 import com.jessecorbett.diskord.api.model.User
 import com.jessecorbett.diskord.api.rest.CreateMessage
+import com.jessecorbett.diskord.api.rest.Embed
+import com.jessecorbett.diskord.api.rest.EmbedAuthor
+import com.jessecorbett.diskord.api.rest.EmbedImage
 import com.jessecorbett.diskord.api.rest.client.ChannelClient
 import com.jessecorbett.diskord.api.websocket.events.Ready
 import com.jessecorbett.diskord.dsl.bot
 import com.jessecorbett.diskord.dsl.command
 import com.jessecorbett.diskord.dsl.commands
 import com.jessecorbett.diskord.util.mention
+import com.jessecorbett.diskord.util.pngAvatar
 import com.jessecorbett.diskord.util.sendFile
 import com.jessecorbett.diskord.util.words
 import com.natpryce.konfig.*
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.UnstableDefault
+import me.xdrop.fuzzywuzzy.FuzzySearch
+import me.xdrop.fuzzywuzzy.model.BoundExtractedResult
 import mu.KotlinLogging
+import tesl.model.Card
+import tesl.model.CardCache
+import tesl.model.Decoder
+import tesl.model.DecoderType
 
 private val logger = KotlinLogging.logger {}
 
@@ -71,15 +81,46 @@ object BotCheck {
                         .map { g -> g.id }
                         .map { id -> clientStore.guilds[id].get() }
 
-                    println ("Registered with following guilds")
+                    logger.info { "Registered with following guilds" }
                     guilds.forEach { guild ->
                         val owner = clientStore.discord.getUser(guild.ownerId)
-                        println(" ${guild.name}, owner: ${owner.username}, region: ${guild.region}")
+                        logger.info { " ${guild.name}, owner: ${owner.username}, region: ${guild.region}" }
                     }
+                }
 
+                messageCreated { message ->
+                    val replies = MessageScanner.scanMessage(message.content).mapNotNull { match ->
+                        val isDeckCode = Decoder(DecoderType.DECK).checkImportCode(match).first
+                        when {
+                            isDeckCode -> doDeckCommand(listOf("!deck", "image", match), message.author)
+                            else -> matchSearch(match, message.author)
+                        }
+                    }
+                    replies.forEach {
+                        reply(message.channel, it)
+                    }
                 }
             }
         }
+    }
+
+    private fun matchSearch(match: String, author: User): ReplyData? {
+        val searchResults = FuzzySearch.extractTop(match, CardCache.all(), { it.name }, 1, 72)
+        return when {
+            searchResults.isNotEmpty() -> replyForFirstResult(searchResults.first().referent, author)
+            else -> null
+        }
+    }
+
+    private fun replyForFirstResult(card: Card, author: User): ReplyData {
+        return ReplyData(
+            text = listOf(""),
+            embed = Embed(
+                title = card.name,
+                author = EmbedAuthor(name = author.username, authorImageUrl = author.pngAvatar()),
+                image = EmbedImage(url = card.imageUrl)
+            )
+        )
     }
 
     private suspend fun reply(channel: ChannelClient, replyData: ReplyData) {
