@@ -6,7 +6,8 @@
 
 LOGFILE=/var/log/run.log
 export TESL_BOT_TOKEN=FIX_ME
-export TESL_BOT_CMD_POST_FIX=-test
+#export TESL_BOT_CMD_POST_FIX=-test
+#export TESL_BOT_SCAN_MESSAGES=false
 
 echo "Restarting application on cron" >> $LOGFILE
 ps -ef | grep '[j]ava' | awk '{print $2}' | xargs kill

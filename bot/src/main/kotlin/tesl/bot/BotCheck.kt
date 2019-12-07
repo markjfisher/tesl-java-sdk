@@ -31,6 +31,7 @@ object BotCheck {
 
     private val token = Key("tesl.bot.token", stringType)
     private val cmdPostFix = Key("tesl.bot.cmd-post-fix", stringType)
+    private val scanMessages = Key("tesl.bot.scan-messages", booleanType)
 
     private val config = ConfigurationProperties.systemProperties() overriding
             EnvironmentVariables() overriding
@@ -51,6 +52,7 @@ object BotCheck {
     private fun runBot() {
         val token = config[token]
         val postFix = config[cmdPostFix]
+        val scanMessages = config[scanMessages]
         logger.info { "Bot running, post fix = '$postFix'" }
         runBlocking {
             bot(token) {
@@ -89,7 +91,7 @@ object BotCheck {
                 }
 
                 messageCreated { message ->
-                    if (message.content.contains("!{{")) {
+                    if (scanMessages && message.content.contains("!{{")) {
                         val replies = MessageScanner.scanMessage(message.content).mapNotNull { match ->
                             val isDeckCode = Decoder(DecoderType.DECK).checkImportCode(match).first
                             when {
