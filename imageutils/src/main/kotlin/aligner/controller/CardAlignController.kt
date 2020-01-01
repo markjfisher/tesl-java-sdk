@@ -74,12 +74,12 @@ class CardAlignController : Controller() {
     }
 
     fun decreaseCardScale() {
-        model.scale.value -= 0.01
+        model.scale.value -= 0.005
         changeScale()
     }
 
     fun increaseCardScale() {
-        model.scale.value += 0.01
+        model.scale.value += 0.005
         changeScale()
     }
 

@@ -17,6 +17,7 @@ class IdGeneratorTest {
         assertThat(IdGenerator.generateCardUUID("${TESLCard.sanitize("Xivkyn Channeler")}-xE")).isEqualTo("97d0aa50-6e8c-5c66-96bc-0b5b8b495d63")
         assertThat(IdGenerator.generateCardUUID("${TESLCard.sanitize("Oblivion Gate")}-__")).isEqualTo("fded515c-54ea-51cc-95be-a11bd3827130")
         assertThat(IdGenerator.generateCardUUID("${TESLCard.sanitize("Rimmen Purveyor")}-yS")).isEqualTo("6ad7fb74-596c-590c-ab9f-9baf14493b52")
+        assertThat(IdGenerator.generateCardUUID("${TESLCard.sanitize("Ayleid Guardian")}-yW")).isEqualTo("b11bfece-ecd5-5e9f-bb50-df0e5bbcc9e0")
     }
 
     @Test

@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "net.markjfisher"
-version = "1.0.15"
+version = "1.0.16"
 val teslArchiveBaseName = "tesl-java-sdk"
 
 val sonatypeUsername: String by project

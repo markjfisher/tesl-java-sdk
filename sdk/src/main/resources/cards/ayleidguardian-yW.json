@@ -1,0 +1,30 @@
+{
+  "name": "Ayleid Guardian",
+  "rarity": "Epic",
+  "type": "Creature",
+  "subtypes": [
+    "Defense"
+  ],
+  "cost": 11,
+  "power": 8,
+  "health": 8,
+  "set": {
+    "name": "Monthly Rewards",
+    "id": "mr"
+  },
+  "collectible": true,
+  "soulSummon": 400,
+  "soulTrap": 100,
+  "text": "Guard Immune to Lethal. Summon: Summon an Ayleid Guardian in the other lane",
+  "attributes": [
+    "Agility",
+    "Endurance"
+  ],
+  "keywords": [
+    "Guard"
+  ],
+  "unique": false,
+  "imageUrl": "http://tesl-decks.markjfisher.net/static/ayleidguardian.png",
+  "id": "b11bfece-ecd5-5e9f-bb50-df0e5bbcc9e0",
+  "code": "yW"
+}

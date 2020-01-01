@@ -25,7 +25,7 @@ object MergeColourToCard {
 
         readCardData().forEach { cardData ->
             // if (cardData.cardName != "Rimmen Purveyor") return@forEach
-            if (cardData.index < 1302) return@forEach
+            if (cardData.index < 1318) return@forEach
             val card = CardCache.findById(cardData.cardId) ?: return@forEach
             println("doing ${cardData.cardName}")
             val colourImage = ImageIO.read(File(".", cardData.cardColourUrl))

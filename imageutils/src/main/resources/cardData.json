@@ -13188,5 +13188,15 @@
     "yOffset": 150.0,
     "scale": 0.45999999999999996,
     "index": 1317
+  },
+  {
+    "cardName": "Ayleid Guardian",
+    "cardId": "b11bfece-ecd5-5e9f-bb50-df0e5bbcc9e0",
+    "cardUrl": "imageutils/src/main/resources/images/cards/ayleidguardian.png",
+    "cardColourUrl": "imageutils/src/main/resources/images/colours/scout.png",
+    "xOffset": 700.0,
+    "yOffset": 389.0,
+    "scale": 0.205,
+    "index": 1318
   }
 ]
